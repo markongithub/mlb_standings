@@ -5,7 +5,7 @@ import numpy as np
 from datetime import datetime, timedelta
 
 def load_game_log(game_log_path):
-    retro_df_columns=['date', 'doubleheader_index','weekday', 'visitor', 'visitor_league', 'visitor_game_num', 'home', 'home_league', 'home_game_num', 'visitor_score', 'home_score', 'length_outs', 'day_night', 'completion']
+    retro_df_columns=['date', 'doubleheader_index','weekday', 'visitor', 'visitor_league', 'visitor_game_num', 'home', 'home_league', 'home_game_num', 'visitor_score', 'home_score', 'length_outs', 'day_night', 'completion', 'forfeit']
     df = pd.read_csv(game_log_path, header=None, names=retro_df_columns, usecols=range(len(retro_df_columns)))
     df['date'] = df['date'].astype(str)
     df = df.fillna(value={'completion': 'I hate Pandas'})
@@ -16,13 +16,16 @@ def load_game_log(game_log_path):
     return df
 
 
-# adapted from sdvinay except he didn't think of ties like in 1950
+# adapted from sdvinay except he didn't think of ties or forfeits
 def compute_standings(game_log):
     gms_played = game_log.copy()
-    gms_played = gms_played[gms_played['visitor_score'] != gms_played['home_score']]
+    # Eliminate ties but not forfeits.
+    gms_played = gms_played[(gms_played['visitor_score'] != gms_played['home_score']) | (gms_played['forfeit'].notna())]
+    gms_played = gms_played[gms_played['forfeit'] != "T"]
     margins = gms_played['visitor_score']-gms_played['home_score']
-    winners = pd.Series(np.where(margins>0, gms_played['visitor'], gms_played['home']))
-    losers  = pd.Series(np.where(margins<0, gms_played['visitor'], gms_played['home']))
+    forfeit = gms_played['forfeit']
+    winners = pd.Series(np.where((gms_played['forfeit'] != 'H') & (margins>0) | (gms_played['forfeit'] == 'V'), gms_played['visitor'], gms_played['home']))
+    losers  = pd.Series(np.where((gms_played['forfeit'] != 'V') & (margins<0) | (gms_played['forfeit'] == 'H'), gms_played['visitor'], gms_played['home']))
     standings = pd.concat([winners.value_counts().rename('W'), losers.value_counts().rename('L')], axis=1)
     return standings.fillna(0)
 
@@ -33,8 +36,15 @@ def load_nicknames(nicknames_file):
     df = pd.read_csv(nicknames_file, header=None, names=retro_nickname_columns, usecols=range(len(retro_nickname_columns)))
     return df
 
+def load_team_ids(team_ids_file):
+    retro_team_id_columns=['team_id', 'league', 'location', 'nickname', 'start_year', 'end_year']
+    df = pd.read_csv(team_ids_file, header=None, names=retro_team_id_columns, usecols=range(len(retro_team_id_columns)))
+    return df
+
 # TODO: 1899 teams are not in here, I need to use another one.
-def divisions_for_year(nicknames_from_retrosheet, year):
+def divisions_for_year(nicknames_from_retrosheet, team_ids_from_retrosheet, year):
+    if year <= 1915:
+        return divisions_from_team_ids(team_ids_from_retrosheet, year)
     df = nicknames_from_retrosheet.copy()
     # df['start_date'] = df['start_date'].astype(str)
     df['start_year'] = pd.DatetimeIndex(df['start_date']).year
@@ -43,6 +53,12 @@ def divisions_for_year(nicknames_from_retrosheet, year):
     df['div'] = df[['league', 'division']].fillna('').sum(axis=1)
     
     return df.set_index('contemporary_id')[['league', 'div']].rename(columns={'league': 'lg'})
+
+def divisions_from_team_ids(team_ids_from_retrosheet, year):
+    df = team_ids_from_retrosheet.copy()
+    df = df.loc[(df['start_year'] <= year) & (df['end_year'] >= year)]
+    df['div'] = df['league'] # the league is the division is the league
+    return df.set_index('team_id')[['league', 'div']].rename(columns={'league': 'lg'})
 
 def division_contenders(standings_immutable, divisions, season_length):
     df = standings_immutable.copy()
@@ -73,7 +89,7 @@ schedule_path = './data/2021SKED.TXT'
 SCHEDULE = load_schedule(schedule_path)
 
 def find_unplayed_games(schedule):
-    return schedule.loc[schedule["makeup_date"].str.startswith("not", na=False)]
+    return schedule.loc[(schedule["makeup_date"].str.startswith("not", na=False)) | (schedule["completion"].str.contains("No makeup", na=False))]
 
 def logged_games_after_date(df, date_str):
     return df.loc[df['completion_date'] > date_str]
@@ -106,7 +122,8 @@ def games_between_rivals_after_date(df, schedule, divisions, date_str, team):
 
 def get_season_length(schedule):
     unique_game_counts = pd.unique(pd.concat([schedule['home'], schedule['visitor']], axis = 0).value_counts())
-    assert(unique_game_counts.shape == (1,))
+    game_counts = pd.concat([schedule['home'], schedule['visitor']], axis = 0).value_counts()
+    assert unique_game_counts.shape == (1,), f'season lengths are all messed up: {game_counts}'
     return unique_game_counts[0]
 
 # sort the output of division_threats
@@ -228,23 +245,24 @@ def is_wildcard_contender_with_rivalries(game_log, schedule, divisions, date_str
     return all_subset_sums(sorted_rivals, threats)
 
 def count_teams(game_log, schedule, divisions):
-    game_log_count = len(pd.unique(game_log[['home', 'visitor']].values.ravel('K')))
-    schedule_count = len(pd.unique(schedule[['home', 'visitor']].values.ravel('K')))
+    game_log_teams = pd.unique(game_log[['home', 'visitor']].values.ravel('K'))
+    schedule_teams = pd.unique(game_log[['home', 'visitor']].values.ravel('K'))
     divisions_count = len(divisions.index)
-    if (game_log_count != schedule_count or game_log_count != divisions_count):
-        print(f'Teams in game log: {pd.unique(game_log[["home", "visitor"]].values.ravel("K"))} ')
+    if (len(game_log_teams) != len(schedule_teams) or len(game_log_teams) != divisions_count):
+        print(f'Teams in game log: {sorted(pd.unique(game_log[["home", "visitor"]].values.ravel("K")))} ')
         print(f'Teams in schedule: {sorted(pd.unique(schedule[["home", "visitor"]].values.ravel("K")))} ')
         print(f'Teams in division map: {sorted(divisions.index)}')
-    assert(game_log_count == schedule_count)
-    assert(game_log_count == divisions_count)
-    return game_log_count
+    assert(sorted(game_log_teams) == sorted(schedule_teams))
+    assert(all(t in divisions.index for t in game_log_teams))
+    return len(game_log_teams)
 
 def show_dumb_elimination_output3(df, schedule, divisions, wildcard_count=2):
-    max_date = retro_to_datetime(df['completion_date'].max())
-    min_date = retro_to_datetime(df['completion_date'].min())
     team_count = count_teams(df, schedule, divisions)
     games_per_season = get_season_length(schedule)
     print(f'This season has {team_count} teams and {games_per_season} for each team.')
+    # If home_game_num > games_per_season this is probably a tiebreaker playoff.
+    max_date = retro_to_datetime(df.loc[df['home_game_num'] <= games_per_season]['completion_date'].max())
+    min_date = retro_to_datetime(df['completion_date'].min())
 
     current_date = max_date
     div_contenders = set()
@@ -284,7 +302,8 @@ def show_dumb_elimination_output3(df, schedule, divisions, wildcard_count=2):
             # print(f'Teams eliminated from their division titles on {datetime_to_retro(tomorrow)}: {new_contenders}')
         for eliminated_team in new_contenders:
             games_to_go_at_elimination = games_per_season - tomorrows_standings.loc[eliminated_team]['W'] - tomorrows_standings.loc[eliminated_team]['L']
-            print(f'{eliminated_team} were eliminated from their division title on {datetime_to_retro(tomorrow)} with {games_to_go_at_elimination} games left to play.')
+            elim_div = divisions.loc[eliminated_team]['div'] 
+            print(f'{eliminated_team} were eliminated from the {elim_div} title on {datetime_to_retro(tomorrow)} with {games_to_go_at_elimination} games left to play.')
             new_pair = (datetime_to_retro(tomorrow), games_to_go_at_elimination)
             if eliminations.get(eliminated_team):
                 eliminations[eliminated_team]['division'] = new_pair
@@ -307,7 +326,9 @@ def show_dumb_elimination_output3(df, schedule, divisions, wildcard_count=2):
             new_contenders = wildcard_contenders.difference(tomorrows_wildcard_contenders)
         for eliminated_team in new_contenders:
             games_to_go_at_elimination = games_per_season - tomorrows_standings.loc[eliminated_team]['W'] - tomorrows_standings.loc[eliminated_team]['L']
-            print(f'{eliminated_team} were eliminated from wildcard contention on {datetime_to_retro(tomorrow)} with {games_to_go_at_elimination} games left to play.')
+            elim_lg = divisions.loc[eliminated_team]['lg'] 
+
+            print(f'{eliminated_team} were eliminated from {elim_lg} wildcard contention on {datetime_to_retro(tomorrow)} with {games_to_go_at_elimination} games left to play.')
             new_pair = (datetime_to_retro(tomorrow), games_to_go_at_elimination)
             if eliminations.get(eliminated_team):
                 eliminations[eliminated_team]['wildcard'] = new_pair
@@ -340,14 +361,16 @@ def wildcards_for_year(year):
         return "2020 was weird sorry"
     if year >= 2012:
         return 2
-    if year >= 1995:
+    if year >= 1994:
         return 1
     if year == "1994":
         return "1994 was weird sorry"
     return 0
 
 def run_one_year(year):
-    return show_dumb_elimination_output3(load_game_log(f'./data/GL{year}.TXT'), load_schedule(f'./data/{year}SKED.TXT'), divisions_for_year(NICKNAMES, year), wildcard_count=wildcards_for_year(year))
+    nicknames = load_nicknames('data/CurrentNames.csv')
+    team_ids = load_team_ids('data/TEAMABR.TXT')
+    return show_dumb_elimination_output3(load_game_log(f'./data/GL{year}.TXT'), load_schedule(f'./data/{year}SKED.TXT'), divisions_for_year(nicknames, team_ids, year), wildcard_count=wildcards_for_year(year))
 
 
 
@@ -415,7 +438,7 @@ def assign_wins_with_brute_force(sorted_rivals, threats_immutable, recursion_lev
 def check_division_contention(date_str, year, team):
     game_log = load_game_log(f'./data/GL{year}.TXT')
     schedule = load_schedule(f'./data/{year}SKED.TXT')
-    divisions = divisions_for_year(NICKNAMES, year)
+    divisions = divisions_for_year(NICKNAMES, TEAM_IDS_UNDEFINED_LOL, year)
     season_length = get_season_length(schedule)
     matchups = games_between_rivals_after_date(game_log, schedule, divisions, date_str, team)
     threats = divisional_threats(compute_standings(game_log.loc[(game_log['completion_date'] <= date_str)]), divisions, season_length, team)
@@ -448,6 +471,8 @@ def dumb_matrix_sum(matchups, threats):
 # brute force says true for 19640814
 # check_division_contention('20210821', 2021, 'BAL')
 
-NICKNAMES = load_nicknames('data/CurrentNames.csv')
-run_one_year(1899)
+# NICKNAMES = load_nicknames('data/CurrentNames.csv')
+# run_one_year(1899)
+correct_1899_standings = '{"W":{"BRO":101,"BSN":95,"PHI":94,"BLN":86,"SLN":84,"CIN":83,"PIT":76,"CHN":75,"LS3":75,"NY1":60,"WSN":54,"CL4":20},"L":{"BRO":47,"BSN":57,"PHI":58,"BLN":62,"SLN":67,"CIN":67,"PIT":73,"CHN":73,"LS3":77,"NY1":90,"WSN":98,"CL4":134}}'
+bad_years2 [1882, 1884, 1886, 1887, 1961]
 
