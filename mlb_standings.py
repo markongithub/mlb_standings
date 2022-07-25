@@ -41,7 +41,6 @@ def load_team_ids(team_ids_file):
     df = pd.read_csv(team_ids_file, header=None, names=retro_team_id_columns, usecols=range(len(retro_team_id_columns)))
     return df
 
-# TODO: 1899 teams are not in here, I need to use another one.
 def divisions_for_year(nicknames_from_retrosheet, team_ids_from_retrosheet, year):
     if year <= 1915:
         return divisions_from_team_ids(team_ids_from_retrosheet, year)
@@ -63,8 +62,8 @@ def divisions_from_team_ids(team_ids_from_retrosheet, year):
 def division_contenders(standings_immutable, divisions, season_length):
     df = standings_immutable.copy()
 #    print(f'division_contenders was called with columns {df.columns}')
-    df['div'] = divisions['div']
-    max_wins = season_length - df['L']
+    #df['div'] = divisions['div']
+    max_wins = df['season_length'] - df['L']
     division_contenders = set()
     for index, row in df.iterrows():
         most_wins_in_division = df.loc[(df['div'] == row["div"])]['W'].max()
@@ -116,15 +115,21 @@ def divisional_threats(standings_immutable, divisions, season_length, team):
 def games_between_rivals_after_date(df, schedule, divisions, date_str, team):
     remaining = all_matchups_after_date(df, schedule, date_str).groupby(['alpha1', 'alpha2'], as_index=False).size()
     standings = compute_standings(df.loc[(df['completion_date'] <= date_str)])
-    season_length = get_season_length(schedule) # why god why
-    threats = divisional_threats(standings, divisions, season_length, team)
+    season_lengths = get_season_length(schedule) # why god why
+    threats = divisional_threats(standings, divisions, season_lengths, team)
     return remaining.loc[(remaining['alpha1'].isin(threats.index)) & (remaining['alpha2'].isin(threats.index))]
 
+# I thought there was one season length per season but it's really per league
+# per season.
 def get_season_length(schedule):
-    unique_game_counts = pd.unique(pd.concat([schedule['home'], schedule['visitor']], axis = 0).value_counts())
-    game_counts = pd.concat([schedule['home'], schedule['visitor']], axis = 0).value_counts()
-    assert unique_game_counts.shape == (1,), f'season lengths are all messed up: {game_counts}'
-    return unique_game_counts[0]
+    home = schedule[['home', 'home_league']].rename(columns={'home': 'team', 'home_league' : 'league'})
+    visitors = schedule[['visitor', 'visitor_league']].rename(columns={'visitor': 'team', 'visitor_league' : 'league'})
+    # if pd.concat([home, visitors]).value_counts().groupby("league").nunique().eq(1)
+    grouped = pd.concat([home, visitors]).value_counts().groupby("league")
+    if grouped.nunique().eq(1).all():
+        return grouped.min()
+    else:
+        assert(grouped.min() == grouped.max())
 
 # sort the output of division_threats
 def sort_rivals(matchups, threats):
@@ -191,7 +196,7 @@ def all_subset_sums(matchups, threats):
 
 def is_division_contender_with_rivalries(game_log, schedule, divisions, date_str, team):
     matchups = games_between_rivals_after_date(game_log, schedule, divisions, date_str, team)
-    season_length = get_season_length(schedule) # why god why
+    season_length = get_season_length(schedule).loc[divisions.loc[team]['lg']] # why god why
     threats = divisional_threats(compute_standings(game_log.loc[(game_log['completion_date'] <= date_str)]), divisions, season_length, team)
     sorted_rivals = sort_rivals(matchups, threats)
     return all_subset_sums(sorted_rivals, threats)
@@ -259,9 +264,15 @@ def count_teams(game_log, schedule, divisions):
 def show_dumb_elimination_output3(df, schedule, divisions, wildcard_count=2):
     team_count = count_teams(df, schedule, divisions)
     games_per_season = get_season_length(schedule)
-    print(f'This season has {team_count} teams and {games_per_season} for each team.')
+    print(f'This season has {team_count} teams.')
+    for index, value in games_per_season.iteritems():
+        print(f'The {index} has {value} games per team.')
     # If home_game_num > games_per_season this is probably a tiebreaker playoff.
-    max_date = retro_to_datetime(df.loc[df['home_game_num'] <= games_per_season]['completion_date'].max())
+    # I guess each league could have their tiebreakers on different days? I hope
+    # this doesn't exclude a regular season game. Maybe I should make the check
+    # in compute_standings.
+    max_date = retro_to_datetime(df.loc[df['home_game_num'] <= games_per_season.max()]['completion_date'].max())
+    print(f'max_date is {max_date}')
     min_date = retro_to_datetime(df['completion_date'].min())
 
     current_date = max_date
@@ -277,17 +288,21 @@ def show_dumb_elimination_output3(df, schedule, divisions, wildcard_count=2):
         ((len(div_contenders) < team_count) or
          wildcard_count and len(wildcard_contenders) < team_count)):
         date_str = datetime_to_retro(current_date)
-        # print(f'Starting analysis of {date_str}')
+        print(f'Starting analysis of {date_str}')
         current_standings = compute_standings(df.loc[df['completion_date'] <= date_str])
         # print(current_standings)
         # MOVE THIS SHIT INTO SOMETHING EFFICIENT
         current_standings['div'] = divisions['div']
         current_standings['lg'] = divisions['lg']
-        current_standings['max_wins'] = games_per_season - current_standings['L']
+        # I have no idea what I am doing.
+        def why_is_this_necessary(league):
+            return games_per_season[league]
+        current_standings['season_length'] = current_standings['lg'].apply(why_is_this_necessary)
+        current_standings['max_wins'] = current_standings['season_length'] - current_standings['L']
         # print(current_standings)
     
         div_contenders = division_contenders(current_standings, divisions, games_per_season)
-        # print(f'naive division contenders: {div_contenders}')
+        print(f'naive division contenders: {div_contenders}')
         for supposed_contender in div_contenders.copy():
             # If you're in contention tomorrow, you're in contention today, so I am not going to
             # waste CPU time on you.
@@ -301,7 +316,7 @@ def show_dumb_elimination_output3(df, schedule, divisions, wildcard_count=2):
         # if new_contenders:
             # print(f'Teams eliminated from their division titles on {datetime_to_retro(tomorrow)}: {new_contenders}')
         for eliminated_team in new_contenders:
-            games_to_go_at_elimination = games_per_season - tomorrows_standings.loc[eliminated_team]['W'] - tomorrows_standings.loc[eliminated_team]['L']
+            games_to_go_at_elimination = tomorrows_standings.loc[eliminated_team]['season_length'] - tomorrows_standings.loc[eliminated_team]['W'] - tomorrows_standings.loc[eliminated_team]['L']
             elim_div = divisions.loc[eliminated_team]['div'] 
             print(f'{eliminated_team} were eliminated from the {elim_div} title on {datetime_to_retro(tomorrow)} with {games_to_go_at_elimination} games left to play.')
             new_pair = (datetime_to_retro(tomorrow), games_to_go_at_elimination)
@@ -439,9 +454,9 @@ def check_division_contention(date_str, year, team):
     game_log = load_game_log(f'./data/GL{year}.TXT')
     schedule = load_schedule(f'./data/{year}SKED.TXT')
     divisions = divisions_for_year(NICKNAMES, TEAM_IDS_UNDEFINED_LOL, year)
-    season_length = get_season_length(schedule)
+    season_lengths = get_season_length(schedule)
     matchups = games_between_rivals_after_date(game_log, schedule, divisions, date_str, team)
-    threats = divisional_threats(compute_standings(game_log.loc[(game_log['completion_date'] <= date_str)]), divisions, season_length, team)
+    threats = divisional_threats(compute_standings(game_log.loc[(game_log['completion_date'] <= date_str)]), divisions, season_lengths, team)
     sum_mode = dumb_matrix_sum(matchups, threats)
     print(f'Sum mode says {sum_mode}')
     # sum mode errs on the side of True. If it's False, brute force will never return True.
@@ -474,5 +489,5 @@ def dumb_matrix_sum(matchups, threats):
 # NICKNAMES = load_nicknames('data/CurrentNames.csv')
 # run_one_year(1899)
 correct_1899_standings = '{"W":{"BRO":101,"BSN":95,"PHI":94,"BLN":86,"SLN":84,"CIN":83,"PIT":76,"CHN":75,"LS3":75,"NY1":60,"WSN":54,"CL4":20},"L":{"BRO":47,"BSN":57,"PHI":58,"BLN":62,"SLN":67,"CIN":67,"PIT":73,"CHN":73,"LS3":77,"NY1":90,"WSN":98,"CL4":134}}'
-bad_years2 [1882, 1884, 1886, 1887, 1961]
-
+bad_years2 = [1882, 1884, 1886, 1887, 1961]
+run_one_year(1999)
