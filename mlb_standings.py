@@ -65,14 +65,15 @@ def divisions_for_year(nicknames_from_retrosheet, team_ids_from_retrosheet, year
     df['end_year'] = pd.DatetimeIndex(df['end_date']).year
     df = df.loc[(df['start_year'] <= year) & ((df['end_year'].isna()) | (df['end_year'] >= year))] # & (df['end_year'] => year)]
     df['div'] = df[['league', 'division']].fillna('').sum(axis=1)
-    
-    return df.set_index('contemporary_id')[['league', 'div']].rename(columns={'league': 'lg'})
+
+    return df.set_index('contemporary_id')[['league', 'div', 'current_id', 'location', 'nickname']].rename(columns={'league': 'lg', 'current_id': 'permanent_id'})
 
 def divisions_from_team_ids(team_ids_from_retrosheet, year):
     df = team_ids_from_retrosheet.copy()
     df = df.loc[(df['start_year'] <= year) & (df['end_year'] >= year)]
     df['div'] = df['league'] # the league is the division is the league
-    return df.set_index('team_id')[['league', 'div']].rename(columns={'league': 'lg'})
+    df['permanent_id'] = df['team_id']
+    return df.set_index('team_id')[['league', 'div', 'location', 'nickname']].rename(columns={'league': 'lg'})
 
 def division_contenders(standings_immutable, divisions, season_length):
     df = standings_immutable.copy()
@@ -276,6 +277,10 @@ def count_teams(game_log, schedule, divisions):
     assert(all(t in divisions.index for t in game_log_teams))
     return len(game_log_teams)
 
+def display_name(divisions, team_id):
+    team_entry = divisions.loc[team_id]
+    return f'{team_entry["location"]} {team_entry["nickname"]}'
+
 def show_dumb_elimination_output3(df, schedule, divisions, wildcard_count=2):
     team_count = count_teams(df, schedule, divisions)
     games_per_season = get_season_length(schedule)
@@ -323,7 +328,7 @@ def show_dumb_elimination_output3(df, schedule, divisions, wildcard_count=2):
             # waste CPU time on you.
             if tomorrows_div_contenders and supposed_contender not in tomorrows_div_contenders:
                 if not is_division_contender_with_rivalries(df, schedule, divisions, date_str, supposed_contender):
-                    print(f'It looked like {supposed_contender} was in contention after {date_str} but the remaining intra-division games ruled them out.')
+                    print(f'It looked like the {display_name(divisions, supposed_contender)} were in contention after {date_str} but the remaining intra-division games ruled them out.')
                     div_contenders.remove(supposed_contender)
         new_contenders = set()
         if tomorrows_div_contenders:
@@ -333,7 +338,7 @@ def show_dumb_elimination_output3(df, schedule, divisions, wildcard_count=2):
         for eliminated_team in new_contenders:
             games_to_go_at_elimination = tomorrows_standings.loc[eliminated_team]['season_length'] - tomorrows_standings.loc[eliminated_team]['W'] - tomorrows_standings.loc[eliminated_team]['L']
             elim_div = divisions.loc[eliminated_team]['div'] 
-            print(f'{eliminated_team} were eliminated from the {elim_div} title on {datetime_to_retro(tomorrow)} with {games_to_go_at_elimination} games left to play.')
+            print(f'The {display_name(divisions, eliminated_team)} were eliminated from the {elim_div} title on {datetime_to_retro(tomorrow)} with {games_to_go_at_elimination} games left to play.')
             new_pair = (datetime_to_retro(tomorrow), games_to_go_at_elimination)
             if eliminations.get(eliminated_team):
                 eliminations[eliminated_team]['division'] = new_pair
@@ -349,16 +354,16 @@ def show_dumb_elimination_output3(df, schedule, divisions, wildcard_count=2):
             if tomorrows_wildcard_contenders and supposed_contender not in tomorrows_wildcard_contenders:
                 # print(f'let\'s see if {supposed_contender} is really still in wildcard contention')
                 if not is_wildcard_contender_with_rivalries(df, schedule, divisions, date_str, supposed_contender, wildcard_count):
-                    print(f'It looked like {supposed_contender} was in wildcard contention after {date_str} but the remaining intra-contender games ruled them out.')
+                    print(f'It looked like the {display_name(divisions, supposed_contender)} were in wildcard contention after {date_str} but the remaining intra-contender games ruled them out.')
                     wildcard_contenders.remove(supposed_contender)
         new_contenders = set()
         if tomorrows_wildcard_contenders:
             new_contenders = wildcard_contenders.difference(tomorrows_wildcard_contenders)
         for eliminated_team in new_contenders:
-            games_to_go_at_elimination = games_per_season - tomorrows_standings.loc[eliminated_team]['W'] - tomorrows_standings.loc[eliminated_team]['L']
+            games_to_go_at_elimination = tomorrows_standings.loc[eliminated_team]['season_length'] - tomorrows_standings.loc[eliminated_team]['W'] - tomorrows_standings.loc[eliminated_team]['L']
             elim_lg = divisions.loc[eliminated_team]['lg'] 
 
-            print(f'{eliminated_team} were eliminated from {elim_lg} wildcard contention on {datetime_to_retro(tomorrow)} with {games_to_go_at_elimination} games left to play.')
+            print(f'{display_name(divisions, eliminated_team)} were eliminated from {elim_lg} wildcard contention on {datetime_to_retro(tomorrow)} with {games_to_go_at_elimination} games left to play.')
             new_pair = (datetime_to_retro(tomorrow), games_to_go_at_elimination)
             if eliminations.get(eliminated_team):
                 eliminations[eliminated_team]['wildcard'] = new_pair
@@ -369,8 +374,8 @@ def show_dumb_elimination_output3(df, schedule, divisions, wildcard_count=2):
         contenders_any = div_contenders.union(wildcard_contenders)
         if tomorrows_contenders_any:
             new_contenders = contenders_any.difference(tomorrows_contenders_any)
-        if new_contenders:
-            print(f'Teams eliminated from ALL postseason contention on {datetime_to_retro(tomorrow)}: {new_contenders}')
+        # if new_contenders:
+        #     print(f'Teams eliminated from ALL postseason contention on {datetime_to_retro(tomorrow)}: {new_contenders}')
         tomorrow = current_date
         tomorrows_div_contenders = div_contenders.copy()
         tomorrows_wildcard_contenders = wildcard_contenders.copy()
@@ -511,6 +516,6 @@ def dumb_matrix_sum(matchups, threats):
 # NICKNAMES = load_nicknames('data/CurrentNames.csv')
 # run_one_year(1899)
 correct_1899_standings = '{"W":{"BRO":101,"BSN":95,"PHI":94,"BLN":86,"SLN":84,"CIN":83,"PIT":76,"CHN":75,"LS3":75,"NY1":60,"WSN":54,"CL4":20},"L":{"BRO":47,"BSN":57,"PHI":58,"BLN":62,"SLN":67,"CIN":67,"PIT":73,"CHN":73,"LS3":77,"NY1":90,"WSN":98,"CL4":134}}'
-bad_years3 = [1884, 1886, 1887]
+bad_years3 = [2000]
 for year in bad_years3:
     run_one_year(year)
