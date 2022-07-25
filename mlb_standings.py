@@ -15,6 +15,21 @@ def load_game_log(game_log_path):
     df['completion_date'] = df['completion_date'].astype(str)
     return df
 
+def fix_1882(game_log):
+    # I guess I'm mutating it in place even though I hate that.
+    game_log.loc[game_log['visitor'] == 'BL5', 'visitor'] = 'BL2'
+    game_log.loc[game_log['home'] == 'BL5', 'home'] = 'BL2'
+    return game_log
+
+def fix_1884(game_log, schedule):
+    # I guess I'm mutating it in place even though I hate that.
+    game_log = game_log.loc[(game_log['visitor_league'] != 'UA') & (game_log['home_league'] != 'UA')]
+    game_log.loc[game_log['visitor'] == 'WS7', 'visitor'] = 'RIC'
+    game_log.loc[game_log['home'] == 'WS7', 'home'] = 'RIC'
+    schedule = schedule.loc[(schedule['visitor_league'] != 'UA') & (schedule['home_league'] != 'UA')]
+    schedule.loc[schedule['visitor'] == 'WS7', 'visitor'] = 'RIC'
+    schedule.loc[schedule['home'] == 'WS7', 'home'] = 'RIC'
+    return game_log, schedule
 
 # adapted from sdvinay except he didn't think of ties or forfeits
 def compute_standings(game_log):
@@ -250,12 +265,12 @@ def is_wildcard_contender_with_rivalries(game_log, schedule, divisions, date_str
     return all_subset_sums(sorted_rivals, threats)
 
 def count_teams(game_log, schedule, divisions):
-    game_log_teams = pd.unique(game_log[['home', 'visitor']].values.ravel('K'))
-    schedule_teams = pd.unique(game_log[['home', 'visitor']].values.ravel('K'))
+    game_log_teams = sorted(pd.unique(game_log[['home', 'visitor']].values.ravel('K')))
+    schedule_teams = sorted(pd.unique(schedule[['home', 'visitor']].values.ravel('K')))
     divisions_count = len(divisions.index)
-    if (len(game_log_teams) != len(schedule_teams) or len(game_log_teams) != divisions_count):
-        print(f'Teams in game log: {sorted(pd.unique(game_log[["home", "visitor"]].values.ravel("K")))} ')
-        print(f'Teams in schedule: {sorted(pd.unique(schedule[["home", "visitor"]].values.ravel("K")))} ')
+    if (len(game_log_teams) != len(schedule_teams) or any(t not in divisions.index for t in game_log_teams)):
+        print(f'Teams in game log: {game_log_teams} ')
+        print(f'Teams in schedule: {schedule_teams} ')
         print(f'Teams in division map: {sorted(divisions.index)}')
     assert(sorted(game_log_teams) == sorted(schedule_teams))
     assert(all(t in divisions.index for t in game_log_teams))
@@ -302,7 +317,7 @@ def show_dumb_elimination_output3(df, schedule, divisions, wildcard_count=2):
         # print(current_standings)
     
         div_contenders = division_contenders(current_standings, divisions, games_per_season)
-        print(f'naive division contenders: {div_contenders}')
+        # print(f'naive division contenders: {div_contenders}')
         for supposed_contender in div_contenders.copy():
             # If you're in contention tomorrow, you're in contention today, so I am not going to
             # waste CPU time on you.
@@ -383,9 +398,16 @@ def wildcards_for_year(year):
     return 0
 
 def run_one_year(year):
+    print(f'starting analysis of {year}')
     nicknames = load_nicknames('data/CurrentNames.csv')
     team_ids = load_team_ids('data/TEAMABR.TXT')
-    return show_dumb_elimination_output3(load_game_log(f'./data/GL{year}.TXT'), load_schedule(f'./data/{year}SKED.TXT'), divisions_for_year(nicknames, team_ids, year), wildcard_count=wildcards_for_year(year))
+    game_log = load_game_log(f'./data/GL{year}.TXT')
+    schedule = load_schedule(f'./data/{year}SKED.TXT')
+    if year == 1882:
+        game_log = fix_1882(game_log)
+    if year == 1884:
+        game_log, schedule = fix_1884(game_log, schedule)
+    return show_dumb_elimination_output3(game_log, schedule, divisions_for_year(nicknames, team_ids, year), wildcard_count=wildcards_for_year(year))
 
 
 
@@ -489,5 +511,6 @@ def dumb_matrix_sum(matchups, threats):
 # NICKNAMES = load_nicknames('data/CurrentNames.csv')
 # run_one_year(1899)
 correct_1899_standings = '{"W":{"BRO":101,"BSN":95,"PHI":94,"BLN":86,"SLN":84,"CIN":83,"PIT":76,"CHN":75,"LS3":75,"NY1":60,"WSN":54,"CL4":20},"L":{"BRO":47,"BSN":57,"PHI":58,"BLN":62,"SLN":67,"CIN":67,"PIT":73,"CHN":73,"LS3":77,"NY1":90,"WSN":98,"CL4":134}}'
-bad_years2 = [1882, 1884, 1886, 1887, 1961]
-run_one_year(1999)
+bad_years3 = [1884, 1886, 1887]
+for year in bad_years3:
+    run_one_year(year)
