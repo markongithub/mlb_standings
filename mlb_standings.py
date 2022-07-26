@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import json
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
@@ -15,6 +16,13 @@ def load_game_log(game_log_path):
     df['completion_date'] = df['completion_date'].astype(str)
     return df
 
+def fix_1880(schedule):
+    # Baseball Reference calls them the Reds so I am going to coerce this code
+    # to call them the Reds.
+    schedule.loc[schedule['visitor'] == 'CN1', 'visitor'] = 'CN4'
+    schedule.loc[schedule['home'] == 'CN1', 'home'] = 'CN4'
+    return schedule
+
 def fix_1882(game_log):
     # I guess I'm mutating it in place even though I hate that.
     game_log.loc[game_log['visitor'] == 'BL5', 'visitor'] = 'BL2'
@@ -29,6 +37,22 @@ def fix_1884(game_log, schedule):
     schedule = schedule.loc[(schedule['visitor_league'] != 'UA') & (schedule['home_league'] != 'UA')]
     schedule.loc[schedule['visitor'] == 'WS7', 'visitor'] = 'RIC'
     schedule.loc[schedule['home'] == 'WS7', 'home'] = 'RIC'
+    return game_log, schedule
+
+def fix_1890(game_log, schedule):
+    # I guess I'm mutating it in place even though I hate that.
+    game_log.loc[game_log['visitor'] == 'BR4', 'visitor'] = 'BL3'
+    game_log.loc[game_log['home'] == 'BR4', 'home'] = 'BL3'
+    schedule.loc[schedule['visitor'] == 'BR4', 'visitor'] = 'BL3'
+    schedule.loc[schedule['home'] == 'BR4', 'home'] = 'BL3'
+    return game_log, schedule
+
+def fix_1891(game_log, schedule):
+    # I guess I'm mutating it in place even though I hate that.
+    game_log.loc[game_log['visitor'] == 'CN3', 'visitor'] = 'ML3'
+    game_log.loc[game_log['home'] == 'CN3', 'home'] = 'ML3'
+    schedule.loc[schedule['visitor'] == 'CN3', 'visitor'] = 'ML3'
+    schedule.loc[schedule['home'] == 'CN3', 'home'] = 'ML3'
     return game_log, schedule
 
 # adapted from sdvinay except he didn't think of ties or forfeits
@@ -66,14 +90,14 @@ def divisions_for_year(nicknames_from_retrosheet, team_ids_from_retrosheet, year
     df = df.loc[(df['start_year'] <= year) & ((df['end_year'].isna()) | (df['end_year'] >= year))] # & (df['end_year'] => year)]
     df['div'] = df[['league', 'division']].fillna('').sum(axis=1)
 
-    return df.set_index('contemporary_id')[['league', 'div', 'current_id', 'location', 'nickname']].rename(columns={'league': 'lg', 'current_id': 'permanent_id'})
+    return df.set_index('contemporary_id')[['league', 'div', 'current_id', 'location', 'nickname']].rename(columns={'league': 'lg', 'current_id': 'franchise_id'})
 
 def divisions_from_team_ids(team_ids_from_retrosheet, year):
     df = team_ids_from_retrosheet.copy()
     df = df.loc[(df['start_year'] <= year) & (df['end_year'] >= year)]
     df['div'] = df['league'] # the league is the division is the league
-    df['permanent_id'] = df['team_id']
-    return df.set_index('team_id')[['league', 'div', 'location', 'nickname']].rename(columns={'league': 'lg'})
+    df['franchise_id'] = df['team_id']
+    return df.set_index('team_id')[['league', 'div', 'franchise_id', 'location', 'nickname']].rename(columns={'league': 'lg'})
 
 def division_contenders(standings_immutable, divisions, season_length):
     df = standings_immutable.copy()
@@ -269,11 +293,11 @@ def count_teams(game_log, schedule, divisions):
     game_log_teams = sorted(pd.unique(game_log[['home', 'visitor']].values.ravel('K')))
     schedule_teams = sorted(pd.unique(schedule[['home', 'visitor']].values.ravel('K')))
     divisions_count = len(divisions.index)
-    if (len(game_log_teams) != len(schedule_teams) or any(t not in divisions.index for t in game_log_teams)):
+    if (game_log_teams != schedule_teams or any(t not in divisions.index for t in game_log_teams)):
         print(f'Teams in game log: {game_log_teams} ')
         print(f'Teams in schedule: {schedule_teams} ')
         print(f'Teams in division map: {sorted(divisions.index)}')
-    assert(sorted(game_log_teams) == sorted(schedule_teams))
+    assert(game_log_teams == schedule_teams)
     assert(all(t in divisions.index for t in game_log_teams))
     return len(game_log_teams)
 
@@ -340,10 +364,11 @@ def show_dumb_elimination_output3(df, schedule, divisions, wildcard_count=2):
             elim_div = divisions.loc[eliminated_team]['div'] 
             print(f'The {display_name(divisions, eliminated_team)} were eliminated from the {elim_div} title on {datetime_to_retro(tomorrow)} with {games_to_go_at_elimination} games left to play.')
             new_pair = (datetime_to_retro(tomorrow), games_to_go_at_elimination)
-            if eliminations.get(eliminated_team):
-                eliminations[eliminated_team]['division'] = new_pair
+            elim_franchise = divisions.loc[eliminated_team]['franchise_id'] 
+            if eliminations.get(elim_franchise):
+                eliminations[elim_franchise]['division'] = new_pair
             else:
-                eliminations[eliminated_team] = {'division': new_pair}
+                eliminations[elim_franchise] = {'division': new_pair}
         # print(f'PHI max wins: {current_standings.loc["PHI"]["max_wins"]}, SLN wins: {current_standings.loc["SLN"]["W"]}')
         # print(f'My busted view of the wildcard standings: {wildcard_standings(current_standings)}')
         wildcard_contenders = wildcard_contenders_naive(current_standings, divisions, wildcard_count)
@@ -365,10 +390,11 @@ def show_dumb_elimination_output3(df, schedule, divisions, wildcard_count=2):
 
             print(f'{display_name(divisions, eliminated_team)} were eliminated from {elim_lg} wildcard contention on {datetime_to_retro(tomorrow)} with {games_to_go_at_elimination} games left to play.')
             new_pair = (datetime_to_retro(tomorrow), games_to_go_at_elimination)
-            if eliminations.get(eliminated_team):
-                eliminations[eliminated_team]['wildcard'] = new_pair
+            elim_franchise = divisions.loc[eliminated_team]['franchise_id'] 
+            if eliminations.get(elim_franchise):
+                eliminations[elim_franchise]['wildcard'] = new_pair
             else:
-                eliminations[eliminated_team] = {'wildcard': new_pair}
+                eliminations[elim_franchise] = {'wildcard': new_pair}
 
 
         contenders_any = div_contenders.union(wildcard_contenders)
@@ -408,10 +434,16 @@ def run_one_year(year):
     team_ids = load_team_ids('data/TEAMABR.TXT')
     game_log = load_game_log(f'./data/GL{year}.TXT')
     schedule = load_schedule(f'./data/{year}SKED.TXT')
+    if year == 1880:
+        schedule = fix_1880(schedule)
     if year == 1882:
         game_log = fix_1882(game_log)
     if year == 1884:
         game_log, schedule = fix_1884(game_log, schedule)
+    if year == 1890:
+        game_log, schedule = fix_1890(game_log, schedule)
+    if year == 1891:
+        game_log, schedule = fix_1891(game_log, schedule)
     return show_dumb_elimination_output3(game_log, schedule, divisions_for_year(nicknames, team_ids, year), wildcard_count=wildcards_for_year(year))
 
 
@@ -516,6 +548,19 @@ def dumb_matrix_sum(matchups, threats):
 # NICKNAMES = load_nicknames('data/CurrentNames.csv')
 # run_one_year(1899)
 correct_1899_standings = '{"W":{"BRO":101,"BSN":95,"PHI":94,"BLN":86,"SLN":84,"CIN":83,"PIT":76,"CHN":75,"LS3":75,"NY1":60,"WSN":54,"CL4":20},"L":{"BRO":47,"BSN":57,"PHI":58,"BLN":62,"SLN":67,"CIN":67,"PIT":73,"CHN":73,"LS3":77,"NY1":90,"WSN":98,"CL4":134}}'
-bad_years3 = [2000]
-for year in bad_years3:
-    run_one_year(year)
+# thanks https://stackoverflow.com/a/57915246
+class NpEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, np.integer):
+            return int(obj)
+        if isinstance(obj, np.floating):
+            return float(obj)
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        return super(NpEncoder, self).default(obj)
+
+#for year in [2021]:
+#    output = run_one_year(year)
+#    with open(f'output/{year}.json', 'w') as fp:
+#      json.dump(output, fp, cls=NpEncoder)
+
