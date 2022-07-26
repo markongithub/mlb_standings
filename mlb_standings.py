@@ -422,10 +422,11 @@ def wildcards_for_year(year):
         return "2020 was weird sorry"
     if year >= 2012:
         return 2
+    # I thought I had to special-case 1994 but really it just (correctly)
+    # outputs that everyone was in contention on the last day so there are no
+    # eliminations.
     if year >= 1994:
         return 1
-    if year == "1994":
-        return "1994 was weird sorry"
     return 0
 
 def run_one_year(year):
