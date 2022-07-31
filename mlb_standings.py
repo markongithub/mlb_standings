@@ -99,15 +99,16 @@ def divisions_from_team_ids(team_ids_from_retrosheet, year):
     df['franchise_id'] = df['team_id']
     return df.set_index('team_id')[['league', 'div', 'franchise_id', 'location', 'nickname']].rename(columns={'league': 'lg'})
 
-def division_contenders(standings_immutable, divisions, season_length):
+def division_contenders(standings_immutable, divisions, season_length, division_winners=1):
     df = standings_immutable.copy()
 #    print(f'division_contenders was called with columns {df.columns}')
     #df['div'] = divisions['div']
     max_wins = df['season_length'] - df['L']
     division_contenders = set()
     for index, row in df.iterrows():
-        most_wins_in_division = df.loc[(df['div'] == row["div"])]['W'].max()
-        if max_wins[index] >= most_wins_in_division:
+        division_win_threshold = df.loc[(df['div'] == row["div"])]['W'].nlargest(division_winners).min()
+        # print(f'{index} will need {division_win_threshold} wins to win this division.')
+        if max_wins[index] >= division_win_threshold:
             division_contenders.add(index)
     return division_contenders
 
@@ -143,20 +144,25 @@ def all_matchups_after_date(df, schedule, date_str):
     return alpha_pairs.T.rename(columns={0: 'alpha1', 1: 'alpha2'})
 
 
-def divisional_threats(standings_immutable, divisions, season_length, team):
+def divisional_threats(standings_immutable, divisions, season_length, winners_per_division, team):
     # We only care about teams with more max_wins than us.
     df = standings_immutable.copy()
     my_division = divisions.loc[team]['div']
-    df = df.merge(divisions, left_index=True, right_index=True).loc[divisions['div'] == my_division]   
+    df = df.merge(divisions, left_index=True, right_index=True).loc[divisions['div'] == my_division]
     max_wins = season_length - df['L']
+    df['max_wins'] = max_wins # please kill me
     df = df.loc[(df.index != team) & (max_wins[df.index] >= max_wins[team])]
+    # So now we have all the teams with more max wins than us.
+    # We don't care about the top n-1 where winners_per_division is n.
+    # I don't think it's sorted yet.
+    df = df.sort_values(by=['max_wins'], ascending=False).iloc[(winners_per_division-1):]
     return max_wins[team] - df['W']
 
-def games_between_rivals_after_date(df, schedule, divisions, date_str, team):
+def games_between_rivals_after_date(df, schedule, divisions, winners_per_division, date_str, team):
     remaining = all_matchups_after_date(df, schedule, date_str).groupby(['alpha1', 'alpha2'], as_index=False).size()
     standings = compute_standings(df.loc[(df['completion_date'] <= date_str)])
     season_lengths = get_season_length(schedule) # why god why
-    threats = divisional_threats(standings, divisions, season_lengths, team)
+    threats = divisional_threats(standings, divisions, season_lengths, winners_per_division, team)
     return remaining.loc[(remaining['alpha1'].isin(threats.index)) & (remaining['alpha2'].isin(threats.index))]
 
 # I thought there was one season length per season but it's really per league
@@ -234,14 +240,14 @@ def all_subset_sums(matchups, threats):
             return False
     return True
 
-def is_division_contender_with_rivalries(game_log, schedule, divisions, date_str, team):
-    matchups = games_between_rivals_after_date(game_log, schedule, divisions, date_str, team)
+def is_division_contender_with_rivalries(game_log, schedule, divisions, winners_per_division, date_str, team):
+    matchups = games_between_rivals_after_date(game_log, schedule, divisions, winners_per_division, date_str, team)
     season_length = get_season_length(schedule).loc[divisions.loc[team]['lg']] # why god why
-    threats = divisional_threats(compute_standings(game_log.loc[(game_log['completion_date'] <= date_str)]), divisions, season_length, team)
+    threats = divisional_threats(compute_standings(game_log.loc[(game_log['completion_date'] <= date_str)]), divisions, season_length, winners_per_division, team)
     sorted_rivals = sort_rivals(matchups, threats)
     return all_subset_sums(sorted_rivals, threats)
 
-def wildcard_standings(standings_immutable, divisions, wildcard_count):
+def wildcard_standings(standings_immutable, divisions, wildcard_count, division_winners=1):
     contenders = set()
     if not wildcard_count:
         return pd.DataFrame()
@@ -252,7 +258,7 @@ def wildcard_standings(standings_immutable, divisions, wildcard_count):
     df['max_wins'] = 162 - df['L']
 
     df['first_place'] = False
-    df.loc[df.groupby('div').head(1).index, 'first_place'] = True
+    df.loc[df.groupby('div').head(division_winners).index, 'first_place'] = True
     wildcard_wins_by_league = df.loc[df['first_place'] == False].sort_values(by=['W'], ascending=False).groupby('lg').nth(wildcard_count - 1)['W']
     def this_is_horrible(lg):
         return wildcard_wins_by_league.loc[lg]
@@ -305,10 +311,11 @@ def display_name(divisions, team_id):
     team_entry = divisions.loc[team_id]
     return f'{team_entry["location"]} {team_entry["nickname"]}'
 
-def show_dumb_elimination_output3(df, schedule, divisions, wildcard_count=2):
+def show_dumb_elimination_output3(df, schedule, divisions, wildcard_count=2, winners_per_division=1):
     team_count = count_teams(df, schedule, divisions)
     games_per_season = get_season_length(schedule)
     print(f'This season has {team_count} teams.')
+    print(f'The top {winners_per_division} teams from each division go to the postseason.')
     for index, value in games_per_season.iteritems():
         print(f'The {index} has {value} games per team.')
     # If home_game_num > games_per_season this is probably a tiebreaker playoff.
@@ -345,13 +352,13 @@ def show_dumb_elimination_output3(df, schedule, divisions, wildcard_count=2):
         current_standings['max_wins'] = current_standings['season_length'] - current_standings['L']
         # print(current_standings)
     
-        div_contenders = division_contenders(current_standings, divisions, games_per_season)
-        # print(f'naive division contenders: {div_contenders}')
+        div_contenders = division_contenders(current_standings, divisions, games_per_season, division_winners=winners_per_division)
+        print(f'naive division contenders: {div_contenders}')
         for supposed_contender in div_contenders.copy():
             # If you're in contention tomorrow, you're in contention today, so I am not going to
             # waste CPU time on you.
             if tomorrows_div_contenders and supposed_contender not in tomorrows_div_contenders:
-                if not is_division_contender_with_rivalries(df, schedule, divisions, date_str, supposed_contender):
+                if not is_division_contender_with_rivalries(df, schedule, divisions, winners_per_division=winners_per_division, date_str=date_str, team=supposed_contender):
                     print(f'It looked like the {display_name(divisions, supposed_contender)} were in contention after {date_str} but the remaining intra-division games ruled them out.')
                     div_contenders.remove(supposed_contender)
         new_contenders = set()
@@ -418,8 +425,6 @@ def show_dumb_elimination_output3(df, schedule, divisions, wildcard_count=2):
 def wildcards_for_year(year):
     if year >= 2022:
         return 3
-    if year == 2020:
-        return "2020 was weird sorry"
     if year >= 2012:
         return 2
     # I thought I had to special-case 1994 but really it just (correctly)
@@ -427,14 +432,24 @@ def wildcards_for_year(year):
     # eliminations.
     if year >= 1994:
         return 1
+    if year == 1981:
+        return "1981 was weird sorry"
     return 0
+
+def get_winners_per_division(year):
+    if year == 2020:
+        return 2
+    return 1
 
 def run_one_year(year):
     print(f'starting analysis of {year}')
     nicknames = load_nicknames('data/CurrentNames.csv')
     team_ids = load_team_ids('data/TEAMABR.TXT')
     game_log = load_game_log(f'./data/GL{year}.TXT')
-    schedule = load_schedule(f'./data/{year}SKED.TXT')
+    if year == 2020:
+        schedule = load_schedule('./data/2020REV.TXT')
+    else:
+        schedule = load_schedule(f'./data/{year}SKED.TXT')
     if year == 1880:
         schedule = fix_1880(schedule)
     if year == 1882:
@@ -445,7 +460,7 @@ def run_one_year(year):
         game_log, schedule = fix_1890(game_log, schedule)
     if year == 1891:
         game_log, schedule = fix_1891(game_log, schedule)
-    return show_dumb_elimination_output3(game_log, schedule, divisions_for_year(nicknames, team_ids, year), wildcard_count=wildcards_for_year(year))
+    return show_dumb_elimination_output3(game_log, schedule, divisions_for_year(nicknames, team_ids, year), wildcard_count=wildcards_for_year(year), winners_per_division=get_winners_per_division(year))
 
 
 
@@ -528,7 +543,7 @@ def check_division_contention(date_str, year, team):
     if not subset_mode:
         return False
     sorted_rivals = sort_rivals(matchups, threats)
-    easy_mode = is_division_contender_with_rivalries(game_log, schedule, divisions, date_str, team)
+    easy_mode = is_division_contender_with_rivalries(game_log, schedule, divisions, winners_per_division, date_str, team)
     # print(f'Easy mode says {easy_mode}')
     # Easy mode errs on the side of False. If it's true, brute force will never return False.
     # if easy_mode:
@@ -560,6 +575,7 @@ class NpEncoder(json.JSONEncoder):
             return obj.tolist()
         return super(NpEncoder, self).default(obj)
 
+print(run_one_year(2021))
 #for year in [2021]:
 #    output = run_one_year(year)
 #    with open(f'output/{year}.json', 'w') as fp:
