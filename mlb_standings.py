@@ -479,12 +479,6 @@ def run_one_year(year):
 
 # test case - the Mets after 1964-08-14
 # and every date up to August 28 - they are obviously out on the 29th
-print('can I execute anything at the top of this cell?')
-mydict = {}
-if mydict:
-    print('an empty dict is true')
-else:
-    print('an empty dict is false')
     
 def assign_wins_with_brute_force(sorted_rivals, threats_immutable, recursion_level=0):
     def myprint(mytext):
@@ -585,7 +579,7 @@ class NpEncoder(json.JSONEncoder):
             return obj.tolist()
         return super(NpEncoder, self).default(obj)
 
-print(run_one_year(2020))
+#print(run_one_year(2020))
 #for year in [2021]:
 #    output = run_one_year(year)
 #    with open(f'output/{year}.json', 'w') as fp:
