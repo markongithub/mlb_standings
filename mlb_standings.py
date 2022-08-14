@@ -55,16 +55,12 @@ def fix_1891(game_log, schedule):
     schedule.loc[schedule['home'] == 'CN3', 'home'] = 'ML3'
     return game_log, schedule
 
-# adapted from sdvinay except he didn't think of ties or forfeits
+# adapted from sdvinay except now totally different
 def compute_standings(game_log):
     gms_played = game_log.copy()
     # Eliminate ties but not forfeits.
-    gms_played = gms_played[(gms_played['visitor_score'] != gms_played['home_score']) | (gms_played['forfeit'].notna())]
-    gms_played = gms_played[gms_played['forfeit'] != "T"]
-    margins = gms_played['visitor_score']-gms_played['home_score']
-    forfeit = gms_played['forfeit']
-    winners = pd.Series(np.where((gms_played['forfeit'] != 'H') & (margins>0) | (gms_played['forfeit'] == 'V'), gms_played['visitor'], gms_played['home']))
-    losers  = pd.Series(np.where((gms_played['forfeit'] != 'V') & (margins<0) | (gms_played['forfeit'] == 'H'), gms_played['visitor'], gms_played['home']))
+    winners = pd.Series(np.where(gms_played['home_won'], gms_played['home'], gms_played['visitor']))
+    losers = pd.Series(np.where(gms_played['home_won'], gms_played['visitor'], gms_played['home']))
     standings = pd.concat([winners.value_counts().rename('W'), losers.value_counts().rename('L')], axis=1)
     return standings.fillna(0)
 
@@ -167,11 +163,11 @@ def games_between_rivals_after_date(df, schedule, divisions, winners_per_divisio
 
 # I thought there was one season length per season but it's really per league
 # per season.
-def get_season_length(schedule):
-    home = schedule[['home', 'home_league']].rename(columns={'home': 'team', 'home_league' : 'league'})
-    visitors = schedule[['visitor', 'visitor_league']].rename(columns={'visitor': 'team', 'visitor_league' : 'league'})
-    # if pd.concat([home, visitors]).value_counts().groupby("league").nunique().eq(1)
-    grouped = pd.concat([home, visitors]).value_counts().groupby("league")
+def get_season_length(played, unplayed, divisions):
+    all_games = pd.concat([played, unplayed])
+    home = pd.merge(all_games[['home']],divisions[['lg']],left_on='home',right_index=True).rename(columns={'home': 'team'})
+    visitors = pd.merge(all_games[['visitor']],divisions[['lg']],left_on='visitor',right_index=True).rename(columns={'visitor': 'team'})
+    grouped = pd.concat([home, visitors]).value_counts().groupby("lg")
     if grouped.nunique().eq(1).all():
         return grouped.min()
     else:
@@ -305,17 +301,16 @@ def is_wildcard_contender_with_rivalries(game_log, schedule, divisions, date_str
     sorted_rivals = sort_rivals(matchups, threats)
     return all_subset_sums(sorted_rivals, threats)
 
-def count_teams(game_log, schedule, divisions):
-    game_log_teams = sorted(pd.unique(game_log[['home', 'visitor']].values.ravel('K')))
-    schedule_teams = sorted(pd.unique(schedule[['home', 'visitor']].values.ravel('K')))
+def count_teams(played, unplayed, divisions):
+    schedule_teams = sorted(pd.unique(pd.concat([played, unplayed])[['home', 'visitor']].values.ravel('K')))
     divisions_count = len(divisions.index)
-    if (game_log_teams != schedule_teams or any(t not in divisions.index for t in game_log_teams)):
-        print(f'Teams in game log: {game_log_teams} ')
+    # TODO: When we convert retro game log and schedule into played/unplayed,
+    # we need to check that schedule/GL teams match.
+    if (any(t not in divisions.index for t in schedule_teams)):
         print(f'Teams in schedule: {schedule_teams} ')
         print(f'Teams in division map: {sorted(divisions.index)}')
-    assert(game_log_teams == schedule_teams)
-    assert(all(t in divisions.index for t in game_log_teams))
-    return len(game_log_teams)
+    assert(all(t in divisions.index for t in schedule_teams))
+    return len(schedule_teams)
 
 def display_name(divisions, team_id):
     team_entry = divisions.loc[team_id]
@@ -429,7 +424,11 @@ def show_dumb_elimination_output3(df, schedule, divisions, wildcard_count=2, win
 
 
 
-# In[47]:
+class SeasonParameters(object):
+    def __init__(self, nicknames, team_ids, year):
+        self.wildcard_count = wildcards_for_year(year)
+        self.winners_per_division = get_winners_per_division(year)
+        self.divisions = divisions_for_year(nicknames, team_ids, year)
 
 
 def wildcards_for_year(year):
@@ -585,3 +584,132 @@ class NpEncoder(json.JSONEncoder):
 #    with open(f'output/{year}.json', 'w') as fp:
 #      json.dump(output, fp, cls=NpEncoder)
 
+ELO_TO_RETRO = {'CHC': 'CHN',
+ 'CHW': 'CHA',
+ 'FLA': 'MIA',
+ 'KCR': 'KCA',
+ 'LAD': 'LAN',
+ 'NYM': 'NYN',
+ 'NYY': 'NYA',
+ 'SDP': 'SDN',
+ 'SFG': 'SFN',
+ 'STL': 'SLN',
+ 'TBD': 'TBA',
+ 'WSN': 'WAS'}
+
+def elo_to_played_and_unplayed(elo_immutable):
+    elo = elo_immutable.replace({"team1": ELO_TO_RETRO, "team2": ELO_TO_RETRO})
+    elo = elo.rename(columns={'team1': 'home', 'team2': 'visitor', 'date': 'completion_date', 'score1': 'home_score', 'score2': 'visitor_score'})
+    elo['completion_date'] = pd.to_datetime(elo['completion_date'])
+    unplayed = elo[elo['home_score'].isnull()][['visitor', 'home', 'completion_date']]
+    # What if we didn't care about the runs? What if we just calculated winner and loser now?
+    played = elo.copy().dropna(subset='home_score')
+    played['home_won'] = False
+    played.loc[played['home_score'] > played['visitor_score'], 'home_won'] = True
+    played = played[['visitor', 'home', 'completion_date', 'home_won']]
+    return played, unplayed
+
+def show_dumb_elimination_output4(played, unplayed, season_params):
+    team_count = count_teams(played, unplayed, season_params.divisions)
+    games_per_season = get_season_length(played, unplayed, season_params.divisions)
+    print(f'This season has {team_count} teams.')
+    print(f'The top {season_params.winners_per_division} teams from each division go to the postseason.')
+    for index, value in games_per_season.iteritems():
+        print(f'The {index} has {value} games per team.')
+    # We don't have home_game_num in the ELO game log. We need to filter that
+    # out of the Retrosheet game log somewhere else. Or else add it to the ELO
+    # game log, but I hope that isn't necessary.
+    max_date = played['completion_date'].max()
+    print(f'max_date is {max_date}')
+    min_date = played['completion_date'].min()
+    
+    current_date = max_date
+    div_contenders = set()
+    tomorrows_div_contenders = None
+    wildcard_contenders = set()
+    tomorrows_wildcard_contenders = None
+    tomorrows_contenders_any = None
+    tomorrows_standings = None
+    eliminations = {}
+    while (
+        current_date > min_date and        
+        ((len(div_contenders) < team_count) or
+         wildcard_count and len(wildcard_contenders) < team_count)):
+        date_str = datetime_to_retro(current_date)
+        # print(f'Starting analysis of {date_str}')
+        current_standings = compute_standings(df.loc[df['completion_date'] <= date_str])
+        # print(current_standings)
+        # MOVE THIS SHIT INTO SOMETHING EFFICIENT
+        current_standings['div'] = divisions['div']
+        current_standings['lg'] = divisions['lg']
+        # I have no idea what I am doing.
+        def why_is_this_necessary(league):
+            return games_per_season[league]
+        current_standings['season_length'] = current_standings['lg'].apply(why_is_this_necessary)
+        current_standings['max_wins'] = current_standings['season_length'] - current_standings['L']
+        # print(current_standings)
+    
+        div_contenders = division_contenders(current_standings, divisions, games_per_season, division_winners=winners_per_division)
+        # print(f'naive division contenders: {div_contenders}')
+        for supposed_contender in div_contenders.copy():
+            # If you're in contention tomorrow, you're in contention today, so I am not going to
+            # waste CPU time on you.
+            if tomorrows_div_contenders and supposed_contender not in tomorrows_div_contenders:
+                if not is_division_contender_with_rivalries(df, schedule, divisions, winners_per_division=winners_per_division, date_str=date_str, team=supposed_contender):
+                    print(f'It looked like the {display_name(divisions, supposed_contender)} were in contention after {date_str} but the remaining intra-division games ruled them out.')
+                    div_contenders.remove(supposed_contender)
+        new_contenders = set()
+        if tomorrows_div_contenders:
+            new_contenders = div_contenders.difference(tomorrows_div_contenders)
+        # if new_contenders:
+            # print(f'Teams eliminated from their division titles on {datetime_to_retro(tomorrow)}: {new_contenders}')
+        for eliminated_team in new_contenders:
+            games_to_go_at_elimination = tomorrows_standings.loc[eliminated_team]['season_length'] - tomorrows_standings.loc[eliminated_team]['W'] - tomorrows_standings.loc[eliminated_team]['L']
+            elim_div = divisions.loc[eliminated_team]['div'] 
+            print(f'The {display_name(divisions, eliminated_team)} were eliminated from the {elim_div} title on {datetime_to_retro(tomorrow)} with {games_to_go_at_elimination} games left to play.')
+            new_pair = (datetime_to_retro(tomorrow), games_to_go_at_elimination)
+            elim_franchise = divisions.loc[eliminated_team]['franchise_id'] 
+            if eliminations.get(elim_franchise):
+                eliminations[elim_franchise]['division'] = new_pair
+            else:
+                eliminations[elim_franchise] = {'division': new_pair}
+        # print(f'PHI max wins: {current_standings.loc["PHI"]["max_wins"]}, SLN wins: {current_standings.loc["SLN"]["W"]}')
+        # print(f'My busted view of the wildcard standings: {wildcard_standings(current_standings, divisions, wildcard_count, division_winners=winners_per_division, games_per_season=games_per_season)}')
+        wildcard_contenders = wildcard_contenders_naive(current_standings, divisions, wildcard_count, winners_per_division, games_per_season)
+        # print(f'naive wildcard contenders after {date_str} games: {wildcard_contenders}')
+        for supposed_contender in wildcard_contenders.copy():
+            # If you're in contention tomorrow, you're in contention today, so I am not going to
+            # waste CPU time on you.
+            if tomorrows_wildcard_contenders and supposed_contender not in tomorrows_wildcard_contenders:
+                # print(f'let\'s see if {supposed_contender} is really still in wildcard contention')
+                if not is_wildcard_contender_with_rivalries(df, schedule, divisions, date_str, supposed_contender, wildcard_count, winners_per_division):
+                    print(f'It looked like the {display_name(divisions, supposed_contender)} were in wildcard contention after {date_str} but the remaining intra-contender games ruled them out.')
+                    wildcard_contenders.remove(supposed_contender)
+        new_contenders = set()
+        if tomorrows_wildcard_contenders:
+            new_contenders = wildcard_contenders.difference(tomorrows_wildcard_contenders)
+        for eliminated_team in new_contenders:
+            games_to_go_at_elimination = tomorrows_standings.loc[eliminated_team]['season_length'] - tomorrows_standings.loc[eliminated_team]['W'] - tomorrows_standings.loc[eliminated_team]['L']
+            elim_lg = divisions.loc[eliminated_team]['lg'] 
+
+            print(f'The {display_name(divisions, eliminated_team)} were eliminated from {elim_lg} wildcard contention on {datetime_to_retro(tomorrow)} with {games_to_go_at_elimination} games left to play.')
+            new_pair = (datetime_to_retro(tomorrow), games_to_go_at_elimination)
+            elim_franchise = divisions.loc[eliminated_team]['franchise_id'] 
+            if eliminations.get(elim_franchise):
+                eliminations[elim_franchise]['wildcard'] = new_pair
+            else:
+                eliminations[elim_franchise] = {'wildcard': new_pair}
+
+
+        contenders_any = div_contenders.union(wildcard_contenders)
+        if tomorrows_contenders_any:
+            new_contenders = contenders_any.difference(tomorrows_contenders_any)
+        # if new_contenders:
+        #     print(f'Teams eliminated from ALL postseason contention on {datetime_to_retro(tomorrow)}: {new_contenders}')
+        tomorrow = current_date
+        tomorrows_div_contenders = div_contenders.copy()
+        tomorrows_wildcard_contenders = wildcard_contenders.copy()
+        tomorrows_contenders_any = contenders_any.copy()
+        tomorrows_standings = current_standings.copy()
+        current_date = current_date - timedelta(days=1)
+    return eliminations
