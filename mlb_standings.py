@@ -14,14 +14,14 @@ class SeasonParameters(object):
 
 def load_game_log(game_log_path):
     retro_df_columns=['date', 'doubleheader_index','weekday', 'visitor', 'visitor_league', 'visitor_game_num', 'home', 'home_league', 'home_game_num', 'visitor_score', 'home_score', 'length_outs', 'day_night', 'completion', 'forfeit']
-    df = pd.read_csv(game_log_path, header=None, names=retro_df_columns, usecols=range(len(retro_df_columns)))
-    df['date'] = df['date'].astype(str)
-    df = df.fillna(value={'completion': 'I hate Pandas'})
-    df['completion'] = df['completion'].astype(str)
-    df['completion_date'] = df['date']
-    df.loc[(df['completion'] != "I hate Pandas"), 'completion_date'] = df['completion'].str.split(',').str[0]
-    df['completion_date'] = df['completion_date'].astype(str)
-    return df
+    return pd.read_csv(game_log_path, header=None, names=retro_df_columns, usecols=range(len(retro_df_columns)))
+#    df['date'] = df['date'].astype(str)
+#    df = df.fillna(value={'completion': 'I hate Pandas'})
+#    df['completion'] = df['completion'].astype(str)
+#    df['completion_date'] = df['date']
+#    df.loc[(df['completion'] != "I hate Pandas"), 'completion_date'] = df['completion'].str.split(',').str[0]
+#    df['completion_date'] = df['completion_date'].astype(str)
+#    return df
 
 def fix_1880(schedule):
     # Baseball Reference calls them the Reds so I am going to coerce this code
@@ -123,10 +123,10 @@ def datetime_to_retro(dt):
 
 def load_schedule(filename):
     schedule_columns=['date', 'doubleheader_index','weekday', 'visitor', 'visitor_league', 'visitor_game_num', 'home', 'home_league', 'home_game_num', 'day_night', 'completion', 'makeup_date']
-    df = pd.read_csv(filename, header=None, names=schedule_columns, usecols=range(len(schedule_columns)))
-    df['completion'] = df['completion'].astype(str)
-    df['makeup_date'] = df['makeup_date'].astype(str)
-    return df.dropna(subset=['home'])
+    return pd.read_csv(filename, header=None, names=schedule_columns, usecols=range(len(schedule_columns)))
+#    df['completion'] = df['completion'].astype(str)
+#    df['makeup_date'] = df['makeup_date'].astype(str)
+#    return df.dropna(subset=['home'])
 
 schedule_path = './data/2021SKED.TXT'
 SCHEDULE = load_schedule(schedule_path)
@@ -139,7 +139,7 @@ def logged_games_after_date(df, date):
 
 def all_matchups_after_date(played, unplayed, date):
     logged_games = logged_games_after_date(played, date)[['completion_date', 'visitor','home']]
-    unplayed_games = logged_games_after_date(unplayed, date)[['completion_date', 'visitor','home']]
+    unplayed_games = unplayed
     all_games = pd.concat([logged_games, unplayed_games], ignore_index=True)
     alpha_pairs = pd.DataFrame(np.where(all_games['visitor'] < all_games['home'],
                                      (all_games['visitor'], all_games['home']),
@@ -148,6 +148,30 @@ def all_matchups_after_date(played, unplayed, date):
 
 
 def divisional_threats(standings_immutable, season_params: SeasonParameters, season_length, team: str):
+    # We only care about teams with more max_wins than us.
+    df = standings_immutable.copy()
+    my_division = season_params.divisions.loc[team]['div']
+    my_league = season_params.divisions.loc[team]['lg']
+    df = df.merge(season_params.divisions, left_index=True, right_index=True).loc[season_params.divisions['div'] == my_division]
+    max_wins = season_length[my_league] - df['L']
+    df['max_wins'] = max_wins # please kill me
+    df = df.loc[(df.index != team) & (max_wins[df.index] >= max_wins[team])]
+    # print(f'After that df.loc business: {df}')
+    # So now we have all the teams with more max wins than us.
+    # We don't care about the top n-1 where winners_per_division is n.
+    # I don't think it's sorted yet.
+    df = df.sort_values(by=['max_wins'], ascending=False).iloc[(season_params.winners_per_division-1):]
+    return max_wins[team] - df['W'] - 1
+
+def get_division_contenders2(played, unplayed, season_params: SeasonParameters, date):
+    standings = compute_standings(played)
+    gms_played = game_log.copy()
+    # We'll have to handle ties and forfeits elsewhere for Retrosheet.
+    winners = pd.Series(np.where(gms_played['home_won'], gms_played['home'], gms_played['visitor']))
+    losers = pd.Series(np.where(gms_played['home_won'], gms_played['visitor'], gms_played['home']))
+    standings = pd.concat([winners.value_counts().rename('W'), losers.value_counts().rename('L')], axis=1)
+    return standings.fillna(0)
+
     # We only care about teams with more max_wins than us.
     df = standings_immutable.copy()
     my_division = season_params.divisions.loc[team]['div']
@@ -180,6 +204,7 @@ def get_season_length(played, unplayed, divisions):
     if grouped.nunique().eq(1).all():
         return grouped.min()
     else:
+        print(f'value counts: {pd.concat([home, visitors]).value_counts()}')
         assert(grouped.min() == grouped.max())
 
 # sort the output of division_threats
@@ -239,10 +264,11 @@ def all_subset_sums(matchups, threats):
         allowable_win_count = threats.loc[threats.index.isin(subset)].sum()
         offset = allowable_win_count - subset_matchup_count
         if subset_matchup_count <= allowable_win_count:
-            print(f'We can allow {subset} to win {allowable_win_count} and they only have {subset_matchup_count} games left so that seems okay, but the elimination number is around {offset + 1}')
+            if offset < 30:
+                print(f'We can allow {subset} to win {allowable_win_count} and they only have {subset_matchup_count} games left so that seems okay, but the elimination number is around {offset + 1}')
             pass
         else:
-            # print(f'We can only allow {subset} to win {allowable_win_count} but they have {subset_matchup_count} games left.')
+            print(f'We can only allow {subset} to win {allowable_win_count} but they have {subset_matchup_count} games left.')
             return False
     return True
 
@@ -323,6 +349,30 @@ def count_teams(played, unplayed, divisions):
         print(f'Teams in division map: {sorted(divisions.index)}')
     assert(all(t in divisions.index for t in schedule_teams))
     return len(schedule_teams)
+
+def retrosheet_to_played_unplayed(game_log, schedule):
+    unplayed = schedule.copy()
+    unplayed['completion'] = unplayed['completion'].astype(str)
+    unplayed['makeup_date'] = unplayed['makeup_date'].astype(str)
+    unplayed = unplayed.loc[(unplayed["makeup_date"].str.startswith("not", na=False)) | (unplayed["completion"].str.contains("No makeup", na=False))]
+    unplayed = unplayed[['home', 'visitor']]
+    unplayed['completion_date'] = np.nan # I'm going to regret this.
+    # Do we still need to dropna(subset=['home']) on unplayed?
+    played = game_log.copy()
+    played['home_won'] = False
+    played.loc[played['home_score'] > played['visitor_score'], 'home_won'] = True
+    played['date'] = pd.to_datetime(played['date'], format='%Y%m%d')
+    # If completion is nan, I have to fill it with a value
+    played = played.fillna(value={'completion': '17760704,I hate Pandas'})
+    # Now I can ensure that the completion column is all strings.
+    played['completion'] = played['completion'].astype(str)
+    played['completion_date'] = played['date']
+    # If there is anything in completion, extract the date and put that in completion_date
+    # return played.loc[(played['completion'] != "17760704,I hate Pandas")][['completion']]
+    played.loc[(played['completion'] != "17760704,I hate Pandas"), 'completion_date'] = pd.to_datetime(played['completion'].str.split(',').str[0], format='%Y%m%d')#needs to be datetime!
+    played = played[['completion_date', 'home', 'visitor', 'home_won']]
+    return played, unplayed
+
 
 def display_name(divisions, team_id):
     team_entry = divisions.loc[team_id]
@@ -455,7 +505,7 @@ def get_winners_per_division(year):
         return 2
     return 1
 
-def run_one_year(year):
+def run_one_year_retro(year):
     print(f'starting analysis of {year}')
     nicknames = load_nicknames('data/CurrentNames.csv')
     team_ids = load_team_ids('data/TEAMABR.TXT')
@@ -474,8 +524,9 @@ def run_one_year(year):
         game_log, schedule = fix_1890(game_log, schedule)
     if year == 1891:
         game_log, schedule = fix_1891(game_log, schedule)
-    return show_dumb_elimination_output3(game_log, schedule, divisions_for_year(nicknames, team_ids, year), wildcard_count=wildcards_for_year(year), winners_per_division=get_winners_per_division(year))
-
+    played, unplayed = retrosheet_to_played_unplayed(game_log, schedule)
+    season_params = SeasonParameters(nicknames, team_ids, year)
+    return show_dumb_elimination_output4(played, unplayed, season_params)
 
 
 # In[50]:
@@ -720,6 +771,8 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
     return eliminations
 
 if __name__ == "__main__":
+    run_one_year_retro(1999)
+    pass
     ELO = pd.read_csv('./data/mlb_elo_latest.csv')
     PLAYED, UNPLAYED = elo_to_played_and_unplayed(ELO)
     NICKNAMES = load_nicknames('data/CurrentNames.csv')
