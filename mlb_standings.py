@@ -13,7 +13,7 @@ class SeasonParameters(object):
         if schedule is not None:
             self.season_lengths = get_season_lengths(schedule)
         else:
-            self.season_lengths = pd.DataFrame(data=[162, 162], index=['NL', 'AL'])
+            self.season_lengths = pd.Series(data=[162, 162], index=['NL', 'AL'])
             # [['NL', 162], ['AL', 162]], columns=['lg', 'length'])
 
 def load_game_log(game_log_path):
@@ -774,13 +774,13 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
         current_date = current_date - timedelta(days=1)
     return eliminations
 
-if __name__ == "__main__":
-    run_one_year_retro(1999)
-
-def fuck_this():
+def run_elo():
     ELO = pd.read_csv('./data/mlb_elo_latest.csv')
     PLAYED, UNPLAYED = elo_to_played_and_unplayed(ELO)
     NICKNAMES = load_nicknames('data/CurrentNames.csv')
     TEAM_IDS = load_team_ids('data/TEAMABR.TXT')
     SP2022 = SeasonParameters(NICKNAMES, TEAM_IDS, 2022)
     show_dumb_elimination_output4(PLAYED, UNPLAYED, SP2022)
+
+if __name__ == "__main__":
+    run_one_year_retro(2000)
