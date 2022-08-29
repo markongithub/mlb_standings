@@ -365,9 +365,12 @@ def retrosheet_to_played_unplayed(game_log, schedule, season_params: SeasonParam
     played = played.drop(played[played['home_game_num'] > season_params.season_lengths.max()].index)
 
     played['home_won'] = False
-    played.loc[played['home_score'] > played['visitor_score'], 'home_won'] = True
+    played.loc[(played['home_score'] > played['visitor_score']) | (played['forfeit'] == 'H'), 'home_won'] = True
     played['date'] = pd.to_datetime(played['date'], format='%Y%m%d')
-    # If completion is nan, I have to fill it with a value
+    # delete ties but keep forfeits for now
+    played = played[(played['visitor_score'] != played['home_score']) | (played['forfeit'].notna())]
+    # delete forfeits scored as ties
+    played = played[played['forfeit'] != "T"]
     played = played.fillna(value={'completion': '17760704,I hate Pandas'})
     # Now I can ensure that the completion column is all strings.
     played['completion'] = played['completion'].astype(str)
@@ -542,15 +545,15 @@ def run_one_year_retro(year):
     
 def assign_wins_with_brute_force(sorted_rivals, threats_immutable, divisions, recursion_level=0):
     def myprint(mytext):
-        if recursion_level <= 15:
+        if recursion_level <= 3:
             print (' ' * 2 * recursion_level, mytext)
     threats = threats_immutable.copy()
     if sorted_rivals.empty:
         return {}
-    if all_subset_sums(sorted_rivals.rename(columns={'betterT': 'alpha1', 'worseT': 'alpha2'}), threats):
-        pass
-    else:
-        return None
+#    if all_subset_sums(sorted_rivals.rename(columns={'betterT': 'alpha1', 'worseT': 'alpha2'}), threats):
+#        pass
+#    else:
+#        return None
 
     row = sorted_rivals.iloc[0]
     remaining_rows = sorted_rivals.iloc[1: , :]
@@ -783,4 +786,5 @@ def run_elo():
     show_dumb_elimination_output4(PLAYED, UNPLAYED, SP2022)
 
 if __name__ == "__main__":
-    run_one_year_retro(2000)
+    run_one_year_retro(1909)
+    # run_elo()
