@@ -15,6 +15,12 @@ class SeasonParameters(object):
         else:
             self.season_lengths = pd.Series(data=[162, 162], index=['NL', 'AL'])
             # [['NL', 162], ['AL', 162]], columns=['lg', 'length'])
+        self.tiebreakers_required = year >= 2022
+
+    def season_length(team):
+        league = self.divisions.loc[team]['lg']
+        return self.season_lengths[league]
+
 
 def load_game_log(game_log_path):
     retro_df_columns=['date', 'doubleheader_index','weekday', 'visitor', 'visitor_league', 'visitor_game_num', 'home', 'home_league', 'home_game_num', 'visitor_score', 'home_score', 'length_outs', 'day_night', 'completion', 'forfeit']
@@ -166,8 +172,11 @@ def divisional_threats(standings_immutable, season_params: SeasonParameters, tea
     # We don't care about the top n-1 where winners_per_division is n.
     # I don't think it's sorted yet.
     df = df.sort_values(by=['max_wins'], ascending=False).iloc[(season_params.winners_per_division-1):]
-    # This does not handle 2022 ties.
-    return max_wins[team] - df['W']
+    # Actually using the head to head records is coming, I swear.
+    if season_params.tiebreakers_required:
+        return max_wins[team] - df['W'] - 1
+    else:
+        return max_wins[team] - df['W']
 
 def get_division_contenders2(played, unplayed, season_params: SeasonParameters, date):
     standings = compute_standings(played)
