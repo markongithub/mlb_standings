@@ -93,6 +93,16 @@ def load_team_ids(team_ids_file):
     df = pd.read_csv(team_ids_file, header=None, names=retro_team_id_columns, usecols=range(len(retro_team_id_columns)))
     return df
 
+def nicknames_to_team_ids(divisions):
+    output = {}
+    for index, row in divisions.iterrows():
+        if row["nickname"] == 'Indians':
+            full_nickname = f'{row["location"]} Guardians'
+        else:
+            full_nickname = f'{row["location"]} {row["nickname"]}'
+        output[full_nickname] = index
+    return output
+
 def divisions_for_year(nicknames_from_retrosheet, team_ids_from_retrosheet, year):
     if year <= 1915:
         return divisions_from_team_ids(team_ids_from_retrosheet, year)
@@ -682,6 +692,39 @@ def elo_to_played_and_unplayed(elo_immutable):
     played = played[['visitor', 'home', 'completion_date', 'home_won']]
     return played, unplayed
 
+def statsapi_schedule_to_played_unplayed(schedule_json_path, divisions):
+    nickname_dict = nicknames_to_team_ids(divisions)
+
+    played_tuples = []
+    unplayed_tuples = []
+
+    full_schedule = json.load(open(schedule_json_path))
+    for date in full_schedule['dates']:
+        for game in date['games']:
+            if game['gameType'] != 'R':
+                continue
+            date_str = game['officialDate']
+            date_pd = pd.to_datetime(date_str)
+            home = nickname_dict[game['teams']['home']['team']['name']]
+            visitor = nickname_dict[game['teams']['away']['team']['name']]
+            if game.get('resumedFromDate'):
+                print(f'Skipping the {date_str} {visitor}@{home} game because it has resumedFromDate.')
+            if game['status']['codedGameState'] == 'F':
+                if game['teams']['home']['isWinner']:
+                    home_won = True
+                elif game['teams']['away']['isWinner']:
+                    home_won = False
+                else:
+                    raise(f'No winner, that\s messed up.')
+                new_tuple = (date_pd, home, visitor, home_won)
+                played_tuples.append(new_tuple)
+            else:
+                unplayed_tuples.append((date_pd, home, visitor))
+    played = pd.DataFrame.from_records(np.array(played_tuples, dtype=[('completion_date', 'datetime64[us]'), ('home', 'O'), ('visitor', 'O'), ('home_won', 'bool')]))
+    unplayed = pd.DataFrame.from_records(np.array(unplayed_tuples, dtype=[('completion_date', 'datetime64[us]'), ('home', 'O'), ('visitor', 'O')]))
+
+    return played, unplayed
+
 def show_dumb_elimination_output4(played, unplayed, season_params):
     team_count = count_teams(played, unplayed, season_params.divisions)
     print(f'This season has {team_count} teams.')
@@ -710,7 +753,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
         date_str = datetime_to_retro(current_date)
         print(f'Starting analysis of {date_str}')
         current_standings = compute_standings(played.loc[played['completion_date'] <= date_str])
-        # print(current_standings)
+        print(current_standings)
         # MOVE THIS SHIT INTO SOMETHING EFFICIENT
         current_standings['div'] = season_params.divisions['div']
         current_standings['lg'] = season_params.divisions['lg']
@@ -722,7 +765,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
         # print(current_standings)
     
         div_contenders = division_contenders(current_standings, season_params.season_lengths, division_winners=season_params.winners_per_division)
-        print(f'naive division contenders: {div_contenders}')
+        print(f'naive division contenders: {sorted(div_contenders)}')
         for supposed_contender in div_contenders.copy():
             # If you're in contention tomorrow, you're in contention today, so I am not going to
             # waste CPU time on you.
@@ -748,7 +791,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
         # print(f'PHI max wins: {current_standings.loc["PHI"]["max_wins"]}, SLN wins: {current_standings.loc["SLN"]["W"]}')
         # print(f'My busted view of the wildcard standings: {wildcard_standings(current_standings, divisions, wildcard_count, division_winners=winners_per_division, games_per_season=games_per_season)}')
         wildcard_contenders = wildcard_contenders_naive(current_standings, season_params)
-        print(f'naive wildcard contenders after {date_str} games: {wildcard_contenders}')
+        print(f'naive wildcard contenders after {date_str} games: {sorted(wildcard_contenders)}')
         for supposed_contender in wildcard_contenders.copy():
             # If you're in contention tomorrow, you're in contention today, so I am not going to
             # waste CPU time on you.
@@ -794,6 +837,14 @@ def run_elo():
     SP2022 = SeasonParameters(NICKNAMES, TEAM_IDS, 2022)
     show_dumb_elimination_output4(PLAYED, UNPLAYED, SP2022)
 
+def run_statsapi():
+    NICKNAMES = load_nicknames('data/CurrentNames.csv')
+    TEAM_IDS = load_team_ids('data/TEAMABR.TXT')
+    SP2022 = SeasonParameters(NICKNAMES, TEAM_IDS, 2022)
+    PLAYED, UNPLAYED = statsapi_schedule_to_played_unplayed('./data/schedule_2022_1.json', SP2022.divisions)
+    show_dumb_elimination_output4(PLAYED, UNPLAYED, SP2022)
+
 if __name__ == "__main__":
-    run_one_year_retro(1909)
-    # run_elo()
+    #run_one_year_retro(1964)
+    #run_elo()
+    run_statsapi()
