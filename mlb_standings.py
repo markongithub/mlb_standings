@@ -6,12 +6,20 @@ import numpy as np
 from datetime import datetime, timedelta
 
 class SeasonParameters(object):
-    def __init__(self, nicknames, team_ids, year, schedule=None):
+    def __init__(self, year, nicknames=None, team_ids=None, retrosheet_schedule=None, statsapi_played=None, statsapi_unplayed=None, statsapi_teams=None):
+        if not ((statsapi_teams is not None and statsapi_played is not None and statsapi_unplayed is not None) or (nicknames is not None and team_ids is not None)):
+            raise("I feel like you passed in the wrong input.")
+
         self.wildcard_count = wildcards_for_year(year)
         self.winners_per_division = get_winners_per_division(year)
-        self.divisions = divisions_for_year(nicknames, team_ids, year)
-        if schedule is not None:
-            self.season_lengths = get_season_lengths(schedule)
+        if statsapi_teams:
+            self.divisions = divisions_from_statsapi_teams(statsapi_teams)
+        else:
+            self.divisions = divisions_for_year(nicknames, team_ids, year)
+        if retrosheet_schedule is not None:
+            self.season_lengths = get_season_lengths(retrosheet_schedule)
+        elif statsapi_played is not None and statsapi_unplayed is not None:
+            self.season_lengths = get_season_lengths_statsapi(statsapi_played, statsapi_unplayed, self.divisions)
         else:
             self.season_lengths = pd.Series(data=[162, 162], index=['NL', 'AL'])
             # [['NL', 162], ['AL', 162]], columns=['lg', 'length'])
@@ -122,6 +130,10 @@ def divisions_from_team_ids(team_ids_from_retrosheet, year):
     df['franchise_id'] = df['team_id']
     return df.set_index('team_id')[['league', 'div', 'franchise_id', 'location', 'nickname']].rename(columns={'league': 'lg'})
 
+def divisions_from_statsapi_teams(statsapi_teams):
+    tuples = [(team['name'], team['league']['name'], team['division']['name'], team['locationName'], team['teamName'], 'whatevz') for team in statsapi_teams['teams'] if team.get('division')]
+    return pd.DataFrame.from_records(np.array(tuples, dtype=[('name', 'O'), ('lg', 'O'), ('div', 'O'), ('location', 'O'), ('nickname', 'O'), ('franchise_id', 'O')])).set_index('name')
+
 def division_contenders(standings_immutable, season_length, division_winners=1):
     df = standings_immutable.copy()
 #    print(f'division_contenders was called with columns {df.columns}')
@@ -228,7 +240,15 @@ def get_season_lengths(schedule):
     if grouped.nunique().eq(1).all():
         return grouped.min()
     else:
+        print(pd.concat([home, visitors]).value_counts())
         assert(grouped.min() == grouped.max())
+
+def get_season_lengths_statsapi(played, unplayed, divisions):
+    schedule = pd.concat([played, unplayed], ignore_index=True)
+    schedule = schedule.merge(divisions, left_on='home', right_index=True).rename(columns={'lg': 'home_league'})
+    schedule = schedule[['home', 'visitor', 'home_league']]
+    schedule = schedule.merge(divisions, left_on='visitor', right_index=True).rename(columns={'lg': 'visitor_league'})[['home', 'visitor', 'home_league', 'visitor_league']]
+    return get_season_lengths(schedule)
 
 # sort the output of division_threats
 def sort_rivals(matchups, threats):
@@ -692,23 +712,25 @@ def elo_to_played_and_unplayed(elo_immutable):
     played = played[['visitor', 'home', 'completion_date', 'home_won']]
     return played, unplayed
 
-def statsapi_schedule_to_played_unplayed(schedule_json_path, divisions):
-    nickname_dict = nicknames_to_team_ids(divisions)
-
+def statsapi_schedule_to_played_unplayed(schedule_json_path):
     played_tuples = []
     unplayed_tuples = []
 
     full_schedule = json.load(open(schedule_json_path))
+    DEBUG_TEAM = 'Buffalo Bisons'
+    DEBUG_GAMES = 0
     for date in full_schedule['dates']:
         for game in date['games']:
             if game['gameType'] != 'R':
                 continue
             date_str = game['officialDate']
             date_pd = pd.to_datetime(date_str)
-            home = nickname_dict[game['teams']['home']['team']['name']]
-            visitor = nickname_dict[game['teams']['away']['team']['name']]
-            if game.get('resumedFromDate'):
-                print(f'Skipping the {date_str} {visitor}@{home} game because it has resumedFromDate.')
+            home = game['teams']['home']['team']['name']
+            visitor = game['teams']['away']['team']['name']
+            print(f'Trying to figure out what to do with {date_str} {visitor}@{home} {game["status"]}')
+            if game.get('resumeDate'):
+                print(f'Skipping the {date_str} {visitor}@{home} game because it has resumeDate.')
+                continue
             if game['status']['codedGameState'] == 'F':
                 if game['teams']['home']['isWinner']:
                     home_won = True
@@ -718,8 +740,17 @@ def statsapi_schedule_to_played_unplayed(schedule_json_path, divisions):
                     raise(f'No winner, that\s messed up.')
                 new_tuple = (date_pd, home, visitor, home_won)
                 played_tuples.append(new_tuple)
-            else:
+                if DEBUG_TEAM in [home, visitor]:
+                    DEBUG_GAMES += 1
+                    print(f'The {DEBUG_TEAM} have now played {DEBUG_GAMES} games.')
+
+            elif game['status']['codedGameState'] in ['S', 'I', 'P', 'C', 'U']:
                 unplayed_tuples.append((date_pd, home, visitor))
+                if DEBUG_TEAM in [home, visitor]:
+                    DEBUG_GAMES += 1
+                    print(f'The {DEBUG_TEAM} have now played {DEBUG_GAMES} games.')
+            else:
+                print(f'I don\'t know what to do with codedGameState {game["status"]["codedGameState"]} for the {date_str} {visitor}@{home} game.')
     played = pd.DataFrame.from_records(np.array(played_tuples, dtype=[('completion_date', 'datetime64[us]'), ('home', 'O'), ('visitor', 'O'), ('home_won', 'bool')]))
     unplayed = pd.DataFrame.from_records(np.array(unplayed_tuples, dtype=[('completion_date', 'datetime64[us]'), ('home', 'O'), ('visitor', 'O')]))
 
@@ -838,10 +869,11 @@ def run_elo():
     show_dumb_elimination_output4(PLAYED, UNPLAYED, SP2022)
 
 def run_statsapi():
-    NICKNAMES = load_nicknames('data/CurrentNames.csv')
-    TEAM_IDS = load_team_ids('data/TEAMABR.TXT')
-    SP2022 = SeasonParameters(NICKNAMES, TEAM_IDS, 2022)
-    PLAYED, UNPLAYED = statsapi_schedule_to_played_unplayed('./data/schedule_2022_1.json', SP2022.divisions)
+    teams_dict = json.load(open('./data/teams.json'))
+    PLAYED, UNPLAYED = statsapi_schedule_to_played_unplayed('./data/schedule_2022_11.json')
+    print(PLAYED.loc[(PLAYED['home'] == 'Cleveland Guardians') | (PLAYED['visitor'] == 'Cleveland Guardians')])
+    print(UNPLAYED.loc[(UNPLAYED['home'] == 'Cleveland Guardians') | (UNPLAYED['visitor'] == 'Cleveland Guardians')])
+    SP2022 = SeasonParameters(2022, statsapi_played=PLAYED, statsapi_unplayed=UNPLAYED, statsapi_teams=teams_dict)
     show_dumb_elimination_output4(PLAYED, UNPLAYED, SP2022)
 
 if __name__ == "__main__":
