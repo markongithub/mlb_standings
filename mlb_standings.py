@@ -899,7 +899,7 @@ def get_winners_per_division(year):
 
 
 def run_one_year_retro(year):
-    print(f"starting analysis of {year}")
+    # print(f"starting analysis of {year}")
     nicknames = load_nicknames("data/CurrentNames.csv")
     team_ids = load_team_ids("data/TEAMABR.TXT")
     game_log = load_game_log(f"./data/GL{year}.TXT")
