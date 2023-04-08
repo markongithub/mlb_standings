@@ -512,7 +512,7 @@ def powerset(s):
         yield [ss for mask, ss in zip(masks, s) if i & mask]
 
 
-def all_subset_sums(matchups, threats):
+def all_subset_sums(matchups, threats, team_str="This team"):
     all_rivals = threats.index
     for subset in powerset(all_rivals):
         if len(subset) < 2:
@@ -533,7 +533,7 @@ def all_subset_sums(matchups, threats):
             pass
         else:
             print(
-                f"We can only allow {subset} to win {allowable_win_count} but they have {subset_matchup_count} games left."
+                f"{team_str} can only allow {subset} to win {allowable_win_count} total games but they have {subset_matchup_count} games left against each other."
             )
             return False
     return True
@@ -552,7 +552,7 @@ def is_division_contender_with_rivalries(
     )
     # print(f'threats: {threats}')
     sorted_rivals = sort_rivals(matchups, threats)
-    return all_subset_sums(sorted_rivals, threats)
+    return all_subset_sums(sorted_rivals, threats, team)
 
 
 def wildcard_standings(standings_immutable, season_params):
@@ -577,21 +577,27 @@ def wildcard_standings(standings_immutable, season_params):
         df.groupby("div").head(season_params.winners_per_division).index,
         "division_leader",
     ] = True
+    # print(f"df after loc.groupby business: {df}")
     wildcard_wins_by_league = (
         df.loc[df["division_leader"] == False]
         .sort_values(by=["W"], ascending=False)
         .groupby("lg")
         .nth(season_params.wildcard_count - 1)["W"]
     )
+    # print(f"wildcard_wins_by_league: {wildcard_wins_by_league}")
     merge1 = df.merge(wildcard_wins_by_league, left_on=["lg"], right_index=True)
+    # print(f"merge1: {merge1}")
     # print(f'merge1 OAK: {merge1.loc["OAK"]}')
-    #    return merge1.loc[merge1['max_wins'] >= merge1['W_y']][['W_x', 'L', 'div', 'lg', 'max_wins', 'division_leader']].rename(columns={'W_x': 'W'})
-    return merge1[["W_x", "L", "div", "lg", "max_wins", "division_leader"]].rename(
-        columns={"W_x": "W"}
-    )
+    return merge1.loc[merge1["max_wins"] >= merge1["W_y"]][
+        ["W_x", "L", "div", "lg", "max_wins", "division_leader"]
+    ].rename(columns={"W_x": "W"})
+    # return merge1[["W_x", "L", "div", "lg", "max_wins", "division_leader"]].rename(
+    #    columns={"W_x": "W"}
+    # )
 
 
 def wildcard_contenders_naive(standings_immutable, season_params):
+    # standings = wildcard_standings(standings_immutable, season_params)
     return set(wildcard_standings(standings_immutable, season_params).index)
 
 
@@ -641,7 +647,7 @@ def is_wild_card_contender_with_rivalries(played, unplayed, season_params, date,
     # print(f'About to call wildcard_threats where standings has these columns: {standings.columns}')
     threats = wildcard_threats(standings, season_params, team)
     sorted_rivals = sort_rivals(matchups, threats)
-    return all_subset_sums(sorted_rivals, threats)
+    return all_subset_sums(sorted_rivals, threats, team)
 
 
 def count_teams(played, unplayed, divisions):
@@ -911,7 +917,7 @@ def run_one_year_retro(year):
         game_log, schedule = fix_1890(game_log, schedule)
     if year == 1891:
         game_log, schedule = fix_1891(game_log, schedule)
-    season_params = SeasonParameters(nicknames, team_ids, year, schedule)
+    season_params = SeasonParameters(year, nicknames, team_ids, schedule)
     played, unplayed = retrosheet_to_played_unplayed(game_log, schedule, season_params)
     return show_dumb_elimination_output4(played, unplayed, season_params)
 
@@ -1164,7 +1170,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
     team_count = count_teams(played, unplayed, season_params.divisions)
     print(f"This season has {team_count} teams.")
     print(
-        f"The top {season_params.winners_per_division} teams from each division go to the postseason."
+        f"The top {season_params.winners_per_division} teams from each division go to the postseason, plus {season_params.wildcard_count} wild cards."
     )
     for index, value in season_params.season_lengths.iteritems():
         print(f"The {index} has {value} games per team.")
@@ -1172,7 +1178,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
     # out of the Retrosheet game log somewhere else. Or else add it to the ELO
     # game log, but I hope that isn't necessary.
     max_date = played["completion_date"].max()
-    print(f"max_date is {max_date}")
+    # print(f"max_date is {max_date}")
     min_date = played["completion_date"].min()
 
     current_date = max_date
@@ -1189,11 +1195,11 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
         and len(wildcard_contenders) < team_count
     ):
         date_str = datetime_to_retro(current_date)
-        print(f"Starting analysis of {date_str}")
+        # print(f"Starting analysis of {date_str}")
         current_standings = compute_standings(
             played.loc[played["completion_date"] <= date_str]
         )
-        print(current_standings)
+        # print(current_standings)
         # MOVE THIS SHIT INTO SOMETHING EFFICIENT
         current_standings["div"] = season_params.divisions["div"]
         current_standings["lg"] = season_params.divisions["lg"]
@@ -1214,7 +1220,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
             season_params.season_lengths,
             division_winners=season_params.winners_per_division,
         )
-        print(f"naive division contenders: {sorted(div_contenders)}")
+        # print(f"naive division contenders: {sorted(div_contenders)}")
         for supposed_contender in div_contenders.copy():
             # If you're in contention tomorrow, you're in contention today, so I am not going to
             # waste CPU time on you.
@@ -1257,9 +1263,9 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
         wildcard_contenders = wildcard_contenders_naive(
             current_standings, season_params
         )
-        print(
-            f"naive wildcard contenders after {date_str} games: {sorted(wildcard_contenders)}"
-        )
+        # print(
+        #   f"naive wildcard contenders after {date_str} games: {sorted(wildcard_contenders)}"
+        # )
         for supposed_contender in wildcard_contenders.copy():
             # If you're in contention tomorrow, you're in contention today, so I am not going to
             # waste CPU time on you.
