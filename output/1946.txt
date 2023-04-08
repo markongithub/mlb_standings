@@ -1,0 +1,27 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Chicago Cubs were eliminated from the NL title on 19460917 with 13 games left to play.
+The Boston Braves were eliminated from the NL title on 19460913 with 16 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19460913 with 17 games left to play.
+The New York Yankees were eliminated from the AL title on 19460910 with 16 games left to play.
+CIN can only allow ['SLN', 'BRO'] to win 2 total games but they have 3 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19460903 but the remaining intra-division games ruled them out.
+PIT can only allow ['SLN', 'BRO', 'CHN'] to win 13 total games but they have 15 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19460902 but the remaining intra-division games ruled them out.
+PHI can only allow ['SLN', 'BRO', 'CHN'] to win 13 total games but they have 15 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19460902 but the remaining intra-division games ruled them out.
+CIN can only allow ['SLN', 'BRO', 'CHN'] to win 13 total games but they have 15 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19460902 but the remaining intra-division games ruled them out.
+NY1 can only allow ['SLN', 'BRO', 'CHN'] to win 14 total games but they have 15 games left against each other.
+It looked like the New York Giants were in contention after 19460901 but the remaining intra-division games ruled them out.
+The Pittsburgh Pirates were eliminated from the NL title on 19460902 with 31 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19460902 with 26 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19460902 with 25 games left to play.
+The New York Giants were eliminated from the NL title on 19460901 with 27 games left to play.
+The Washington Senators were eliminated from the AL title on 19460831 with 27 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19460826 with 29 games left to play.
+The St. Louis Browns were eliminated from the AL title on 19460825 with 33 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19460825 with 30 games left to play.
+The Philadelphia Athletics were eliminated from the AL title on 19460813 with 44 games left to play.

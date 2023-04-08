@@ -1,0 +1,105 @@
+This season has 30 teams.
+The top 1 teams from each division go to the postseason, plus 2 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The Los Angeles Dodgers were eliminated from the NLW title on 20211003 with 0 games left to play.
+The Seattle Mariners were eliminated from AL wildcard contention on 20211003 with 0 games left to play.
+The Toronto Blue Jays were eliminated from AL wildcard contention on 20211003 with 0 games left to play.
+The Atlanta Braves were eliminated from NL wildcard contention on 20211001 with 3 games left to play.
+The Seattle Mariners were eliminated from the ALW title on 20210930 with 3 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 20210930 with 3 games left to play.
+The Oakland Athletics were eliminated from AL wildcard contention on 20210929 with 3 games left to play.
+The Cincinnati Reds were eliminated from NL wildcard contention on 20210928 with 4 games left to play.
+The Philadelphia Phillies were eliminated from NL wildcard contention on 20210928 with 5 games left to play.
+The Oakland Athletics were eliminated from the ALW title on 20210927 with 5 games left to play.
+The St. Louis Cardinals were eliminated from the NLC title on 20210926 with 6 games left to play.
+The New York Yankees were eliminated from the ALE title on 20210925 with 7 games left to play.
+The Boston Red Sox were eliminated from the ALE title on 20210925 with 7 games left to play.
+The New York Mets were eliminated from the NLE title on 20210925 with 8 games left to play.
+The San Diego Padres were eliminated from NL wildcard contention on 20210925 with 7 games left to play.
+The Toronto Blue Jays were eliminated from the ALE title on 20210924 with 8 games left to play.
+The New York Mets were eliminated from NL wildcard contention on 20210924 with 9 games left to play.
+The Cleveland Indians were eliminated from the ALC title on 20210923 with 10 games left to play.
+CLE can only allow ['NYA', 'TOR'] to win 1 total games but they have 3 games left against each other.
+It looked like the Cleveland Indians were in wildcard contention after 20210922 but the remaining intra-contender games ruled them out.
+The Colorado Rockies were eliminated from NL wildcard contention on 20210923 with 10 games left to play.
+CLE can only allow ['TOR', 'NYA'] to win 2 total games but they have 3 games left against each other.
+It looked like the Cleveland Indians were in wildcard contention after 20210921 but the remaining intra-contender games ruled them out.
+DET can only allow ['TOR', 'NYA'] to win 0 total games but they have 3 games left against each other.
+It looked like the Detroit Tigers were in wildcard contention after 20210920 but the remaining intra-contender games ruled them out.
+ANA can only allow ['TOR', 'NYA'] to win 0 total games but they have 3 games left against each other.
+It looked like the Los Angeles Angels were in wildcard contention after 20210920 but the remaining intra-contender games ruled them out.
+The Cleveland Indians were eliminated from AL wildcard contention on 20210921 with 12 games left to play.
+DET can only allow ['TOR', 'NYA'] to win 1 total games but they have 3 games left against each other.
+It looked like the Detroit Tigers were in wildcard contention after 20210919 but the remaining intra-contender games ruled them out.
+The Los Angeles Angels were eliminated from AL wildcard contention on 20210920 with 12 games left to play.
+The Chicago Cubs were eliminated from NL wildcard contention on 20210920 with 12 games left to play.
+MIA can only allow ['ATL', 'PHI'] to win 0 total games but they have 3 games left against each other.
+It looked like the Miami Marlins were in contention after 20210918 but the remaining intra-division games ruled them out.
+The Detroit Tigers were eliminated from the ALC title on 20210919 with 12 games left to play.
+DET can only allow ['TOR', 'NYA'] to win 2 total games but they have 3 games left against each other.
+It looked like the Detroit Tigers were in wildcard contention after 20210918 but the remaining intra-contender games ruled them out.
+The Los Angeles Angels were eliminated from the ALW title on 20210918 with 14 games left to play.
+The Cincinnati Reds were eliminated from the NLC title on 20210918 with 13 games left to play.
+The Miami Marlins were eliminated from the NLE title on 20210918 with 14 games left to play.
+MIA can only allow ['SLN', 'SDN'] to win 1 total games but they have 2 games left against each other.
+It looked like the Miami Marlins were in wildcard contention after 20210917 but the remaining intra-contender games ruled them out.
+The Detroit Tigers were eliminated from AL wildcard contention on 20210918 with 13 games left to play.
+WAS can only allow ['ATL', 'PHI'] to win 2 total games but they have 3 games left against each other.
+It looked like the Washington Nationals were in contention after 20210916 but the remaining intra-division games ruled them out.
+WAS can only allow ['SLN', 'SDN'] to win 0 total games but they have 3 games left against each other.
+It looked like the Washington Nationals were in wildcard contention after 20210916 but the remaining intra-contender games ruled them out.
+KCA can only allow ['TOR', 'NYA'] to win 0 total games but they have 3 games left against each other.
+It looked like the Kansas City Royals were in wildcard contention after 20210916 but the remaining intra-contender games ruled them out.
+The Miami Marlins were eliminated from NL wildcard contention on 20210917 with 15 games left to play.
+WAS can only allow ['ATL', 'PHI', 'NYN'] to win 7 total games but they have 9 games left against each other.
+It looked like the Washington Nationals were in contention after 20210915 but the remaining intra-division games ruled them out.
+The Kansas City Royals were eliminated from the ALC title on 20210916 with 16 games left to play.
+WAS can only allow ['SLN', 'SDN'] to win 1 total games but they have 3 games left against each other.
+It looked like the Washington Nationals were in wildcard contention after 20210915 but the remaining intra-contender games ruled them out.
+KCA can only allow ['TOR', 'NYA'] to win 2 total games but they have 3 games left against each other.
+It looked like the Kansas City Royals were in wildcard contention after 20210915 but the remaining intra-contender games ruled them out.
+The Washington Nationals were eliminated from the NLE title on 20210915 with 16 games left to play.
+The Washington Nationals were eliminated from NL wildcard contention on 20210915 with 16 games left to play.
+The Kansas City Royals were eliminated from AL wildcard contention on 20210915 with 17 games left to play.
+MIN can only allow ['NYA', 'BOS'] to win 1 total games but they have 3 games left against each other.
+It looked like the Minnesota Twins were in wildcard contention after 20210913 but the remaining intra-contender games ruled them out.
+The San Diego Padres were eliminated from the NLW title on 20210913 with 19 games left to play.
+The Minnesota Twins were eliminated from the ALC title on 20210913 with 18 games left to play.
+The Minnesota Twins were eliminated from AL wildcard contention on 20210913 with 18 games left to play.
+The Chicago Cubs were eliminated from the NLC title on 20210910 with 20 games left to play.
+PIT can only allow ['SDN', 'CIN', 'SLN'] to win 4 total games but they have 6 games left against each other.
+It looked like the Pittsburgh Pirates were in wildcard contention after 20210906 but the remaining intra-contender games ruled them out.
+The Colorado Rockies were eliminated from the NLW title on 20210906 with 24 games left to play.
+PIT can only allow ['SDN', 'CIN', 'SLN'] to win 4 total games but they have 6 games left against each other.
+It looked like the Pittsburgh Pirates were in wildcard contention after 20210905 but the remaining intra-contender games ruled them out.
+The Pittsburgh Pirates were eliminated from NL wildcard contention on 20210905 with 25 games left to play.
+ARI can only allow ['CIN', 'SDN', 'SLN'] to win 5 total games but they have 6 games left against each other.
+It looked like the Arizona Diamondbacks were in wildcard contention after 20210902 but the remaining intra-contender games ruled them out.
+TEX can only allow ['BOS', 'OAK', 'SEA'] to win 7 total games but they have 10 games left against each other.
+It looked like the Texas Rangers were in wildcard contention after 20210901 but the remaining intra-contender games ruled them out.
+ARI can only allow ['CIN', 'SDN', 'SLN'] to win 5 total games but they have 6 games left against each other.
+It looked like the Arizona Diamondbacks were in wildcard contention after 20210901 but the remaining intra-contender games ruled them out.
+ARI can only allow ['SDN', 'CIN', 'SLN'] to win 7 total games but they have 8 games left against each other.
+It looked like the Arizona Diamondbacks were in wildcard contention after 20210831 but the remaining intra-contender games ruled them out.
+The Texas Rangers were eliminated from AL wildcard contention on 20210901 with 29 games left to play.
+The Arizona Diamondbacks were eliminated from NL wildcard contention on 20210831 with 28 games left to play.
+TEX can only allow ['HOU', 'OAK'] to win 5 total games but they have 6 games left against each other.
+It looked like the Texas Rangers were in contention after 20210829 but the remaining intra-division games ruled them out.
+The Pittsburgh Pirates were eliminated from the NLC title on 20210830 with 31 games left to play.
+TEX can only allow ['HOU', 'OAK', 'SEA'] to win 14 total games but they have 19 games left against each other.
+It looked like the Texas Rangers were in contention after 20210828 but the remaining intra-division games ruled them out.
+TEX can only allow ['HOU', 'OAK', 'SEA', 'ANA'] to win 34 total games but they have 35 games left against each other.
+It looked like the Texas Rangers were in contention after 20210827 but the remaining intra-division games ruled them out.
+The Baltimore Orioles were eliminated from AL wildcard contention on 20210828 with 34 games left to play.
+The Texas Rangers were eliminated from the ALW title on 20210827 with 34 games left to play.
+BAL can only allow ['TBA', 'BOS'] to win 6 total games but they have 7 games left against each other.
+It looked like the Baltimore Orioles were in contention after 20210823 but the remaining intra-division games ruled them out.
+BAL can only allow ['TBA', 'NYA', 'BOS'] to win 12 total games but they have 13 games left against each other.
+It looked like the Baltimore Orioles were in contention after 20210822 but the remaining intra-division games ruled them out.
+ARI can only allow ['SFN', 'LAN'] to win 1 total games but they have 3 games left against each other.
+It looked like the Arizona Diamondbacks were in contention after 20210821 but the remaining intra-division games ruled them out.
+The Baltimore Orioles were eliminated from the ALE title on 20210822 with 39 games left to play.
+ARI can only allow ['SFN', 'LAN', 'SDN'] to win 18 total games but they have 22 games left against each other.
+It looked like the Arizona Diamondbacks were in contention after 20210820 but the remaining intra-division games ruled them out.
+The Arizona Diamondbacks were eliminated from the NLW title on 20210820 with 39 games left to play.

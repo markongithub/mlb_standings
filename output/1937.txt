@@ -1,0 +1,34 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Chicago Cubs were eliminated from the NL title on 19371002 with 1 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19370925 with 8 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19370923 with 10 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19370923 with 10 games left to play.
+BSN can only allow ['NY1', 'CHN'] to win 1 total games but they have 3 games left against each other.
+It looked like the Boston Bees were in contention after 19370919 but the remaining intra-division games ruled them out.
+The Chicago White Sox were eliminated from the AL title on 19370919 with 14 games left to play.
+The Boston Bees were eliminated from the NL title on 19370919 with 13 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19370918 with 20 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19370916 with 18 games left to play.
+BRO can only allow ['NY1', 'CHN'] to win 1 total games but they have 3 games left against each other.
+It looked like the Brooklyn Dodgers were in contention after 19370914 but the remaining intra-division games ruled them out.
+BRO can only allow ['NY1', 'CHN'] to win 2 total games but they have 3 games left against each other.
+It looked like the Brooklyn Dodgers were in contention after 19370913 but the remaining intra-division games ruled them out.
+BRO can only allow ['NY1', 'CHN'] to win 2 total games but they have 3 games left against each other.
+It looked like the Brooklyn Dodgers were in contention after 19370912 but the remaining intra-division games ruled them out.
+The Brooklyn Dodgers were eliminated from the NL title on 19370912 with 23 games left to play.
+PHI can only allow ['NY1', 'CHN'] to win 1 total games but they have 3 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19370910 but the remaining intra-division games ruled them out.
+CIN can only allow ['NY1', 'CHN'] to win 1 total games but they have 3 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19370910 but the remaining intra-division games ruled them out.
+The Washington Senators were eliminated from the AL title on 19370911 with 23 games left to play.
+PHI can only allow ['NY1', 'CHN'] to win 2 total games but they have 3 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19370909 but the remaining intra-division games ruled them out.
+The Cincinnati Reds were eliminated from the NL title on 19370910 with 28 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19370909 with 25 games left to play.
+The Philadelphia Athletics were eliminated from the AL title on 19370827 with 42 games left to play.
+SLA can only allow ['NYA', 'DET', 'BOS', 'CHA', 'CLE', 'WS1'] to win 87 total games but they have 89 games left against each other.
+It looked like the St. Louis Browns were in contention after 19370825 but the remaining intra-division games ruled them out.
+The St. Louis Browns were eliminated from the AL title on 19370825 with 42 games left to play.

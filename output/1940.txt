@@ -1,0 +1,48 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Cleveland Indians were eliminated from the AL title on 19400927 with 2 games left to play.
+The New York Yankees were eliminated from the AL title on 19400927 with 3 games left to play.
+CHA can only allow ['DET', 'CLE'] to win 1 total games but they have 4 games left against each other.
+It looked like the Chicago White Sox were in contention after 19400920 but the remaining intra-division games ruled them out.
+CHA can only allow ['CLE', 'DET'] to win 4 total games but they have 5 games left against each other.
+It looked like the Chicago White Sox were in contention after 19400919 but the remaining intra-division games ruled them out.
+BOS can only allow ['CLE', 'DET'] to win 0 total games but they have 5 games left against each other.
+It looked like the Boston Red Sox were in contention after 19400919 but the remaining intra-division games ruled them out.
+The Chicago White Sox were eliminated from the AL title on 19400919 with 8 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19400919 with 10 games left to play.
+The Brooklyn Dodgers were eliminated from the NL title on 19400919 with 10 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19400916 with 16 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19400914 with 18 games left to play.
+The New York Giants were eliminated from the NL title on 19400912 with 20 games left to play.
+WS1 can only allow ['CLE', 'DET'] to win 1 total games but they have 5 games left against each other.
+It looked like the Washington Senators were in contention after 19400910 but the remaining intra-division games ruled them out.
+The Chicago Cubs were eliminated from the NL title on 19400911 with 18 games left to play.
+WS1 can only allow ['DET', 'CLE'] to win 1 total games but they have 5 games left against each other.
+It looked like the Washington Senators were in contention after 19400909 but the remaining intra-division games ruled them out.
+WS1 can only allow ['CLE', 'DET'] to win 1 total games but they have 5 games left against each other.
+It looked like the Washington Senators were in contention after 19400908 but the remaining intra-division games ruled them out.
+PHA can only allow ['CLE', 'DET'] to win 3 total games but they have 5 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19400907 but the remaining intra-division games ruled them out.
+WS1 can only allow ['CLE', 'DET', 'NYA'] to win 9 total games but they have 10 games left against each other.
+It looked like the Washington Senators were in contention after 19400907 but the remaining intra-division games ruled them out.
+PHA can only allow ['CLE', 'DET'] to win 4 total games but they have 5 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19400906 but the remaining intra-division games ruled them out.
+SLA can only allow ['CLE', 'DET'] to win 2 total games but they have 5 games left against each other.
+It looked like the St. Louis Browns were in contention after 19400906 but the remaining intra-division games ruled them out.
+The Washington Senators were eliminated from the AL title on 19400907 with 22 games left to play.
+PHA can only allow ['CLE', 'DET'] to win 5 total games but they have 6 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19400905 but the remaining intra-division games ruled them out.
+SLA can only allow ['CLE', 'DET'] to win 5 total games but they have 6 games left against each other.
+It looked like the St. Louis Browns were in contention after 19400905 but the remaining intra-division games ruled them out.
+The Philadelphia Athletics were eliminated from the AL title on 19400905 with 30 games left to play.
+The St. Louis Browns were eliminated from the AL title on 19400905 with 22 games left to play.
+The Boston Bees were eliminated from the NL title on 19400904 with 27 games left to play.
+PHI can only allow ['CIN', 'BRO', 'SLN', 'NY1', 'PIT'] to win 49 total games but they have 50 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19400830 but the remaining intra-division games ruled them out.
+PHI can only allow ['CIN', 'BRO', 'SLN', 'NY1', 'PIT'] to win 50 total games but they have 51 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19400829 but the remaining intra-division games ruled them out.
+PHI can only allow ['CIN', 'BRO', 'SLN', 'NY1', 'PIT', 'CHN'] to win 73 total games but they have 75 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19400828 but the remaining intra-division games ruled them out.
+The Philadelphia Phillies were eliminated from the NL title on 19400828 with 38 games left to play.

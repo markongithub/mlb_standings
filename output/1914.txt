@@ -1,0 +1,40 @@
+This season has 24 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The FL has 154 games per team.
+The NL has 154 games per team.
+The Buffalo Blues were eliminated from the FL title on 19141007 with 7 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19141001 with 6 games left to play.
+The Brooklyn Tip-Tops were eliminated from the FL title on 19141001 with 9 games left to play.
+The New York Giants were eliminated from the NL title on 19140930 with 7 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19140928 with 8 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19140926 with 8 games left to play.
+The Kansas City Packers were eliminated from the FL title on 19140924 with 14 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19140924 with 11 games left to play.
+BRO can only allow ['BSN', 'NY1'] to win 4 total games but they have 5 games left against each other.
+It looked like the Brooklyn Dodgers were in contention after 19140922 but the remaining intra-division games ruled them out.
+The Brooklyn Dodgers were eliminated from the NL title on 19140922 with 15 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19140922 with 17 games left to play.
+PTF can only allow ['CHF', 'IND'] to win 0 total games but they have 1 games left against each other.
+It looked like the Pittsburgh Rebels were in contention after 19140919 but the remaining intra-division games ruled them out.
+The Detroit Tigers were eliminated from the AL title on 19140920 with 13 games left to play.
+The Washington Senators were eliminated from the AL title on 19140920 with 17 games left to play.
+The St.Louis Terriers were eliminated from the FL title on 19140919 with 18 games left to play.
+The Pittsburgh Rebels were eliminated from the FL title on 19140919 with 22 games left to play.
+CIN can only allow ['BSN', 'NY1'] to win 3 total games but they have 5 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19140917 but the remaining intra-division games ruled them out.
+The Cincinnati Reds were eliminated from the NL title on 19140917 with 21 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19140913 with 22 games left to play.
+The New York Yankees were eliminated from the AL title on 19140908 with 25 games left to play.
+The St.Louis Browns were eliminated from the AL title on 19140907 with 26 games left to play.
+CLE can only allow ['PHA', 'BOS', 'WS1', 'DET', 'SLA', 'CHA', 'NYA'] to win 105 total games but they have 114 games left against each other.
+It looked like the Cleveland Indians were in contention after 19140823 but the remaining intra-division games ruled them out.
+CLE can only allow ['PHA', 'BOS', 'WS1', 'DET', 'SLA', 'CHA', 'NYA'] to win 105 total games but they have 114 games left against each other.
+It looked like the Cleveland Indians were in contention after 19140822 but the remaining intra-division games ruled them out.
+CLE can only allow ['PHA', 'BOS', 'WS1', 'DET', 'SLA', 'CHA', 'NYA'] to win 117 total games but they have 118 games left against each other.
+It looked like the Cleveland Indians were in contention after 19140821 but the remaining intra-division games ruled them out.
+CLE can only allow ['PHA', 'BOS', 'WS1', 'DET', 'SLA', 'CHA', 'NYA'] to win 117 total games but they have 118 games left against each other.
+It looked like the Cleveland Indians were in contention after 19140820 but the remaining intra-division games ruled them out.
+CLE can only allow ['PHA', 'BOS', 'WS1', 'DET', 'SLA', 'CHA', 'NYA'] to win 120 total games but they have 121 games left against each other.
+It looked like the Cleveland Indians were in contention after 19140819 but the remaining intra-division games ruled them out.
+The Cleveland Indians were eliminated from the AL title on 19140819 with 38 games left to play.

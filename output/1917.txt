@@ -1,0 +1,24 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Boston Red Sox were eliminated from the AL title on 19170925 with 10 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19170925 with 10 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19170915 with 13 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19170914 with 15 games left to play.
+The Brooklyn Robins were eliminated from the NL title on 19170912 with 22 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19170912 with 15 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19170912 with 15 games left to play.
+The Boston Braves were eliminated from the NL title on 19170911 with 25 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19170906 with 23 games left to play.
+The Washington Senators were eliminated from the AL title on 19170905 with 30 games left to play.
+The New York Yankees were eliminated from the AL title on 19170905 with 28 games left to play.
+The Philadelphia Athletics were eliminated from the AL title on 19170829 with 35 games left to play.
+PIT can only allow ['NY1', 'PHI', 'SLN', 'BRO', 'CHN', 'CIN', 'BSN'] to win 93 total games but they have 99 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19170827 but the remaining intra-division games ruled them out.
+The St. Louis Browns were eliminated from the AL title on 19170828 with 29 games left to play.
+PIT can only allow ['NY1', 'PHI', 'SLN', 'BRO', 'CHN', 'BSN', 'CIN'] to win 96 total games but they have 102 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19170826 but the remaining intra-division games ruled them out.
+PIT can only allow ['NY1', 'PHI', 'SLN', 'BRO', 'CHN', 'BSN', 'CIN'] to win 96 total games but they have 102 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19170825 but the remaining intra-division games ruled them out.
+The Pittsburgh Pirates were eliminated from the NL title on 19170825 with 38 games left to play.

@@ -1,0 +1,53 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Cleveland Indians were eliminated from the AL title on 19061004 with 4 games left to play.
+The Philadelphia Athletics were eliminated from the AL title on 19060930 with 12 games left to play.
+SLA can only allow ['NYA', 'CLE'] to win 4 total games but they have 5 games left against each other.
+It looked like the St.Louis Browns were in contention after 19060924 but the remaining intra-division games ruled them out.
+The St.Louis Browns were eliminated from the AL title on 19060924 with 15 games left to play.
+The New York Giants were eliminated from the NL title on 19060919 with 17 games left to play.
+DET can only allow ['CHA', 'NYA'] to win 1 total games but they have 4 games left against each other.
+It looked like the Detroit Tigers were in contention after 19060917 but the remaining intra-division games ruled them out.
+The Detroit Tigers were eliminated from the AL title on 19060917 with 22 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19060916 with 20 games left to play.
+WS1 can only allow ['NYA', 'CHA'] to win 1 total games but they have 4 games left against each other.
+It looked like the Washington Senators were in contention after 19060909 but the remaining intra-division games ruled them out.
+WS1 can only allow ['NYA', 'CHA'] to win 2 total games but they have 4 games left against each other.
+It looked like the Washington Senators were in contention after 19060908 but the remaining intra-division games ruled them out.
+WS1 can only allow ['NYA', 'CHA', 'CLE', 'PHA'] to win 23 total games but they have 24 games left against each other.
+It looked like the Washington Senators were in contention after 19060907 but the remaining intra-division games ruled them out.
+WS1 can only allow ['NYA', 'CHA', 'CLE', 'PHA', 'SLA'] to win 42 total games but they have 45 games left against each other.
+It looked like the Washington Senators were in contention after 19060906 but the remaining intra-division games ruled them out.
+WS1 can only allow ['NYA', 'CHA', 'PHA', 'CLE', 'SLA'] to win 45 total games but they have 46 games left against each other.
+It looked like the Washington Senators were in contention after 19060905 but the remaining intra-division games ruled them out.
+The Washington Senators were eliminated from the AL title on 19060905 with 31 games left to play.
+BOS can only allow ['CHA', 'NYA'] to win 3 total games but they have 4 games left against each other.
+It looked like the Boston Red Sox were in contention after 19060902 but the remaining intra-division games ruled them out.
+BOS can only allow ['CHA', 'NYA', 'PHA'] to win 10 total games but they have 16 games left against each other.
+It looked like the Boston Red Sox were in contention after 19060901 but the remaining intra-division games ruled them out.
+BOS can only allow ['CHA', 'NYA', 'PHA', 'CLE'] to win 27 total games but they have 31 games left against each other.
+It looked like the Boston Red Sox were in contention after 19060831 but the remaining intra-division games ruled them out.
+BOS can only allow ['CHA', 'NYA', 'PHA', 'CLE'] to win 30 total games but they have 32 games left against each other.
+It looked like the Boston Red Sox were in contention after 19060830 but the remaining intra-division games ruled them out.
+BOS can only allow ['CHA', 'NYA', 'PHA', 'CLE', 'SLA'] to win 45 total games but they have 54 games left against each other.
+It looked like the Boston Red Sox were in contention after 19060829 but the remaining intra-division games ruled them out.
+The Philadelphia Phillies were eliminated from the NL title on 19060830 with 35 games left to play.
+BOS can only allow ['CHA', 'NYA', 'PHA', 'CLE', 'SLA'] to win 47 total games but they have 56 games left against each other.
+It looked like the Boston Red Sox were in contention after 19060828 but the remaining intra-division games ruled them out.
+BOS can only allow ['CHA', 'NYA', 'PHA', 'CLE', 'SLA'] to win 54 total games but they have 57 games left against each other.
+It looked like the Boston Red Sox were in contention after 19060827 but the remaining intra-division games ruled them out.
+BOS can only allow ['CHA', 'NYA', 'PHA', 'CLE', 'SLA', 'DET'] to win 83 total games but they have 91 games left against each other.
+It looked like the Boston Red Sox were in contention after 19060826 but the remaining intra-division games ruled them out.
+The Cincinnati Reds were eliminated from the NL title on 19060827 with 36 games left to play.
+BOS can only allow ['CHA', 'NYA', 'PHA', 'CLE', 'SLA', 'DET'] to win 83 total games but they have 91 games left against each other.
+It looked like the Boston Red Sox were in contention after 19060825 but the remaining intra-division games ruled them out.
+The Brooklyn Dodgers were eliminated from the NL title on 19060826 with 43 games left to play.
+BOS can only allow ['CHA', 'NYA', 'PHA', 'CLE', 'SLA', 'DET'] to win 86 total games but they have 94 games left against each other.
+It looked like the Boston Red Sox were in contention after 19060824 but the remaining intra-division games ruled them out.
+BOS can only allow ['CHA', 'NYA', 'PHA', 'CLE', 'SLA', 'DET'] to win 93 total games but they have 94 games left against each other.
+It looked like the Boston Red Sox were in contention after 19060823 but the remaining intra-division games ruled them out.
+The St. Louis Cardinals were eliminated from the NL title on 19060823 with 40 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19060823 with 42 games left to play.
+The Boston Braves were eliminated from the NL title on 19060821 with 41 games left to play.

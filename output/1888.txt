@@ -1,0 +1,34 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AA has 140 games per team.
+The NL has 140 games per team.
+The Philadelphia Athletics were eliminated from the AA title on 18881012 with 12 games left to play.
+The Chicago Cubs were eliminated from the NL title on 18881011 with 6 games left to play.
+The Brooklyn Dodgers were eliminated from the AA title on 18881007 with 7 games left to play.
+The Detroit Wolverines were eliminated from the NL title on 18881005 with 14 games left to play.
+The Boston Braves were eliminated from the NL title on 18881004 with 13 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 18881004 with 15 games left to play.
+The Cincinnati Reds were eliminated from the AA title on 18881003 with 14 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 18881002 with 15 games left to play.
+The Cleveland Spiders were eliminated from the AA title on 18880918 with 31 games left to play.
+The Baltimore Orioles were eliminated from the AA title on 18880915 with 28 games left to play.
+The Washington Senators were eliminated from the NL title on 18880915 with 29 games left to play.
+IN3 can only allow ['NY1', 'CHN', 'DTN', 'BSN', 'PHI', 'PIT'] to win 56 total games but they have 60 games left against each other.
+It looked like the Indianapolis Hoosiers were in contention after 18880913 but the remaining intra-division games ruled them out.
+The Indianapolis Hoosiers were eliminated from the NL title on 18880913 with 26 games left to play.
+LS2 can only allow ['SL4', 'PH4', 'BR3'] to win 9 total games but they have 13 games left against each other.
+It looked like the Louisville Colonels were in contention after 18880911 but the remaining intra-division games ruled them out.
+KC2 can only allow ['SL4', 'PH4'] to win 4 total games but they have 5 games left against each other.
+It looked like the Kansas City Cowboys were in contention after 18880910 but the remaining intra-division games ruled them out.
+LS2 can only allow ['SL4', 'PH4', 'BR3', 'CN2'] to win 26 total games but they have 28 games left against each other.
+It looked like the Louisville Colonels were in contention after 18880910 but the remaining intra-division games ruled them out.
+KC2 can only allow ['SL4', 'PH4', 'CN2'] to win 15 total games but they have 16 games left against each other.
+It looked like the Kansas City Cowboys were in contention after 18880909 but the remaining intra-division games ruled them out.
+The Louisville Colonels were eliminated from the AA title on 18880910 with 33 games left to play.
+KC2 can only allow ['SL4', 'PH4', 'BR3'] to win 11 total games but they have 13 games left against each other.
+It looked like the Kansas City Cowboys were in contention after 18880908 but the remaining intra-division games ruled them out.
+KC2 can only allow ['SL4', 'PH4', 'CN2'] to win 15 total games but they have 16 games left against each other.
+It looked like the Kansas City Cowboys were in contention after 18880907 but the remaining intra-division games ruled them out.
+KC2 can only allow ['SL4', 'PH4', 'CN2', 'BR3'] to win 27 total games but they have 28 games left against each other.
+It looked like the Kansas City Cowboys were in contention after 18880906 but the remaining intra-division games ruled them out.
+The Kansas City Cowboys were eliminated from the AA title on 18880906 with 37 games left to play.

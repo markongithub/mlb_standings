@@ -1,0 +1,18 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Pittsburgh Pirates were eliminated from the NL title on 19580921 with 5 games left to play.
+The San Francisco Giants were eliminated from the NL title on 19580914 with 9 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19580914 with 11 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19580912 with 15 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19580912 with 15 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19580910 with 17 games left to play.
+The Baltimore Orioles were eliminated from the AL title on 19580910 with 17 games left to play.
+The Cincinnati Redlegs were eliminated from the NL title on 19580910 with 12 games left to play.
+The Los Angeles Dodgers were eliminated from the NL title on 19580909 with 16 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19580907 with 16 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19580907 with 17 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19580906 with 21 games left to play.
+The Kansas City Athletics were eliminated from the AL title on 19580903 with 22 games left to play.
+The Washington Senators were eliminated from the AL title on 19580901 with 24 games left to play.

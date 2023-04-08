@@ -1,0 +1,63 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Chicago White Sox were eliminated from the AL title on 19071005 with 5 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19071002 with 5 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19070923 with 15 games left to play.
+NYA can only allow ['PHA', 'DET', 'CHA'] to win 5 total games but they have 6 games left against each other.
+It looked like the New York Yankees were in contention after 19070920 but the remaining intra-division games ruled them out.
+The New York Yankees were eliminated from the AL title on 19070920 with 19 games left to play.
+The New York Giants were eliminated from the NL title on 19070916 with 19 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19070915 with 25 games left to play.
+BOS can only allow ['PHA', 'DET', 'CHA'] to win 7 total games but they have 10 games left against each other.
+It looked like the Boston Red Sox were in contention after 19070913 but the remaining intra-division games ruled them out.
+SLA can only allow ['PHA', 'DET'] to win 1 total games but they have 3 games left against each other.
+It looked like the St.Louis Browns were in contention after 19070913 but the remaining intra-division games ruled them out.
+BOS can only allow ['PHA', 'DET', 'CHA'] to win 8 total games but they have 10 games left against each other.
+It looked like the Boston Red Sox were in contention after 19070912 but the remaining intra-division games ruled them out.
+SLA can only allow ['PHA', 'DET'] to win 2 total games but they have 3 games left against each other.
+It looked like the St.Louis Browns were in contention after 19070912 but the remaining intra-division games ruled them out.
+SLA can only allow ['PHA', 'DET', 'CHA'] to win 8 total games but they have 10 games left against each other.
+It looked like the St.Louis Browns were in contention after 19070911 but the remaining intra-division games ruled them out.
+The Boston Red Sox were eliminated from the AL title on 19070912 with 22 games left to play.
+The St.Louis Browns were eliminated from the AL title on 19070911 with 28 games left to play.
+WS1 can only allow ['PHA', 'DET'] to win 1 total games but they have 3 games left against each other.
+It looked like the Washington Senators were in contention after 19070905 but the remaining intra-division games ruled them out.
+WS1 can only allow ['PHA', 'DET'] to win 1 total games but they have 3 games left against each other.
+It looked like the Washington Senators were in contention after 19070904 but the remaining intra-division games ruled them out.
+WS1 can only allow ['DET', 'PHA'] to win 2 total games but they have 3 games left against each other.
+It looked like the Washington Senators were in contention after 19070903 but the remaining intra-division games ruled them out.
+WS1 can only allow ['DET', 'PHA', 'CHA'] to win 12 total games but they have 13 games left against each other.
+It looked like the Washington Senators were in contention after 19070902 but the remaining intra-division games ruled them out.
+The Brooklyn Dodgers were eliminated from the NL title on 19070903 with 32 games left to play.
+WS1 can only allow ['DET', 'CHA', 'CLE'] to win 18 total games but they have 19 games left against each other.
+It looked like the Washington Senators were in contention after 19070901 but the remaining intra-division games ruled them out.
+WS1 can only allow ['DET', 'PHA', 'CHA', 'CLE'] to win 27 total games but they have 29 games left against each other.
+It looked like the Washington Senators were in contention after 19070831 but the remaining intra-division games ruled them out.
+WS1 can only allow ['DET', 'PHA', 'CHA', 'CLE', 'SLA'] to win 58 total games but they have 59 games left against each other.
+It looked like the Washington Senators were in contention after 19070830 but the remaining intra-division games ruled them out.
+The Washington Senators were eliminated from the AL title on 19070830 with 42 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19070829 with 36 games left to play.
+The Boston Braves were eliminated from the NL title on 19070826 with 42 games left to play.
+SLN can only allow ['CHN', 'NY1', 'PIT', 'PHI', 'BRO', 'CIN', 'BSN'] to win 151 total games but they have 153 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19070814 but the remaining intra-division games ruled them out.
+SLN can only allow ['CHN', 'NY1', 'PIT', 'PHI', 'BRO', 'CIN', 'BSN'] to win 154 total games but they have 156 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19070813 but the remaining intra-division games ruled them out.
+SLN can only allow ['CHN', 'NY1', 'PIT', 'PHI', 'BRO', 'CIN', 'BSN'] to win 157 total games but they have 159 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19070812 but the remaining intra-division games ruled them out.
+SLN can only allow ['CHN', 'PIT', 'NY1', 'PHI', 'BRO', 'CIN', 'BSN'] to win 158 total games but they have 160 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19070811 but the remaining intra-division games ruled them out.
+SLN can only allow ['CHN', 'PIT', 'NY1', 'PHI', 'BRO', 'CIN', 'BSN'] to win 162 total games but they have 164 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19070810 but the remaining intra-division games ruled them out.
+SLN can only allow ['CHN', 'PIT', 'NY1', 'PHI', 'BRO', 'CIN', 'BSN'] to win 165 total games but they have 167 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19070809 but the remaining intra-division games ruled them out.
+SLN can only allow ['CHN', 'PIT', 'NY1', 'PHI', 'BRO', 'CIN', 'BSN'] to win 167 total games but they have 169 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19070808 but the remaining intra-division games ruled them out.
+SLN can only allow ['CHN', 'PIT', 'NY1', 'PHI', 'CIN', 'BRO', 'BSN'] to win 171 total games but they have 173 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19070807 but the remaining intra-division games ruled them out.
+SLN can only allow ['CHN', 'PIT', 'NY1', 'PHI', 'CIN', 'BRO', 'BSN'] to win 173 total games but they have 175 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19070806 but the remaining intra-division games ruled them out.
+SLN can only allow ['CHN', 'PIT', 'NY1', 'PHI', 'CIN', 'BRO', 'BSN'] to win 178 total games but they have 180 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19070805 but the remaining intra-division games ruled them out.
+The St. Louis Cardinals were eliminated from the NL title on 19070805 with 53 games left to play.

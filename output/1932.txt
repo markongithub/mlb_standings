@@ -1,0 +1,32 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Pittsburgh Pirates were eliminated from the NL title on 19320920 with 6 games left to play.
+The Brooklyn Dodgers were eliminated from the NL title on 19320916 with 8 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19320915 with 10 games left to play.
+The Philadelphia Athletics were eliminated from the AL title on 19320913 with 12 games left to play.
+The Washington Senators were eliminated from the AL title on 19320913 with 13 games left to play.
+The Boston Braves were eliminated from the NL title on 19320911 with 11 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19320910 with 17 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19320910 with 16 games left to play.
+The New York Giants were eliminated from the NL title on 19320909 with 18 games left to play.
+CIN can only allow ['CHN', 'PIT', 'BRO', 'PHI', 'SLN', 'BSN'] to win 49 total games but they have 50 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19320902 but the remaining intra-division games ruled them out.
+The Detroit Tigers were eliminated from the AL title on 19320903 with 26 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19320902 with 21 games left to play.
+The St. Louis Browns were eliminated from the AL title on 19320827 with 31 games left to play.
+CHA can only allow ['NYA', 'PHA', 'CLE', 'WS1', 'DET', 'SLA'] to win 83 total games but they have 85 games left against each other.
+It looked like the Chicago White Sox were in contention after 19320818 but the remaining intra-division games ruled them out.
+CHA can only allow ['NYA', 'PHA', 'CLE', 'WS1', 'DET', 'SLA'] to win 83 total games but they have 85 games left against each other.
+It looked like the Chicago White Sox were in contention after 19320817 but the remaining intra-division games ruled them out.
+The Chicago White Sox were eliminated from the AL title on 19320817 with 43 games left to play.
+BOS can only allow ['NYA', 'PHA', 'CLE', 'DET'] to win 34 total games but they have 40 games left against each other.
+It looked like the Boston Red Sox were in contention after 19320809 but the remaining intra-division games ruled them out.
+BOS can only allow ['NYA', 'PHA', 'CLE', 'DET', 'WS1'] to win 60 total games but they have 65 games left against each other.
+It looked like the Boston Red Sox were in contention after 19320808 but the remaining intra-division games ruled them out.
+BOS can only allow ['NYA', 'CLE', 'PHA', 'DET', 'WS1'] to win 61 total games but they have 66 games left against each other.
+It looked like the Boston Red Sox were in contention after 19320807 but the remaining intra-division games ruled them out.
+BOS can only allow ['NYA', 'PHA', 'CLE', 'WS1', 'DET', 'SLA'] to win 100 total games but they have 104 games left against each other.
+It looked like the Boston Red Sox were in contention after 19320806 but the remaining intra-division games ruled them out.
+The Boston Red Sox were eliminated from the AL title on 19320806 with 50 games left to play.

@@ -1,0 +1,28 @@
+This season has 26 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The Milwaukee Brewers were eliminated from the ALE title on 19921003 with 1 games left to play.
+The Cincinnati Reds were eliminated from the NLW title on 19920929 with 5 games left to play.
+The Minnesota Twins were eliminated from the ALW title on 19920928 with 6 games left to play.
+The Baltimore Orioles were eliminated from the ALE title on 19920927 with 7 games left to play.
+The Montreal Expos were eliminated from the NLE title on 19920927 with 6 games left to play.
+The Chicago White Sox were eliminated from the ALW title on 19920924 with 10 games left to play.
+The San Diego Padres were eliminated from the NLW title on 19920923 with 11 games left to play.
+The St. Louis Cardinals were eliminated from the NLE title on 19920921 with 13 games left to play.
+The Chicago Cubs were eliminated from the NLE title on 19920920 with 13 games left to play.
+The Cleveland Indians were eliminated from the ALE title on 19920917 with 16 games left to play.
+The New York Yankees were eliminated from the ALE title on 19920917 with 16 games left to play.
+The New York Mets were eliminated from the NLE title on 19920916 with 18 games left to play.
+The Boston Red Sox were eliminated from the ALE title on 19920915 with 18 games left to play.
+The Detroit Tigers were eliminated from the ALE title on 19920915 with 17 games left to play.
+The Texas Rangers were eliminated from the ALW title on 19920914 with 16 games left to play.
+The Houston Astros were eliminated from the NLW title on 19920913 with 19 games left to play.
+The Kansas City Royals were eliminated from the ALW title on 19920912 with 21 games left to play.
+The California Angels were eliminated from the ALW title on 19920912 with 20 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 19920912 with 23 games left to play.
+The San Francisco Giants were eliminated from the NLW title on 19920911 with 21 games left to play.
+The Seattle Mariners were eliminated from the ALW title on 19920908 with 23 games left to play.
+LAN can only allow ['ATL', 'CIN', 'SDN'] to win 16 total games but they have 18 games left against each other.
+It looked like the Los Angeles Dodgers were in contention after 19920906 but the remaining intra-division games ruled them out.
+The Los Angeles Dodgers were eliminated from the NLW title on 19920906 with 26 games left to play.

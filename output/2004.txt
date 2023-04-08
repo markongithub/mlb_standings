@@ -1,0 +1,114 @@
+This season has 30 teams.
+The top 1 teams from each division go to the postseason, plus 1 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The San Francisco Giants were eliminated from NL wildcard contention on 20041003 with 0 games left to play.
+The Oakland Athletics were eliminated from the ALW title on 20041002 with 1 games left to play.
+The San Francisco Giants were eliminated from the NLW title on 20041002 with 1 games left to play.
+The Chicago Cubs were eliminated from NL wildcard contention on 20041002 with 1 games left to play.
+TEX can only allow ['ANA', 'OAK'] to win 0 total games but they have 3 games left against each other.
+It looked like the Texas Rangers were in contention after 20040930 but the remaining intra-division games ruled them out.
+The San Diego Padres were eliminated from NL wildcard contention on 20041001 with 2 games left to play.
+TEX can only allow ['ANA', 'OAK'] to win 1 total games but they have 3 games left against each other.
+It looked like the Texas Rangers were in contention after 20040929 but the remaining intra-division games ruled them out.
+The Boston Red Sox were eliminated from the ALE title on 20040930 with 4 games left to play.
+The Texas Rangers were eliminated from the ALW title on 20040929 with 4 games left to play.
+The Minnesota Twins were eliminated from AL wildcard contention on 20040929 with 4 games left to play.
+The San Diego Padres were eliminated from the NLW title on 20040928 with 5 games left to play.
+The Oakland Athletics were eliminated from AL wildcard contention on 20040928 with 5 games left to play.
+The Anaheim Angels were eliminated from AL wildcard contention on 20040928 with 5 games left to play.
+The Philadelphia Phillies were eliminated from NL wildcard contention on 20040927 with 6 games left to play.
+The Texas Rangers were eliminated from AL wildcard contention on 20040927 with 6 games left to play.
+The Florida Marlins were eliminated from NL wildcard contention on 20040926 with 7 games left to play.
+The Florida Marlins were eliminated from the NLE title on 20040924 with 9 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 20040924 with 9 games left to play.
+The Chicago White Sox were eliminated from the ALC title on 20040920 with 13 games left to play.
+The Chicago Cubs were eliminated from the NLC title on 20040920 with 13 games left to play.
+The Cleveland Indians were eliminated from the ALC title on 20040918 with 14 games left to play.
+The Houston Astros were eliminated from the NLC title on 20040917 with 14 games left to play.
+PIT can only allow ['SFN', 'HOU'] to win 2 total games but they have 3 games left against each other.
+It looked like the Pittsburgh Pirates were in wildcard contention after 20040916 but the remaining intra-contender games ruled them out.
+CIN can only allow ['SFN', 'SDN'] to win 5 total games but they have 6 games left against each other.
+It looked like the Cincinnati Reds were in wildcard contention after 20040916 but the remaining intra-contender games ruled them out.
+The Chicago White Sox were eliminated from AL wildcard contention on 20040917 with 16 games left to play.
+PIT can only allow ['SFN', 'SDN'] to win 5 total games but they have 6 games left against each other.
+It looked like the Pittsburgh Pirates were in wildcard contention after 20040915 but the remaining intra-contender games ruled them out.
+MIL can only allow ['SFN', 'HOU'] to win 2 total games but they have 3 games left against each other.
+It looked like the Milwaukee Brewers were in wildcard contention after 20040915 but the remaining intra-contender games ruled them out.
+The Cleveland Indians were eliminated from AL wildcard contention on 20040916 with 16 games left to play.
+The Cincinnati Reds were eliminated from NL wildcard contention on 20040916 with 16 games left to play.
+The Detroit Tigers were eliminated from the ALC title on 20040915 with 18 games left to play.
+COL can only allow ['SFN', 'SDN'] to win 5 total games but they have 6 games left against each other.
+It looked like the Colorado Rockies were in wildcard contention after 20040914 but the remaining intra-contender games ruled them out.
+NYN can only allow ['SFN', 'HOU'] to win 1 total games but they have 3 games left against each other.
+It looked like the New York Mets were in wildcard contention after 20040914 but the remaining intra-contender games ruled them out.
+The Milwaukee Brewers were eliminated from NL wildcard contention on 20040915 with 19 games left to play.
+The Baltimore Orioles were eliminated from AL wildcard contention on 20040915 with 19 games left to play.
+The Pittsburgh Pirates were eliminated from NL wildcard contention on 20040915 with 16 games left to play.
+NYN can only allow ['SFN', 'SDN'] to win 4 total games but they have 6 games left against each other.
+It looked like the New York Mets were in wildcard contention after 20040913 but the remaining intra-contender games ruled them out.
+The Colorado Rockies were eliminated from NL wildcard contention on 20040914 with 18 games left to play.
+MON can only allow ['SFN', 'HOU'] to win 1 total games but they have 3 games left against each other.
+It looked like the Montreal Expos were in wildcard contention after 20040912 but the remaining intra-contender games ruled them out.
+The New York Mets were eliminated from NL wildcard contention on 20040913 with 18 games left to play.
+COL can only allow ['LAN', 'SFN'] to win 5 total games but they have 6 games left against each other.
+It looked like the Colorado Rockies were in contention after 20040911 but the remaining intra-division games ruled them out.
+The Montreal Expos were eliminated from NL wildcard contention on 20040912 with 20 games left to play.
+The Detroit Tigers were eliminated from AL wildcard contention on 20040912 with 21 games left to play.
+COL can only allow ['LAN', 'SFN', 'SDN'] to win 15 total games but they have 19 games left against each other.
+It looked like the Colorado Rockies were in contention after 20040910 but the remaining intra-division games ruled them out.
+BAL can only allow ['NYA', 'BOS'] to win 3 total games but they have 6 games left against each other.
+It looked like the Baltimore Orioles were in contention after 20040910 but the remaining intra-division games ruled them out.
+The New York Mets were eliminated from the NLE title on 20040911 with 21 games left to play.
+BAL can only allow ['NYA', 'BOS'] to win 4 total games but they have 6 games left against each other.
+It looked like the Baltimore Orioles were in contention after 20040909 but the remaining intra-division games ruled them out.
+The Montreal Expos were eliminated from the NLE title on 20040910 with 22 games left to play.
+The Colorado Rockies were eliminated from the NLW title on 20040910 with 22 games left to play.
+The Baltimore Orioles were eliminated from the ALE title on 20040909 with 24 games left to play.
+The Tampa Bay Devil Rays were eliminated from AL wildcard contention on 20040909 with 24 games left to play.
+TBA can only allow ['NYA', 'BOS'] to win 5 total games but they have 6 games left against each other.
+It looked like the Tampa Bay Devil Rays were in contention after 20040906 but the remaining intra-division games ruled them out.
+The Toronto Blue Jays were eliminated from AL wildcard contention on 20040907 with 24 games left to play.
+The Tampa Bay Devil Rays were eliminated from the ALE title on 20040906 with 27 games left to play.
+TOR can only allow ['NYA', 'BOS'] to win 3 total games but they have 6 games left against each other.
+It looked like the Toronto Blue Jays were in contention after 20040903 but the remaining intra-division games ruled them out.
+The Kansas City Royals were eliminated from the ALC title on 20040904 with 28 games left to play.
+The Pittsburgh Pirates were eliminated from the NLC title on 20040904 with 27 games left to play.
+The Cincinnati Reds were eliminated from the NLC title on 20040904 with 28 games left to play.
+SEA can only allow ['OAK', 'ANA', 'TEX'] to win 13 total games but they have 20 games left against each other.
+It looked like the Seattle Mariners were in contention after 20040902 but the remaining intra-division games ruled them out.
+The Toronto Blue Jays were eliminated from the ALE title on 20040903 with 27 games left to play.
+The Seattle Mariners were eliminated from AL wildcard contention on 20040903 with 28 games left to play.
+SEA can only allow ['OAK', 'ANA', 'TEX'] to win 17 total games but they have 20 games left against each other.
+It looked like the Seattle Mariners were in contention after 20040901 but the remaining intra-division games ruled them out.
+The Milwaukee Brewers were eliminated from the NLC title on 20040901 with 31 games left to play.
+The Seattle Mariners were eliminated from the ALW title on 20040901 with 30 games left to play.
+KCA can only allow ['ANA', 'TEX'] to win 6 total games but they have 7 games left against each other.
+It looked like the Kansas City Royals were in wildcard contention after 20040831 but the remaining intra-contender games ruled them out.
+ARI can only allow ['SDN', 'SFN'] to win 1 total games but they have 6 games left against each other.
+It looked like the Arizona Diamondbacks were in wildcard contention after 20040830 but the remaining intra-contender games ruled them out.
+KCA can only allow ['ANA', 'TEX'] to win 6 total games but they have 7 games left against each other.
+It looked like the Kansas City Royals were in wildcard contention after 20040830 but the remaining intra-contender games ruled them out.
+ARI can only allow ['SDN', 'SFN'] to win 1 total games but they have 6 games left against each other.
+It looked like the Arizona Diamondbacks were in wildcard contention after 20040829 but the remaining intra-contender games ruled them out.
+KCA can only allow ['BOS', 'ANA', 'TEX'] to win 10 total games but they have 13 games left against each other.
+It looked like the Kansas City Royals were in wildcard contention after 20040829 but the remaining intra-contender games ruled them out.
+ARI can only allow ['SDN', 'SFN'] to win 5 total games but they have 6 games left against each other.
+It looked like the Arizona Diamondbacks were in wildcard contention after 20040828 but the remaining intra-contender games ruled them out.
+The Kansas City Royals were eliminated from AL wildcard contention on 20040829 with 33 games left to play.
+ARI can only allow ['CHN', 'HOU', 'CIN', 'PIT'] to win 35 total games but they have 36 games left against each other.
+It looked like the Arizona Diamondbacks were in wildcard contention after 20040827 but the remaining intra-contender games ruled them out.
+ARI can only allow ['CHN', 'HOU', 'CIN', 'PIT'] to win 36 total games but they have 37 games left against each other.
+It looked like the Arizona Diamondbacks were in wildcard contention after 20040826 but the remaining intra-contender games ruled them out.
+ARI can only allow ['LAN', 'SFN'] to win 3 total games but they have 6 games left against each other.
+It looked like the Arizona Diamondbacks were in contention after 20040825 but the remaining intra-division games ruled them out.
+ARI can only allow ['CHN', 'SDN', 'SFN', 'HOU', 'CIN', 'PIT'] to win 46 total games but they have 47 games left against each other.
+It looked like the Arizona Diamondbacks were in wildcard contention after 20040825 but the remaining intra-contender games ruled them out.
+ARI can only allow ['LAN', 'SFN', 'SDN'] to win 13 total games but they have 19 games left against each other.
+It looked like the Arizona Diamondbacks were in contention after 20040824 but the remaining intra-division games ruled them out.
+ARI can only allow ['CHN', 'SFN', 'FLO', 'HOU', 'CIN', 'PHI', 'NYN', 'PIT', 'MIL'] to win 107 total games but they have 109 games left against each other.
+It looked like the Arizona Diamondbacks were in wildcard contention after 20040824 but the remaining intra-contender games ruled them out.
+ARI can only allow ['LAN', 'SFN', 'SDN'] to win 18 total games but they have 19 games left against each other.
+It looked like the Arizona Diamondbacks were in contention after 20040823 but the remaining intra-division games ruled them out.
+The Arizona Diamondbacks were eliminated from NL wildcard contention on 20040824 with 35 games left to play.
+The Arizona Diamondbacks were eliminated from the NLW title on 20040823 with 36 games left to play.

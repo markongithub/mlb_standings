@@ -1,0 +1,94 @@
+This season has 30 teams.
+The top 1 teams from each division go to the postseason, plus 1 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The San Diego Padres were eliminated from the NLW title on 20101003 with 0 games left to play.
+The New York Yankees were eliminated from the ALE title on 20101003 with 0 games left to play.
+The San Diego Padres were eliminated from NL wildcard contention on 20101003 with 0 games left to play.
+The Minnesota Twins were eliminated from AL wildcard contention on 20101003 with 0 games left to play.
+The St. Louis Cardinals were eliminated from the NLC title on 20100928 with 5 games left to play.
+The Boston Red Sox were eliminated from the ALE title on 20100928 with 5 games left to play.
+The Colorado Rockies were eliminated from the NLW title on 20100928 with 5 games left to play.
+The Boston Red Sox were eliminated from AL wildcard contention on 20100928 with 5 games left to play.
+The Colorado Rockies were eliminated from NL wildcard contention on 20100928 with 5 games left to play.
+The Texas Rangers were eliminated from AL wildcard contention on 20100928 with 5 games left to play.
+The Atlanta Braves were eliminated from the NLE title on 20100927 with 5 games left to play.
+The St. Louis Cardinals were eliminated from NL wildcard contention on 20100927 with 6 games left to play.
+The Oakland Athletics were eliminated from the ALW title on 20100925 with 8 games left to play.
+The Los Angeles Angels were eliminated from the ALW title on 20100924 with 9 games left to play.
+The Florida Marlins were eliminated from NL wildcard contention on 20100924 with 9 games left to play.
+The Chicago White Sox were eliminated from AL wildcard contention on 20100923 with 10 games left to play.
+The Houston Astros were eliminated from the NLC title on 20100921 with 11 games left to play.
+The Los Angeles Dodgers were eliminated from the NLW title on 20100921 with 11 games left to play.
+The Chicago White Sox were eliminated from the ALC title on 20100921 with 11 games left to play.
+The New York Mets were eliminated from NL wildcard contention on 20100921 with 11 games left to play.
+FLO can only allow ['PHI', 'ATL'] to win 3 total games but they have 6 games left against each other.
+It looked like the Florida Marlins were in contention after 20100918 but the remaining intra-division games ruled them out.
+The Milwaukee Brewers were eliminated from the NLC title on 20100919 with 14 games left to play.
+The Houston Astros were eliminated from NL wildcard contention on 20100919 with 13 games left to play.
+The Los Angeles Dodgers were eliminated from NL wildcard contention on 20100919 with 12 games left to play.
+The Toronto Blue Jays were eliminated from AL wildcard contention on 20100919 with 13 games left to play.
+TOR can only allow ['NYA', 'TBA'] to win 1 total games but they have 4 games left against each other.
+It looked like the Toronto Blue Jays were in contention after 20100917 but the remaining intra-division games ruled them out.
+NYN can only allow ['PHI', 'ATL'] to win 5 total games but they have 6 games left against each other.
+It looked like the New York Mets were in contention after 20100917 but the remaining intra-division games ruled them out.
+The Detroit Tigers were eliminated from the ALC title on 20100918 with 14 games left to play.
+The Florida Marlins were eliminated from the NLE title on 20100918 with 15 games left to play.
+The Oakland Athletics were eliminated from AL wildcard contention on 20100918 with 15 games left to play.
+The Detroit Tigers were eliminated from AL wildcard contention on 20100918 with 14 games left to play.
+The Milwaukee Brewers were eliminated from NL wildcard contention on 20100918 with 15 games left to play.
+TOR can only allow ['TBA', 'NYA'] to win 2 total games but they have 4 games left against each other.
+It looked like the Toronto Blue Jays were in contention after 20100916 but the remaining intra-division games ruled them out.
+The New York Mets were eliminated from the NLE title on 20100917 with 14 games left to play.
+TOR can only allow ['TBA', 'NYA'] to win 2 total games but they have 4 games left against each other.
+It looked like the Toronto Blue Jays were in contention after 20100915 but the remaining intra-division games ruled them out.
+The Los Angeles Angels were eliminated from AL wildcard contention on 20100916 with 16 games left to play.
+The Toronto Blue Jays were eliminated from the ALE title on 20100915 with 16 games left to play.
+The Chicago Cubs were eliminated from the NLC title on 20100913 with 18 games left to play.
+The Chicago Cubs were eliminated from NL wildcard contention on 20100912 with 19 games left to play.
+The Washington Nationals were eliminated from NL wildcard contention on 20100911 with 20 games left to play.
+ARI can only allow ['SDN', 'SFN'] to win 0 total games but they have 6 games left against each other.
+It looked like the Arizona Diamondbacks were in contention after 20100909 but the remaining intra-division games ruled them out.
+WAS can only allow ['PHI', 'ATL'] to win 3 total games but they have 6 games left against each other.
+It looked like the Washington Nationals were in contention after 20100909 but the remaining intra-division games ruled them out.
+The Seattle Mariners were eliminated from the ALW title on 20100910 with 21 games left to play.
+ARI can only allow ['SDN', 'SFN'] to win 1 total games but they have 7 games left against each other.
+It looked like the Arizona Diamondbacks were in contention after 20100908 but the remaining intra-division games ruled them out.
+WAS can only allow ['PHI', 'ATL'] to win 3 total games but they have 6 games left against each other.
+It looked like the Washington Nationals were in contention after 20100908 but the remaining intra-division games ruled them out.
+ARI can only allow ['SDN', 'SFN'] to win 2 total games but they have 7 games left against each other.
+It looked like the Arizona Diamondbacks were in contention after 20100907 but the remaining intra-division games ruled them out.
+The Washington Nationals were eliminated from the NLE title on 20100908 with 22 games left to play.
+The Arizona Diamondbacks were eliminated from NL wildcard contention on 20100908 with 22 games left to play.
+ARI can only allow ['SDN', 'SFN'] to win 6 total games but they have 7 games left against each other.
+It looked like the Arizona Diamondbacks were in contention after 20100906 but the remaining intra-division games ruled them out.
+The Kansas City Royals were eliminated from the ALC title on 20100907 with 24 games left to play.
+The Cleveland Indians were eliminated from the ALC title on 20100906 with 24 games left to play.
+The Arizona Diamondbacks were eliminated from the NLW title on 20100906 with 24 games left to play.
+The Kansas City Royals were eliminated from AL wildcard contention on 20100906 with 25 games left to play.
+The Cleveland Indians were eliminated from AL wildcard contention on 20100903 with 27 games left to play.
+PIT can only allow ['SFN', 'COL', 'LAN'] to win 12 total games but they have 16 games left against each other.
+It looked like the Pittsburgh Pirates were in wildcard contention after 20100831 but the remaining intra-contender games ruled them out.
+The Seattle Mariners were eliminated from AL wildcard contention on 20100901 with 29 games left to play.
+PIT can only allow ['SFN', 'COL', 'LAN'] to win 13 total games but they have 17 games left against each other.
+It looked like the Pittsburgh Pirates were in wildcard contention after 20100830 but the remaining intra-contender games ruled them out.
+The Pittsburgh Pirates were eliminated from the NLC title on 20100830 with 31 games left to play.
+PIT can only allow ['PHI', 'SFN', 'COL', 'LAN'] to win 20 total games but they have 22 games left against each other.
+It looked like the Pittsburgh Pirates were in wildcard contention after 20100829 but the remaining intra-contender games ruled them out.
+BAL can only allow ['NYA', 'TBA'] to win 0 total games but they have 7 games left against each other.
+It looked like the Baltimore Orioles were in contention after 20100828 but the remaining intra-division games ruled them out.
+The Baltimore Orioles were eliminated from AL wildcard contention on 20100829 with 31 games left to play.
+The Pittsburgh Pirates were eliminated from NL wildcard contention on 20100829 with 32 games left to play.
+BAL can only allow ['NYA', 'TBA'] to win 2 total games but they have 7 games left against each other.
+It looked like the Baltimore Orioles were in contention after 20100827 but the remaining intra-division games ruled them out.
+BAL can only allow ['NYA', 'TBA'] to win 2 total games but they have 7 games left against each other.
+It looked like the Baltimore Orioles were in contention after 20100826 but the remaining intra-division games ruled them out.
+BAL can only allow ['NYA', 'TBA'] to win 4 total games but they have 7 games left against each other.
+It looked like the Baltimore Orioles were in contention after 20100825 but the remaining intra-division games ruled them out.
+BAL can only allow ['NYA', 'TBA'] to win 4 total games but they have 7 games left against each other.
+It looked like the Baltimore Orioles were in contention after 20100824 but the remaining intra-division games ruled them out.
+BAL can only allow ['NYA', 'TBA', 'BOS'] to win 17 total games but they have 19 games left against each other.
+It looked like the Baltimore Orioles were in contention after 20100823 but the remaining intra-division games ruled them out.
+BAL can only allow ['NYA', 'TBA', 'BOS', 'TOR'] to win 36 total games but they have 37 games left against each other.
+It looked like the Baltimore Orioles were in contention after 20100822 but the remaining intra-division games ruled them out.
+The Baltimore Orioles were eliminated from the ALE title on 20100822 with 37 games left to play.

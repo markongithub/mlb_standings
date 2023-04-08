@@ -1,0 +1,32 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Cleveland Indians were eliminated from the AL title on 19530914 with 10 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19530913 with 11 games left to play.
+The Milwaukee Braves were eliminated from the NL title on 19530912 with 12 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19530909 with 14 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19530907 with 17 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19530906 with 20 games left to play.
+The Washington Senators were eliminated from the AL title on 19530902 with 20 games left to play.
+The New York Giants were eliminated from the NL title on 19530829 with 27 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19530827 with 29 games left to play.
+The Philadelphia Athletics were eliminated from the AL title on 19530823 with 32 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19530822 with 35 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19530820 with 36 games left to play.
+SLA can only allow ['NYA', 'CHA', 'CLE', 'BOS'] to win 32 total games but they have 36 games left against each other.
+It looked like the St. Louis Browns were in contention after 19530816 but the remaining intra-division games ruled them out.
+SLA can only allow ['NYA', 'CHA', 'CLE', 'BOS'] to win 35 total games but they have 36 games left against each other.
+It looked like the St. Louis Browns were in contention after 19530815 but the remaining intra-division games ruled them out.
+SLA can only allow ['NYA', 'CHA', 'CLE', 'BOS'] to win 35 total games but they have 36 games left against each other.
+It looked like the St. Louis Browns were in contention after 19530814 but the remaining intra-division games ruled them out.
+The St. Louis Browns were eliminated from the AL title on 19530814 with 38 games left to play.
+PIT can only allow ['BRO', 'MLN', 'PHI', 'SLN'] to win 30 total games but they have 31 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19530812 but the remaining intra-division games ruled them out.
+PIT can only allow ['BRO', 'MLN', 'PHI', 'SLN', 'NY1'] to win 59 total games but they have 63 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19530811 but the remaining intra-division games ruled them out.
+PIT can only allow ['BRO', 'MLN', 'PHI', 'SLN', 'NY1', 'CIN'] to win 93 total games but they have 94 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19530810 but the remaining intra-division games ruled them out.
+PIT can only allow ['BRO', 'MLN', 'PHI', 'SLN', 'NY1', 'CIN'] to win 94 total games but they have 95 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19530809 but the remaining intra-division games ruled them out.
+The Pittsburgh Pirates were eliminated from the NL title on 19530809 with 39 games left to play.

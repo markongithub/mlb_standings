@@ -1,0 +1,34 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Chicago Cubs were eliminated from the NL title on 19300926 with 2 games left to play.
+The Brooklyn Robins were eliminated from the NL title on 19300923 with 4 games left to play.
+The New York Giants were eliminated from the NL title on 19300922 with 3 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19300919 with 9 games left to play.
+The Washington Senators were eliminated from the AL title on 19300918 with 8 games left to play.
+The New York Yankees were eliminated from the AL title on 19300912 with 14 games left to play.
+The Boston Braves were eliminated from the NL title on 19300907 with 15 games left to play.
+CIN can only allow ['CHN', 'SLN', 'NY1', 'BRO', 'PIT'] to win 25 total games but they have 26 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19300905 but the remaining intra-division games ruled them out.
+CIN can only allow ['CHN', 'NY1', 'SLN', 'BRO', 'PIT'] to win 26 total games but they have 27 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19300904 but the remaining intra-division games ruled them out.
+The Cleveland Indians were eliminated from the AL title on 19300905 with 17 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19300904 with 24 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19300829 with 24 games left to play.
+PHI can only allow ['CHN', 'NY1', 'BRO'] to win 9 total games but they have 13 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19300823 but the remaining intra-division games ruled them out.
+PHI can only allow ['CHN', 'NY1', 'BRO'] to win 13 total games but they have 14 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19300822 but the remaining intra-division games ruled them out.
+PHI can only allow ['CHN', 'NY1', 'BRO', 'SLN', 'PIT', 'BSN'] to win 65 total games but they have 71 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19300821 but the remaining intra-division games ruled them out.
+PHI can only allow ['CHN', 'NY1', 'BRO', 'SLN', 'PIT', 'BSN', 'CIN'] to win 101 total games but they have 107 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19300820 but the remaining intra-division games ruled them out.
+PHI can only allow ['CHN', 'NY1', 'BRO', 'SLN', 'PIT', 'BSN', 'CIN'] to win 105 total games but they have 111 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19300819 but the remaining intra-division games ruled them out.
+PHI can only allow ['CHN', 'NY1', 'BRO', 'SLN', 'PIT', 'BSN', 'CIN'] to win 108 total games but they have 114 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19300818 but the remaining intra-division games ruled them out.
+The Chicago White Sox were eliminated from the AL title on 19300819 with 35 games left to play.
+The St. Louis Browns were eliminated from the AL title on 19300818 with 35 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19300818 with 38 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19300813 with 39 games left to play.

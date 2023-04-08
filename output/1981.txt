@@ -1,0 +1,16 @@
+This season has 26 teams.
+The top 1 teams from each division go to the postseason, plus 1981 was weird sorry wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+Traceback (most recent call last):
+  File "/mnt/c/Users/digam/git/github.com/markongithub/mlb_standings/run_one_year_retro.py", line 7, in <module>
+    mlb_standings.run_one_year_retro(int(sys.argv[1]))
+  File "/mnt/c/Users/digam/git/github.com/markongithub/mlb_standings/mlb_standings.py", line 922, in run_one_year_retro
+    return show_dumb_elimination_output4(played, unplayed, season_params)
+  File "/mnt/c/Users/digam/git/github.com/markongithub/mlb_standings/mlb_standings.py", line 1263, in show_dumb_elimination_output4
+    wildcard_contenders = wildcard_contenders_naive(
+  File "/mnt/c/Users/digam/git/github.com/markongithub/mlb_standings/mlb_standings.py", line 601, in wildcard_contenders_naive
+    return set(wildcard_standings(standings_immutable, season_params).index)
+  File "/mnt/c/Users/digam/git/github.com/markongithub/mlb_standings/mlb_standings.py", line 585, in wildcard_standings
+    .nth(season_params.wildcard_count - 1)["W"]
+TypeError: unsupported operand type(s) for -: 'str' and 'int'

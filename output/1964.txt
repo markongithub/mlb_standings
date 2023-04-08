@@ -1,0 +1,56 @@
+This season has 20 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The Philadelphia Phillies were eliminated from the NL title on 19641004 with 1 games left to play.
+The San Francisco Giants were eliminated from the NL title on 19641003 with 1 games left to play.
+The Baltimore Orioles were eliminated from the AL title on 19641002 with 1 games left to play.
+The Milwaukee Braves were eliminated from the NL title on 19640923 with 11 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19640922 with 13 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19640920 with 13 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19640920 with 11 games left to play.
+The Minnesota Twins were eliminated from the AL title on 19640918 with 13 games left to play.
+The Los Angeles Angels were eliminated from the AL title on 19640918 with 11 games left to play.
+The Los Angeles Dodgers were eliminated from the NL title on 19640917 with 15 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19640913 with 19 games left to play.
+HOU can only allow ['PHI', 'CIN', 'SLN'] to win 12 total games but they have 14 games left against each other.
+It looked like the Houston Colt .45's were in contention after 19640906 but the remaining intra-division games ruled them out.
+The Boston Red Sox were eliminated from the AL title on 19640907 with 21 games left to play.
+The Houston Colt .45's were eliminated from the NL title on 19640906 with 24 games left to play.
+WS2 can only allow ['BAL', 'NYA', 'CHA', 'DET', 'CLE'] to win 28 total games but they have 31 games left against each other.
+It looked like the Washington Senators were in contention after 19640901 but the remaining intra-division games ruled them out.
+WS2 can only allow ['BAL', 'CHA', 'NYA', 'DET', 'MIN', 'CLE', 'LAA'] to win 64 total games but they have 65 games left against each other.
+It looked like the Washington Senators were in contention after 19640831 but the remaining intra-division games ruled them out.
+The Washington Senators were eliminated from the AL title on 19640831 with 28 games left to play.
+KC1 can only allow ['BAL', 'CHA', 'NYA', 'DET', 'CLE', 'LAA'] to win 47 total games but they have 49 games left against each other.
+It looked like the Kansas City Athletics were in contention after 19640829 but the remaining intra-division games ruled them out.
+NYN can only allow ['PHI', 'CIN', 'SFN', 'SLN', 'MLN'] to win 38 total games but they have 39 games left against each other.
+It looked like the New York Mets were in contention after 19640828 but the remaining intra-division games ruled them out.
+The Kansas City Athletics were eliminated from the AL title on 19640829 with 32 games left to play.
+NYN can only allow ['PHI', 'CIN', 'SLN', 'MLN', 'PIT'] to win 46 total games but they have 49 games left against each other.
+It looked like the New York Mets were in contention after 19640827 but the remaining intra-division games ruled them out.
+NYN can only allow ['PHI', 'CIN', 'SLN', 'MLN', 'PIT'] to win 47 total games but they have 49 games left against each other.
+It looked like the New York Mets were in contention after 19640826 but the remaining intra-division games ruled them out.
+NYN can only allow ['PHI', 'CIN', 'SLN', 'MLN', 'PIT'] to win 49 total games but they have 51 games left against each other.
+It looked like the New York Mets were in contention after 19640825 but the remaining intra-division games ruled them out.
+NYN can only allow ['PHI', 'SFN', 'CIN', 'SLN', 'MLN', 'PIT'] to win 66 total games but they have 69 games left against each other.
+It looked like the New York Mets were in contention after 19640824 but the remaining intra-division games ruled them out.
+NYN can only allow ['PHI', 'CIN', 'SFN', 'SLN', 'PIT', 'MLN'] to win 69 total games but they have 71 games left against each other.
+It looked like the New York Mets were in contention after 19640823 but the remaining intra-division games ruled them out.
+NYN can only allow ['PHI', 'CIN', 'SFN', 'SLN', 'PIT', 'MLN'] to win 71 total games but they have 73 games left against each other.
+It looked like the New York Mets were in contention after 19640822 but the remaining intra-division games ruled them out.
+NYN can only allow ['PHI', 'CIN', 'SFN', 'SLN', 'MLN', 'PIT', 'LAN', 'CHN'] to win 125 total games but they have 128 games left against each other.
+It looked like the New York Mets were in contention after 19640821 but the remaining intra-division games ruled them out.
+NYN can only allow ['PHI', 'SFN', 'CIN', 'SLN', 'MLN', 'PIT', 'LAN', 'CHN'] to win 128 total games but they have 131 games left against each other.
+It looked like the New York Mets were in contention after 19640820 but the remaining intra-division games ruled them out.
+NYN can only allow ['PHI', 'SFN', 'CIN', 'SLN', 'PIT', 'MLN', 'LAN', 'CHN'] to win 132 total games but they have 135 games left against each other.
+It looked like the New York Mets were in contention after 19640819 but the remaining intra-division games ruled them out.
+NYN can only allow ['PHI', 'SFN', 'CIN', 'SLN', 'PIT', 'MLN', 'LAN', 'CHN'] to win 135 total games but they have 138 games left against each other.
+It looked like the New York Mets were in contention after 19640818 but the remaining intra-division games ruled them out.
+NYN can only allow ['PHI', 'SFN', 'CIN', 'PIT', 'SLN', 'MLN', 'LAN', 'CHN'] to win 139 total games but they have 141 games left against each other.
+It looked like the New York Mets were in contention after 19640817 but the remaining intra-division games ruled them out.
+NYN can only allow ['PHI', 'SFN', 'PIT', 'CIN', 'SLN', 'MLN', 'LAN', 'CHN'] to win 141 total games but they have 142 games left against each other.
+It looked like the New York Mets were in contention after 19640816 but the remaining intra-division games ruled them out.
+NYN can only allow ['PHI', 'SFN', 'PIT', 'CIN', 'SLN', 'MLN', 'LAN', 'CHN', 'HOU'] to win 178 total games but they have 185 games left against each other.
+It looked like the New York Mets were in contention after 19640815 but the remaining intra-division games ruled them out.
+The New York Mets were eliminated from the NL title on 19640815 with 45 games left to play.

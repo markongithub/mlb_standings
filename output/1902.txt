@@ -1,0 +1,40 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 140 games per team.
+The NL has 140 games per team.
+The St.Louis Browns were eliminated from the AL title on 19020928 with 4 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19020926 with 9 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19020924 with 6 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19020920 with 10 games left to play.
+WS1 can only allow ['PHA', 'BOS'] to win 3 total games but they have 6 games left against each other.
+It looked like the Washington Senators were in contention after 19020914 but the remaining intra-division games ruled them out.
+WS1 can only allow ['PHA', 'BOS'] to win 3 total games but they have 6 games left against each other.
+It looked like the Washington Senators were in contention after 19020913 but the remaining intra-division games ruled them out.
+WS1 can only allow ['PHA', 'BOS'] to win 3 total games but they have 6 games left against each other.
+It looked like the Washington Senators were in contention after 19020912 but the remaining intra-division games ruled them out.
+WS1 can only allow ['PHA', 'BOS'] to win 4 total games but they have 7 games left against each other.
+It looked like the Washington Senators were in contention after 19020911 but the remaining intra-division games ruled them out.
+WS1 can only allow ['PHA', 'BOS'] to win 6 total games but they have 7 games left against each other.
+It looked like the Washington Senators were in contention after 19020910 but the remaining intra-division games ruled them out.
+DET can only allow ['PHA', 'BOS'] to win 6 total games but they have 7 games left against each other.
+It looked like the Detroit Tigers were in contention after 19020909 but the remaining intra-division games ruled them out.
+BLA can only allow ['PHA', 'BOS'] to win 2 total games but they have 7 games left against each other.
+It looked like the Baltimore Orioles were in contention after 19020909 but the remaining intra-division games ruled them out.
+The Washington Senators were eliminated from the AL title on 19020910 with 18 games left to play.
+DET can only allow ['PHA', 'BOS'] to win 6 total games but they have 7 games left against each other.
+It looked like the Detroit Tigers were in contention after 19020908 but the remaining intra-division games ruled them out.
+BLA can only allow ['PHA', 'BOS'] to win 2 total games but they have 7 games left against each other.
+It looked like the Baltimore Orioles were in contention after 19020908 but the remaining intra-division games ruled them out.
+BLA can only allow ['PHA', 'BOS'] to win 3 total games but they have 7 games left against each other.
+It looked like the Baltimore Orioles were in contention after 19020907 but the remaining intra-division games ruled them out.
+The Detroit Tigers were eliminated from the AL title on 19020908 with 24 games left to play.
+BLA can only allow ['PHA', 'BOS'] to win 6 total games but they have 7 games left against each other.
+It looked like the Baltimore Orioles were in contention after 19020906 but the remaining intra-division games ruled them out.
+The Baltimore Orioles were eliminated from the AL title on 19020906 with 23 games left to play.
+The Boston Braves were eliminated from the NL title on 19020903 with 28 games left to play.
+The Brooklyn Dodgers were eliminated from the NL title on 19020902 with 23 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19020901 with 28 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19020901 with 26 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19020828 with 33 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19020825 with 35 games left to play.
+The New York Giants were eliminated from the NL title on 19020821 with 36 games left to play.

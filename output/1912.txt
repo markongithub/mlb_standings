@@ -1,0 +1,24 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Chicago Cubs were eliminated from the NL title on 19120927 with 10 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19120926 with 10 games left to play.
+The Washington Senators were eliminated from the AL title on 19120920 with 11 games left to play.
+The Philadelphia Athletics were eliminated from the AL title on 19120919 with 13 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19120906 with 26 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19120906 with 24 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19120906 with 26 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19120902 with 29 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19120831 with 28 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19120830 with 31 games left to play.
+The Brooklyn Dodgers were eliminated from the NL title on 19120825 with 38 games left to play.
+The New York Yankees were eliminated from the AL title on 19120823 with 39 games left to play.
+BSN can only allow ['NY1', 'CHN', 'PIT'] to win 16 total games but they have 19 games left against each other.
+It looked like the Boston Braves were in contention after 19120819 but the remaining intra-division games ruled them out.
+The St.Louis Browns were eliminated from the AL title on 19120820 with 40 games left to play.
+BSN can only allow ['NY1', 'CHN', 'PIT'] to win 17 total games but they have 19 games left against each other.
+It looked like the Boston Braves were in contention after 19120818 but the remaining intra-division games ruled them out.
+BSN can only allow ['NY1', 'CHN', 'PIT', 'PHI', 'CIN', 'SLN'] to win 93 total games but they have 100 games left against each other.
+It looked like the Boston Braves were in contention after 19120817 but the remaining intra-division games ruled them out.
+The Boston Braves were eliminated from the NL title on 19120817 with 47 games left to play.

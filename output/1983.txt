@@ -1,0 +1,64 @@
+This season has 26 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The Atlanta Braves were eliminated from the NLW title on 19830930 with 2 games left to play.
+The Pittsburgh Pirates were eliminated from the NLE title on 19830928 with 4 games left to play.
+The Houston Astros were eliminated from the NLW title on 19830926 with 7 games left to play.
+The Montreal Expos were eliminated from the NLE title on 19830926 with 5 games left to play.
+The New York Yankees were eliminated from the ALE title on 19830925 with 8 games left to play.
+The Detroit Tigers were eliminated from the ALE title on 19830925 with 6 games left to play.
+The St. Louis Cardinals were eliminated from the NLE title on 19830923 with 8 games left to play.
+The San Diego Padres were eliminated from the NLW title on 19830921 with 10 games left to play.
+The Toronto Blue Jays were eliminated from the ALE title on 19830921 with 9 games left to play.
+CHN can only allow ['PHI', 'PIT', 'MON', 'SLN'] to win 14 total games but they have 16 games left against each other.
+It looked like the Chicago Cubs were in contention after 19830918 but the remaining intra-division games ruled them out.
+The Milwaukee Brewers were eliminated from the ALE title on 19830919 with 12 games left to play.
+CHN can only allow ['PHI', 'PIT', 'MON', 'SLN'] to win 16 total games but they have 18 games left against each other.
+It looked like the Chicago Cubs were in contention after 19830917 but the remaining intra-division games ruled them out.
+CHN can only allow ['PHI', 'PIT', 'MON', 'SLN'] to win 18 total games but they have 20 games left against each other.
+It looked like the Chicago Cubs were in contention after 19830916 but the remaining intra-division games ruled them out.
+The Kansas City Royals were eliminated from the ALW title on 19830917 with 16 games left to play.
+NYN can only allow ['PIT', 'MON'] to win 3 total games but they have 6 games left against each other.
+It looked like the New York Mets were in contention after 19830915 but the remaining intra-division games ruled them out.
+CHN can only allow ['PHI', 'PIT', 'MON', 'SLN'] to win 20 total games but they have 22 games left against each other.
+It looked like the Chicago Cubs were in contention after 19830915 but the remaining intra-division games ruled them out.
+NYN can only allow ['PIT', 'MON'] to win 5 total games but they have 6 games left against each other.
+It looked like the New York Mets were in contention after 19830914 but the remaining intra-division games ruled them out.
+The San Francisco Giants were eliminated from the NLW title on 19830915 with 16 games left to play.
+The Chicago Cubs were eliminated from the NLE title on 19830915 with 16 games left to play.
+NYN can only allow ['MON', 'PHI', 'PIT'] to win 12 total games but they have 13 games left against each other.
+It looked like the New York Mets were in contention after 19830913 but the remaining intra-division games ruled them out.
+NYN can only allow ['PHI', 'MON', 'SLN'] to win 15 total games but they have 17 games left against each other.
+It looked like the New York Mets were in contention after 19830912 but the remaining intra-division games ruled them out.
+CIN can only allow ['LAN', 'ATL', 'HOU'] to win 11 total games but they have 12 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19830912 but the remaining intra-division games ruled them out.
+The Texas Rangers were eliminated from the ALW title on 19830913 with 17 games left to play.
+The Oakland Athletics were eliminated from the ALW title on 19830913 with 16 games left to play.
+The Boston Red Sox were eliminated from the ALE title on 19830913 with 17 games left to play.
+NYN can only allow ['MON', 'PHI', 'SLN', 'PIT'] to win 26 total games but they have 27 games left against each other.
+It looked like the New York Mets were in contention after 19830911 but the remaining intra-division games ruled them out.
+CIN can only allow ['LAN', 'ATL', 'HOU'] to win 11 total games but they have 12 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19830911 but the remaining intra-division games ruled them out.
+CIN can only allow ['LAN', 'ATL', 'HOU'] to win 12 total games but they have 13 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19830910 but the remaining intra-division games ruled them out.
+CLE can only allow ['BAL', 'DET'] to win 4 total games but they have 7 games left against each other.
+It looked like the Cleveland Indians were in contention after 19830910 but the remaining intra-division games ruled them out.
+The New York Mets were eliminated from the NLE title on 19830911 with 20 games left to play.
+The California Angels were eliminated from the ALW title on 19830911 with 19 games left to play.
+CLE can only allow ['BAL', 'NYA', 'DET'] to win 12 total games but they have 14 games left against each other.
+It looked like the Cleveland Indians were in contention after 19830909 but the remaining intra-division games ruled them out.
+The Cincinnati Reds were eliminated from the NLW title on 19830910 with 19 games left to play.
+CLE can only allow ['BAL', 'NYA', 'MIL'] to win 17 total games but they have 18 games left against each other.
+It looked like the Cleveland Indians were in contention after 19830908 but the remaining intra-division games ruled them out.
+CLE can only allow ['BAL', 'MIL', 'NYA'] to win 18 total games but they have 19 games left against each other.
+It looked like the Cleveland Indians were in contention after 19830907 but the remaining intra-division games ruled them out.
+The Minnesota Twins were eliminated from the ALW title on 19830908 with 21 games left to play.
+CLE can only allow ['BAL', 'MIL', 'DET', 'NYA'] to win 32 total games but they have 34 games left against each other.
+It looked like the Cleveland Indians were in contention after 19830906 but the remaining intra-division games ruled them out.
+CLE can only allow ['BAL', 'MIL', 'NYA', 'DET'] to win 34 total games but they have 35 games left against each other.
+It looked like the Cleveland Indians were in contention after 19830905 but the remaining intra-division games ruled them out.
+CLE can only allow ['BAL', 'NYA', 'DET', 'MIL'] to win 35 total games but they have 36 games left against each other.
+It looked like the Cleveland Indians were in contention after 19830904 but the remaining intra-division games ruled them out.
+The Seattle Mariners were eliminated from the ALW title on 19830905 with 25 games left to play.
+The Cleveland Indians were eliminated from the ALE title on 19830904 with 25 games left to play.

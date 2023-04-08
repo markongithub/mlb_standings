@@ -1,0 +1,24 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AA has 140 games per team.
+The NL has 126 games per team.
+The Philadelphia Phillies were eliminated from the NL title on 18871006 with 4 games left to play.
+The Chicago Cubs were eliminated from the NL title on 18871006 with 6 games left to play.
+The Cincinnati Reds were eliminated from the AA title on 18870929 with 10 games left to play.
+The New York Giants were eliminated from the NL title on 18870928 with 10 games left to play.
+The Boston Braves were eliminated from the NL title on 18870926 with 14 games left to play.
+The Louisville Colonels were eliminated from the AA title on 18870920 with 19 games left to play.
+The Baltimore Orioles were eliminated from the AA title on 18870917 with 23 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 18870916 with 21 games left to play.
+The Washington Senators were eliminated from the NL title on 18870910 with 26 games left to play.
+The Brooklyn Dodgers were eliminated from the AA title on 18870907 with 30 games left to play.
+The Philadelphia Athletics were eliminated from the AA title on 18870906 with 31 games left to play.
+IN3 can only allow ['DTN', 'CHN', 'NY1', 'PHI', 'BSN'] to win 32 total games but they have 37 games left against each other.
+It looked like the Indianapolis Hoosiers were in contention after 18870831 but the remaining intra-division games ruled them out.
+IN3 can only allow ['DTN', 'CHN', 'NY1', 'PHI', 'BSN'] to win 33 total games but they have 38 games left against each other.
+It looked like the Indianapolis Hoosiers were in contention after 18870830 but the remaining intra-division games ruled them out.
+IN3 can only allow ['DTN', 'CHN', 'NY1', 'BSN', 'PHI', 'PIT'] to win 64 total games but they have 66 games left against each other.
+It looked like the Indianapolis Hoosiers were in contention after 18870829 but the remaining intra-division games ruled them out.
+The Indianapolis Hoosiers were eliminated from the NL title on 18870829 with 32 games left to play.
+The New York Metropolitans were eliminated from the AA title on 18870828 with 40 games left to play.
+The Cleveland Spiders were eliminated from the AA title on 18870822 with 43 games left to play.

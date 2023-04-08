@@ -1,0 +1,78 @@
+This season has 30 teams.
+The top 1 teams from each division go to the postseason, plus 1 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The Cleveland Indians were eliminated from AL wildcard contention on 20001001 with 0 games left to play.
+The New York Mets were eliminated from the NLE title on 20000930 with 1 games left to play.
+The New York Yankees were eliminated from AL wildcard contention on 20000930 with 2 games left to play.
+The Boston Red Sox were eliminated from the ALE title on 20000929 with 2 games left to play.
+The Toronto Blue Jays were eliminated from the ALE title on 20000928 with 3 games left to play.
+The Toronto Blue Jays were eliminated from AL wildcard contention on 20000927 with 4 games left to play.
+The Boston Red Sox were eliminated from AL wildcard contention on 20000927 with 4 games left to play.
+The Los Angeles Dodgers were eliminated from NL wildcard contention on 20000927 with 4 games left to play.
+The Arizona Diamondbacks were eliminated from NL wildcard contention on 20000926 with 5 games left to play.
+The Anaheim Angels were eliminated from AL wildcard contention on 20000926 with 5 games left to play.
+The Anaheim Angels were eliminated from the ALW title on 20000925 with 6 games left to play.
+The Cleveland Indians were eliminated from the ALC title on 20000924 with 8 games left to play.
+The Cincinnati Reds were eliminated from NL wildcard contention on 20000924 with 6 games left to play.
+The Detroit Tigers were eliminated from AL wildcard contention on 20000923 with 8 games left to play.
+The Colorado Rockies were eliminated from NL wildcard contention on 20000922 with 9 games left to play.
+The Arizona Diamondbacks were eliminated from the NLW title on 20000921 with 11 games left to play.
+The Cincinnati Reds were eliminated from the NLC title on 20000920 with 9 games left to play.
+The Los Angeles Dodgers were eliminated from the NLW title on 20000920 with 9 games left to play.
+KCA can only allow ['CLE', 'BOS'] to win 3 total games but they have 4 games left against each other.
+It looked like the Kansas City Royals were in wildcard contention after 20000919 but the remaining intra-contender games ruled them out.
+The Colorado Rockies were eliminated from the NLW title on 20000919 with 12 games left to play.
+KCA can only allow ['CLE', 'BOS'] to win 4 total games but they have 5 games left against each other.
+It looked like the Kansas City Royals were in wildcard contention after 20000918 but the remaining intra-contender games ruled them out.
+TEX can only allow ['CLE', 'BOS'] to win 2 total games but they have 5 games left against each other.
+It looked like the Texas Rangers were in wildcard contention after 20000918 but the remaining intra-contender games ruled them out.
+BAL can only allow ['CLE', 'BOS'] to win 1 total games but they have 5 games left against each other.
+It looked like the Baltimore Orioles were in wildcard contention after 20000917 but the remaining intra-contender games ruled them out.
+The Kansas City Royals were eliminated from AL wildcard contention on 20000918 with 12 games left to play.
+The Texas Rangers were eliminated from AL wildcard contention on 20000918 with 11 games left to play.
+BAL can only allow ['CLE', 'BOS'] to win 4 total games but they have 5 games left against each other.
+It looked like the Baltimore Orioles were in wildcard contention after 20000916 but the remaining intra-contender games ruled them out.
+The Florida Marlins were eliminated from NL wildcard contention on 20000917 with 14 games left to play.
+The San Diego Padres were eliminated from NL wildcard contention on 20000917 with 12 games left to play.
+The Texas Rangers were eliminated from the ALW title on 20000916 with 13 games left to play.
+The Detroit Tigers were eliminated from the ALC title on 20000916 with 14 games left to play.
+MIN can only allow ['CLE', 'BOS'] to win 3 total games but they have 5 games left against each other.
+It looked like the Minnesota Twins were in wildcard contention after 20000915 but the remaining intra-contender games ruled them out.
+The Baltimore Orioles were eliminated from AL wildcard contention on 20000916 with 14 games left to play.
+FLO can only allow ['ATL', 'NYN'] to win 2 total games but they have 6 games left against each other.
+It looked like the Florida Marlins were in contention after 20000914 but the remaining intra-division games ruled them out.
+TBA can only allow ['CLE', 'BOS'] to win 1 total games but they have 5 games left against each other.
+It looked like the Tampa Bay Devil Rays were in wildcard contention after 20000914 but the remaining intra-contender games ruled them out.
+The Minnesota Twins were eliminated from AL wildcard contention on 20000915 with 16 games left to play.
+The Florida Marlins were eliminated from the NLE title on 20000914 with 17 games left to play.
+TBA can only allow ['CLE', 'BOS'] to win 2 total games but they have 6 games left against each other.
+It looked like the Tampa Bay Devil Rays were in wildcard contention after 20000913 but the remaining intra-contender games ruled them out.
+The San Diego Padres were eliminated from the NLW title on 20000913 with 15 games left to play.
+TBA can only allow ['CLE', 'BOS'] to win 5 total games but they have 7 games left against each other.
+It looked like the Tampa Bay Devil Rays were in wildcard contention after 20000912 but the remaining intra-contender games ruled them out.
+The Kansas City Royals were eliminated from the ALC title on 20000912 with 17 games left to play.
+The Baltimore Orioles were eliminated from the ALE title on 20000912 with 17 games left to play.
+The Milwaukee Brewers were eliminated from NL wildcard contention on 20000912 with 18 games left to play.
+The Houston Astros were eliminated from NL wildcard contention on 20000912 with 17 games left to play.
+The Tampa Bay Devil Rays were eliminated from AL wildcard contention on 20000912 with 17 games left to play.
+The Milwaukee Brewers were eliminated from the NLC title on 20000911 with 19 games left to play.
+The Houston Astros were eliminated from the NLC title on 20000911 with 18 games left to play.
+The Pittsburgh Pirates were eliminated from NL wildcard contention on 20000911 with 19 games left to play.
+The Montreal Expos were eliminated from NL wildcard contention on 20000911 with 20 games left to play.
+The Pittsburgh Pirates were eliminated from the NLC title on 20000910 with 20 games left to play.
+The Tampa Bay Devil Rays were eliminated from the ALE title on 20000910 with 19 games left to play.
+The Philadelphia Phillies were eliminated from NL wildcard contention on 20000910 with 21 games left to play.
+The Chicago Cubs were eliminated from NL wildcard contention on 20000910 with 20 games left to play.
+The Chicago Cubs were eliminated from the NLC title on 20000909 with 21 games left to play.
+MON can only allow ['ATL', 'NYN'] to win 4 total games but they have 6 games left against each other.
+It looked like the Montreal Expos were in contention after 20000906 but the remaining intra-division games ruled them out.
+The Minnesota Twins were eliminated from the ALC title on 20000907 with 22 games left to play.
+MON can only allow ['ATL', 'NYN'] to win 5 total games but they have 6 games left against each other.
+It looked like the Montreal Expos were in contention after 20000905 but the remaining intra-division games ruled them out.
+PHI can only allow ['ATL', 'NYN'] to win 1 total games but they have 6 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 20000905 but the remaining intra-division games ruled them out.
+PHI can only allow ['ATL', 'NYN'] to win 5 total games but they have 6 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 20000904 but the remaining intra-division games ruled them out.
+The Montreal Expos were eliminated from the NLE title on 20000905 with 27 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 20000904 with 26 games left to play.

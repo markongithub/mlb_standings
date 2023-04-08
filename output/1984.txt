@@ -1,0 +1,50 @@
+This season has 26 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The Minnesota Twins were eliminated from the ALW title on 19840928 with 2 games left to play.
+The California Angels were eliminated from the ALW title on 19840927 with 3 games left to play.
+The New York Mets were eliminated from the NLE title on 19840924 with 5 games left to play.
+The St. Louis Cardinals were eliminated from the NLE title on 19840923 with 7 games left to play.
+OAK can only allow ['KCA', 'CAL'] to win 1 total games but they have 4 games left against each other.
+It looked like the Oakland Athletics were in contention after 19840921 but the remaining intra-division games ruled them out.
+CHA can only allow ['KCA', 'CAL'] to win 1 total games but they have 4 games left against each other.
+It looked like the Chicago White Sox were in contention after 19840921 but the remaining intra-division games ruled them out.
+SEA can only allow ['KCA', 'CAL'] to win 1 total games but they have 4 games left against each other.
+It looked like the Seattle Mariners were in contention after 19840920 but the remaining intra-division games ruled them out.
+The Oakland Athletics were eliminated from the ALW title on 19840921 with 8 games left to play.
+The Chicago White Sox were eliminated from the ALW title on 19840921 with 9 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 19840921 with 8 games left to play.
+SEA can only allow ['KCA', 'CAL'] to win 2 total games but they have 5 games left against each other.
+It looked like the Seattle Mariners were in contention after 19840919 but the remaining intra-division games ruled them out.
+The Atlanta Braves were eliminated from the NLW title on 19840920 with 9 games left to play.
+The Houston Astros were eliminated from the NLW title on 19840920 with 9 games left to play.
+SEA can only allow ['KCA', 'CAL'] to win 3 total games but they have 6 games left against each other.
+It looked like the Seattle Mariners were in contention after 19840918 but the remaining intra-division games ruled them out.
+The Los Angeles Dodgers were eliminated from the NLW title on 19840919 with 10 games left to play.
+SEA can only allow ['KCA', 'CAL'] to win 4 total games but they have 7 games left against each other.
+It looked like the Seattle Mariners were in contention after 19840917 but the remaining intra-division games ruled them out.
+TEX can only allow ['KCA', 'CAL'] to win 4 total games but they have 7 games left against each other.
+It looked like the Texas Rangers were in contention after 19840917 but the remaining intra-division games ruled them out.
+The Toronto Blue Jays were eliminated from the ALE title on 19840918 with 11 games left to play.
+SEA can only allow ['KCA', 'CAL'] to win 5 total games but they have 8 games left against each other.
+It looked like the Seattle Mariners were in contention after 19840916 but the remaining intra-division games ruled them out.
+TEX can only allow ['KCA', 'CAL'] to win 7 total games but they have 8 games left against each other.
+It looked like the Texas Rangers were in contention after 19840916 but the remaining intra-division games ruled them out.
+The Baltimore Orioles were eliminated from the ALE title on 19840917 with 14 games left to play.
+The Seattle Mariners were eliminated from the ALW title on 19840916 with 12 games left to play.
+The New York Yankees were eliminated from the ALE title on 19840916 with 14 games left to play.
+The Texas Rangers were eliminated from the ALW title on 19840916 with 14 games left to play.
+The Montreal Expos were eliminated from the NLE title on 19840914 with 16 games left to play.
+The Boston Red Sox were eliminated from the ALE title on 19840914 with 16 games left to play.
+The San Francisco Giants were eliminated from the NLW title on 19840909 with 19 games left to play.
+The Cincinnati Reds were eliminated from the NLW title on 19840908 with 19 games left to play.
+PIT can only allow ['CHN', 'NYN', 'PHI', 'SLN', 'MON'] to win 49 total games but they have 50 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19840904 but the remaining intra-division games ruled them out.
+PIT can only allow ['CHN', 'NYN', 'PHI', 'SLN', 'MON'] to win 51 total games but they have 52 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19840903 but the remaining intra-division games ruled them out.
+PIT can only allow ['CHN', 'NYN', 'PHI', 'SLN', 'MON'] to win 53 total games but they have 54 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19840902 but the remaining intra-division games ruled them out.
+The Pittsburgh Pirates were eliminated from the NLE title on 19840902 with 26 games left to play.
+The Cleveland Indians were eliminated from the ALE title on 19840831 with 26 games left to play.
+The Milwaukee Brewers were eliminated from the ALE title on 19840828 with 30 games left to play.

@@ -1,0 +1,29 @@
+This season has 12 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The NL has 132 games per team.
+The Boston Braves were eliminated from the NL title on 18940925 with 3 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 18940919 with 13 games left to play.
+The Brooklyn Dodgers were eliminated from the NL title on 18940915 with 14 games left to play.
+The Cleveland Spiders were eliminated from the NL title on 18940911 with 18 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 18940906 with 20 games left to play.
+The Chicago Cubs were eliminated from the NL title on 18940904 with 22 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 18940903 with 23 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 18940901 with 23 games left to play.
+LS3 can only allow ['BSN', 'BLN', 'NY1', 'CL4'] to win 18 total games but they have 21 games left against each other.
+It looked like the Louisville Colonels were in contention after 18940822 but the remaining intra-division games ruled them out.
+WSN can only allow ['BSN', 'BLN', 'NY1', 'CL4'] to win 18 total games but they have 21 games left against each other.
+It looked like the Washington Senators were in contention after 18940822 but the remaining intra-division games ruled them out.
+LS3 can only allow ['BSN', 'BLN', 'NY1', 'CL4'] to win 20 total games but they have 21 games left against each other.
+It looked like the Louisville Colonels were in contention after 18940821 but the remaining intra-division games ruled them out.
+WSN can only allow ['BSN', 'BLN', 'NY1', 'CL4'] to win 20 total games but they have 21 games left against each other.
+It looked like the Washington Senators were in contention after 18940821 but the remaining intra-division games ruled them out.
+WSN can only allow ['BSN', 'BLN', 'NY1', 'CL4', 'PHI', 'PIT', 'BRO', 'CHN', 'CIN'] to win 110 total games but they have 116 games left against each other.
+It looked like the Washington Senators were in contention after 18940820 but the remaining intra-division games ruled them out.
+The Louisville Colonels were eliminated from the NL title on 18940821 with 33 games left to play.
+WSN can only allow ['BLN', 'BSN', 'NY1', 'CL4', 'PHI', 'PIT', 'BRO', 'CHN', 'CIN'] to win 114 total games but they have 119 games left against each other.
+It looked like the Washington Senators were in contention after 18940819 but the remaining intra-division games ruled them out.
+WSN can only allow ['BLN', 'BSN', 'NY1', 'CL4', 'PHI', 'PIT', 'BRO', 'CHN', 'CIN'] to win 114 total games but they have 119 games left against each other.
+It looked like the Washington Senators were in contention after 18940818 but the remaining intra-division games ruled them out.
+WSN can only allow ['BSN', 'BLN', 'NY1', 'CL4', 'PHI', 'PIT', 'BRO', 'CHN', 'CIN'] to win 117 total games but they have 122 games left against each other.
+It looked like the Washington Senators were in contention after 18940817 but the remaining intra-division games ruled them out.
+The Washington Senators were eliminated from the NL title on 18940817 with 35 games left to play.

@@ -1,0 +1,62 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Cleveland Indians were eliminated from the AL title on 19211001 with 1 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19210929 with 3 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19210925 with 6 games left to play.
+The Boston Braves were eliminated from the NL title on 19210917 with 13 games left to play.
+SLA can only allow ['NYA', 'CLE'] to win 0 total games but they have 4 games left against each other.
+It looked like the St. Louis Browns were in contention after 19210914 but the remaining intra-division games ruled them out.
+BOS can only allow ['NYA', 'CLE'] to win 0 total games but they have 4 games left against each other.
+It looked like the Boston Red Sox were in contention after 19210913 but the remaining intra-division games ruled them out.
+The St. Louis Browns were eliminated from the AL title on 19210914 with 14 games left to play.
+The Brooklyn Robins were eliminated from the NL title on 19210914 with 16 games left to play.
+WS1 can only allow ['NYA', 'CLE'] to win 1 total games but they have 4 games left against each other.
+It looked like the Washington Senators were in contention after 19210912 but the remaining intra-division games ruled them out.
+BOS can only allow ['NYA', 'CLE'] to win 3 total games but they have 4 games left against each other.
+It looked like the Boston Red Sox were in contention after 19210912 but the remaining intra-division games ruled them out.
+WS1 can only allow ['NYA', 'CLE'] to win 1 total games but they have 4 games left against each other.
+It looked like the Washington Senators were in contention after 19210911 but the remaining intra-division games ruled them out.
+BOS can only allow ['NYA', 'CLE'] to win 3 total games but they have 4 games left against each other.
+It looked like the Boston Red Sox were in contention after 19210911 but the remaining intra-division games ruled them out.
+WS1 can only allow ['NYA', 'CLE'] to win 3 total games but they have 4 games left against each other.
+It looked like the Washington Senators were in contention after 19210910 but the remaining intra-division games ruled them out.
+The Boston Red Sox were eliminated from the AL title on 19210911 with 22 games left to play.
+The Washington Senators were eliminated from the AL title on 19210910 with 18 games left to play.
+DET can only allow ['NYA', 'CLE'] to win 0 total games but they have 4 games left against each other.
+It looked like the Detroit Tigers were in contention after 19210908 but the remaining intra-division games ruled them out.
+DET can only allow ['NYA', 'CLE'] to win 0 total games but they have 4 games left against each other.
+It looked like the Detroit Tigers were in contention after 19210907 but the remaining intra-division games ruled them out.
+CIN can only allow ['PIT', 'NY1'] to win 2 total games but they have 3 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19210906 but the remaining intra-division games ruled them out.
+The Detroit Tigers were eliminated from the AL title on 19210907 with 19 games left to play.
+CIN can only allow ['PIT', 'NY1'] to win 2 total games but they have 3 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19210905 but the remaining intra-division games ruled them out.
+CHA can only allow ['NYA', 'CLE'] to win 2 total games but they have 4 games left against each other.
+It looked like the Chicago White Sox were in contention after 19210904 but the remaining intra-division games ruled them out.
+The Cincinnati Reds were eliminated from the NL title on 19210905 with 22 games left to play.
+CHA can only allow ['NYA', 'CLE'] to win 3 total games but they have 4 games left against each other.
+It looked like the Chicago White Sox were in contention after 19210903 but the remaining intra-division games ruled them out.
+CHN can only allow ['PIT', 'NY1'] to win 2 total games but they have 3 games left against each other.
+It looked like the Chicago Cubs were in contention after 19210902 but the remaining intra-division games ruled them out.
+The Chicago White Sox were eliminated from the AL title on 19210903 with 26 games left to play.
+CHN can only allow ['PIT', 'NY1'] to win 2 total games but they have 3 games left against each other.
+It looked like the Chicago Cubs were in contention after 19210901 but the remaining intra-division games ruled them out.
+CHN can only allow ['PIT', 'NY1'] to win 2 total games but they have 3 games left against each other.
+It looked like the Chicago Cubs were in contention after 19210831 but the remaining intra-division games ruled them out.
+PHA can only allow ['CLE', 'NYA'] to win 2 total games but they have 4 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19210830 but the remaining intra-division games ruled them out.
+CHN can only allow ['PIT', 'NY1'] to win 2 total games but they have 3 games left against each other.
+It looked like the Chicago Cubs were in contention after 19210830 but the remaining intra-division games ruled them out.
+PHA can only allow ['CLE', 'NYA'] to win 3 total games but they have 4 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19210829 but the remaining intra-division games ruled them out.
+The Chicago Cubs were eliminated from the NL title on 19210830 with 30 games left to play.
+PHA can only allow ['CLE', 'NYA'] to win 3 total games but they have 4 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19210828 but the remaining intra-division games ruled them out.
+The Philadelphia Athletics were eliminated from the AL title on 19210828 with 33 games left to play.
+PHI can only allow ['PIT', 'NY1'] to win 7 total games but they have 8 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19210819 but the remaining intra-division games ruled them out.
+PHI can only allow ['PIT', 'NY1', 'BSN', 'BRO', 'SLN'] to win 60 total games but they have 63 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19210818 but the remaining intra-division games ruled them out.
+The Philadelphia Phillies were eliminated from the NL title on 19210818 with 41 games left to play.

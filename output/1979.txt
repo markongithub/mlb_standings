@@ -1,0 +1,87 @@
+This season has 26 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The Houston Astros were eliminated from the NLW title on 19790928 with 2 games left to play.
+The Minnesota Twins were eliminated from the ALW title on 19790925 with 5 games left to play.
+The Kansas City Royals were eliminated from the ALW title on 19790925 with 4 games left to play.
+The Texas Rangers were eliminated from the ALW title on 19790923 with 6 games left to play.
+SLN can only allow ['MON', 'PIT'] to win 0 total games but they have 4 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19790921 but the remaining intra-division games ruled them out.
+The Milwaukee Brewers were eliminated from the ALE title on 19790922 with 8 games left to play.
+SLN can only allow ['MON', 'PIT'] to win 0 total games but they have 4 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19790920 but the remaining intra-division games ruled them out.
+SLN can only allow ['PIT', 'MON'] to win 2 total games but they have 4 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19790919 but the remaining intra-division games ruled them out.
+PHI can only allow ['PIT', 'MON'] to win 3 total games but they have 4 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19790918 but the remaining intra-division games ruled them out.
+The St. Louis Cardinals were eliminated from the NLE title on 19790919 with 12 games left to play.
+PHI can only allow ['PIT', 'MON'] to win 4 total games but they have 5 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19790917 but the remaining intra-division games ruled them out.
+CHN can only allow ['PIT', 'MON'] to win 2 total games but they have 5 games left against each other.
+It looked like the Chicago Cubs were in contention after 19790917 but the remaining intra-division games ruled them out.
+PHI can only allow ['MON', 'PIT'] to win 5 total games but they have 6 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19790916 but the remaining intra-division games ruled them out.
+CHN can only allow ['MON', 'PIT'] to win 3 total games but they have 6 games left against each other.
+It looked like the Chicago Cubs were in contention after 19790916 but the remaining intra-division games ruled them out.
+The Boston Red Sox were eliminated from the ALE title on 19790917 with 14 games left to play.
+The Los Angeles Dodgers were eliminated from the NLW title on 19790916 with 13 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 19790916 with 14 games left to play.
+The Chicago Cubs were eliminated from the NLE title on 19790916 with 15 games left to play.
+The New York Yankees were eliminated from the ALE title on 19790916 with 16 games left to play.
+CHA can only allow ['CAL', 'KCA'] to win 3 total games but they have 7 games left against each other.
+It looked like the Chicago White Sox were in contention after 19790913 but the remaining intra-division games ruled them out.
+CHA can only allow ['CAL', 'KCA'] to win 3 total games but they have 7 games left against each other.
+It looked like the Chicago White Sox were in contention after 19790912 but the remaining intra-division games ruled them out.
+The Detroit Tigers were eliminated from the ALE title on 19790913 with 16 games left to play.
+CHA can only allow ['CAL', 'KCA'] to win 4 total games but they have 7 games left against each other.
+It looked like the Chicago White Sox were in contention after 19790911 but the remaining intra-division games ruled them out.
+CHA can only allow ['CAL', 'KCA'] to win 4 total games but they have 7 games left against each other.
+It looked like the Chicago White Sox were in contention after 19790910 but the remaining intra-division games ruled them out.
+SFN can only allow ['HOU', 'CIN'] to win 0 total games but they have 5 games left against each other.
+It looked like the San Francisco Giants were in contention after 19790910 but the remaining intra-division games ruled them out.
+CHA can only allow ['CAL', 'KCA'] to win 5 total games but they have 7 games left against each other.
+It looked like the Chicago White Sox were in contention after 19790909 but the remaining intra-division games ruled them out.
+SFN can only allow ['HOU', 'CIN'] to win 0 total games but they have 5 games left against each other.
+It looked like the San Francisco Giants were in contention after 19790909 but the remaining intra-division games ruled them out.
+SFN can only allow ['CIN', 'HOU'] to win 3 total games but they have 5 games left against each other.
+It looked like the San Francisco Giants were in contention after 19790908 but the remaining intra-division games ruled them out.
+SEA can only allow ['CAL', 'KCA'] to win 5 total games but they have 7 games left against each other.
+It looked like the Seattle Mariners were in contention after 19790908 but the remaining intra-division games ruled them out.
+The Chicago White Sox were eliminated from the ALW title on 19790909 with 19 games left to play.
+The Cleveland Indians were eliminated from the ALE title on 19790909 with 19 games left to play.
+SFN can only allow ['HOU', 'CIN'] to win 4 total games but they have 5 games left against each other.
+It looked like the San Francisco Giants were in contention after 19790907 but the remaining intra-division games ruled them out.
+SEA can only allow ['CAL', 'KCA'] to win 6 total games but they have 7 games left against each other.
+It looked like the Seattle Mariners were in contention after 19790907 but the remaining intra-division games ruled them out.
+SFN can only allow ['HOU', 'CIN'] to win 4 total games but they have 5 games left against each other.
+It looked like the San Francisco Giants were in contention after 19790906 but the remaining intra-division games ruled them out.
+The Seattle Mariners were eliminated from the ALW title on 19790907 with 20 games left to play.
+SDN can only allow ['HOU', 'CIN'] to win 2 total games but they have 5 games left against each other.
+It looked like the San Diego Padres were in contention after 19790905 but the remaining intra-division games ruled them out.
+The San Francisco Giants were eliminated from the NLW title on 19790906 with 21 games left to play.
+ATL can only allow ['HOU', 'CIN'] to win 2 total games but they have 5 games left against each other.
+It looked like the Atlanta Braves were in contention after 19790904 but the remaining intra-division games ruled them out.
+The San Diego Padres were eliminated from the NLW title on 19790905 with 22 games left to play.
+ATL can only allow ['CIN', 'HOU'] to win 3 total games but they have 5 games left against each other.
+It looked like the Atlanta Braves were in contention after 19790903 but the remaining intra-division games ruled them out.
+NYN can only allow ['PIT', 'MON', 'SLN', 'CHN', 'PHI'] to win 49 total games but they have 56 games left against each other.
+It looked like the New York Mets were in contention after 19790902 but the remaining intra-division games ruled them out.
+The Atlanta Braves were eliminated from the NLW title on 19790903 with 26 games left to play.
+NYN can only allow ['PIT', 'MON', 'CHN', 'SLN', 'PHI'] to win 53 total games but they have 56 games left against each other.
+It looked like the New York Mets were in contention after 19790901 but the remaining intra-division games ruled them out.
+The New York Mets were eliminated from the NLE title on 19790901 with 31 games left to play.
+OAK can only allow ['CAL', 'KCA'] to win 1 total games but they have 7 games left against each other.
+It looked like the Oakland Athletics were in contention after 19790829 but the remaining intra-division games ruled them out.
+OAK can only allow ['CAL', 'KCA'] to win 2 total games but they have 7 games left against each other.
+It looked like the Oakland Athletics were in contention after 19790828 but the remaining intra-division games ruled them out.
+OAK can only allow ['CAL', 'KCA'] to win 2 total games but they have 7 games left against each other.
+It looked like the Oakland Athletics were in contention after 19790827 but the remaining intra-division games ruled them out.
+OAK can only allow ['CAL', 'KCA'] to win 5 total games but they have 7 games left against each other.
+It looked like the Oakland Athletics were in contention after 19790826 but the remaining intra-division games ruled them out.
+OAK can only allow ['CAL', 'MIN', 'KCA', 'TEX'] to win 25 total games but they have 27 games left against each other.
+It looked like the Oakland Athletics were in contention after 19790825 but the remaining intra-division games ruled them out.
+The Oakland Athletics were eliminated from the ALW title on 19790825 with 32 games left to play.
+TOR can only allow ['BAL', 'BOS'] to win 4 total games but they have 7 games left against each other.
+It looked like the Toronto Blue Jays were in contention after 19790818 but the remaining intra-division games ruled them out.
+The Toronto Blue Jays were eliminated from the ALE title on 19790818 with 40 games left to play.

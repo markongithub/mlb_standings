@@ -1,0 +1,48 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Chicago White Sox were eliminated from the AL title on 19201002 with 1 games left to play.
+The New York Yankees were eliminated from the AL title on 19200929 with 0 games left to play.
+The New York Giants were eliminated from the NL title on 19200927 with 4 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19200922 with 11 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19200919 with 14 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19200915 with 14 games left to play.
+SLN can only allow ['BRO', 'CIN', 'NY1', 'PIT'] to win 24 total games but they have 27 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19200912 but the remaining intra-division games ruled them out.
+The St. Louis Browns were eliminated from the AL title on 19200913 with 20 games left to play.
+SLN can only allow ['BRO', 'CIN', 'NY1', 'PIT'] to win 25 total games but they have 27 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19200911 but the remaining intra-division games ruled them out.
+BSN can only allow ['CIN', 'BRO', 'NY1'] to win 11 total games but they have 12 games left against each other.
+It looked like the Boston Braves were in contention after 19200910 but the remaining intra-division games ruled them out.
+WS1 can only allow ['CHA', 'NYA'] to win 2 total games but they have 3 games left against each other.
+It looked like the Washington Senators were in contention after 19200910 but the remaining intra-division games ruled them out.
+The St. Louis Cardinals were eliminated from the NL title on 19200911 with 19 games left to play.
+BSN can only allow ['CIN', 'BRO', 'NY1', 'PIT'] to win 23 total games but they have 27 games left against each other.
+It looked like the Boston Braves were in contention after 19200909 but the remaining intra-division games ruled them out.
+WS1 can only allow ['CLE', 'CHA', 'NYA'] to win 7 total games but they have 8 games left against each other.
+It looked like the Washington Senators were in contention after 19200909 but the remaining intra-division games ruled them out.
+BOS can only allow ['CLE', 'CHA'] to win 1 total games but they have 3 games left against each other.
+It looked like the Boston Red Sox were in contention after 19200909 but the remaining intra-division games ruled them out.
+BOS can only allow ['CLE', 'NYA', 'CHA'] to win 6 total games but they have 9 games left against each other.
+It looked like the Boston Red Sox were in contention after 19200908 but the remaining intra-division games ruled them out.
+The Washington Senators were eliminated from the AL title on 19200909 with 26 games left to play.
+The Boston Braves were eliminated from the NL title on 19200909 with 28 games left to play.
+PHI can only allow ['CIN', 'BRO', 'NY1'] to win 8 total games but they have 12 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19200907 but the remaining intra-division games ruled them out.
+BOS can only allow ['CLE', 'NYA', 'CHA'] to win 7 total games but they have 9 games left against each other.
+It looked like the Boston Red Sox were in contention after 19200907 but the remaining intra-division games ruled them out.
+The Philadelphia Phillies were eliminated from the NL title on 19200907 with 24 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19200907 with 21 games left to play.
+DET can only allow ['CLE', 'CHA'] to win 2 total games but they have 3 games left against each other.
+It looked like the Detroit Tigers were in contention after 19200902 but the remaining intra-division games ruled them out.
+DET can only allow ['CLE', 'CHA', 'NYA'] to win 5 total games but they have 9 games left against each other.
+It looked like the Detroit Tigers were in contention after 19200901 but the remaining intra-division games ruled them out.
+The Detroit Tigers were eliminated from the AL title on 19200901 with 31 games left to play.
+PHA can only allow ['CHA', 'NYA'] to win 3 total games but they have 6 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19200822 but the remaining intra-division games ruled them out.
+PHA can only allow ['CHA', 'NYA'] to win 4 total games but they have 6 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19200821 but the remaining intra-division games ruled them out.
+PHA can only allow ['CHA', 'NYA'] to win 5 total games but they have 6 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19200820 but the remaining intra-division games ruled them out.
+The Philadelphia Athletics were eliminated from the AL title on 19200820 with 40 games left to play.

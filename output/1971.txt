@@ -1,0 +1,28 @@
+This season has 24 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The Los Angeles Dodgers were eliminated from the NLW title on 19710930 with 0 games left to play.
+The Detroit Tigers were eliminated from the ALE title on 19710924 with 5 games left to play.
+The Atlanta Braves were eliminated from the NLW title on 19710922 with 5 games left to play.
+The St. Louis Cardinals were eliminated from the NLE title on 19710922 with 7 games left to play.
+The Houston Astros were eliminated from the NLW title on 19710919 with 9 games left to play.
+The Cincinnati Reds were eliminated from the NLW title on 19710917 with 9 games left to play.
+The Boston Red Sox were eliminated from the ALE title on 19710916 with 11 games left to play.
+The New York Yankees were eliminated from the ALE title on 19710916 with 13 games left to play.
+The New York Mets were eliminated from the NLE title on 19710915 with 13 games left to play.
+The Kansas City Royals were eliminated from the ALW title on 19710915 with 14 games left to play.
+The Chicago Cubs were eliminated from the NLE title on 19710914 with 15 games left to play.
+The Chicago White Sox were eliminated from the ALW title on 19710906 with 22 games left to play.
+The Minnesota Twins were eliminated from the ALW title on 19710906 with 24 games left to play.
+The Montreal Expos were eliminated from the NLE title on 19710906 with 24 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 19710904 with 24 games left to play.
+The California Angels were eliminated from the ALW title on 19710904 with 24 games left to play.
+The Washington Senators were eliminated from the ALE title on 19710904 with 25 games left to play.
+The Cleveland Indians were eliminated from the ALE title on 19710901 with 27 games left to play.
+SDN can only allow ['SFN', 'LAN', 'ATL'] to win 16 total games but they have 17 games left against each other.
+It looked like the San Diego Padres were in contention after 19710830 but the remaining intra-division games ruled them out.
+The Milwaukee Brewers were eliminated from the ALW title on 19710831 with 30 games left to play.
+SDN can only allow ['SFN', 'LAN', 'ATL', 'CIN', 'HOU'] to win 48 total games but they have 55 games left against each other.
+It looked like the San Diego Padres were in contention after 19710829 but the remaining intra-division games ruled them out.
+The San Diego Padres were eliminated from the NLW title on 19710829 with 29 games left to play.

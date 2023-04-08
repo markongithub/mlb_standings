@@ -1,0 +1,51 @@
+This season has 20 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The Minnesota Twins were eliminated from the AL title on 19620925 with 3 games left to play.
+The Los Angeles Angels were eliminated from the AL title on 19620923 with 6 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19620922 with 5 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19620921 with 8 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19620918 with 11 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19620918 with 10 games left to play.
+The Baltimore Orioles were eliminated from the AL title on 19620912 with 15 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19620912 with 14 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19620911 with 16 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19620910 with 17 games left to play.
+The Milwaukee Braves were eliminated from the NL title on 19620908 with 18 games left to play.
+The Kansas City Athletics were eliminated from the AL title on 19620907 with 20 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19620901 with 22 games left to play.
+WS2 can only allow ['NYA', 'MIN', 'LAA', 'DET', 'BAL', 'CLE'] to win 48 total games but they have 49 games left against each other.
+It looked like the Washington Senators were in contention after 19620830 but the remaining intra-division games ruled them out.
+WS2 can only allow ['NYA', 'MIN', 'LAA', 'DET', 'BAL', 'CLE'] to win 48 total games but they have 49 games left against each other.
+It looked like the Washington Senators were in contention after 19620829 but the remaining intra-division games ruled them out.
+WS2 can only allow ['NYA', 'LAA', 'MIN', 'CHA', 'DET', 'BAL', 'CLE', 'KC1'] to win 90 total games but they have 93 games left against each other.
+It looked like the Washington Senators were in contention after 19620828 but the remaining intra-division games ruled them out.
+WS2 can only allow ['NYA', 'LAA', 'MIN', 'CHA', 'BAL', 'DET', 'CLE', 'KC1'] to win 93 total games but they have 96 games left against each other.
+It looked like the Washington Senators were in contention after 19620827 but the remaining intra-division games ruled them out.
+WS2 can only allow ['NYA', 'LAA', 'MIN', 'CHA', 'DET', 'BAL', 'CLE', 'KC1'] to win 94 total games but they have 97 games left against each other.
+It looked like the Washington Senators were in contention after 19620826 but the remaining intra-division games ruled them out.
+The Washington Senators were eliminated from the AL title on 19620826 with 31 games left to play.
+CHN can only allow ['LAN', 'SFN', 'CIN'] to win 8 total games but they have 12 games left against each other.
+It looked like the Chicago Cubs were in contention after 19620822 but the remaining intra-division games ruled them out.
+HOU can only allow ['LAN', 'SFN', 'CIN'] to win 9 total games but they have 12 games left against each other.
+It looked like the Houston Colt .45's were in contention after 19620821 but the remaining intra-division games ruled them out.
+CHN can only allow ['LAN', 'SFN', 'CIN', 'PIT'] to win 23 total games but they have 26 games left against each other.
+It looked like the Chicago Cubs were in contention after 19620821 but the remaining intra-division games ruled them out.
+HOU can only allow ['LAN', 'SFN', 'CIN', 'PIT', 'SLN'] to win 44 total games but they have 46 games left against each other.
+It looked like the Houston Colt .45's were in contention after 19620820 but the remaining intra-division games ruled them out.
+CHN can only allow ['LAN', 'SFN', 'CIN', 'PIT', 'SLN'] to win 44 total games but they have 46 games left against each other.
+It looked like the Chicago Cubs were in contention after 19620820 but the remaining intra-division games ruled them out.
+CHN can only allow ['LAN', 'SFN', 'CIN', 'PIT', 'SLN', 'MLN'] to win 65 total games but they have 70 games left against each other.
+It looked like the Chicago Cubs were in contention after 19620819 but the remaining intra-division games ruled them out.
+The Houston Colt .45's were eliminated from the NL title on 19620820 with 39 games left to play.
+CHN can only allow ['LAN', 'SFN', 'CIN', 'PIT', 'SLN', 'MLN'] to win 68 total games but they have 72 games left against each other.
+It looked like the Chicago Cubs were in contention after 19620818 but the remaining intra-division games ruled them out.
+The Chicago Cubs were eliminated from the NL title on 19620818 with 38 games left to play.
+NYN can only allow ['LAN', 'SFN'] to win 6 total games but they have 7 games left against each other.
+It looked like the New York Mets were in contention after 19620809 but the remaining intra-division games ruled them out.
+NYN can only allow ['LAN', 'SFN', 'CIN', 'PIT', 'MLN'] to win 60 total games but they have 61 games left against each other.
+It looked like the New York Mets were in contention after 19620808 but the remaining intra-division games ruled them out.
+NYN can only allow ['LAN', 'SFN', 'CIN', 'PIT', 'SLN', 'MLN'] to win 79 total games but they have 87 games left against each other.
+It looked like the New York Mets were in contention after 19620807 but the remaining intra-division games ruled them out.
+The New York Mets were eliminated from the NL title on 19620807 with 51 games left to play.

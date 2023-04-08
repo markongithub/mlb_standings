@@ -1,0 +1,94 @@
+This season has 24 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AA has 140 games per team.
+The NL has 140 games per team.
+The PL has 140 games per team.
+The St. Louis Cardinals were eliminated from the AA title on 18901010 with 7 games left to play.
+The Columbus Colts were eliminated from the AA title on 18901008 with 11 games left to play.
+The Toledo Maumees were eliminated from the AA title on 18901006 with 15 games left to play.
+The Rochester Hop Bitters were eliminated from the AA title on 18901004 with 21 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 18901003 with 8 games left to play.
+The Boston Braves were eliminated from the NL title on 18901002 with 8 games left to play.
+The Philadelphia Quakers were eliminated from the PL title on 18901001 with 11 games left to play.
+The Chicago Pirates were eliminated from the PL title on 18900930 with 5 games left to play.
+The Philadelphia Athletics were eliminated from the AA title on 18900923 with 23 games left to play.
+The Pittsburgh Burghers were eliminated from the PL title on 18900922 with 21 games left to play.
+The Syracuse Stars were eliminated from the AA title on 18900920 with 30 games left to play.
+NY1 can only allow ['BRO', 'BSN'] to win 3 total games but they have 4 games left against each other.
+It looked like the New York Giants were in contention after 18900912 but the remaining intra-division games ruled them out.
+NY1 can only allow ['BRO', 'BSN'] to win 3 total games but they have 4 games left against each other.
+It looked like the New York Giants were in contention after 18900911 but the remaining intra-division games ruled them out.
+NY1 can only allow ['BRO', 'BSN', 'PHI', 'CIN', 'CHN'] to win 31 total games but they have 36 games left against each other.
+It looked like the New York Giants were in contention after 18900910 but the remaining intra-division games ruled them out.
+CLP can only allow ['BSP', 'BRP'] to win 2 total games but they have 3 games left against each other.
+It looked like the Cleveland Infants were in contention after 18900909 but the remaining intra-division games ruled them out.
+The New York Giants were eliminated from the NL title on 18900910 with 21 games left to play.
+The Cleveland Infants were eliminated from the PL title on 18900909 with 28 games left to play.
+BL3 can only allow ['LS2', 'SL4', 'CL6'] to win 13 total games but they have 16 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18900902 but the remaining intra-division games ruled them out.
+BL3 can only allow ['LS2', 'SL4', 'TL2'] to win 16 total games but they have 21 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18900901 but the remaining intra-division games ruled them out.
+BFP can only allow ['BSP', 'BRP', 'NYP'] to win 9 total games but they have 13 games left against each other.
+It looked like the Buffalo Bisons were in contention after 18900831 but the remaining intra-division games ruled them out.
+BL3 can only allow ['LS2', 'SL4', 'TL2'] to win 20 total games but they have 21 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18900831 but the remaining intra-division games ruled them out.
+BFP can only allow ['BSP', 'BRP', 'NYP'] to win 9 total games but they have 13 games left against each other.
+It looked like the Buffalo Bisons were in contention after 18900830 but the remaining intra-division games ruled them out.
+BL3 can only allow ['LS2', 'SL4', 'TL2', 'RC2'] to win 35 total games but they have 36 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18900830 but the remaining intra-division games ruled them out.
+BFP can only allow ['BSP', 'NYP', 'BRP', 'PHP'] to win 25 total games but they have 27 games left against each other.
+It looked like the Buffalo Bisons were in contention after 18900829 but the remaining intra-division games ruled them out.
+BL3 can only allow ['LS2', 'SL4', 'TL2', 'PH4', 'RC2'] to win 56 total games but they have 58 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18900829 but the remaining intra-division games ruled them out.
+CL4 can only allow ['BRO', 'BSN'] to win 1 total games but they have 5 games left against each other.
+It looked like the Cleveland Spiders were in contention after 18900828 but the remaining intra-division games ruled them out.
+BFP can only allow ['BSP', 'NYP', 'BRP', 'PHP', 'CHP', 'PTP', 'CLP'] to win 97 total games but they have 100 games left against each other.
+It looked like the Buffalo Bisons were in contention after 18900828 but the remaining intra-division games ruled them out.
+BL3 can only allow ['LS2', 'SL4', 'TL2', 'PH4', 'RC2', 'CL6'] to win 78 total games but they have 84 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18900828 but the remaining intra-division games ruled them out.
+CL4 can only allow ['BRO', 'BSN'] to win 4 total games but they have 5 games left against each other.
+It looked like the Cleveland Spiders were in contention after 18900827 but the remaining intra-division games ruled them out.
+BL3 can only allow ['LS2', 'SL4', 'TL2', 'PH4', 'RC2', 'CL6'] to win 81 total games but they have 86 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18900827 but the remaining intra-division games ruled them out.
+The Buffalo Bisons were eliminated from the PL title on 18900828 with 40 games left to play.
+CL4 can only allow ['BRO', 'BSN', 'PHI', 'CIN'] to win 25 total games but they have 35 games left against each other.
+It looked like the Cleveland Spiders were in contention after 18900826 but the remaining intra-division games ruled them out.
+BL3 can only allow ['LS2', 'SL4', 'TL2', 'PH4', 'RC2', 'CL6', 'SR2'] to win 117 total games but they have 127 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18900826 but the remaining intra-division games ruled them out.
+CL4 can only allow ['BRO', 'BSN', 'PHI', 'CIN'] to win 32 total games but they have 36 games left against each other.
+It looked like the Cleveland Spiders were in contention after 18900825 but the remaining intra-division games ruled them out.
+BL3 can only allow ['LS2', 'SL4', 'PH4', 'TL2', 'RC2', 'CL6', 'SR2'] to win 118 total games but they have 128 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18900825 but the remaining intra-division games ruled them out.
+CL4 can only allow ['BRO', 'BSN', 'PHI', 'CIN', 'CHN'] to win 58 total games but they have 60 games left against each other.
+It looked like the Cleveland Spiders were in contention after 18900824 but the remaining intra-division games ruled them out.
+BL3 can only allow ['LS2', 'SL4', 'PH4', 'RC2', 'TL2', 'CL6', 'SR2'] to win 129 total games but they have 131 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18900824 but the remaining intra-division games ruled them out.
+CL4 can only allow ['BRO', 'BSN', 'PHI', 'CIN', 'CHN'] to win 58 total games but they have 60 games left against each other.
+It looked like the Cleveland Spiders were in contention after 18900823 but the remaining intra-division games ruled them out.
+BL3 can only allow ['LS2', 'SL4', 'CL6', 'PH4', 'RC2', 'TL2', 'SR2'] to win 131 total games but they have 133 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18900823 but the remaining intra-division games ruled them out.
+CL4 can only allow ['BRO', 'BSN', 'CIN', 'PHI', 'CHN'] to win 60 total games but they have 61 games left against each other.
+It looked like the Cleveland Spiders were in contention after 18900822 but the remaining intra-division games ruled them out.
+The Baltimore Orioles were eliminated from the AA title on 18900823 with 42 games left to play.
+The Cleveland Spiders were eliminated from the NL title on 18900822 with 42 games left to play.
+PIT can only allow ['BRO', 'BSN'] to win 3 total games but they have 5 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 18900818 but the remaining intra-division games ruled them out.
+PIT can only allow ['BRO', 'BSN', 'PHI'] to win 13 total games but they have 18 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 18900817 but the remaining intra-division games ruled them out.
+PIT can only allow ['BRO', 'BSN', 'PHI'] to win 13 total games but they have 18 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 18900816 but the remaining intra-division games ruled them out.
+PIT can only allow ['BRO', 'BSN', 'PHI'] to win 18 total games but they have 19 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 18900815 but the remaining intra-division games ruled them out.
+PIT can only allow ['BRO', 'BSN', 'PHI', 'CIN'] to win 32 total games but they have 42 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 18900814 but the remaining intra-division games ruled them out.
+PIT can only allow ['BRO', 'PHI', 'BSN', 'CIN'] to win 38 total games but they have 43 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 18900813 but the remaining intra-division games ruled them out.
+PIT can only allow ['BRO', 'BSN', 'PHI', 'CIN', 'CHN'] to win 66 total games but they have 73 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 18900812 but the remaining intra-division games ruled them out.
+PIT can only allow ['BRO', 'PHI', 'BSN', 'CIN', 'CHN', 'NY1'] to win 105 total games but they have 107 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 18900811 but the remaining intra-division games ruled them out.
+PIT can only allow ['BRO', 'PHI', 'BSN', 'CIN', 'CHN', 'NY1'] to win 108 total games but they have 109 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 18900810 but the remaining intra-division games ruled them out.
+PIT can only allow ['BRO', 'PHI', 'BSN', 'CIN', 'CHN', 'NY1'] to win 108 total games but they have 109 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 18900809 but the remaining intra-division games ruled them out.
+The Pittsburgh Pirates were eliminated from the NL title on 18900809 with 52 games left to play.

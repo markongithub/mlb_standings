@@ -1,0 +1,24 @@
+This season has 20 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The Baltimore Orioles were eliminated from the AL title on 19680917 with 9 games left to play.
+The San Francisco Giants were eliminated from the NL title on 19680915 with 12 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19680915 with 14 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19680913 with 14 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19680911 with 14 games left to play.
+The New York Yankees were eliminated from the AL title on 19680911 with 16 games left to play.
+The Atlanta Braves were eliminated from the NL title on 19680911 with 15 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19680910 with 13 games left to play.
+The Oakland Athletics were eliminated from the AL title on 19680909 with 16 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19680908 with 19 games left to play.
+The Minnesota Twins were eliminated from the AL title on 19680904 with 21 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19680903 with 23 games left to play.
+The Houston Astros were eliminated from the NL title on 19680902 with 22 games left to play.
+The New York Mets were eliminated from the NL title on 19680901 with 22 games left to play.
+The California Angels were eliminated from the AL title on 19680901 with 23 games left to play.
+The Los Angeles Dodgers were eliminated from the NL title on 19680831 with 27 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19680830 with 27 games left to play.
+WS2 can only allow ['DET', 'BAL'] to win 4 total games but they have 6 games left against each other.
+It looked like the Washington Senators were in contention after 19680827 but the remaining intra-division games ruled them out.
+The Washington Senators were eliminated from the AL title on 19680827 with 32 games left to play.

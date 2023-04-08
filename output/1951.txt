@@ -1,0 +1,43 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Cleveland Indians were eliminated from the AL title on 19510928 with 2 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19510927 with 5 games left to play.
+CHA can only allow ['NYA', 'BOS'] to win 7 total games but they have 8 games left against each other.
+It looked like the Chicago White Sox were in contention after 19510914 but the remaining intra-division games ruled them out.
+The St. Louis Cardinals were eliminated from the NL title on 19510914 with 14 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19510914 with 13 games left to play.
+The Boston Braves were eliminated from the NL title on 19510911 with 18 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19510907 with 19 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19510903 with 22 games left to play.
+WS1 can only allow ['NYA', 'CLE'] to win 0 total games but they have 2 games left against each other.
+It looked like the Washington Senators were in contention after 19510901 but the remaining intra-division games ruled them out.
+WS1 can only allow ['NYA', 'CLE', 'BOS'] to win 11 total games but they have 13 games left against each other.
+It looked like the Washington Senators were in contention after 19510831 but the remaining intra-division games ruled them out.
+WS1 can only allow ['NYA', 'CLE', 'BOS'] to win 11 total games but they have 13 games left against each other.
+It looked like the Washington Senators were in contention after 19510830 but the remaining intra-division games ruled them out.
+WS1 can only allow ['CLE', 'NYA', 'BOS'] to win 12 total games but they have 13 games left against each other.
+It looked like the Washington Senators were in contention after 19510829 but the remaining intra-division games ruled them out.
+The Chicago Cubs were eliminated from the NL title on 19510830 with 28 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19510830 with 26 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19510829 with 26 games left to play.
+The Washington Senators were eliminated from the AL title on 19510829 with 29 games left to play.
+PHA can only allow ['CLE', 'NYA', 'BOS'] to win 10 total games but they have 15 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19510825 but the remaining intra-division games ruled them out.
+PHA can only allow ['CLE', 'NYA', 'BOS'] to win 11 total games but they have 16 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19510824 but the remaining intra-division games ruled them out.
+PHA can only allow ['CLE', 'NYA', 'BOS'] to win 15 total games but they have 17 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19510823 but the remaining intra-division games ruled them out.
+PHA can only allow ['CLE', 'NYA', 'BOS'] to win 17 total games but they have 18 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19510822 but the remaining intra-division games ruled them out.
+The Philadelphia Athletics were eliminated from the AL title on 19510822 with 32 games left to play.
+SLA can only allow ['CLE', 'NYA'] to win 1 total games but they have 5 games left against each other.
+It looked like the St. Louis Browns were in contention after 19510820 but the remaining intra-division games ruled them out.
+SLA can only allow ['CLE', 'NYA'] to win 3 total games but they have 5 games left against each other.
+It looked like the St. Louis Browns were in contention after 19510819 but the remaining intra-division games ruled them out.
+SLA can only allow ['CLE', 'NYA', 'BOS'] to win 16 total games but they have 18 games left against each other.
+It looked like the St. Louis Browns were in contention after 19510818 but the remaining intra-division games ruled them out.
+SLA can only allow ['CLE', 'NYA', 'BOS', 'CHA'] to win 33 total games but they have 34 games left against each other.
+It looked like the St. Louis Browns were in contention after 19510817 but the remaining intra-division games ruled them out.
+The St. Louis Browns were eliminated from the AL title on 19510817 with 42 games left to play.

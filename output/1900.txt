@@ -1,0 +1,10 @@
+This season has 8 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The NL has 140 games per team.
+The Pittsburgh Pirates were eliminated from the NL title on 19001013 with 1 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19001004 with 7 games left to play.
+The Boston Braves were eliminated from the NL title on 19001001 with 11 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19000925 with 12 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19000923 with 17 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19000919 with 19 games left to play.
+The New York Giants were eliminated from the NL title on 19000918 with 21 games left to play.

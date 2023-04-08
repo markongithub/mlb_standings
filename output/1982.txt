@@ -1,0 +1,105 @@
+This season has 26 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The Los Angeles Dodgers were eliminated from the NLW title on 19821003 with 0 games left to play.
+The Kansas City Royals were eliminated from the ALW title on 19821002 with 1 games left to play.
+The San Francisco Giants were eliminated from the NLW title on 19821002 with 1 games left to play.
+BOS can only allow ['MIL', 'BAL'] to win 2 total games but they have 3 games left against each other.
+It looked like the Boston Red Sox were in contention after 19820926 but the remaining intra-division games ruled them out.
+SDN can only allow ['LAN', 'ATL'] to win 1 total games but they have 2 games left against each other.
+It looked like the San Diego Padres were in contention after 19820926 but the remaining intra-division games ruled them out.
+The Chicago White Sox were eliminated from the ALW title on 19820927 with 5 games left to play.
+The Montreal Expos were eliminated from the NLE title on 19820927 with 6 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 19820927 with 6 games left to play.
+BOS can only allow ['MIL', 'BAL'] to win 3 total games but they have 4 games left against each other.
+It looked like the Boston Red Sox were in contention after 19820925 but the remaining intra-division games ruled them out.
+SDN can only allow ['LAN', 'ATL'] to win 1 total games but they have 2 games left against each other.
+It looked like the San Diego Padres were in contention after 19820925 but the remaining intra-division games ruled them out.
+SDN can only allow ['LAN', 'ATL', 'SFN'] to win 8 total games but they have 9 games left against each other.
+It looked like the San Diego Padres were in contention after 19820924 but the remaining intra-division games ruled them out.
+The Boston Red Sox were eliminated from the ALE title on 19820925 with 8 games left to play.
+The Pittsburgh Pirates were eliminated from the NLE title on 19820925 with 8 games left to play.
+The San Diego Padres were eliminated from the NLW title on 19820924 with 9 games left to play.
+SEA can only allow ['CAL', 'KCA'] to win 0 total games but they have 6 games left against each other.
+It looked like the Seattle Mariners were in contention after 19820919 but the remaining intra-division games ruled them out.
+DET can only allow ['MIL', 'BAL'] to win 2 total games but they have 6 games left against each other.
+It looked like the Detroit Tigers were in contention after 19820919 but the remaining intra-division games ruled them out.
+CLE can only allow ['MIL', 'BAL'] to win 2 total games but they have 6 games left against each other.
+It looked like the Cleveland Indians were in contention after 19820918 but the remaining intra-division games ruled them out.
+SEA can only allow ['KCA', 'CAL'] to win 1 total games but they have 6 games left against each other.
+It looked like the Seattle Mariners were in contention after 19820918 but the remaining intra-division games ruled them out.
+The Detroit Tigers were eliminated from the ALE title on 19820919 with 15 games left to play.
+NYA can only allow ['MIL', 'BAL'] to win 4 total games but they have 6 games left against each other.
+It looked like the New York Yankees were in contention after 19820917 but the remaining intra-division games ruled them out.
+SEA can only allow ['KCA', 'CAL'] to win 4 total games but they have 6 games left against each other.
+It looked like the Seattle Mariners were in contention after 19820917 but the remaining intra-division games ruled them out.
+The Cleveland Indians were eliminated from the ALE title on 19820918 with 16 games left to play.
+SEA can only allow ['KCA', 'CAL'] to win 4 total games but they have 6 games left against each other.
+It looked like the Seattle Mariners were in contention after 19820916 but the remaining intra-division games ruled them out.
+The Houston Astros were eliminated from the NLW title on 19820917 with 15 games left to play.
+The New York Yankees were eliminated from the ALE title on 19820917 with 15 games left to play.
+SEA can only allow ['KCA', 'CAL'] to win 4 total games but they have 6 games left against each other.
+It looked like the Seattle Mariners were in contention after 19820915 but the remaining intra-division games ruled them out.
+The Seattle Mariners were eliminated from the ALW title on 19820915 with 18 games left to play.
+TOR can only allow ['MIL', 'BAL'] to win 3 total games but they have 6 games left against each other.
+It looked like the Toronto Blue Jays were in contention after 19820913 but the remaining intra-division games ruled them out.
+CHN can only allow ['PHI', 'SLN'] to win 1 total games but they have 4 games left against each other.
+It looked like the Chicago Cubs were in contention after 19820913 but the remaining intra-division games ruled them out.
+TOR can only allow ['MIL', 'BAL'] to win 4 total games but they have 6 games left against each other.
+It looked like the Toronto Blue Jays were in contention after 19820912 but the remaining intra-division games ruled them out.
+CHN can only allow ['SLN', 'PHI'] to win 2 total games but they have 5 games left against each other.
+It looked like the Chicago Cubs were in contention after 19820912 but the remaining intra-division games ruled them out.
+TOR can only allow ['MIL', 'BAL', 'BOS', 'NYA'] to win 26 total games but they have 28 games left against each other.
+It looked like the Toronto Blue Jays were in contention after 19820911 but the remaining intra-division games ruled them out.
+CHN can only allow ['SLN', 'PHI'] to win 4 total games but they have 5 games left against each other.
+It looked like the Chicago Cubs were in contention after 19820911 but the remaining intra-division games ruled them out.
+TOR can only allow ['MIL', 'BAL', 'BOS', 'DET', 'NYA', 'CLE'] to win 67 total games but they have 68 games left against each other.
+It looked like the Toronto Blue Jays were in contention after 19820910 but the remaining intra-division games ruled them out.
+NYN can only allow ['PHI', 'SLN'] to win 1 total games but they have 5 games left against each other.
+It looked like the New York Mets were in contention after 19820910 but the remaining intra-division games ruled them out.
+OAK can only allow ['KCA', 'CAL'] to win 3 total games but they have 6 games left against each other.
+It looked like the Oakland Athletics were in contention after 19820910 but the remaining intra-division games ruled them out.
+CHN can only allow ['PHI', 'SLN', 'MON', 'PIT'] to win 22 total games but they have 26 games left against each other.
+It looked like the Chicago Cubs were in contention after 19820910 but the remaining intra-division games ruled them out.
+TEX can only allow ['KCA', 'CAL'] to win 2 total games but they have 6 games left against each other.
+It looked like the Texas Rangers were in contention after 19820909 but the remaining intra-division games ruled them out.
+NYN can only allow ['SLN', 'PHI'] to win 2 total games but they have 5 games left against each other.
+It looked like the New York Mets were in contention after 19820909 but the remaining intra-division games ruled them out.
+The Chicago Cubs were eliminated from the NLE title on 19820910 with 21 games left to play.
+The Toronto Blue Jays were eliminated from the ALE title on 19820910 with 21 games left to play.
+The Oakland Athletics were eliminated from the ALW title on 19820910 with 21 games left to play.
+TEX can only allow ['KCA', 'CAL'] to win 2 total games but they have 6 games left against each other.
+It looked like the Texas Rangers were in contention after 19820908 but the remaining intra-division games ruled them out.
+NYN can only allow ['SLN', 'PHI'] to win 2 total games but they have 5 games left against each other.
+It looked like the New York Mets were in contention after 19820908 but the remaining intra-division games ruled them out.
+TEX can only allow ['KCA', 'CAL'] to win 3 total games but they have 6 games left against each other.
+It looked like the Texas Rangers were in contention after 19820907 but the remaining intra-division games ruled them out.
+NYN can only allow ['SLN', 'PHI'] to win 4 total games but they have 5 games left against each other.
+It looked like the New York Mets were in contention after 19820907 but the remaining intra-division games ruled them out.
+CIN can only allow ['ATL', 'LAN'] to win 2 total games but they have 4 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19820906 but the remaining intra-division games ruled them out.
+TEX can only allow ['KCA', 'CAL'] to win 5 total games but they have 6 games left against each other.
+It looked like the Texas Rangers were in contention after 19820906 but the remaining intra-division games ruled them out.
+NYN can only allow ['SLN', 'PHI', 'PIT'] to win 14 total games but they have 15 games left against each other.
+It looked like the New York Mets were in contention after 19820906 but the remaining intra-division games ruled them out.
+CIN can only allow ['ATL', 'LAN', 'SDN'] to win 12 total games but they have 15 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19820905 but the remaining intra-division games ruled them out.
+NYN can only allow ['SLN', 'PHI', 'MON', 'PIT'] to win 27 total games but they have 30 games left against each other.
+It looked like the New York Mets were in contention after 19820905 but the remaining intra-division games ruled them out.
+The Texas Rangers were eliminated from the ALW title on 19820906 with 25 games left to play.
+CIN can only allow ['ATL', 'LAN', 'SDN', 'SFN'] to win 27 total games but they have 31 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19820904 but the remaining intra-division games ruled them out.
+NYN can only allow ['SLN', 'PHI', 'MON', 'PIT'] to win 29 total games but they have 30 games left against each other.
+It looked like the New York Mets were in contention after 19820904 but the remaining intra-division games ruled them out.
+CIN can only allow ['ATL', 'LAN', 'SDN', 'SFN', 'HOU'] to win 50 total games but they have 51 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19820903 but the remaining intra-division games ruled them out.
+The New York Mets were eliminated from the NLE title on 19820904 with 29 games left to play.
+MIN can only allow ['KCA', 'CAL'] to win 4 total games but they have 6 games left against each other.
+It looked like the Minnesota Twins were in contention after 19820902 but the remaining intra-division games ruled them out.
+The Cincinnati Reds were eliminated from the NLW title on 19820903 with 28 games left to play.
+MIN can only allow ['KCA', 'CAL'] to win 4 total games but they have 6 games left against each other.
+It looked like the Minnesota Twins were in contention after 19820901 but the remaining intra-division games ruled them out.
+MIN can only allow ['KCA', 'CAL'] to win 4 total games but they have 6 games left against each other.
+It looked like the Minnesota Twins were in contention after 19820831 but the remaining intra-division games ruled them out.
+The Minnesota Twins were eliminated from the ALW title on 19820831 with 31 games left to play.

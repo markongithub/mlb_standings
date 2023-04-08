@@ -1,0 +1,32 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The New York Yankees were eliminated from the AL title on 19330929 with 6 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19330924 with 3 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19330919 with 5 games left to play.
+The Boston Braves were eliminated from the NL title on 19330917 with 12 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19330917 with 9 games left to play.
+The Philadelphia Athletics were eliminated from the AL title on 19330910 with 21 games left to play.
+BRO can only allow ['NY1', 'CHN'] to win 4 total games but they have 6 games left against each other.
+It looked like the Brooklyn Dodgers were in contention after 19330908 but the remaining intra-division games ruled them out.
+The Cleveland Indians were eliminated from the AL title on 19330909 with 15 games left to play.
+PHI can only allow ['NY1', 'CHN'] to win 4 total games but they have 6 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19330907 but the remaining intra-division games ruled them out.
+The Brooklyn Dodgers were eliminated from the NL title on 19330908 with 25 games left to play.
+PHI can only allow ['NY1', 'PIT', 'CHN', 'BSN', 'SLN'] to win 29 total games but they have 30 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19330906 but the remaining intra-division games ruled them out.
+The Detroit Tigers were eliminated from the AL title on 19330906 with 20 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19330906 with 28 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19330904 with 22 games left to play.
+CIN can only allow ['NY1', 'PIT', 'BSN', 'CHN'] to win 21 total games but they have 23 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19330901 but the remaining intra-division games ruled them out.
+CIN can only allow ['NY1', 'BSN', 'PIT', 'CHN'] to win 24 total games but they have 25 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19330831 but the remaining intra-division games ruled them out.
+CIN can only allow ['NY1', 'BSN', 'PIT', 'SLN'] to win 28 total games but they have 30 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19330830 but the remaining intra-division games ruled them out.
+CIN can only allow ['NY1', 'BSN', 'PIT', 'CHN', 'SLN'] to win 44 total games but they have 45 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19330829 but the remaining intra-division games ruled them out.
+The Cincinnati Reds were eliminated from the NL title on 19330829 with 29 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19330829 with 27 games left to play.
+The St. Louis Browns were eliminated from the AL title on 19330823 with 33 games left to play.

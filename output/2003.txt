@@ -1,0 +1,126 @@
+This season has 30 teams.
+The top 1 teams from each division go to the postseason, plus 1 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The Houston Astros were eliminated from the NLC title on 20030927 with 1 games left to play.
+The St. Louis Cardinals were eliminated from the NLC title on 20030926 with 2 games left to play.
+The Chicago Cubs were eliminated from NL wildcard contention on 20030926 with 3 games left to play.
+The Houston Astros were eliminated from NL wildcard contention on 20030926 with 2 games left to play.
+The Minnesota Twins were eliminated from AL wildcard contention on 20030925 with 3 games left to play.
+The Philadelphia Phillies were eliminated from NL wildcard contention on 20030925 with 3 games left to play.
+The Los Angeles Dodgers were eliminated from NL wildcard contention on 20030925 with 4 games left to play.
+The Seattle Mariners were eliminated from AL wildcard contention on 20030925 with 3 games left to play.
+The Boston Red Sox were eliminated from the ALE title on 20030924 with 4 games left to play.
+The Seattle Mariners were eliminated from the ALW title on 20030923 with 4 games left to play.
+The Kansas City Royals were eliminated from the ALC title on 20030923 with 5 games left to play.
+The Chicago White Sox were eliminated from the ALC title on 20030923 with 5 games left to play.
+MON can only allow ['FLO', 'PHI'] to win 1 total games but they have 3 games left against each other.
+It looked like the Montreal Expos were in wildcard contention after 20030922 but the remaining intra-contender games ruled them out.
+SLN can only allow ['FLO', 'PHI'] to win 1 total games but they have 3 games left against each other.
+It looked like the St. Louis Cardinals were in wildcard contention after 20030922 but the remaining intra-contender games ruled them out.
+The Arizona Diamondbacks were eliminated from NL wildcard contention on 20030923 with 5 games left to play.
+MON can only allow ['FLO', 'PHI'] to win 2 total games but they have 3 games left against each other.
+It looked like the Montreal Expos were in wildcard contention after 20030921 but the remaining intra-contender games ruled them out.
+SLN can only allow ['FLO', 'PHI'] to win 2 total games but they have 3 games left against each other.
+It looked like the St. Louis Cardinals were in wildcard contention after 20030921 but the remaining intra-contender games ruled them out.
+MON can only allow ['FLO', 'PHI'] to win 2 total games but they have 3 games left against each other.
+It looked like the Montreal Expos were in wildcard contention after 20030920 but the remaining intra-contender games ruled them out.
+SLN can only allow ['FLO', 'PHI'] to win 2 total games but they have 3 games left against each other.
+It looked like the St. Louis Cardinals were in wildcard contention after 20030920 but the remaining intra-contender games ruled them out.
+The St. Louis Cardinals were eliminated from NL wildcard contention on 20030920 with 6 games left to play.
+The Chicago White Sox were eliminated from AL wildcard contention on 20030920 with 8 games left to play.
+The Montreal Expos were eliminated from NL wildcard contention on 20030920 with 6 games left to play.
+The Kansas City Royals were eliminated from AL wildcard contention on 20030919 with 9 games left to play.
+The Toronto Blue Jays were eliminated from AL wildcard contention on 20030919 with 9 games left to play.
+The Florida Marlins were eliminated from the NLE title on 20030918 with 10 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 20030917 with 10 games left to play.
+The Los Angeles Dodgers were eliminated from the NLW title on 20030917 with 12 games left to play.
+The Pittsburgh Pirates were eliminated from the NLC title on 20030916 with 12 games left to play.
+The Arizona Diamondbacks were eliminated from the NLW title on 20030914 with 12 games left to play.
+PIT can only allow ['FLO', 'PHI'] to win 2 total games but they have 6 games left against each other.
+It looked like the Pittsburgh Pirates were in wildcard contention after 20030913 but the remaining intra-contender games ruled them out.
+CLE can only allow ['CHA', 'MIN'] to win 2 total games but they have 3 games left against each other.
+It looked like the Cleveland Indians were in contention after 20030912 but the remaining intra-division games ruled them out.
+The Toronto Blue Jays were eliminated from the ALE title on 20030913 with 14 games left to play.
+PIT can only allow ['FLO', 'PHI'] to win 3 total games but they have 6 games left against each other.
+It looked like the Pittsburgh Pirates were in wildcard contention after 20030912 but the remaining intra-contender games ruled them out.
+COL can only allow ['FLO', 'PHI'] to win 1 total games but they have 6 games left against each other.
+It looked like the Colorado Rockies were in wildcard contention after 20030912 but the remaining intra-contender games ruled them out.
+MIL can only allow ['HOU', 'SLN'] to win 4 total games but they have 6 games left against each other.
+It looked like the Milwaukee Brewers were in contention after 20030911 but the remaining intra-division games ruled them out.
+CIN can only allow ['HOU', 'SLN'] to win 4 total games but they have 6 games left against each other.
+It looked like the Cincinnati Reds were in contention after 20030911 but the remaining intra-division games ruled them out.
+CLE can only allow ['CHA', 'MIN'] to win 2 total games but they have 3 games left against each other.
+It looked like the Cleveland Indians were in contention after 20030911 but the remaining intra-division games ruled them out.
+PIT can only allow ['FLO', 'PHI'] to win 4 total games but they have 6 games left against each other.
+It looked like the Pittsburgh Pirates were in wildcard contention after 20030911 but the remaining intra-contender games ruled them out.
+COL can only allow ['FLO', 'PHI'] to win 2 total games but they have 6 games left against each other.
+It looked like the Colorado Rockies were in wildcard contention after 20030911 but the remaining intra-contender games ruled them out.
+The Anaheim Angels were eliminated from AL wildcard contention on 20030912 with 14 games left to play.
+MIL can only allow ['HOU', 'SLN'] to win 4 total games but they have 6 games left against each other.
+It looked like the Milwaukee Brewers were in contention after 20030910 but the remaining intra-division games ruled them out.
+CIN can only allow ['HOU', 'SLN'] to win 4 total games but they have 6 games left against each other.
+It looked like the Cincinnati Reds were in contention after 20030910 but the remaining intra-division games ruled them out.
+ANA can only allow ['OAK', 'SEA'] to win 3 total games but they have 6 games left against each other.
+It looked like the Anaheim Angels were in contention after 20030910 but the remaining intra-division games ruled them out.
+CLE can only allow ['CHA', 'MIN'] to win 3 total games but they have 4 games left against each other.
+It looked like the Cleveland Indians were in contention after 20030910 but the remaining intra-division games ruled them out.
+COL can only allow ['FLO', 'PHI'] to win 3 total games but they have 6 games left against each other.
+It looked like the Colorado Rockies were in wildcard contention after 20030910 but the remaining intra-contender games ruled them out.
+The Pittsburgh Pirates were eliminated from NL wildcard contention on 20030911 with 17 games left to play.
+The Cincinnati Reds were eliminated from the NLC title on 20030910 with 17 games left to play.
+The Milwaukee Brewers were eliminated from the NLC title on 20030910 with 17 games left to play.
+The Anaheim Angels were eliminated from the ALW title on 20030910 with 16 games left to play.
+The Cleveland Indians were eliminated from the ALC title on 20030910 with 16 games left to play.
+MIL can only allow ['PHI', 'FLO'] to win 0 total games but they have 6 games left against each other.
+It looked like the Milwaukee Brewers were in wildcard contention after 20030909 but the remaining intra-contender games ruled them out.
+CIN can only allow ['PHI', 'FLO'] to win 0 total games but they have 6 games left against each other.
+It looked like the Cincinnati Reds were in wildcard contention after 20030909 but the remaining intra-contender games ruled them out.
+NYN can only allow ['PHI', 'FLO'] to win 0 total games but they have 6 games left against each other.
+It looked like the New York Mets were in wildcard contention after 20030909 but the remaining intra-contender games ruled them out.
+The Baltimore Orioles were eliminated from AL wildcard contention on 20030910 with 17 games left to play.
+The Colorado Rockies were eliminated from NL wildcard contention on 20030910 with 16 games left to play.
+MIL can only allow ['FLO', 'PHI'] to win 4 total games but they have 6 games left against each other.
+It looked like the Milwaukee Brewers were in wildcard contention after 20030908 but the remaining intra-contender games ruled them out.
+CIN can only allow ['FLO', 'PHI'] to win 2 total games but they have 6 games left against each other.
+It looked like the Cincinnati Reds were in wildcard contention after 20030908 but the remaining intra-contender games ruled them out.
+NYN can only allow ['FLO', 'PHI'] to win 4 total games but they have 6 games left against each other.
+It looked like the New York Mets were in wildcard contention after 20030908 but the remaining intra-contender games ruled them out.
+The Texas Rangers were eliminated from AL wildcard contention on 20030909 with 18 games left to play.
+The Baltimore Orioles were eliminated from the ALE title on 20030908 with 19 games left to play.
+The Montreal Expos were eliminated from the NLE title on 20030908 with 18 games left to play.
+CIN can only allow ['PHI', 'FLO'] to win 5 total games but they have 6 games left against each other.
+It looked like the Cincinnati Reds were in wildcard contention after 20030907 but the remaining intra-contender games ruled them out.
+The New York Mets were eliminated from NL wildcard contention on 20030908 with 19 games left to play.
+The Milwaukee Brewers were eliminated from NL wildcard contention on 20030908 with 19 games left to play.
+TEX can only allow ['OAK', 'SEA'] to win 2 total games but they have 6 games left against each other.
+It looked like the Texas Rangers were in contention after 20030906 but the remaining intra-division games ruled them out.
+SDN can only allow ['PHI', 'FLO'] to win 1 total games but they have 6 games left against each other.
+It looked like the San Diego Padres were in wildcard contention after 20030906 but the remaining intra-contender games ruled them out.
+The Cincinnati Reds were eliminated from NL wildcard contention on 20030907 with 20 games left to play.
+TEX can only allow ['OAK', 'SEA'] to win 4 total games but they have 6 games left against each other.
+It looked like the Texas Rangers were in contention after 20030905 but the remaining intra-division games ruled them out.
+The Colorado Rockies were eliminated from the NLW title on 20030906 with 19 games left to play.
+SDN can only allow ['PHI', 'FLO'] to win 5 total games but they have 6 games left against each other.
+It looked like the San Diego Padres were in wildcard contention after 20030905 but the remaining intra-contender games ruled them out.
+The Cleveland Indians were eliminated from AL wildcard contention on 20030906 with 19 games left to play.
+The Texas Rangers were eliminated from the ALW title on 20030905 with 21 games left to play.
+The San Diego Padres were eliminated from NL wildcard contention on 20030905 with 22 games left to play.
+The Tampa Bay Devil Rays were eliminated from AL wildcard contention on 20030902 with 26 games left to play.
+The New York Mets were eliminated from the NLE title on 20030831 with 27 games left to play.
+The Tampa Bay Devil Rays were eliminated from the ALE title on 20030830 with 28 games left to play.
+The San Diego Padres were eliminated from the NLW title on 20030830 with 26 games left to play.
+DET can only allow ['CHA', 'MIN'] to win 1 total games but they have 7 games left against each other.
+It looked like the Detroit Tigers were in contention after 20030821 but the remaining intra-division games ruled them out.
+DET can only allow ['KCA', 'CHA'] to win 5 total games but they have 7 games left against each other.
+It looked like the Detroit Tigers were in contention after 20030820 but the remaining intra-division games ruled them out.
+DET can only allow ['KCA', 'CHA', 'MIN'] to win 13 total games but they have 18 games left against each other.
+It looked like the Detroit Tigers were in contention after 20030819 but the remaining intra-division games ruled them out.
+DET can only allow ['KCA', 'CHA', 'MIN', 'CLE'] to win 33 total games but they have 35 games left against each other.
+It looked like the Detroit Tigers were in contention after 20030818 but the remaining intra-division games ruled them out.
+The Detroit Tigers were eliminated from the ALC title on 20030818 with 39 games left to play.
+DET can only allow ['BOS', 'OAK'] to win 0 total games but they have 3 games left against each other.
+It looked like the Detroit Tigers were in wildcard contention after 20030817 but the remaining intra-contender games ruled them out.
+DET can only allow ['BOS', 'OAK', 'CHA', 'MIN', 'ANA', 'TEX'] to win 50 total games but they have 54 games left against each other.
+It looked like the Detroit Tigers were in wildcard contention after 20030816 but the remaining intra-contender games ruled them out.
+The Detroit Tigers were eliminated from AL wildcard contention on 20030816 with 41 games left to play.

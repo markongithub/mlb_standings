@@ -1,0 +1,36 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Philadelphia Athletics were eliminated from the AL title on 19091001 with 3 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19090930 with 8 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19090928 with 9 games left to play.
+The New York Giants were eliminated from the NL title on 19090921 with 21 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19090913 with 19 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19090912 with 18 games left to play.
+The New York Yankees were eliminated from the AL title on 19090910 with 26 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19090910 with 26 games left to play.
+The St.Louis Browns were eliminated from the AL title on 19090906 with 29 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19090904 with 30 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19090828 with 39 games left to play.
+The Brooklyn Dodgers were eliminated from the NL title on 19090827 with 41 games left to play.
+WS1 can only allow ['DET', 'PHA'] to win 1 total games but they have 5 games left against each other.
+It looked like the Washington Senators were in contention after 19090825 but the remaining intra-division games ruled them out.
+WS1 can only allow ['PHA', 'DET'] to win 2 total games but they have 6 games left against each other.
+It looked like the Washington Senators were in contention after 19090824 but the remaining intra-division games ruled them out.
+WS1 can only allow ['PHA', 'DET'] to win 5 total games but they have 7 games left against each other.
+It looked like the Washington Senators were in contention after 19090823 but the remaining intra-division games ruled them out.
+WS1 can only allow ['PHA', 'DET', 'BOS'] to win 14 total games but they have 17 games left against each other.
+It looked like the Washington Senators were in contention after 19090822 but the remaining intra-division games ruled them out.
+WS1 can only allow ['PHA', 'DET', 'BOS', 'CLE', 'NYA'] to win 61 total games but they have 62 games left against each other.
+It looked like the Washington Senators were in contention after 19090821 but the remaining intra-division games ruled them out.
+WS1 can only allow ['PHA', 'DET', 'BOS', 'CLE', 'CHA', 'NYA', 'SLA'] to win 123 total games but they have 126 games left against each other.
+It looked like the Washington Senators were in contention after 19090820 but the remaining intra-division games ruled them out.
+The Washington Senators were eliminated from the AL title on 19090820 with 44 games left to play.
+BSN can only allow ['PIT', 'CHN'] to win 6 total games but they have 8 games left against each other.
+It looked like the Boston Braves were in contention after 19090817 but the remaining intra-division games ruled them out.
+BSN can only allow ['PIT', 'CHN', 'NY1'] to win 22 total games but they have 27 games left against each other.
+It looked like the Boston Braves were in contention after 19090816 but the remaining intra-division games ruled them out.
+BSN can only allow ['PIT', 'CHN', 'NY1'] to win 22 total games but they have 27 games left against each other.
+It looked like the Boston Braves were in contention after 19090815 but the remaining intra-division games ruled them out.
+The Boston Braves were eliminated from the NL title on 19090815 with 49 games left to play.

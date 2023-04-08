@@ -1,0 +1,153 @@
+This season has 30 teams.
+The top 1 teams from each division go to the postseason, plus 1 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The Arizona Diamondbacks were eliminated from NL wildcard contention on 20011007 with 0 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 20011005 with 3 games left to play.
+The San Francisco Giants were eliminated from the NLW title on 20011005 with 2 games left to play.
+The San Francisco Giants were eliminated from NL wildcard contention on 20011005 with 2 games left to play.
+The New York Yankees were eliminated from AL wildcard contention on 20011005 with 4 games left to play.
+NYN can only allow ['ATL', 'PHI'] to win 1 total games but they have 2 games left against each other.
+It looked like the New York Mets were in contention after 20011002 but the remaining intra-division games ruled them out.
+CHN can only allow ['HOU', 'SLN'] to win 1 total games but they have 3 games left against each other.
+It looked like the Chicago Cubs were in contention after 20011001 but the remaining intra-division games ruled them out.
+The New York Mets were eliminated from the NLE title on 20011002 with 4 games left to play.
+The Los Angeles Dodgers were eliminated from the NLW title on 20011002 with 5 games left to play.
+The Atlanta Braves were eliminated from NL wildcard contention on 20011002 with 5 games left to play.
+The Chicago Cubs were eliminated from NL wildcard contention on 20011002 with 5 games left to play.
+The Cleveland Indians were eliminated from AL wildcard contention on 20011002 with 6 games left to play.
+CHN can only allow ['HOU', 'SLN'] to win 1 total games but they have 3 games left against each other.
+It looked like the Chicago Cubs were in contention after 20010930 but the remaining intra-division games ruled them out.
+CHN can only allow ['HOU', 'SLN'] to win 2 total games but they have 3 games left against each other.
+It looked like the Chicago Cubs were in contention after 20010929 but the remaining intra-division games ruled them out.
+The Minnesota Twins were eliminated from the ALC title on 20010930 with 6 games left to play.
+The Chicago White Sox were eliminated from the ALC title on 20010930 with 6 games left to play.
+The Philadelphia Phillies were eliminated from NL wildcard contention on 20010930 with 6 games left to play.
+The Chicago Cubs were eliminated from the NLC title on 20010929 with 7 games left to play.
+The Los Angeles Dodgers were eliminated from NL wildcard contention on 20010929 with 7 games left to play.
+The New York Mets were eliminated from NL wildcard contention on 20010928 with 8 games left to play.
+The San Diego Padres were eliminated from the NLW title on 20010927 with 9 games left to play.
+FLO can only allow ['ATL', 'PHI'] to win 1 total games but they have 3 games left against each other.
+It looked like the Florida Marlins were in contention after 20010925 but the remaining intra-division games ruled them out.
+The San Diego Padres were eliminated from NL wildcard contention on 20010926 with 10 games left to play.
+The Florida Marlins were eliminated from the NLE title on 20010925 with 11 games left to play.
+The Boston Red Sox were eliminated from the ALE title on 20010925 with 13 games left to play.
+The Minnesota Twins were eliminated from AL wildcard contention on 20010923 with 12 games left to play.
+The Boston Red Sox were eliminated from AL wildcard contention on 20010923 with 15 games left to play.
+The Chicago White Sox were eliminated from AL wildcard contention on 20010922 with 13 games left to play.
+The Toronto Blue Jays were eliminated from the ALE title on 20010921 with 15 games left to play.
+The Anaheim Angels were eliminated from AL wildcard contention on 20010921 with 14 games left to play.
+The Florida Marlins were eliminated from NL wildcard contention on 20010921 with 15 games left to play.
+MON can only allow ['ATL', 'PHI'] to win 0 total games but they have 4 games left against each other.
+It looked like the Montreal Expos were in contention after 20010919 but the remaining intra-division games ruled them out.
+The Toronto Blue Jays were eliminated from AL wildcard contention on 20010920 with 16 games left to play.
+MON can only allow ['ATL', 'PHI'] to win 1 total games but they have 5 games left against each other.
+It looked like the Montreal Expos were in contention after 20010918 but the remaining intra-division games ruled them out.
+The Oakland Athletics were eliminated from the ALW title on 20010919 with 16 games left to play.
+COL can only allow ['SFN', 'LAN'] to win 4 total games but they have 6 games left against each other.
+It looked like the Colorado Rockies were in wildcard contention after 20010918 but the remaining intra-contender games ruled them out.
+MON can only allow ['ATL', 'PHI'] to win 4 total games but they have 6 games left against each other.
+It looked like the Montreal Expos were in contention after 20010917 but the remaining intra-division games ruled them out.
+MIL can only allow ['SFN', 'LAN'] to win 2 total games but they have 6 games left against each other.
+It looked like the Milwaukee Brewers were in wildcard contention after 20010917 but the remaining intra-contender games ruled them out.
+COL can only allow ['SFN', 'LAN'] to win 4 total games but they have 6 games left against each other.
+It looked like the Colorado Rockies were in wildcard contention after 20010917 but the remaining intra-contender games ruled them out.
+COL can only allow ['ARI', 'LAN'] to win 5 total games but they have 7 games left against each other.
+It looked like the Colorado Rockies were in contention after 20010916 but the remaining intra-division games ruled them out.
+The Montreal Expos were eliminated from the NLE title on 20010917 with 18 games left to play.
+MIL can only allow ['SFN', 'LAN'] to win 4 total games but they have 6 games left against each other.
+It looked like the Milwaukee Brewers were in wildcard contention after 20010916 but the remaining intra-contender games ruled them out.
+MON can only allow ['SFN', 'LAN'] to win 2 total games but they have 6 games left against each other.
+It looked like the Montreal Expos were in wildcard contention after 20010916 but the remaining intra-contender games ruled them out.
+The Colorado Rockies were eliminated from NL wildcard contention on 20010917 with 19 games left to play.
+COL can only allow ['ARI', 'LAN'] to win 5 total games but they have 7 games left against each other.
+It looked like the Colorado Rockies were in contention after 20010915 but the remaining intra-division games ruled them out.
+MIL can only allow ['SFN', 'LAN'] to win 4 total games but they have 6 games left against each other.
+It looked like the Milwaukee Brewers were in wildcard contention after 20010915 but the remaining intra-contender games ruled them out.
+MON can only allow ['SFN', 'LAN'] to win 2 total games but they have 6 games left against each other.
+It looked like the Montreal Expos were in wildcard contention after 20010915 but the remaining intra-contender games ruled them out.
+COL can only allow ['ARI', 'LAN'] to win 5 total games but they have 7 games left against each other.
+It looked like the Colorado Rockies were in contention after 20010914 but the remaining intra-division games ruled them out.
+MIL can only allow ['SFN', 'LAN'] to win 4 total games but they have 6 games left against each other.
+It looked like the Milwaukee Brewers were in wildcard contention after 20010914 but the remaining intra-contender games ruled them out.
+MON can only allow ['SFN', 'LAN'] to win 2 total games but they have 6 games left against each other.
+It looked like the Montreal Expos were in wildcard contention after 20010914 but the remaining intra-contender games ruled them out.
+COL can only allow ['ARI', 'LAN'] to win 5 total games but they have 7 games left against each other.
+It looked like the Colorado Rockies were in contention after 20010913 but the remaining intra-division games ruled them out.
+MIL can only allow ['SFN', 'LAN'] to win 4 total games but they have 6 games left against each other.
+It looked like the Milwaukee Brewers were in wildcard contention after 20010913 but the remaining intra-contender games ruled them out.
+MON can only allow ['SFN', 'LAN'] to win 2 total games but they have 6 games left against each other.
+It looked like the Montreal Expos were in wildcard contention after 20010913 but the remaining intra-contender games ruled them out.
+COL can only allow ['ARI', 'LAN'] to win 5 total games but they have 7 games left against each other.
+It looked like the Colorado Rockies were in contention after 20010912 but the remaining intra-division games ruled them out.
+MIL can only allow ['SFN', 'LAN'] to win 4 total games but they have 6 games left against each other.
+It looked like the Milwaukee Brewers were in wildcard contention after 20010912 but the remaining intra-contender games ruled them out.
+MON can only allow ['SFN', 'LAN'] to win 2 total games but they have 6 games left against each other.
+It looked like the Montreal Expos were in wildcard contention after 20010912 but the remaining intra-contender games ruled them out.
+COL can only allow ['ARI', 'LAN'] to win 5 total games but they have 7 games left against each other.
+It looked like the Colorado Rockies were in contention after 20010911 but the remaining intra-division games ruled them out.
+MIL can only allow ['SFN', 'LAN'] to win 4 total games but they have 6 games left against each other.
+It looked like the Milwaukee Brewers were in wildcard contention after 20010911 but the remaining intra-contender games ruled them out.
+MON can only allow ['SFN', 'LAN'] to win 2 total games but they have 6 games left against each other.
+It looked like the Montreal Expos were in wildcard contention after 20010911 but the remaining intra-contender games ruled them out.
+COL can only allow ['ARI', 'LAN'] to win 5 total games but they have 7 games left against each other.
+It looked like the Colorado Rockies were in contention after 20010910 but the remaining intra-division games ruled them out.
+MIL can only allow ['SFN', 'LAN'] to win 4 total games but they have 6 games left against each other.
+It looked like the Milwaukee Brewers were in wildcard contention after 20010910 but the remaining intra-contender games ruled them out.
+MON can only allow ['SFN', 'LAN'] to win 2 total games but they have 6 games left against each other.
+It looked like the Montreal Expos were in wildcard contention after 20010910 but the remaining intra-contender games ruled them out.
+COL can only allow ['ARI', 'LAN'] to win 5 total games but they have 7 games left against each other.
+It looked like the Colorado Rockies were in contention after 20010909 but the remaining intra-division games ruled them out.
+MON can only allow ['SFN', 'LAN'] to win 2 total games but they have 6 games left against each other.
+It looked like the Montreal Expos were in wildcard contention after 20010909 but the remaining intra-contender games ruled them out.
+The Milwaukee Brewers were eliminated from NL wildcard contention on 20010910 with 18 games left to play.
+MIL can only allow ['HOU', 'CHN'] to win 6 total games but they have 7 games left against each other.
+It looked like the Milwaukee Brewers were in contention after 20010908 but the remaining intra-division games ruled them out.
+COL can only allow ['ARI', 'SFN', 'LAN'] to win 12 total games but they have 13 games left against each other.
+It looked like the Colorado Rockies were in contention after 20010908 but the remaining intra-division games ruled them out.
+MON can only allow ['SFN', 'LAN'] to win 5 total games but they have 6 games left against each other.
+It looked like the Montreal Expos were in wildcard contention after 20010908 but the remaining intra-contender games ruled them out.
+The Texas Rangers were eliminated from AL wildcard contention on 20010909 with 19 games left to play.
+MIL can only allow ['HOU', 'CHN'] to win 6 total games but they have 7 games left against each other.
+It looked like the Milwaukee Brewers were in contention after 20010907 but the remaining intra-division games ruled them out.
+The Colorado Rockies were eliminated from the NLW title on 20010908 with 21 games left to play.
+CIN can only allow ['LAN', 'SFN'] to win 0 total games but they have 6 games left against each other.
+It looked like the Cincinnati Reds were in wildcard contention after 20010907 but the remaining intra-contender games ruled them out.
+The Montreal Expos were eliminated from NL wildcard contention on 20010908 with 20 games left to play.
+The Milwaukee Brewers were eliminated from the NLC title on 20010907 with 21 games left to play.
+CIN can only allow ['SFN', 'LAN'] to win 3 total games but they have 6 games left against each other.
+It looked like the Cincinnati Reds were in wildcard contention after 20010906 but the remaining intra-contender games ruled them out.
+KCA can only allow ['CLE', 'MIN', 'CHA'] to win 13 total games but they have 16 games left against each other.
+It looked like the Kansas City Royals were in contention after 20010905 but the remaining intra-division games ruled them out.
+DET can only allow ['CLE', 'MIN', 'CHA'] to win 13 total games but they have 16 games left against each other.
+It looked like the Detroit Tigers were in contention after 20010905 but the remaining intra-division games ruled them out.
+CIN can only allow ['SFN', 'LAN'] to win 5 total games but they have 6 games left against each other.
+It looked like the Cincinnati Reds were in wildcard contention after 20010905 but the remaining intra-contender games ruled them out.
+The Kansas City Royals were eliminated from the ALC title on 20010905 with 23 games left to play.
+The Detroit Tigers were eliminated from the ALC title on 20010905 with 24 games left to play.
+The Cincinnati Reds were eliminated from NL wildcard contention on 20010905 with 23 games left to play.
+CIN can only allow ['HOU', 'CHN'] to win 5 total games but they have 7 games left against each other.
+It looked like the Cincinnati Reds were in contention after 20010903 but the remaining intra-division games ruled them out.
+The Detroit Tigers were eliminated from AL wildcard contention on 20010904 with 25 games left to play.
+CIN can only allow ['HOU', 'CHN'] to win 6 total games but they have 7 games left against each other.
+It looked like the Cincinnati Reds were in contention after 20010902 but the remaining intra-division games ruled them out.
+The Baltimore Orioles were eliminated from the ALE title on 20010903 with 25 games left to play.
+PIT can only allow ['SFN', 'LAN'] to win 3 total games but they have 6 games left against each other.
+It looked like the Pittsburgh Pirates were in wildcard contention after 20010902 but the remaining intra-contender games ruled them out.
+The Baltimore Orioles were eliminated from AL wildcard contention on 20010903 with 25 games left to play.
+The Kansas City Royals were eliminated from AL wildcard contention on 20010903 with 25 games left to play.
+The Cincinnati Reds were eliminated from the NLC title on 20010902 with 26 games left to play.
+PIT can only allow ['SFN', 'LAN', 'SDN'] to win 17 total games but they have 18 games left against each other.
+It looked like the Pittsburgh Pirates were in wildcard contention after 20010901 but the remaining intra-contender games ruled them out.
+The Anaheim Angels were eliminated from the ALW title on 20010901 with 26 games left to play.
+PIT can only allow ['SFN', 'SLN', 'LAN', 'SDN'] to win 25 total games but they have 26 games left against each other.
+It looked like the Pittsburgh Pirates were in wildcard contention after 20010831 but the remaining intra-contender games ruled them out.
+PIT can only allow ['HOU', 'CHN'] to win 6 total games but they have 7 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 20010830 but the remaining intra-division games ruled them out.
+The Pittsburgh Pirates were eliminated from NL wildcard contention on 20010831 with 29 games left to play.
+TBA can only allow ['NYA', 'BOS'] to win 6 total games but they have 7 games left against each other.
+It looked like the Tampa Bay Devil Rays were in contention after 20010829 but the remaining intra-division games ruled them out.
+The Pittsburgh Pirates were eliminated from the NLC title on 20010830 with 30 games left to play.
+The Tampa Bay Devil Rays were eliminated from AL wildcard contention on 20010830 with 28 games left to play.
+The Tampa Bay Devil Rays were eliminated from the ALE title on 20010829 with 29 games left to play.
+The Texas Rangers were eliminated from the ALW title on 20010823 with 34 games left to play.

@@ -1,0 +1,48 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The St. Louis Cardinals were eliminated from the NL title on 19271001 with 2 games left to play.
+The New York Giants were eliminated from the NL title on 19270930 with 2 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19270925 with 4 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19270917 with 17 games left to play.
+The Philadelphia Athletics were eliminated from the AL title on 19270913 with 17 games left to play.
+BSN can only allow ['PIT', 'NY1'] to win 2 total games but they have 4 games left against each other.
+It looked like the Boston Braves were in contention after 19270911 but the remaining intra-division games ruled them out.
+BSN can only allow ['PIT', 'NY1', 'CHN'] to win 9 total games but they have 10 games left against each other.
+It looked like the Boston Braves were in contention after 19270910 but the remaining intra-division games ruled them out.
+BRO can only allow ['PIT', 'NY1'] to win 1 total games but they have 4 games left against each other.
+It looked like the Brooklyn Robins were in contention after 19270909 but the remaining intra-division games ruled them out.
+BSN can only allow ['PIT', 'NY1', 'SLN', 'CHN'] to win 17 total games but they have 20 games left against each other.
+It looked like the Boston Braves were in contention after 19270909 but the remaining intra-division games ruled them out.
+BRO can only allow ['PIT', 'NY1', 'SLN'] to win 10 total games but they have 11 games left against each other.
+It looked like the Brooklyn Robins were in contention after 19270908 but the remaining intra-division games ruled them out.
+The Boston Braves were eliminated from the NL title on 19270909 with 25 games left to play.
+BRO can only allow ['PIT', 'NY1', 'SLN'] to win 10 total games but they have 11 games left against each other.
+It looked like the Brooklyn Robins were in contention after 19270907 but the remaining intra-division games ruled them out.
+The Washington Senators were eliminated from the AL title on 19270908 with 23 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19270908 with 22 games left to play.
+BRO can only allow ['PIT', 'NY1', 'SLN', 'CHN'] to win 19 total games but they have 24 games left against each other.
+It looked like the Brooklyn Robins were in contention after 19270906 but the remaining intra-division games ruled them out.
+BRO can only allow ['PIT', 'NY1', 'SLN', 'CHN'] to win 22 total games but they have 25 games left against each other.
+It looked like the Brooklyn Robins were in contention after 19270905 but the remaining intra-division games ruled them out.
+The Brooklyn Robins were eliminated from the NL title on 19270905 with 24 games left to play.
+PHI can only allow ['PIT', 'CHN'] to win 2 total games but they have 4 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19270902 but the remaining intra-division games ruled them out.
+PHI can only allow ['PIT', 'CHN'] to win 3 total games but they have 4 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19270901 but the remaining intra-division games ruled them out.
+The Chicago White Sox were eliminated from the AL title on 19270902 with 29 games left to play.
+PHI can only allow ['CHN', 'PIT'] to win 4 total games but they have 5 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19270831 but the remaining intra-division games ruled them out.
+PHI can only allow ['CHN', 'SLN', 'NY1'] to win 17 total games but they have 20 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19270830 but the remaining intra-division games ruled them out.
+PHI can only allow ['CHN', 'PIT', 'SLN', 'NY1'] to win 30 total games but they have 32 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19270829 but the remaining intra-division games ruled them out.
+PHI can only allow ['CHN', 'SLN', 'PIT', 'NY1'] to win 33 total games but they have 34 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19270828 but the remaining intra-division games ruled them out.
+PHI can only allow ['CHN', 'SLN', 'PIT', 'NY1'] to win 33 total games but they have 34 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19270827 but the remaining intra-division games ruled them out.
+The Cleveland Indians were eliminated from the AL title on 19270828 with 30 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19270827 with 33 games left to play.
+The St. Louis Browns were eliminated from the AL title on 19270825 with 36 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19270816 with 43 games left to play.

@@ -1,0 +1,28 @@
+This season has 24 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The Oakland Athletics were eliminated from the ALW title on 19761001 with 3 games left to play.
+The Pittsburgh Pirates were eliminated from the NLE title on 19760926 with 5 games left to play.
+The Baltimore Orioles were eliminated from the ALE title on 19760925 with 7 games left to play.
+The New York Mets were eliminated from the NLE title on 19760923 with 10 games left to play.
+The Minnesota Twins were eliminated from the ALW title on 19760921 with 9 games left to play.
+The Los Angeles Dodgers were eliminated from the NLW title on 19760921 with 11 games left to play.
+The Cleveland Indians were eliminated from the ALE title on 19760918 with 15 games left to play.
+CAL can only allow ['KCA', 'OAK'] to win 4 total games but they have 6 games left against each other.
+It looked like the California Angels were in contention after 19760915 but the remaining intra-division games ruled them out.
+CAL can only allow ['KCA', 'OAK'] to win 5 total games but they have 6 games left against each other.
+It looked like the California Angels were in contention after 19760914 but the remaining intra-division games ruled them out.
+The Boston Red Sox were eliminated from the ALE title on 19760914 with 18 games left to play.
+The California Angels were eliminated from the ALW title on 19760914 with 16 games left to play.
+The Texas Rangers were eliminated from the ALW title on 19760914 with 18 games left to play.
+The St. Louis Cardinals were eliminated from the NLE title on 19760912 with 23 games left to play.
+The Detroit Tigers were eliminated from the ALE title on 19760912 with 20 games left to play.
+The Chicago Cubs were eliminated from the NLE title on 19760912 with 19 games left to play.
+The Milwaukee Brewers were eliminated from the ALE title on 19760911 with 22 games left to play.
+The Chicago White Sox were eliminated from the ALW title on 19760911 with 21 games left to play.
+The Houston Astros were eliminated from the NLW title on 19760909 with 19 games left to play.
+The San Diego Padres were eliminated from the NLW title on 19760906 with 22 games left to play.
+The Atlanta Braves were eliminated from the NLW title on 19760905 with 26 games left to play.
+The San Francisco Giants were eliminated from the NLW title on 19760904 with 26 games left to play.
+The Montreal Expos were eliminated from the NLE title on 19760827 with 41 games left to play.

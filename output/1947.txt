@@ -1,0 +1,18 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The St. Louis Cardinals were eliminated from the NL title on 19470922 with 7 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19470915 with 13 games left to play.
+The Boston Braves were eliminated from the NL title on 19470914 with 9 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19470914 with 12 games left to play.
+The New York Giants were eliminated from the NL title on 19470914 with 15 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19470913 with 15 games left to play.
+The Philadelphia Athletics were eliminated from the AL title on 19470910 with 17 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19470904 with 18 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19470903 with 23 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19470903 with 23 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19470831 with 26 games left to play.
+The Washington Senators were eliminated from the AL title on 19470831 with 28 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19470831 with 26 games left to play.
+The St. Louis Browns were eliminated from the AL title on 19470824 with 33 games left to play.

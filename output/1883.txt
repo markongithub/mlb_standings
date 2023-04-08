@@ -1,0 +1,114 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AA has 98 games per team.
+The NL has 98 games per team.
+The St. Louis Cardinals were eliminated from the AA title on 18830928 with 1 games left to play.
+The Providence Grays were eliminated from the NL title on 18830927 with 2 games left to play.
+The Cleveland Spiders were eliminated from the NL title on 18830926 with 4 games left to play.
+The Chicago Cubs were eliminated from the NL title on 18830926 with 3 games left to play.
+BFN can only allow ['BSN', 'PRO', 'CL2'] to win 4 total games but they have 5 games left against each other.
+It looked like the Buffalo Bisons were in contention after 18830921 but the remaining intra-division games ruled them out.
+CN2 can only allow ['PH4', 'SL4'] to win 2 total games but they have 3 games left against each other.
+It looked like the Cincinnati Reds were in contention after 18830920 but the remaining intra-division games ruled them out.
+BFN can only allow ['BSN', 'PRO', 'CL2'] to win 5 total games but they have 6 games left against each other.
+It looked like the Buffalo Bisons were in contention after 18830920 but the remaining intra-division games ruled them out.
+CN2 can only allow ['PH4', 'SL4'] to win 2 total games but they have 3 games left against each other.
+It looked like the Cincinnati Reds were in contention after 18830919 but the remaining intra-division games ruled them out.
+BFN can only allow ['BSN', 'CL2', 'PRO'] to win 5 total games but they have 6 games left against each other.
+It looked like the Buffalo Bisons were in contention after 18830919 but the remaining intra-division games ruled them out.
+CN2 can only allow ['PH4', 'SL4'] to win 2 total games but they have 3 games left against each other.
+It looked like the Cincinnati Reds were in contention after 18830918 but the remaining intra-division games ruled them out.
+The Buffalo Bisons were eliminated from the NL title on 18830919 with 8 games left to play.
+The Cincinnati Reds were eliminated from the AA title on 18830918 with 7 games left to play.
+NY1 can only allow ['BSN', 'PRO', 'CL2'] to win 4 total games but they have 6 games left against each other.
+It looked like the New York Giants were in contention after 18830912 but the remaining intra-division games ruled them out.
+NY1 can only allow ['CHN', 'PRO'] to win 2 total games but they have 3 games left against each other.
+It looked like the New York Giants were in contention after 18830911 but the remaining intra-division games ruled them out.
+NY4 can only allow ['PH4', 'SL4'] to win 2 total games but they have 3 games left against each other.
+It looked like the New York Metropolitans were in contention after 18830911 but the remaining intra-division games ruled them out.
+NY4 can only allow ['PH4', 'SL4'] to win 2 total games but they have 3 games left against each other.
+It looked like the New York Metropolitans were in contention after 18830910 but the remaining intra-division games ruled them out.
+The New York Giants were eliminated from the NL title on 18830911 with 12 games left to play.
+The New York Metropolitans were eliminated from the AA title on 18830910 with 13 games left to play.
+LS2 can only allow ['PH4', 'SL4'] to win 2 total games but they have 3 games left against each other.
+It looked like the Louisville Colonels were in contention after 18830906 but the remaining intra-division games ruled them out.
+LS2 can only allow ['PH4', 'SL4'] to win 3 total games but they have 4 games left against each other.
+It looked like the Louisville Colonels were in contention after 18830905 but the remaining intra-division games ruled them out.
+DTN can only allow ['BSN', 'CL2'] to win 2 total games but they have 3 games left against each other.
+It looked like the Detroit Wolverines were in contention after 18830904 but the remaining intra-division games ruled them out.
+The Louisville Colonels were eliminated from the AA title on 18830905 with 16 games left to play.
+DTN can only allow ['CL2', 'BSN', 'PRO'] to win 7 total games but they have 9 games left against each other.
+It looked like the Detroit Wolverines were in contention after 18830903 but the remaining intra-division games ruled them out.
+DTN can only allow ['CL2', 'BSN', 'PRO', 'CHN'] to win 14 total games but they have 16 games left against each other.
+It looked like the Detroit Wolverines were in contention after 18830902 but the remaining intra-division games ruled them out.
+DTN can only allow ['CL2', 'BSN', 'PRO', 'CHN'] to win 14 total games but they have 16 games left against each other.
+It looked like the Detroit Wolverines were in contention after 18830901 but the remaining intra-division games ruled them out.
+DTN can only allow ['CL2', 'PRO', 'BSN', 'CHN'] to win 16 total games but they have 17 games left against each other.
+It looked like the Detroit Wolverines were in contention after 18830831 but the remaining intra-division games ruled them out.
+The Detroit Wolverines were eliminated from the NL title on 18830831 with 17 games left to play.
+PT1 can only allow ['PH4', 'SL4'] to win 1 total games but they have 7 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 18830820 but the remaining intra-division games ruled them out.
+PT1 can only allow ['PH4', 'SL4'] to win 5 total games but they have 7 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 18830819 but the remaining intra-division games ruled them out.
+CL5 can only allow ['PH4', 'SL4'] to win 3 total games but they have 7 games left against each other.
+It looked like the Columbus Colts were in contention after 18830819 but the remaining intra-division games ruled them out.
+PT1 can only allow ['PH4', 'SL4'] to win 5 total games but they have 7 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 18830818 but the remaining intra-division games ruled them out.
+CL5 can only allow ['PH4', 'SL4'] to win 3 total games but they have 7 games left against each other.
+It looked like the Columbus Colts were in contention after 18830818 but the remaining intra-division games ruled them out.
+PT1 can only allow ['PH4', 'SL4', 'CN2', 'LS2', 'NY4'] to win 41 total games but they have 42 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 18830817 but the remaining intra-division games ruled them out.
+BL2 can only allow ['PH4', 'SL4'] to win 3 total games but they have 7 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18830817 but the remaining intra-division games ruled them out.
+CL5 can only allow ['PH4', 'SL4', 'CN2'] to win 13 total games but they have 14 games left against each other.
+It looked like the Columbus Colts were in contention after 18830817 but the remaining intra-division games ruled them out.
+BL2 can only allow ['PH4', 'SL4'] to win 4 total games but they have 7 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18830816 but the remaining intra-division games ruled them out.
+The Columbus Colts were eliminated from the AA title on 18830817 with 28 games left to play.
+The Pittsburgh Pirates were eliminated from the AA title on 18830817 with 27 games left to play.
+BL2 can only allow ['PH4', 'SL4'] to win 4 total games but they have 7 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18830815 but the remaining intra-division games ruled them out.
+BL2 can only allow ['PH4', 'SL4'] to win 4 total games but they have 7 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18830814 but the remaining intra-division games ruled them out.
+BL2 can only allow ['PH4', 'SL4'] to win 4 total games but they have 7 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18830813 but the remaining intra-division games ruled them out.
+BL2 can only allow ['PH4', 'SL4'] to win 5 total games but they have 7 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18830812 but the remaining intra-division games ruled them out.
+BL2 can only allow ['PH4', 'SL4'] to win 6 total games but they have 7 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18830811 but the remaining intra-division games ruled them out.
+PHI can only allow ['CL2', 'CHN'] to win 5 total games but they have 8 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 18830810 but the remaining intra-division games ruled them out.
+BL2 can only allow ['PH4', 'SL4', 'CN2', 'NY4'] to win 29 total games but they have 31 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18830810 but the remaining intra-division games ruled them out.
+PHI can only allow ['CL2', 'CHN'] to win 5 total games but they have 8 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 18830809 but the remaining intra-division games ruled them out.
+The Baltimore Orioles were eliminated from the AA title on 18830810 with 32 games left to play.
+PHI can only allow ['CL2', 'CHN'] to win 7 total games but they have 8 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 18830808 but the remaining intra-division games ruled them out.
+PHI can only allow ['CL2', 'CHN', 'PRO'] to win 12 total games but they have 14 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 18830807 but the remaining intra-division games ruled them out.
+PHI can only allow ['CL2', 'CHN', 'PRO', 'BSN'] to win 25 total games but they have 31 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 18830806 but the remaining intra-division games ruled them out.
+PHI can only allow ['CL2', 'CHN', 'PRO', 'BSN'] to win 25 total games but they have 31 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 18830805 but the remaining intra-division games ruled them out.
+PHI can only allow ['CL2', 'CHN', 'PRO', 'BSN'] to win 25 total games but they have 31 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 18830804 but the remaining intra-division games ruled them out.
+PHI can only allow ['CL2', 'PRO', 'CHN', 'BSN'] to win 27 total games but they have 32 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 18830803 but the remaining intra-division games ruled them out.
+PHI can only allow ['CL2', 'PRO', 'CHN', 'BSN'] to win 27 total games but they have 32 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 18830802 but the remaining intra-division games ruled them out.
+PHI can only allow ['CL2', 'PRO', 'CHN', 'BSN', 'BFN'] to win 48 total games but they have 57 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 18830801 but the remaining intra-division games ruled them out.
+PHI can only allow ['CL2', 'PRO', 'CHN', 'BSN', 'BFN'] to win 55 total games but they have 59 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 18830731 but the remaining intra-division games ruled them out.
+PHI can only allow ['CL2', 'PRO', 'CHN', 'BSN', 'BFN', 'DTN'] to win 87 total games but they have 89 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 18830730 but the remaining intra-division games ruled them out.
+PHI can only allow ['CL2', 'PRO', 'CHN', 'BSN', 'BFN', 'DTN'] to win 88 total games but they have 90 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 18830729 but the remaining intra-division games ruled them out.
+PHI can only allow ['CL2', 'PRO', 'CHN', 'BSN', 'BFN', 'DTN'] to win 88 total games but they have 90 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 18830728 but the remaining intra-division games ruled them out.
+PHI can only allow ['CL2', 'PRO', 'CHN', 'BSN', 'BFN', 'DTN'] to win 91 total games but they have 92 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 18830727 but the remaining intra-division games ruled them out.
+PHI can only allow ['CL2', 'PRO', 'CHN', 'BSN', 'BFN', 'DTN'] to win 91 total games but they have 92 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 18830726 but the remaining intra-division games ruled them out.
+The Philadelphia Phillies were eliminated from the NL title on 18830726 with 37 games left to play.

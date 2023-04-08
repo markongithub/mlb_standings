@@ -1,0 +1,72 @@
+This season has 26 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The Toronto Blue Jays were eliminated from the ALE title on 19871004 with 0 games left to play.
+The New York Mets were eliminated from the NLE title on 19871001 with 3 games left to play.
+The Montreal Expos were eliminated from the NLE title on 19871001 with 3 games left to play.
+The Cincinnati Reds were eliminated from the NLW title on 19870928 with 6 games left to play.
+The Kansas City Royals were eliminated from the ALW title on 19870928 with 5 games left to play.
+The Oakland Athletics were eliminated from the ALW title on 19870927 with 6 games left to play.
+MIL can only allow ['TOR', 'DET'] to win 2 total games but they have 6 games left against each other.
+It looked like the Milwaukee Brewers were in contention after 19870924 but the remaining intra-division games ruled them out.
+The Texas Rangers were eliminated from the ALW title on 19870925 with 9 games left to play.
+MIL can only allow ['TOR', 'DET'] to win 3 total games but they have 7 games left against each other.
+It looked like the Milwaukee Brewers were in contention after 19870923 but the remaining intra-division games ruled them out.
+NYA can only allow ['TOR', 'DET'] to win 1 total games but they have 7 games left against each other.
+It looked like the New York Yankees were in contention after 19870923 but the remaining intra-division games ruled them out.
+The Houston Astros were eliminated from the NLW title on 19870924 with 10 games left to play.
+MIL can only allow ['TOR', 'DET'] to win 5 total games but they have 7 games left against each other.
+It looked like the Milwaukee Brewers were in contention after 19870922 but the remaining intra-division games ruled them out.
+NYA can only allow ['TOR', 'DET'] to win 5 total games but they have 7 games left against each other.
+It looked like the New York Yankees were in contention after 19870922 but the remaining intra-division games ruled them out.
+The Seattle Mariners were eliminated from the ALW title on 19870923 with 10 games left to play.
+The California Angels were eliminated from the ALW title on 19870923 with 9 games left to play.
+CHA can only allow ['MIN', 'TEX', 'KCA', 'SEA'] to win 23 total games but they have 24 games left against each other.
+It looked like the Chicago White Sox were in contention after 19870921 but the remaining intra-division games ruled them out.
+The Milwaukee Brewers were eliminated from the ALE title on 19870922 with 11 games left to play.
+The New York Yankees were eliminated from the ALE title on 19870922 with 11 games left to play.
+PHI can only allow ['SLN', 'NYN', 'MON'] to win 8 total games but they have 9 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19870920 but the remaining intra-division games ruled them out.
+CHA can only allow ['MIN', 'KCA', 'TEX', 'SEA'] to win 24 total games but they have 25 games left against each other.
+It looked like the Chicago White Sox were in contention after 19870920 but the remaining intra-division games ruled them out.
+CHN can only allow ['SLN', 'NYN'] to win 1 total games but they have 3 games left against each other.
+It looked like the Chicago Cubs were in contention after 19870919 but the remaining intra-division games ruled them out.
+The Chicago White Sox were eliminated from the ALW title on 19870920 with 13 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 19870920 with 13 games left to play.
+PIT can only allow ['SLN', 'NYN', 'MON'] to win 6 total games but they have 9 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19870918 but the remaining intra-division games ruled them out.
+The Chicago Cubs were eliminated from the NLE title on 19870919 with 15 games left to play.
+PIT can only allow ['SLN', 'NYN', 'MON'] to win 7 total games but they have 9 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19870917 but the remaining intra-division games ruled them out.
+PIT can only allow ['SLN', 'NYN', 'MON'] to win 8 total games but they have 10 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19870916 but the remaining intra-division games ruled them out.
+The Atlanta Braves were eliminated from the NLW title on 19870917 with 17 games left to play.
+BOS can only allow ['DET', 'TOR'] to win 2 total games but they have 7 games left against each other.
+It looked like the Boston Red Sox were in contention after 19870915 but the remaining intra-division games ruled them out.
+The Pittsburgh Pirates were eliminated from the NLE title on 19870916 with 17 games left to play.
+The Los Angeles Dodgers were eliminated from the NLW title on 19870916 with 18 games left to play.
+BOS can only allow ['DET', 'TOR'] to win 6 total games but they have 7 games left against each other.
+It looked like the Boston Red Sox were in contention after 19870914 but the remaining intra-division games ruled them out.
+The San Diego Padres were eliminated from the NLW title on 19870915 with 18 games left to play.
+The Boston Red Sox were eliminated from the ALE title on 19870914 with 20 games left to play.
+BAL can only allow ['DET', 'TOR'] to win 1 total games but they have 7 games left against each other.
+It looked like the Baltimore Orioles were in contention after 19870910 but the remaining intra-division games ruled them out.
+BAL can only allow ['DET', 'TOR'] to win 3 total games but they have 7 games left against each other.
+It looked like the Baltimore Orioles were in contention after 19870909 but the remaining intra-division games ruled them out.
+BAL can only allow ['DET', 'TOR', 'NYA', 'MIL'] to win 30 total games but they have 31 games left against each other.
+It looked like the Baltimore Orioles were in contention after 19870908 but the remaining intra-division games ruled them out.
+BAL can only allow ['TOR', 'DET', 'NYA', 'MIL'] to win 31 total games but they have 32 games left against each other.
+It looked like the Baltimore Orioles were in contention after 19870907 but the remaining intra-division games ruled them out.
+The Baltimore Orioles were eliminated from the ALE title on 19870907 with 25 games left to play.
+CLE can only allow ['DET', 'TOR'] to win 0 total games but they have 7 games left against each other.
+It looked like the Cleveland Indians were in contention after 19870902 but the remaining intra-division games ruled them out.
+CLE can only allow ['DET', 'TOR'] to win 4 total games but they have 7 games left against each other.
+It looked like the Cleveland Indians were in contention after 19870901 but the remaining intra-division games ruled them out.
+CLE can only allow ['DET', 'TOR', 'MIL'] to win 19 total games but they have 20 games left against each other.
+It looked like the Cleveland Indians were in contention after 19870831 but the remaining intra-division games ruled them out.
+CLE can only allow ['DET', 'TOR', 'MIL'] to win 19 total games but they have 20 games left against each other.
+It looked like the Cleveland Indians were in contention after 19870830 but the remaining intra-division games ruled them out.
+CLE can only allow ['DET', 'TOR', 'NYA', 'MIL', 'BOS', 'BAL'] to win 78 total games but they have 79 games left against each other.
+It looked like the Cleveland Indians were in contention after 19870829 but the remaining intra-division games ruled them out.
+The Cleveland Indians were eliminated from the ALE title on 19870829 with 32 games left to play.

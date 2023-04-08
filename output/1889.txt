@@ -1,0 +1,64 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AA has 140 games per team.
+The NL has 140 games per team.
+The Philadelphia Athletics were eliminated from the AA title on 18891003 with 16 games left to play.
+The Baltimore Orioles were eliminated from the AA title on 18890929 with 18 games left to play.
+PHI can only allow ['BSN', 'NY1'] to win 0 total games but they have 4 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 18890927 but the remaining intra-division games ruled them out.
+The Philadelphia Phillies were eliminated from the NL title on 18890927 with 18 games left to play.
+CHN can only allow ['NY1', 'BSN'] to win 3 total games but they have 4 games left against each other.
+It looked like the Chicago Cubs were in contention after 18890923 but the remaining intra-division games ruled them out.
+The Cincinnati Reds were eliminated from the AA title on 18890923 with 15 games left to play.
+The Chicago Cubs were eliminated from the NL title on 18890923 with 17 games left to play.
+CL4 can only allow ['NY1', 'BSN'] to win 2 total games but they have 4 games left against each other.
+It looked like the Cleveland Spiders were in contention after 18890920 but the remaining intra-division games ruled them out.
+The Cleveland Spiders were eliminated from the NL title on 18890920 with 20 games left to play.
+IN3 can only allow ['NY1', 'BSN'] to win 0 total games but they have 4 games left against each other.
+It looked like the Indianapolis Hoosiers were in contention after 18890918 but the remaining intra-division games ruled them out.
+PIT can only allow ['NY1', 'BSN'] to win 0 total games but they have 4 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 18890918 but the remaining intra-division games ruled them out.
+IN3 can only allow ['NY1', 'BSN'] to win 3 total games but they have 4 games left against each other.
+It looked like the Indianapolis Hoosiers were in contention after 18890917 but the remaining intra-division games ruled them out.
+PIT can only allow ['NY1', 'BSN'] to win 3 total games but they have 4 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 18890917 but the remaining intra-division games ruled them out.
+WS8 can only allow ['NY1', 'BSN'] to win 0 total games but they have 4 games left against each other.
+It looked like the Washington Senators were in contention after 18890916 but the remaining intra-division games ruled them out.
+The Indianapolis Hoosiers were eliminated from the NL title on 18890917 with 21 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 18890917 with 24 games left to play.
+WS8 can only allow ['BSN', 'NY1'] to win 3 total games but they have 4 games left against each other.
+It looked like the Washington Senators were in contention after 18890915 but the remaining intra-division games ruled them out.
+WS8 can only allow ['BSN', 'NY1'] to win 3 total games but they have 4 games left against each other.
+It looked like the Washington Senators were in contention after 18890914 but the remaining intra-division games ruled them out.
+The Washington Senators were eliminated from the NL title on 18890914 with 33 games left to play.
+KC2 can only allow ['BR3', 'SL4', 'BL2', 'PH4'] to win 28 total games but they have 31 games left against each other.
+It looked like the Kansas City Cowboys were in contention after 18890906 but the remaining intra-division games ruled them out.
+KC2 can only allow ['BR3', 'SL4', 'BL2', 'PH4'] to win 29 total games but they have 32 games left against each other.
+It looked like the Kansas City Cowboys were in contention after 18890905 but the remaining intra-division games ruled them out.
+KC2 can only allow ['BR3', 'SL4', 'BL2', 'PH4'] to win 30 total games but they have 32 games left against each other.
+It looked like the Kansas City Cowboys were in contention after 18890904 but the remaining intra-division games ruled them out.
+The Kansas City Cowboys were eliminated from the AA title on 18890904 with 29 games left to play.
+CL6 can only allow ['BR3', 'SL4'] to win 1 total games but they have 3 games left against each other.
+It looked like the Columbus Colts were in contention after 18890902 but the remaining intra-division games ruled them out.
+CL6 can only allow ['BR3', 'SL4'] to win 2 total games but they have 3 games left against each other.
+It looked like the Columbus Colts were in contention after 18890901 but the remaining intra-division games ruled them out.
+CL6 can only allow ['SL4', 'BR3'] to win 2 total games but they have 3 games left against each other.
+It looked like the Columbus Colts were in contention after 18890831 but the remaining intra-division games ruled them out.
+CL6 can only allow ['SL4', 'BR3', 'BL2', 'PH4'] to win 30 total games but they have 34 games left against each other.
+It looked like the Columbus Colts were in contention after 18890830 but the remaining intra-division games ruled them out.
+CL6 can only allow ['SL4', 'BR3', 'BL2', 'PH4'] to win 32 total games but they have 34 games left against each other.
+It looked like the Columbus Colts were in contention after 18890829 but the remaining intra-division games ruled them out.
+CL6 can only allow ['SL4', 'BR3', 'BL2', 'PH4'] to win 33 total games but they have 35 games left against each other.
+It looked like the Columbus Colts were in contention after 18890828 but the remaining intra-division games ruled them out.
+The Columbus Colts were eliminated from the AA title on 18890828 with 33 games left to play.
+LS2 can only allow ['SL4', 'BR3', 'BL2'] to win 13 total games but they have 19 games left against each other.
+It looked like the Louisville Colonels were in contention after 18890814 but the remaining intra-division games ruled them out.
+LS2 can only allow ['SL4', 'BR3', 'BL2'] to win 18 total games but they have 19 games left against each other.
+It looked like the Louisville Colonels were in contention after 18890813 but the remaining intra-division games ruled them out.
+LS2 can only allow ['SL4', 'BR3', 'PH4', 'BL2'] to win 40 total games but they have 43 games left against each other.
+It looked like the Louisville Colonels were in contention after 18890812 but the remaining intra-division games ruled them out.
+LS2 can only allow ['SL4', 'BR3', 'PH4', 'BL2', 'CN2', 'KC2'] to win 100 total games but they have 104 games left against each other.
+It looked like the Louisville Colonels were in contention after 18890811 but the remaining intra-division games ruled them out.
+LS2 can only allow ['SL4', 'BR3', 'PH4', 'BL2', 'CN2', 'KC2', 'CL6'] to win 144 total games but they have 146 games left against each other.
+It looked like the Louisville Colonels were in contention after 18890810 but the remaining intra-division games ruled them out.
+The Louisville Colonels were eliminated from the AA title on 18890810 with 49 games left to play.

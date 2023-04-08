@@ -1,0 +1,33 @@
+This season has 20 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The Minnesota Twins were eliminated from the AL title on 19671001 with 0 games left to play.
+CHA can only allow ['MIN', 'BOS'] to win 1 total games but they have 2 games left against each other.
+It looked like the Chicago White Sox were in contention after 19670929 but the remaining intra-division games ruled them out.
+The Chicago White Sox were eliminated from the AL title on 19670929 with 2 games left to play.
+The California Angels were eliminated from the AL title on 19670922 with 10 games left to play.
+The San Francisco Giants were eliminated from the NL title on 19670918 with 13 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19670917 with 12 games left to play.
+WS2 can only allow ['DET', 'BOS'] to win 0 total games but they have 2 games left against each other.
+It looked like the Washington Senators were in contention after 19670915 but the remaining intra-division games ruled them out.
+The Chicago Cubs were eliminated from the NL title on 19670916 with 11 games left to play.
+The Washington Senators were eliminated from the AL title on 19670915 with 15 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19670915 with 16 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19670913 with 14 games left to play.
+The Atlanta Braves were eliminated from the NL title on 19670913 with 17 games left to play.
+BAL can only allow ['MIN', 'BOS'] to win 1 total games but they have 2 games left against each other.
+It looked like the Baltimore Orioles were in contention after 19670911 but the remaining intra-division games ruled them out.
+The Pittsburgh Pirates were eliminated from the NL title on 19670911 with 17 games left to play.
+The Baltimore Orioles were eliminated from the AL title on 19670911 with 19 games left to play.
+NYA can only allow ['DET', 'MIN', 'BOS'] to win 3 total games but they have 4 games left against each other.
+It looked like the New York Yankees were in contention after 19670909 but the remaining intra-division games ruled them out.
+The New York Yankees were eliminated from the AL title on 19670909 with 19 games left to play.
+KC1 can only allow ['MIN', 'BOS'] to win 1 total games but they have 2 games left against each other.
+It looked like the Kansas City Athletics were in contention after 19670907 but the remaining intra-division games ruled them out.
+KC1 can only allow ['CHA', 'DET'] to win 3 total games but they have 4 games left against each other.
+It looked like the Kansas City Athletics were in contention after 19670906 but the remaining intra-division games ruled them out.
+The Los Angeles Dodgers were eliminated from the NL title on 19670907 with 24 games left to play.
+The Kansas City Athletics were eliminated from the AL title on 19670906 with 23 games left to play.
+The New York Mets were eliminated from the NL title on 19670901 with 30 games left to play.
+The Houston Astros were eliminated from the NL title on 19670831 with 27 games left to play.

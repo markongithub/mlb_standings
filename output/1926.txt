@@ -1,0 +1,38 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Cleveland Indians were eliminated from the AL title on 19260925 with 3 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19260924 with 2 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19260922 with 4 games left to play.
+The Philadelphia Athletics were eliminated from the AL title on 19260921 with 9 games left to play.
+The Washington Senators were eliminated from the AL title on 19260919 with 11 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19260918 with 7 games left to play.
+DET can only allow ['NYA', 'CLE'] to win 5 total games but they have 6 games left against each other.
+It looked like the Detroit Tigers were in contention after 19260914 but the remaining intra-division games ruled them out.
+DET can only allow ['NYA', 'CLE'] to win 5 total games but they have 6 games left against each other.
+It looked like the Detroit Tigers were in contention after 19260913 but the remaining intra-division games ruled them out.
+The New York Giants were eliminated from the NL title on 19260914 with 16 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19260913 with 13 games left to play.
+The Brooklyn Robins were eliminated from the NL title on 19260911 with 15 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19260911 with 15 games left to play.
+PHI can only allow ['PIT', 'CIN', 'SLN'] to win 9 total games but they have 10 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19260903 but the remaining intra-division games ruled them out.
+The Philadelphia Phillies were eliminated from the NL title on 19260903 with 30 games left to play.
+BSN can only allow ['SLN', 'CIN'] to win 2 total games but they have 3 games left against each other.
+It looked like the Boston Braves were in contention after 19260901 but the remaining intra-division games ruled them out.
+BSN can only allow ['PIT', 'SLN', 'CIN'] to win 11 total games but they have 12 games left against each other.
+It looked like the Boston Braves were in contention after 19260831 but the remaining intra-division games ruled them out.
+The Boston Braves were eliminated from the NL title on 19260831 with 29 games left to play.
+The St. Louis Browns were eliminated from the AL title on 19260829 with 26 games left to play.
+BOS can only allow ['NYA', 'CLE', 'PHA', 'WS1', 'DET', 'CHA'] to win 69 total games but they have 76 games left against each other.
+It looked like the Boston Red Sox were in contention after 19260819 but the remaining intra-division games ruled them out.
+BOS can only allow ['NYA', 'CLE', 'PHA', 'DET', 'WS1', 'CHA'] to win 70 total games but they have 77 games left against each other.
+It looked like the Boston Red Sox were in contention after 19260818 but the remaining intra-division games ruled them out.
+BOS can only allow ['NYA', 'CLE', 'PHA', 'DET', 'WS1', 'CHA'] to win 70 total games but they have 77 games left against each other.
+It looked like the Boston Red Sox were in contention after 19260817 but the remaining intra-division games ruled them out.
+BOS can only allow ['NYA', 'CLE', 'PHA', 'DET', 'WS1', 'CHA'] to win 73 total games but they have 80 games left against each other.
+It looked like the Boston Red Sox were in contention after 19260816 but the remaining intra-division games ruled them out.
+BOS can only allow ['NYA', 'CLE', 'PHA', 'DET', 'WS1', 'CHA'] to win 79 total games but they have 80 games left against each other.
+It looked like the Boston Red Sox were in contention after 19260815 but the remaining intra-division games ruled them out.
+The Boston Red Sox were eliminated from the AL title on 19260815 with 39 games left to play.

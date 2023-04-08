@@ -1,0 +1,52 @@
+This season has 24 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The St. Louis Cardinals were eliminated from the NLE title on 19731001 with 0 games left to play.
+The Pittsburgh Pirates were eliminated from the NLE title on 19731001 with 0 games left to play.
+The Montreal Expos were eliminated from the NLE title on 19730930 with 0 games left to play.
+The Chicago Cubs were eliminated from the NLE title on 19730930 with 2 games left to play.
+The Los Angeles Dodgers were eliminated from the NLW title on 19730924 with 5 games left to play.
+The Kansas City Royals were eliminated from the ALW title on 19730923 with 6 games left to play.
+The Boston Red Sox were eliminated from the ALE title on 19730922 with 8 games left to play.
+PHI can only allow ['PIT', 'MON'] to win 4 total games but they have 7 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19730920 but the remaining intra-division games ruled them out.
+The Detroit Tigers were eliminated from the ALE title on 19730921 with 9 games left to play.
+The San Francisco Giants were eliminated from the NLW title on 19730921 with 8 games left to play.
+PHI can only allow ['PIT', 'MON'] to win 4 total games but they have 7 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19730919 but the remaining intra-division games ruled them out.
+PHI can only allow ['PIT', 'MON'] to win 4 total games but they have 7 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19730918 but the remaining intra-division games ruled them out.
+PHI can only allow ['PIT', 'MON'] to win 6 total games but they have 7 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19730917 but the remaining intra-division games ruled them out.
+PHI can only allow ['PIT', 'MON', 'NYN'] to win 13 total games but they have 14 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19730916 but the remaining intra-division games ruled them out.
+The Minnesota Twins were eliminated from the ALW title on 19730917 with 14 games left to play.
+The New York Yankees were eliminated from the ALE title on 19730917 with 11 games left to play.
+The California Angels were eliminated from the ALW title on 19730916 with 16 games left to play.
+The Chicago White Sox were eliminated from the ALW title on 19730916 with 13 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 19730916 with 13 games left to play.
+The Houston Astros were eliminated from the NLW title on 19730913 with 14 games left to play.
+The Milwaukee Brewers were eliminated from the ALE title on 19730913 with 15 games left to play.
+The Atlanta Braves were eliminated from the NLW title on 19730909 with 17 games left to play.
+CLE can only allow ['BAL', 'BOS', 'DET'] to win 8 total games but they have 14 games left against each other.
+It looked like the Cleveland Indians were in contention after 19730907 but the remaining intra-division games ruled them out.
+CLE can only allow ['BAL', 'BOS', 'DET'] to win 13 total games but they have 15 games left against each other.
+It looked like the Cleveland Indians were in contention after 19730906 but the remaining intra-division games ruled them out.
+CLE can only allow ['BAL', 'BOS', 'DET'] to win 13 total games but they have 15 games left against each other.
+It looked like the Cleveland Indians were in contention after 19730905 but the remaining intra-division games ruled them out.
+CLE can only allow ['BAL', 'BOS', 'DET', 'NYA', 'MIL'] to win 45 total games but they have 49 games left against each other.
+It looked like the Cleveland Indians were in contention after 19730904 but the remaining intra-division games ruled them out.
+CLE can only allow ['BAL', 'BOS', 'DET', 'NYA', 'MIL'] to win 47 total games but they have 51 games left against each other.
+It looked like the Cleveland Indians were in contention after 19730903 but the remaining intra-division games ruled them out.
+The Cleveland Indians were eliminated from the ALE title on 19730903 with 23 games left to play.
+TEX can only allow ['OAK', 'KCA'] to win 5 total games but they have 6 games left against each other.
+It looked like the Texas Rangers were in contention after 19730828 but the remaining intra-division games ruled them out.
+TEX can only allow ['OAK', 'KCA', 'CAL', 'MIN', 'CHA'] to win 58 total games but they have 61 games left against each other.
+It looked like the Texas Rangers were in contention after 19730827 but the remaining intra-division games ruled them out.
+SDN can only allow ['LAN', 'CIN'] to win 3 total games but they have 5 games left against each other.
+It looked like the San Diego Padres were in contention after 19730826 but the remaining intra-division games ruled them out.
+The Texas Rangers were eliminated from the ALW title on 19730827 with 33 games left to play.
+SDN can only allow ['LAN', 'CIN', 'SFN', 'HOU'] to win 29 total games but they have 34 games left against each other.
+It looked like the San Diego Padres were in contention after 19730825 but the remaining intra-division games ruled them out.
+The San Diego Padres were eliminated from the NLW title on 19730825 with 34 games left to play.

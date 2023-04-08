@@ -1,0 +1,151 @@
+This season has 30 teams.
+The top 1 teams from each division go to the postseason, plus 1 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The San Francisco Giants were eliminated from the NLW title on 20020928 with 2 games left to play.
+The Los Angeles Dodgers were eliminated from NL wildcard contention on 20020928 with 1 games left to play.
+The Anaheim Angels were eliminated from the ALW title on 20020927 with 2 games left to play.
+The Seattle Mariners were eliminated from AL wildcard contention on 20020926 with 3 games left to play.
+The Minnesota Twins were eliminated from AL wildcard contention on 20020926 with 4 games left to play.
+The Boston Red Sox were eliminated from AL wildcard contention on 20020925 with 4 games left to play.
+The Los Angeles Dodgers were eliminated from the NLW title on 20020924 with 5 games left to play.
+The Houston Astros were eliminated from NL wildcard contention on 20020922 with 6 games left to play.
+The Boston Red Sox were eliminated from the ALE title on 20020921 with 8 games left to play.
+The Seattle Mariners were eliminated from the ALW title on 20020920 with 8 games left to play.
+The Houston Astros were eliminated from the NLC title on 20020920 with 8 games left to play.
+MON can only allow ['SFN', 'LAN'] to win 1 total games but they have 2 games left against each other.
+It looked like the Montreal Expos were in wildcard contention after 20020917 but the remaining intra-contender games ruled them out.
+The Cincinnati Reds were eliminated from the NLC title on 20020917 with 11 games left to play.
+PHI can only allow ['LAN', 'SFN'] to win 2 total games but they have 3 games left against each other.
+It looked like the Philadelphia Phillies were in wildcard contention after 20020916 but the remaining intra-contender games ruled them out.
+CIN can only allow ['LAN', 'SFN'] to win 2 total games but they have 3 games left against each other.
+It looked like the Cincinnati Reds were in wildcard contention after 20020916 but the remaining intra-contender games ruled them out.
+FLO can only allow ['LAN', 'SFN'] to win 0 total games but they have 3 games left against each other.
+It looked like the Florida Marlins were in wildcard contention after 20020916 but the remaining intra-contender games ruled them out.
+MON can only allow ['LAN', 'SFN'] to win 2 total games but they have 3 games left against each other.
+It looked like the Montreal Expos were in wildcard contention after 20020916 but the remaining intra-contender games ruled them out.
+PHI can only allow ['SFN', 'LAN'] to win 3 total games but they have 4 games left against each other.
+It looked like the Philadelphia Phillies were in wildcard contention after 20020915 but the remaining intra-contender games ruled them out.
+CIN can only allow ['SFN', 'LAN'] to win 3 total games but they have 4 games left against each other.
+It looked like the Cincinnati Reds were in wildcard contention after 20020915 but the remaining intra-contender games ruled them out.
+FLO can only allow ['SFN', 'LAN'] to win 1 total games but they have 4 games left against each other.
+It looked like the Florida Marlins were in wildcard contention after 20020915 but the remaining intra-contender games ruled them out.
+MON can only allow ['SFN', 'LAN'] to win 3 total games but they have 4 games left against each other.
+It looked like the Montreal Expos were in wildcard contention after 20020915 but the remaining intra-contender games ruled them out.
+The Chicago White Sox were eliminated from the ALC title on 20020915 with 12 games left to play.
+PHI can only allow ['SFN', 'LAN'] to win 3 total games but they have 4 games left against each other.
+It looked like the Philadelphia Phillies were in wildcard contention after 20020914 but the remaining intra-contender games ruled them out.
+FLO can only allow ['SFN', 'LAN'] to win 3 total games but they have 4 games left against each other.
+It looked like the Florida Marlins were in wildcard contention after 20020914 but the remaining intra-contender games ruled them out.
+MON can only allow ['SFN', 'LAN'] to win 3 total games but they have 4 games left against each other.
+It looked like the Montreal Expos were in wildcard contention after 20020914 but the remaining intra-contender games ruled them out.
+The Cincinnati Reds were eliminated from NL wildcard contention on 20020915 with 13 games left to play.
+NYN can only allow ['SFN', 'LAN'] to win 3 total games but they have 4 games left against each other.
+It looked like the New York Mets were in wildcard contention after 20020913 but the remaining intra-contender games ruled them out.
+The Montreal Expos were eliminated from NL wildcard contention on 20020914 with 13 games left to play.
+The Philadelphia Phillies were eliminated from NL wildcard contention on 20020914 with 13 games left to play.
+The Florida Marlins were eliminated from NL wildcard contention on 20020914 with 14 games left to play.
+The New York Mets were eliminated from NL wildcard contention on 20020913 with 15 games left to play.
+The Cleveland Indians were eliminated from the ALC title on 20020910 with 18 games left to play.
+CHA can only allow ['ANA', 'SEA'] to win 4 total games but they have 6 games left against each other.
+It looked like the Chicago White Sox were in wildcard contention after 20020909 but the remaining intra-contender games ruled them out.
+COL can only allow ['SFN', 'LAN'] to win 2 total games but they have 6 games left against each other.
+It looked like the Colorado Rockies were in wildcard contention after 20020909 but the remaining intra-contender games ruled them out.
+The Philadelphia Phillies were eliminated from the NLE title on 20020909 with 19 games left to play.
+The Pittsburgh Pirates were eliminated from the NLC title on 20020909 with 18 games left to play.
+PIT can only allow ['LAN', 'SFN'] to win 1 total games but they have 7 games left against each other.
+It looked like the Pittsburgh Pirates were in wildcard contention after 20020908 but the remaining intra-contender games ruled them out.
+CHA can only allow ['ANA', 'SEA'] to win 4 total games but they have 6 games left against each other.
+It looked like the Chicago White Sox were in wildcard contention after 20020908 but the remaining intra-contender games ruled them out.
+COL can only allow ['LAN', 'SFN'] to win 5 total games but they have 7 games left against each other.
+It looked like the Colorado Rockies were in wildcard contention after 20020908 but the remaining intra-contender games ruled them out.
+CHN can only allow ['SLN', 'HOU'] to win 5 total games but they have 7 games left against each other.
+It looked like the Chicago Cubs were in contention after 20020907 but the remaining intra-division games ruled them out.
+PIT can only allow ['LAN', 'SFN'] to win 4 total games but they have 7 games left against each other.
+It looked like the Pittsburgh Pirates were in wildcard contention after 20020907 but the remaining intra-contender games ruled them out.
+The Chicago White Sox were eliminated from AL wildcard contention on 20020908 with 19 games left to play.
+The Colorado Rockies were eliminated from NL wildcard contention on 20020908 with 19 games left to play.
+The Montreal Expos were eliminated from the NLE title on 20020907 with 20 games left to play.
+The Chicago Cubs were eliminated from the NLC title on 20020907 with 20 games left to play.
+The Florida Marlins were eliminated from the NLE title on 20020907 with 21 games left to play.
+PIT can only allow ['LAN', 'SFN'] to win 5 total games but they have 7 games left against each other.
+It looked like the Pittsburgh Pirates were in wildcard contention after 20020906 but the remaining intra-contender games ruled them out.
+TEX can only allow ['ANA', 'SEA'] to win 4 total games but they have 6 games left against each other.
+It looked like the Texas Rangers were in wildcard contention after 20020906 but the remaining intra-contender games ruled them out.
+The Baltimore Orioles were eliminated from AL wildcard contention on 20020907 with 22 games left to play.
+The New York Mets were eliminated from the NLE title on 20020906 with 23 games left to play.
+The Baltimore Orioles were eliminated from the ALE title on 20020906 with 23 games left to play.
+SDN can only allow ['LAN', 'SFN'] to win 5 total games but they have 7 games left against each other.
+It looked like the San Diego Padres were in wildcard contention after 20020905 but the remaining intra-contender games ruled them out.
+CHN can only allow ['LAN', 'SFN'] to win 5 total games but they have 7 games left against each other.
+It looked like the Chicago Cubs were in wildcard contention after 20020905 but the remaining intra-contender games ruled them out.
+CLE can only allow ['ANA', 'SEA'] to win 4 total games but they have 6 games left against each other.
+It looked like the Cleveland Indians were in wildcard contention after 20020905 but the remaining intra-contender games ruled them out.
+The Pittsburgh Pirates were eliminated from NL wildcard contention on 20020906 with 21 games left to play.
+The Texas Rangers were eliminated from AL wildcard contention on 20020906 with 22 games left to play.
+CHN can only allow ['LAN', 'SFN'] to win 5 total games but they have 7 games left against each other.
+It looked like the Chicago Cubs were in wildcard contention after 20020904 but the remaining intra-contender games ruled them out.
+TOR can only allow ['ANA', 'SEA'] to win 3 total games but they have 6 games left against each other.
+It looked like the Toronto Blue Jays were in wildcard contention after 20020904 but the remaining intra-contender games ruled them out.
+CLE can only allow ['ANA', 'SEA'] to win 5 total games but they have 6 games left against each other.
+It looked like the Cleveland Indians were in wildcard contention after 20020904 but the remaining intra-contender games ruled them out.
+The San Diego Padres were eliminated from NL wildcard contention on 20020905 with 22 games left to play.
+TEX can only allow ['OAK', 'ANA'] to win 4 total games but they have 8 games left against each other.
+It looked like the Texas Rangers were in contention after 20020903 but the remaining intra-division games ruled them out.
+COL can only allow ['ARI', 'LAN', 'SFN'] to win 11 total games but they have 12 games left against each other.
+It looked like the Colorado Rockies were in contention after 20020903 but the remaining intra-division games ruled them out.
+CHN can only allow ['LAN', 'SFN'] to win 5 total games but they have 7 games left against each other.
+It looked like the Chicago Cubs were in wildcard contention after 20020903 but the remaining intra-contender games ruled them out.
+TOR can only allow ['ANA', 'SEA'] to win 4 total games but they have 6 games left against each other.
+It looked like the Toronto Blue Jays were in wildcard contention after 20020903 but the remaining intra-contender games ruled them out.
+The Cleveland Indians were eliminated from AL wildcard contention on 20020904 with 24 games left to play.
+TEX can only allow ['OAK', 'ANA'] to win 5 total games but they have 8 games left against each other.
+It looked like the Texas Rangers were in contention after 20020902 but the remaining intra-division games ruled them out.
+The Colorado Rockies were eliminated from the NLW title on 20020903 with 23 games left to play.
+The Toronto Blue Jays were eliminated from the ALE title on 20020903 with 24 games left to play.
+The Chicago Cubs were eliminated from NL wildcard contention on 20020903 with 23 games left to play.
+The Toronto Blue Jays were eliminated from AL wildcard contention on 20020903 with 24 games left to play.
+TEX can only allow ['OAK', 'ANA'] to win 6 total games but they have 8 games left against each other.
+It looked like the Texas Rangers were in contention after 20020901 but the remaining intra-division games ruled them out.
+The Kansas City Royals were eliminated from the ALC title on 20020902 with 24 games left to play.
+The San Diego Padres were eliminated from the NLW title on 20020902 with 25 games left to play.
+TEX can only allow ['OAK', 'ANA', 'SEA'] to win 19 total games but they have 20 games left against each other.
+It looked like the Texas Rangers were in contention after 20020831 but the remaining intra-division games ruled them out.
+KCA can only allow ['ANA', 'SEA'] to win 2 total games but they have 6 games left against each other.
+It looked like the Kansas City Royals were in wildcard contention after 20020831 but the remaining intra-contender games ruled them out.
+MIL can only allow ['SLN', 'HOU'] to win 4 total games but they have 7 games left against each other.
+It looked like the Milwaukee Brewers were in contention after 20020830 but the remaining intra-division games ruled them out.
+The Texas Rangers were eliminated from the ALW title on 20020831 with 28 games left to play.
+KCA can only allow ['ANA', 'SEA'] to win 3 total games but they have 6 games left against each other.
+It looked like the Kansas City Royals were in wildcard contention after 20020830 but the remaining intra-contender games ruled them out.
+MIL can only allow ['SLN', 'HOU'] to win 6 total games but they have 7 games left against each other.
+It looked like the Milwaukee Brewers were in contention after 20020829 but the remaining intra-division games ruled them out.
+DET can only allow ['ANA', 'SEA'] to win 0 total games but they have 6 games left against each other.
+It looked like the Detroit Tigers were in wildcard contention after 20020829 but the remaining intra-contender games ruled them out.
+KCA can only allow ['ANA', 'SEA'] to win 4 total games but they have 6 games left against each other.
+It looked like the Kansas City Royals were in wildcard contention after 20020829 but the remaining intra-contender games ruled them out.
+The Milwaukee Brewers were eliminated from the NLC title on 20020829 with 29 games left to play.
+DET can only allow ['ANA', 'SEA'] to win 2 total games but they have 6 games left against each other.
+It looked like the Detroit Tigers were in wildcard contention after 20020828 but the remaining intra-contender games ruled them out.
+The Kansas City Royals were eliminated from AL wildcard contention on 20020829 with 28 games left to play.
+The Detroit Tigers were eliminated from the ALC title on 20020828 with 29 games left to play.
+MIL can only allow ['LAN', 'SFN'] to win 3 total games but they have 7 games left against each other.
+It looked like the Milwaukee Brewers were in wildcard contention after 20020827 but the remaining intra-contender games ruled them out.
+DET can only allow ['ANA', 'SEA'] to win 4 total games but they have 6 games left against each other.
+It looked like the Detroit Tigers were in wildcard contention after 20020827 but the remaining intra-contender games ruled them out.
+MIL can only allow ['LAN', 'SFN', 'HOU'] to win 15 total games but they have 16 games left against each other.
+It looked like the Milwaukee Brewers were in wildcard contention after 20020826 but the remaining intra-contender games ruled them out.
+DET can only allow ['SEA', 'ANA'] to win 5 total games but they have 6 games left against each other.
+It looked like the Detroit Tigers were in wildcard contention after 20020826 but the remaining intra-contender games ruled them out.
+MIL can only allow ['LAN', 'SFN', 'HOU', 'COL', 'SDN'] to win 54 total games but they have 57 games left against each other.
+It looked like the Milwaukee Brewers were in wildcard contention after 20020825 but the remaining intra-contender games ruled them out.
+The Detroit Tigers were eliminated from AL wildcard contention on 20020826 with 31 games left to play.
+The Milwaukee Brewers were eliminated from NL wildcard contention on 20020825 with 33 games left to play.
+TBA can only allow ['SEA', 'ANA'] to win 2 total games but they have 6 games left against each other.
+It looked like the Tampa Bay Devil Rays were in wildcard contention after 20020823 but the remaining intra-contender games ruled them out.
+TBA can only allow ['SEA', 'ANA'] to win 2 total games but they have 6 games left against each other.
+It looked like the Tampa Bay Devil Rays were in wildcard contention after 20020822 but the remaining intra-contender games ruled them out.
+The Tampa Bay Devil Rays were eliminated from the ALE title on 20020822 with 35 games left to play.
+TBA can only allow ['OAK', 'SEA'] to win 4 total games but they have 6 games left against each other.
+It looked like the Tampa Bay Devil Rays were in wildcard contention after 20020821 but the remaining intra-contender games ruled them out.
+The Tampa Bay Devil Rays were eliminated from AL wildcard contention on 20020821 with 36 games left to play.

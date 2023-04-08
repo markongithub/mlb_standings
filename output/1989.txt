@@ -1,0 +1,54 @@
+This season has 26 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The Baltimore Orioles were eliminated from the ALE title on 19890930 with 1 games left to play.
+The Kansas City Royals were eliminated from the ALW title on 19890927 with 4 games left to play.
+The San Diego Padres were eliminated from the NLW title on 19890927 with 3 games left to play.
+The California Angels were eliminated from the ALW title on 19890926 with 5 games left to play.
+The St. Louis Cardinals were eliminated from the NLE title on 19890926 with 4 games left to play.
+BOS can only allow ['TOR', 'BAL'] to win 1 total games but they have 3 games left against each other.
+It looked like the Boston Red Sox were in contention after 19890924 but the remaining intra-division games ruled them out.
+The Milwaukee Brewers were eliminated from the ALE title on 19890925 with 6 games left to play.
+The New York Mets were eliminated from the NLE title on 19890925 with 6 games left to play.
+BOS can only allow ['TOR', 'BAL'] to win 1 total games but they have 3 games left against each other.
+It looked like the Boston Red Sox were in contention after 19890923 but the remaining intra-division games ruled them out.
+The Houston Astros were eliminated from the NLW title on 19890924 with 6 games left to play.
+BOS can only allow ['TOR', 'BAL'] to win 2 total games but they have 3 games left against each other.
+It looked like the Boston Red Sox were in contention after 19890922 but the remaining intra-division games ruled them out.
+The Montreal Expos were eliminated from the NLE title on 19890923 with 7 games left to play.
+The Boston Red Sox were eliminated from the ALE title on 19890922 with 9 games left to play.
+TEX can only allow ['OAK', 'CAL', 'KCA'] to win 5 total games but they have 6 games left against each other.
+It looked like the Texas Rangers were in contention after 19890918 but the remaining intra-division games ruled them out.
+The Texas Rangers were eliminated from the ALW title on 19890918 with 13 games left to play.
+The Minnesota Twins were eliminated from the ALW title on 19890918 with 12 games left to play.
+NYA can only allow ['TOR', 'BAL'] to win 1 total games but they have 3 games left against each other.
+It looked like the New York Yankees were in contention after 19890915 but the remaining intra-division games ruled them out.
+The Cleveland Indians were eliminated from the ALE title on 19890916 with 14 games left to play.
+The New York Yankees were eliminated from the ALE title on 19890915 with 14 games left to play.
+The Pittsburgh Pirates were eliminated from the NLE title on 19890915 with 16 games left to play.
+The Cincinnati Reds were eliminated from the NLW title on 19890915 with 14 games left to play.
+The Los Angeles Dodgers were eliminated from the NLW title on 19890914 with 15 games left to play.
+PHI can only allow ['CHN', 'MON'] to win 5 total games but they have 6 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19890908 but the remaining intra-division games ruled them out.
+PHI can only allow ['CHN', 'MON'] to win 5 total games but they have 6 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19890907 but the remaining intra-division games ruled them out.
+PHI can only allow ['CHN', 'SLN', 'MON', 'NYN'] to win 19 total games but they have 23 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19890906 but the remaining intra-division games ruled them out.
+The Seattle Mariners were eliminated from the ALW title on 19890907 with 23 games left to play.
+ATL can only allow ['SFN', 'HOU', 'SDN'] to win 12 total games but they have 16 games left against each other.
+It looked like the Atlanta Braves were in contention after 19890905 but the remaining intra-division games ruled them out.
+PHI can only allow ['CHN', 'SLN', 'MON', 'NYN'] to win 21 total games but they have 24 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19890905 but the remaining intra-division games ruled them out.
+ATL can only allow ['SFN', 'HOU', 'SDN', 'CIN', 'LAN'] to win 46 total games but they have 50 games left against each other.
+It looked like the Atlanta Braves were in contention after 19890904 but the remaining intra-division games ruled them out.
+PHI can only allow ['CHN', 'SLN', 'MON', 'NYN'] to win 23 total games but they have 26 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19890904 but the remaining intra-division games ruled them out.
+The Chicago White Sox were eliminated from the ALW title on 19890905 with 24 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 19890904 with 26 games left to play.
+The Atlanta Braves were eliminated from the NLW title on 19890904 with 25 games left to play.
+DET can only allow ['TOR', 'BAL'] to win 1 total games but they have 3 games left against each other.
+It looked like the Detroit Tigers were in contention after 19890901 but the remaining intra-division games ruled them out.
+DET can only allow ['BAL', 'TOR'] to win 2 total games but they have 3 games left against each other.
+It looked like the Detroit Tigers were in contention after 19890831 but the remaining intra-division games ruled them out.
+The Detroit Tigers were eliminated from the ALE title on 19890831 with 26 games left to play.

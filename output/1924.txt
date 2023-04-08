@@ -1,0 +1,37 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Pittsburgh Pirates were eliminated from the NL title on 19240927 with 3 games left to play.
+The Brooklyn Robins were eliminated from the NL title on 19240927 with 1 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19240922 with 4 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19240919 with 11 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19240918 with 9 games left to play.
+The St. Louis Browns were eliminated from the AL title on 19240917 with 10 games left to play.
+CLE can only allow ['WS1', 'NYA', 'DET'] to win 4 total games but they have 6 games left against each other.
+It looked like the Cleveland Indians were in contention after 19240909 but the remaining intra-division games ruled them out.
+PHA can only allow ['WS1', 'NYA', 'DET'] to win 4 total games but they have 6 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19240909 but the remaining intra-division games ruled them out.
+The Philadelphia Athletics were eliminated from the AL title on 19240909 with 19 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19240909 with 18 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19240909 with 16 games left to play.
+CHA can only allow ['WS1', 'NYA', 'DET'] to win 5 total games but they have 6 games left against each other.
+It looked like the Chicago White Sox were in contention after 19240907 but the remaining intra-division games ruled them out.
+The Chicago White Sox were eliminated from the AL title on 19240907 with 20 games left to play.
+SLN can only allow ['NY1', 'PIT', 'BRO'] to win 6 total games but they have 8 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19240902 but the remaining intra-division games ruled them out.
+SLN can only allow ['NY1', 'PIT', 'BRO', 'CHN', 'CIN'] to win 28 total games but they have 33 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19240901 but the remaining intra-division games ruled them out.
+PHI can only allow ['NY1', 'PIT', 'BRO'] to win 6 total games but they have 8 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19240901 but the remaining intra-division games ruled them out.
+The St. Louis Cardinals were eliminated from the NL title on 19240901 with 24 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19240901 with 28 games left to play.
+BSN can only allow ['NY1', 'PIT', 'BRO'] to win 9 total games but they have 10 games left against each other.
+It looked like the Boston Braves were in contention after 19240829 but the remaining intra-division games ruled them out.
+BSN can only allow ['NY1', 'PIT', 'CHN'] to win 13 total games but they have 14 games left against each other.
+It looked like the Boston Braves were in contention after 19240828 but the remaining intra-division games ruled them out.
+BSN can only allow ['NY1', 'PIT', 'BRO', 'CHN', 'CIN'] to win 41 total games but they have 42 games left against each other.
+It looked like the Boston Braves were in contention after 19240827 but the remaining intra-division games ruled them out.
+BSN can only allow ['NY1', 'PIT', 'BRO', 'CHN', 'CIN'] to win 41 total games but they have 42 games left against each other.
+It looked like the Boston Braves were in contention after 19240826 but the remaining intra-division games ruled them out.
+The Boston Braves were eliminated from the NL title on 19240826 with 33 games left to play.

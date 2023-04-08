@@ -1,0 +1,66 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Cleveland Indians were eliminated from the AL title on 19550923 with 3 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19550920 with 4 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19550918 with 7 games left to play.
+DET can only allow ['CLE', 'NYA', 'BOS'] to win 9 total games but they have 11 games left against each other.
+It looked like the Detroit Tigers were in contention after 19550908 but the remaining intra-division games ruled them out.
+DET can only allow ['CLE', 'NYA', 'CHA', 'BOS'] to win 15 total games but they have 17 games left against each other.
+It looked like the Detroit Tigers were in contention after 19550907 but the remaining intra-division games ruled them out.
+The Milwaukee Braves were eliminated from the NL title on 19550908 with 14 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19550907 with 16 games left to play.
+The New York Giants were eliminated from the NL title on 19550905 with 17 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19550905 with 15 games left to play.
+KC1 can only allow ['CHA', 'CLE'] to win 2 total games but they have 6 games left against each other.
+It looked like the Kansas City Athletics were in contention after 19550830 but the remaining intra-division games ruled them out.
+The Cincinnati Redlegs were eliminated from the NL title on 19550831 with 18 games left to play.
+KC1 can only allow ['CHA', 'CLE'] to win 4 total games but they have 6 games left against each other.
+It looked like the Kansas City Athletics were in contention after 19550829 but the remaining intra-division games ruled them out.
+The Chicago Cubs were eliminated from the NL title on 19550830 with 19 games left to play.
+KC1 can only allow ['CHA', 'CLE'] to win 4 total games but they have 6 games left against each other.
+It looked like the Kansas City Athletics were in contention after 19550828 but the remaining intra-division games ruled them out.
+KC1 can only allow ['CLE', 'NYA', 'CHA'] to win 10 total games but they have 12 games left against each other.
+It looked like the Kansas City Athletics were in contention after 19550827 but the remaining intra-division games ruled them out.
+The St. Louis Cardinals were eliminated from the NL title on 19550828 with 27 games left to play.
+KC1 can only allow ['NYA', 'CLE', 'CHA'] to win 12 total games but they have 13 games left against each other.
+It looked like the Kansas City Athletics were in contention after 19550826 but the remaining intra-division games ruled them out.
+KC1 can only allow ['NYA', 'CHA', 'CLE'] to win 13 total games but they have 14 games left against each other.
+It looked like the Kansas City Athletics were in contention after 19550825 but the remaining intra-division games ruled them out.
+WS1 can only allow ['NYA', 'CHA'] to win 1 total games but they have 4 games left against each other.
+It looked like the Washington Senators were in contention after 19550824 but the remaining intra-division games ruled them out.
+KC1 can only allow ['NYA', 'CHA', 'CLE'] to win 14 total games but they have 15 games left against each other.
+It looked like the Kansas City Athletics were in contention after 19550824 but the remaining intra-division games ruled them out.
+WS1 can only allow ['CHA', 'NYA', 'CLE'] to win 8 total games but they have 15 games left against each other.
+It looked like the Washington Senators were in contention after 19550823 but the remaining intra-division games ruled them out.
+KC1 can only allow ['CHA', 'NYA', 'CLE', 'BOS'] to win 26 total games but they have 29 games left against each other.
+It looked like the Kansas City Athletics were in contention after 19550823 but the remaining intra-division games ruled them out.
+WS1 can only allow ['CHA', 'NYA', 'CLE'] to win 12 total games but they have 15 games left against each other.
+It looked like the Washington Senators were in contention after 19550822 but the remaining intra-division games ruled them out.
+KC1 can only allow ['CHA', 'NYA', 'CLE', 'BOS'] to win 28 total games but they have 30 games left against each other.
+It looked like the Kansas City Athletics were in contention after 19550822 but the remaining intra-division games ruled them out.
+WS1 can only allow ['CHA', 'NYA', 'CLE'] to win 12 total games but they have 15 games left against each other.
+It looked like the Washington Senators were in contention after 19550821 but the remaining intra-division games ruled them out.
+KC1 can only allow ['CHA', 'NYA', 'CLE', 'BOS'] to win 28 total games but they have 30 games left against each other.
+It looked like the Kansas City Athletics were in contention after 19550821 but the remaining intra-division games ruled them out.
+WS1 can only allow ['CHA', 'NYA', 'CLE', 'BOS'] to win 29 total games but they have 30 games left against each other.
+It looked like the Washington Senators were in contention after 19550820 but the remaining intra-division games ruled them out.
+BAL can only allow ['NYA', 'CLE'] to win 3 total games but they have 5 games left against each other.
+It looked like the Baltimore Orioles were in contention after 19550820 but the remaining intra-division games ruled them out.
+The Kansas City Athletics were eliminated from the AL title on 19550821 with 31 games left to play.
+BAL can only allow ['CHA', 'NYA', 'CLE'] to win 13 total games but they have 15 games left against each other.
+It looked like the Baltimore Orioles were in contention after 19550819 but the remaining intra-division games ruled them out.
+WS1 can only allow ['CHA', 'NYA', 'CLE', 'BOS', 'DET'] to win 49 total games but they have 51 games left against each other.
+It looked like the Washington Senators were in contention after 19550819 but the remaining intra-division games ruled them out.
+The Pittsburgh Pirates were eliminated from the NL title on 19550820 with 32 games left to play.
+BAL can only allow ['CHA', 'NYA', 'CLE', 'BOS'] to win 28 total games but they have 30 games left against each other.
+It looked like the Baltimore Orioles were in contention after 19550818 but the remaining intra-division games ruled them out.
+The Washington Senators were eliminated from the AL title on 19550819 with 38 games left to play.
+BAL can only allow ['CHA', 'NYA', 'CLE', 'BOS', 'DET'] to win 45 total games but they have 53 games left against each other.
+It looked like the Baltimore Orioles were in contention after 19550817 but the remaining intra-division games ruled them out.
+BAL can only allow ['CHA', 'NYA', 'CLE', 'BOS', 'DET'] to win 47 total games but they have 55 games left against each other.
+It looked like the Baltimore Orioles were in contention after 19550816 but the remaining intra-division games ruled them out.
+BAL can only allow ['CHA', 'NYA', 'CLE', 'BOS', 'DET'] to win 50 total games but they have 57 games left against each other.
+It looked like the Baltimore Orioles were in contention after 19550815 but the remaining intra-division games ruled them out.
+The Baltimore Orioles were eliminated from the AL title on 19550815 with 41 games left to play.

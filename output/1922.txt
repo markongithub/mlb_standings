@@ -1,0 +1,44 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The St. Louis Browns were eliminated from the AL title on 19220930 with 1 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19220925 with 3 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19220925 with 5 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19220922 with 5 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19220921 with 9 games left to play.
+DET can only allow ['NYA', 'SLA'] to win 0 total games but they have 3 games left against each other.
+It looked like the Detroit Tigers were in contention after 19220915 but the remaining intra-division games ruled them out.
+The Brooklyn Robins were eliminated from the NL title on 19220916 with 14 games left to play.
+DET can only allow ['NYA', 'SLA'] to win 1 total games but they have 3 games left against each other.
+It looked like the Detroit Tigers were in contention after 19220914 but the remaining intra-division games ruled them out.
+The Detroit Tigers were eliminated from the AL title on 19220914 with 12 games left to play.
+CLE can only allow ['NYA', 'SLA'] to win 0 total games but they have 3 games left against each other.
+It looked like the Cleveland Indians were in contention after 19220912 but the remaining intra-division games ruled them out.
+CHA can only allow ['NYA', 'SLA'] to win 2 total games but they have 3 games left against each other.
+It looked like the Chicago White Sox were in contention after 19220912 but the remaining intra-division games ruled them out.
+CLE can only allow ['NYA', 'SLA'] to win 1 total games but they have 3 games left against each other.
+It looked like the Cleveland Indians were in contention after 19220911 but the remaining intra-division games ruled them out.
+The Chicago White Sox were eliminated from the AL title on 19220912 with 16 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19220911 with 17 games left to play.
+The Washington Senators were eliminated from the AL title on 19220909 with 21 games left to play.
+PHA can only allow ['NYA', 'SLA'] to win 2 total games but they have 3 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19220905 but the remaining intra-division games ruled them out.
+The Philadelphia Athletics were eliminated from the AL title on 19220905 with 26 games left to play.
+BOS can only allow ['NYA', 'SLA'] to win 1 total games but they have 3 games left against each other.
+It looked like the Boston Red Sox were in contention after 19220902 but the remaining intra-division games ruled them out.
+PHI can only allow ['NY1', 'CHN', 'PIT'] to win 10 total games but they have 12 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19220902 but the remaining intra-division games ruled them out.
+PHI can only allow ['NY1', 'CHN', 'SLN', 'PIT', 'CIN'] to win 30 total games but they have 36 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19220901 but the remaining intra-division games ruled them out.
+The Boston Red Sox were eliminated from the AL title on 19220902 with 28 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19220901 with 34 games left to play.
+BSN can only allow ['NY1', 'CHN', 'CIN'] to win 11 total games but they have 12 games left against each other.
+It looked like the Boston Braves were in contention after 19220829 but the remaining intra-division games ruled them out.
+BSN can only allow ['NY1', 'CHN', 'SLN', 'PIT'] to win 21 total games but they have 26 games left against each other.
+It looked like the Boston Braves were in contention after 19220828 but the remaining intra-division games ruled them out.
+BSN can only allow ['NY1', 'CHN', 'SLN', 'PIT'] to win 22 total games but they have 26 games left against each other.
+It looked like the Boston Braves were in contention after 19220827 but the remaining intra-division games ruled them out.
+BSN can only allow ['NY1', 'SLN', 'CHN', 'PIT', 'CIN'] to win 42 total games but they have 43 games left against each other.
+It looked like the Boston Braves were in contention after 19220826 but the remaining intra-division games ruled them out.
+The Boston Braves were eliminated from the NL title on 19220826 with 38 games left to play.

@@ -1,0 +1,23 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Cincinnati Redlegs were eliminated from the NL title on 19560929 with 2 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19560918 with 11 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19560916 with 11 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19560916 with 10 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19560914 with 15 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19560909 with 18 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19560909 with 19 games left to play.
+PIT can only allow ['MLN', 'CIN'] to win 3 total games but they have 5 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19560902 but the remaining intra-division games ruled them out.
+The Baltimore Orioles were eliminated from the AL title on 19560903 with 24 games left to play.
+PIT can only allow ['MLN', 'BRO', 'CIN'] to win 8 total games but they have 9 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19560901 but the remaining intra-division games ruled them out.
+CHN can only allow ['MLN', 'CIN'] to win 3 total games but they have 5 games left against each other.
+It looked like the Chicago Cubs were in contention after 19560831 but the remaining intra-division games ruled them out.
+The New York Giants were eliminated from the NL title on 19560901 with 28 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19560901 with 25 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19560831 with 27 games left to play.
+The Washington Senators were eliminated from the AL title on 19560829 with 29 games left to play.
+The Kansas City Athletics were eliminated from the AL title on 19560819 with 38 games left to play.

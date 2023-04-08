@@ -1,0 +1,42 @@
+This season has 24 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The San Francisco Giants were eliminated from the NLW title on 19690930 with 2 games left to play.
+The Cincinnati Reds were eliminated from the NLW title on 19690927 with 3 games left to play.
+The Chicago Cubs were eliminated from the NLE title on 19690924 with 5 games left to play.
+The Los Angeles Dodgers were eliminated from the NLW title on 19690924 with 6 games left to play.
+The Houston Astros were eliminated from the NLW title on 19690923 with 9 games left to play.
+The Oakland Athletics were eliminated from the ALW title on 19690922 with 10 games left to play.
+The St. Louis Cardinals were eliminated from the NLE title on 19690921 with 9 games left to play.
+The Pittsburgh Pirates were eliminated from the NLE title on 19690921 with 8 games left to play.
+The Detroit Tigers were eliminated from the ALE title on 19690913 with 17 games left to play.
+The Boston Red Sox were eliminated from the ALE title on 19690911 with 21 games left to play.
+The California Angels were eliminated from the ALW title on 19690909 with 24 games left to play.
+The Washington Senators were eliminated from the ALE title on 19690907 with 22 games left to play.
+The New York Yankees were eliminated from the ALE title on 19690907 with 24 games left to play.
+The Kansas City Royals were eliminated from the ALW title on 19690904 with 27 games left to play.
+The Chicago White Sox were eliminated from the ALW title on 19690904 with 29 games left to play.
+PHI can only allow ['CHN', 'NYN', 'PIT', 'SLN'] to win 31 total games but they have 34 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19690901 but the remaining intra-division games ruled them out.
+The Seattle Pilots were eliminated from the ALW title on 19690902 with 29 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 19690901 with 31 games left to play.
+SDN can only allow ['CIN', 'SFN'] to win 4 total games but they have 6 games left against each other.
+It looked like the San Diego Padres were in contention after 19690826 but the remaining intra-division games ruled them out.
+The Cleveland Indians were eliminated from the ALE title on 19690827 with 32 games left to play.
+SDN can only allow ['CIN', 'SFN', 'LAN'] to win 16 total games but they have 19 games left against each other.
+It looked like the San Diego Padres were in contention after 19690825 but the remaining intra-division games ruled them out.
+SDN can only allow ['CIN', 'SFN', 'LAN'] to win 17 total games but they have 19 games left against each other.
+It looked like the San Diego Padres were in contention after 19690824 but the remaining intra-division games ruled them out.
+SDN can only allow ['CIN', 'LAN', 'SFN', 'HOU'] to win 30 total games but they have 37 games left against each other.
+It looked like the San Diego Padres were in contention after 19690823 but the remaining intra-division games ruled them out.
+SDN can only allow ['CIN', 'LAN', 'SFN', 'HOU'] to win 35 total games but they have 37 games left against each other.
+It looked like the San Diego Padres were in contention after 19690822 but the remaining intra-division games ruled them out.
+MON can only allow ['CHN', 'NYN', 'SLN', 'PIT'] to win 32 total games but they have 34 games left against each other.
+It looked like the Montreal Expos were in contention after 19690821 but the remaining intra-division games ruled them out.
+SDN can only allow ['CIN', 'LAN', 'SFN', 'HOU', 'ATL'] to win 50 total games but they have 56 games left against each other.
+It looked like the San Diego Padres were in contention after 19690821 but the remaining intra-division games ruled them out.
+SDN can only allow ['CIN', 'LAN', 'HOU', 'SFN', 'ATL'] to win 53 total games but they have 56 games left against each other.
+It looked like the San Diego Padres were in contention after 19690820 but the remaining intra-division games ruled them out.
+The Montreal Expos were eliminated from the NLE title on 19690821 with 38 games left to play.
+The San Diego Padres were eliminated from the NLW title on 19690820 with 40 games left to play.

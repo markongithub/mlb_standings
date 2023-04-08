@@ -1,0 +1,42 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Cincinnati Reds were eliminated from the NL title on 19230930 with 2 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19230924 with 8 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19230920 with 19 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19230918 with 14 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19230917 with 14 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19230917 with 23 games left to play.
+The St. Louis Browns were eliminated from the AL title on 19230916 with 23 games left to play.
+The Brooklyn Robins were eliminated from the NL title on 19230913 with 19 games left to play.
+The Washington Senators were eliminated from the AL title on 19230912 with 24 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19230910 with 27 games left to play.
+The Philadelphia Athletics were eliminated from the AL title on 19230905 with 30 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19230904 with 33 games left to play.
+PHI can only allow ['NY1', 'CIN', 'PIT'] to win 11 total games but they have 13 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19230824 but the remaining intra-division games ruled them out.
+BSN can only allow ['NY1', 'CIN', 'PIT'] to win 11 total games but they have 13 games left against each other.
+It looked like the Boston Braves were in contention after 19230823 but the remaining intra-division games ruled them out.
+PHI can only allow ['NY1', 'CIN', 'PIT', 'CHN'] to win 25 total games but they have 33 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19230823 but the remaining intra-division games ruled them out.
+BSN can only allow ['NY1', 'CIN', 'PIT', 'CHN'] to win 29 total games but they have 33 games left against each other.
+It looked like the Boston Braves were in contention after 19230822 but the remaining intra-division games ruled them out.
+PHI can only allow ['NY1', 'CIN', 'PIT', 'CHN', 'SLN'] to win 52 total games but they have 56 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19230822 but the remaining intra-division games ruled them out.
+BSN can only allow ['NY1', 'CIN', 'PIT', 'CHN'] to win 29 total games but they have 33 games left against each other.
+It looked like the Boston Braves were in contention after 19230821 but the remaining intra-division games ruled them out.
+PHI can only allow ['NY1', 'CIN', 'PIT', 'CHN', 'SLN'] to win 52 total games but they have 56 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19230821 but the remaining intra-division games ruled them out.
+BSN can only allow ['NY1', 'CIN', 'PIT', 'CHN', 'SLN'] to win 56 total games but they have 57 games left against each other.
+It looked like the Boston Braves were in contention after 19230820 but the remaining intra-division games ruled them out.
+PHI can only allow ['NY1', 'CIN', 'PIT', 'CHN', 'BRO', 'SLN'] to win 82 total games but they have 83 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19230820 but the remaining intra-division games ruled them out.
+BSN can only allow ['NY1', 'CIN', 'PIT', 'CHN', 'BRO', 'SLN'] to win 80 total games but they have 85 games left against each other.
+It looked like the Boston Braves were in contention after 19230819 but the remaining intra-division games ruled them out.
+The Philadelphia Phillies were eliminated from the NL title on 19230820 with 40 games left to play.
+BSN can only allow ['NY1', 'CIN', 'PIT', 'CHN', 'BRO', 'SLN'] to win 82 total games but they have 87 games left against each other.
+It looked like the Boston Braves were in contention after 19230818 but the remaining intra-division games ruled them out.
+BSN can only allow ['NY1', 'CIN', 'PIT', 'CHN', 'BRO', 'SLN'] to win 85 total games but they have 89 games left against each other.
+It looked like the Boston Braves were in contention after 19230817 but the remaining intra-division games ruled them out.
+The Boston Braves were eliminated from the NL title on 19230817 with 44 games left to play.

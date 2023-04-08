@@ -1,0 +1,14 @@
+This season has 6 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The NL has 60 games per team.
+The Cincinnati Reds were eliminated from the NL title on 18780926 with 1 games left to play.
+The Providence Grays were eliminated from the NL title on 18780902 with 11 games left to play.
+The Chicago Cubs were eliminated from the NL title on 18780831 with 7 games left to play.
+The Indianapolis Blues were eliminated from the NL title on 18780814 with 13 games left to play.
+ML2 can only allow ['BSN', 'CHN'] to win 3 total games but they have 6 games left against each other.
+It looked like the Milwaukee Cream Citys were in contention after 18780802 but the remaining intra-division games ruled them out.
+ML2 can only allow ['BSN', 'CHN'] to win 3 total games but they have 6 games left against each other.
+It looked like the Milwaukee Cream Citys were in contention after 18780801 but the remaining intra-division games ruled them out.
+ML2 can only allow ['BSN', 'CHN', 'CN1'] to win 13 total games but they have 14 games left against each other.
+It looked like the Milwaukee Cream Citys were in contention after 18780731 but the remaining intra-division games ruled them out.
+The Milwaukee Cream Citys were eliminated from the NL title on 18780731 with 20 games left to play.

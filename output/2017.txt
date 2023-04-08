@@ -1,0 +1,66 @@
+This season has 30 teams.
+The top 1 teams from each division go to the postseason, plus 2 wild cards.
+The AL has 162 games per team.
+The NL has 162 games per team.
+The New York Yankees were eliminated from the ALE title on 20170930 with 1 games left to play.
+The Milwaukee Brewers were eliminated from NL wildcard contention on 20170930 with 1 games left to play.
+The St. Louis Cardinals were eliminated from NL wildcard contention on 20170928 with 3 games left to play.
+The Milwaukee Brewers were eliminated from the NLC title on 20170927 with 4 games left to play.
+The Los Angeles Angels were eliminated from AL wildcard contention on 20170927 with 4 games left to play.
+The Tampa Bay Rays were eliminated from AL wildcard contention on 20170926 with 5 games left to play.
+The Kansas City Royals were eliminated from AL wildcard contention on 20170926 with 5 games left to play.
+The Texas Rangers were eliminated from AL wildcard contention on 20170926 with 5 games left to play.
+The St. Louis Cardinals were eliminated from the NLC title on 20170925 with 6 games left to play.
+The Seattle Mariners were eliminated from AL wildcard contention on 20170924 with 6 games left to play.
+The Baltimore Orioles were eliminated from AL wildcard contention on 20170923 with 6 games left to play.
+The Toronto Blue Jays were eliminated from AL wildcard contention on 20170923 with 7 games left to play.
+The Arizona Diamondbacks were eliminated from the NLW title on 20170922 with 8 games left to play.
+The Miami Marlins were eliminated from NL wildcard contention on 20170922 with 9 games left to play.
+The Oakland Athletics were eliminated from AL wildcard contention on 20170922 with 9 games left to play.
+The Baltimore Orioles were eliminated from the ALE title on 20170918 with 11 games left to play.
+The Tampa Bay Rays were eliminated from the ALE title on 20170918 with 12 games left to play.
+The Los Angeles Angels were eliminated from the ALW title on 20170917 with 13 games left to play.
+The Atlanta Braves were eliminated from NL wildcard contention on 20170917 with 14 games left to play.
+PIT can only allow ['CHN', 'MIL', 'SLN'] to win 10 total games but they have 13 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 20170915 but the remaining intra-division games ruled them out.
+The Colorado Rockies were eliminated from the NLW title on 20170916 with 13 games left to play.
+The Minnesota Twins were eliminated from the ALC title on 20170916 with 14 games left to play.
+The Pittsburgh Pirates were eliminated from NL wildcard contention on 20170916 with 13 games left to play.
+The Texas Rangers were eliminated from the ALW title on 20170915 with 15 games left to play.
+The Pittsburgh Pirates were eliminated from the NLC title on 20170915 with 14 games left to play.
+The Toronto Blue Jays were eliminated from the ALE title on 20170915 with 14 games left to play.
+The Seattle Mariners were eliminated from the ALW title on 20170915 with 14 games left to play.
+The San Diego Padres were eliminated from NL wildcard contention on 20170915 with 15 games left to play.
+CIN can only allow ['CHN', 'MIL'] to win 2 total games but they have 4 games left against each other.
+It looked like the Cincinnati Reds were in contention after 20170913 but the remaining intra-division games ruled them out.
+The Detroit Tigers were eliminated from AL wildcard contention on 20170914 with 16 games left to play.
+The New York Mets were eliminated from NL wildcard contention on 20170914 with 16 games left to play.
+CIN can only allow ['CHN', 'SLN'] to win 4 total games but they have 7 games left against each other.
+It looked like the Cincinnati Reds were in contention after 20170912 but the remaining intra-division games ruled them out.
+The Kansas City Royals were eliminated from the ALC title on 20170913 with 17 games left to play.
+CHA can only allow ['ANA', 'TEX', 'SEA'] to win 8 total games but they have 11 games left against each other.
+It looked like the Chicago White Sox were in wildcard contention after 20170912 but the remaining intra-contender games ruled them out.
+CIN can only allow ['CHN', 'SLN', 'MIL'] to win 13 total games but they have 14 games left against each other.
+It looked like the Cincinnati Reds were in contention after 20170911 but the remaining intra-division games ruled them out.
+The Chicago White Sox were eliminated from AL wildcard contention on 20170912 with 18 games left to play.
+The Cincinnati Reds were eliminated from NL wildcard contention on 20170912 with 17 games left to play.
+CIN can only allow ['CHN', 'SLN', 'MIL'] to win 13 total games but they have 14 games left against each other.
+It looked like the Cincinnati Reds were in contention after 20170910 but the remaining intra-division games ruled them out.
+The Miami Marlins were eliminated from the NLE title on 20170910 with 19 games left to play.
+The Cincinnati Reds were eliminated from the NLC title on 20170910 with 18 games left to play.
+SFN can only allow ['SLN', 'MIL', 'PIT'] to win 14 total games but they have 15 games left against each other.
+It looked like the San Francisco Giants were in wildcard contention after 20170907 but the remaining intra-contender games ruled them out.
+PHI can only allow ['SLN', 'MIL', 'PIT'] to win 14 total games but they have 15 games left against each other.
+It looked like the Philadelphia Phillies were in wildcard contention after 20170907 but the remaining intra-contender games ruled them out.
+The Atlanta Braves were eliminated from the NLE title on 20170907 with 23 games left to play.
+SFN can only allow ['SLN', 'MIL', 'PIT'] to win 14 total games but they have 15 games left against each other.
+It looked like the San Francisco Giants were in wildcard contention after 20170906 but the remaining intra-contender games ruled them out.
+The Philadelphia Phillies were eliminated from NL wildcard contention on 20170907 with 22 games left to play.
+The Detroit Tigers were eliminated from the ALC title on 20170906 with 23 games left to play.
+The San Francisco Giants were eliminated from NL wildcard contention on 20170906 with 20 games left to play.
+The New York Mets were eliminated from the NLE title on 20170905 with 24 games left to play.
+The Chicago White Sox were eliminated from the ALC title on 20170904 with 26 games left to play.
+The Oakland Athletics were eliminated from the ALW title on 20170904 with 25 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 20170830 with 30 games left to play.
+The San Diego Padres were eliminated from the NLW title on 20170826 with 33 games left to play.
+The San Francisco Giants were eliminated from the NLW title on 20170820 with 36 games left to play.

@@ -1,0 +1,68 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Washington Senators were eliminated from the AL title on 19450930 with 0 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19450929 with 1 games left to play.
+The St. Louis Browns were eliminated from the AL title on 19450922 with 7 games left to play.
+BRO can only allow ['CHN', 'SLN'] to win 2 total games but they have 4 games left against each other.
+It looked like the Brooklyn Dodgers were in contention after 19450918 but the remaining intra-division games ruled them out.
+The New York Yankees were eliminated from the AL title on 19450919 with 10 games left to play.
+BRO can only allow ['CHN', 'SLN'] to win 3 total games but they have 5 games left against each other.
+It looked like the Brooklyn Dodgers were in contention after 19450917 but the remaining intra-division games ruled them out.
+BRO can only allow ['CHN', 'SLN'] to win 4 total games but they have 5 games left against each other.
+It looked like the Brooklyn Dodgers were in contention after 19450916 but the remaining intra-division games ruled them out.
+PIT can only allow ['CHN', 'SLN'] to win 3 total games but they have 5 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19450915 but the remaining intra-division games ruled them out.
+The Cleveland Indians were eliminated from the AL title on 19450916 with 16 games left to play.
+The Brooklyn Dodgers were eliminated from the NL title on 19450916 with 12 games left to play.
+NY1 can only allow ['CHN', 'SLN'] to win 3 total games but they have 5 games left against each other.
+It looked like the New York Giants were in contention after 19450914 but the remaining intra-division games ruled them out.
+The Pittsburgh Pirates were eliminated from the NL title on 19450915 with 9 games left to play.
+NY1 can only allow ['CHN', 'SLN'] to win 4 total games but they have 5 games left against each other.
+It looked like the New York Giants were in contention after 19450913 but the remaining intra-division games ruled them out.
+The New York Giants were eliminated from the NL title on 19450913 with 14 games left to play.
+CHA can only allow ['DET', 'WS1'] to win 4 total games but they have 5 games left against each other.
+It looked like the Chicago White Sox were in contention after 19450911 but the remaining intra-division games ruled them out.
+BOS can only allow ['DET', 'WS1'] to win 2 total games but they have 5 games left against each other.
+It looked like the Boston Red Sox were in contention after 19450911 but the remaining intra-division games ruled them out.
+The Boston Red Sox were eliminated from the AL title on 19450911 with 15 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19450911 with 15 games left to play.
+BSN can only allow ['CHN', 'SLN'] to win 4 total games but they have 5 games left against each other.
+It looked like the Boston Braves were in contention after 19450905 but the remaining intra-division games ruled them out.
+The Boston Braves were eliminated from the NL title on 19450905 with 24 games left to play.
+PHA can only allow ['DET', 'WS1'] to win 1 total games but they have 5 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19450902 but the remaining intra-division games ruled them out.
+CIN can only allow ['CHN', 'SLN', 'BRO', 'NY1', 'PIT'] to win 35 total games but they have 38 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19450902 but the remaining intra-division games ruled them out.
+PHA can only allow ['DET', 'WS1'] to win 2 total games but they have 5 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19450901 but the remaining intra-division games ruled them out.
+The Cincinnati Reds were eliminated from the NL title on 19450902 with 30 games left to play.
+PHA can only allow ['DET', 'WS1', 'SLA'] to win 13 total games but they have 15 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19450831 but the remaining intra-division games ruled them out.
+PHA can only allow ['DET', 'WS1', 'SLA', 'NYA'] to win 27 total games but they have 35 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19450830 but the remaining intra-division games ruled them out.
+PHA can only allow ['DET', 'WS1', 'SLA', 'NYA'] to win 28 total games but they have 35 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19450829 but the remaining intra-division games ruled them out.
+PHA can only allow ['DET', 'WS1', 'NYA', 'SLA'] to win 34 total games but they have 36 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19450828 but the remaining intra-division games ruled them out.
+PHA can only allow ['DET', 'WS1', 'SLA', 'NYA', 'CLE', 'CHA'] to win 70 total games but they have 77 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19450827 but the remaining intra-division games ruled them out.
+PHA can only allow ['DET', 'WS1', 'SLA', 'NYA', 'CLE', 'CHA'] to win 71 total games but they have 78 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19450826 but the remaining intra-division games ruled them out.
+The Philadelphia Athletics were eliminated from the AL title on 19450826 with 39 games left to play.
+PHI can only allow ['CHN', 'SLN'] to win 7 total games but they have 12 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19450818 but the remaining intra-division games ruled them out.
+PHI can only allow ['CHN', 'SLN'] to win 8 total games but they have 12 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19450817 but the remaining intra-division games ruled them out.
+PHI can only allow ['CHN', 'SLN'] to win 9 total games but they have 12 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19450816 but the remaining intra-division games ruled them out.
+PHI can only allow ['CHN', 'SLN', 'BRO', 'NY1'] to win 40 total games but they have 46 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19450815 but the remaining intra-division games ruled them out.
+PHI can only allow ['CHN', 'SLN', 'BRO', 'NY1'] to win 46 total games but they have 47 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19450814 but the remaining intra-division games ruled them out.
+PHI can only allow ['CHN', 'SLN', 'BRO', 'NY1', 'PIT'] to win 68 total games but they have 73 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19450813 but the remaining intra-division games ruled them out.
+PHI can only allow ['CHN', 'SLN', 'BRO', 'NY1', 'PIT', 'BSN', 'CIN'] to win 136 total games but they have 142 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19450812 but the remaining intra-division games ruled them out.
+The Philadelphia Phillies were eliminated from the NL title on 19450812 with 48 games left to play.

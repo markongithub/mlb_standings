@@ -1,0 +1,18 @@
+This season has 16 teams.
+The top 1 teams from each division go to the postseason, plus 0 wild cards.
+The AL has 154 games per team.
+The NL has 154 games per team.
+The Philadelphia Phillies were eliminated from the NL title on 19130929 with 10 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19130923 with 9 games left to play.
+The Washington Senators were eliminated from the AL title on 19130922 with 10 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19130922 with 9 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19130917 with 18 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19130915 with 16 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19130912 with 16 games left to play.
+The Boston Braves were eliminated from the NL title on 19130905 with 31 games left to play.
+The Brooklyn Dodgers were eliminated from the NL title on 19130904 with 29 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19130903 with 27 games left to play.
+The New York Yankees were eliminated from the AL title on 19130826 with 38 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19130825 with 32 games left to play.
+The St.Louis Browns were eliminated from the AL title on 19130825 with 29 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19130823 with 36 games left to play.
