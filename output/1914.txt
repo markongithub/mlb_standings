@@ -19,8 +19,8 @@ PTF can only allow ['CHF', 'IND'] to win 0 total games but they have 1 games lef
 It looked like the Pittsburgh Rebels were in contention after 19140919 but the remaining intra-division games ruled them out.
 The Detroit Tigers were eliminated from the AL title on 19140920 with 13 games left to play.
 The Washington Senators were eliminated from the AL title on 19140920 with 17 games left to play.
-The St.Louis Terriers were eliminated from the FL title on 19140919 with 18 games left to play.
 The Pittsburgh Rebels were eliminated from the FL title on 19140919 with 22 games left to play.
+The St.Louis Terriers were eliminated from the FL title on 19140919 with 18 games left to play.
 CIN can only allow ['BSN', 'NY1'] to win 3 total games but they have 5 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19140917 but the remaining intra-division games ruled them out.
 The Cincinnati Reds were eliminated from the NL title on 19140917 with 21 games left to play.

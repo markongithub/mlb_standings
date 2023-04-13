@@ -9,8 +9,8 @@ The Milwaukee Braves were eliminated from the NL title on 19640923 with 11 games
 The Pittsburgh Pirates were eliminated from the NL title on 19640922 with 13 games left to play.
 The Cleveland Indians were eliminated from the AL title on 19640920 with 13 games left to play.
 The Detroit Tigers were eliminated from the AL title on 19640920 with 11 games left to play.
-The Minnesota Twins were eliminated from the AL title on 19640918 with 13 games left to play.
 The Los Angeles Angels were eliminated from the AL title on 19640918 with 11 games left to play.
+The Minnesota Twins were eliminated from the AL title on 19640918 with 13 games left to play.
 The Los Angeles Dodgers were eliminated from the NL title on 19640917 with 15 games left to play.
 The Chicago Cubs were eliminated from the NL title on 19640913 with 19 games left to play.
 HOU can only allow ['PHI', 'CIN', 'SLN'] to win 12 total games but they have 14 games left against each other.

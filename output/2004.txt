@@ -15,8 +15,8 @@ The Boston Red Sox were eliminated from the ALE title on 20040930 with 4 games l
 The Texas Rangers were eliminated from the ALW title on 20040929 with 4 games left to play.
 The Minnesota Twins were eliminated from AL wildcard contention on 20040929 with 4 games left to play.
 The San Diego Padres were eliminated from the NLW title on 20040928 with 5 games left to play.
-The Oakland Athletics were eliminated from AL wildcard contention on 20040928 with 5 games left to play.
 The Anaheim Angels were eliminated from AL wildcard contention on 20040928 with 5 games left to play.
+The Oakland Athletics were eliminated from AL wildcard contention on 20040928 with 5 games left to play.
 The Philadelphia Phillies were eliminated from NL wildcard contention on 20040927 with 6 games left to play.
 The Texas Rangers were eliminated from AL wildcard contention on 20040927 with 6 games left to play.
 The Florida Marlins were eliminated from NL wildcard contention on 20040926 with 7 games left to play.
@@ -35,15 +35,15 @@ PIT can only allow ['SFN', 'SDN'] to win 5 total games but they have 6 games lef
 It looked like the Pittsburgh Pirates were in wildcard contention after 20040915 but the remaining intra-contender games ruled them out.
 MIL can only allow ['SFN', 'HOU'] to win 2 total games but they have 3 games left against each other.
 It looked like the Milwaukee Brewers were in wildcard contention after 20040915 but the remaining intra-contender games ruled them out.
-The Cleveland Indians were eliminated from AL wildcard contention on 20040916 with 16 games left to play.
 The Cincinnati Reds were eliminated from NL wildcard contention on 20040916 with 16 games left to play.
+The Cleveland Indians were eliminated from AL wildcard contention on 20040916 with 16 games left to play.
 The Detroit Tigers were eliminated from the ALC title on 20040915 with 18 games left to play.
-COL can only allow ['SFN', 'SDN'] to win 5 total games but they have 6 games left against each other.
-It looked like the Colorado Rockies were in wildcard contention after 20040914 but the remaining intra-contender games ruled them out.
 NYN can only allow ['SFN', 'HOU'] to win 1 total games but they have 3 games left against each other.
 It looked like the New York Mets were in wildcard contention after 20040914 but the remaining intra-contender games ruled them out.
-The Milwaukee Brewers were eliminated from NL wildcard contention on 20040915 with 19 games left to play.
+COL can only allow ['SFN', 'SDN'] to win 5 total games but they have 6 games left against each other.
+It looked like the Colorado Rockies were in wildcard contention after 20040914 but the remaining intra-contender games ruled them out.
 The Baltimore Orioles were eliminated from AL wildcard contention on 20040915 with 19 games left to play.
+The Milwaukee Brewers were eliminated from NL wildcard contention on 20040915 with 19 games left to play.
 The Pittsburgh Pirates were eliminated from NL wildcard contention on 20040915 with 16 games left to play.
 NYN can only allow ['SFN', 'SDN'] to win 4 total games but they have 6 games left against each other.
 It looked like the New York Mets were in wildcard contention after 20040913 but the remaining intra-contender games ruled them out.
@@ -53,17 +53,17 @@ It looked like the Montreal Expos were in wildcard contention after 20040912 but
 The New York Mets were eliminated from NL wildcard contention on 20040913 with 18 games left to play.
 COL can only allow ['LAN', 'SFN'] to win 5 total games but they have 6 games left against each other.
 It looked like the Colorado Rockies were in contention after 20040911 but the remaining intra-division games ruled them out.
-The Montreal Expos were eliminated from NL wildcard contention on 20040912 with 20 games left to play.
 The Detroit Tigers were eliminated from AL wildcard contention on 20040912 with 21 games left to play.
-COL can only allow ['LAN', 'SFN', 'SDN'] to win 15 total games but they have 19 games left against each other.
-It looked like the Colorado Rockies were in contention after 20040910 but the remaining intra-division games ruled them out.
+The Montreal Expos were eliminated from NL wildcard contention on 20040912 with 20 games left to play.
 BAL can only allow ['NYA', 'BOS'] to win 3 total games but they have 6 games left against each other.
 It looked like the Baltimore Orioles were in contention after 20040910 but the remaining intra-division games ruled them out.
+COL can only allow ['LAN', 'SFN', 'SDN'] to win 15 total games but they have 19 games left against each other.
+It looked like the Colorado Rockies were in contention after 20040910 but the remaining intra-division games ruled them out.
 The New York Mets were eliminated from the NLE title on 20040911 with 21 games left to play.
 BAL can only allow ['NYA', 'BOS'] to win 4 total games but they have 6 games left against each other.
 It looked like the Baltimore Orioles were in contention after 20040909 but the remaining intra-division games ruled them out.
-The Montreal Expos were eliminated from the NLE title on 20040910 with 22 games left to play.
 The Colorado Rockies were eliminated from the NLW title on 20040910 with 22 games left to play.
+The Montreal Expos were eliminated from the NLE title on 20040910 with 22 games left to play.
 The Baltimore Orioles were eliminated from the ALE title on 20040909 with 24 games left to play.
 The Tampa Bay Devil Rays were eliminated from AL wildcard contention on 20040909 with 24 games left to play.
 TBA can only allow ['NYA', 'BOS'] to win 5 total games but they have 6 games left against each other.
@@ -72,9 +72,9 @@ The Toronto Blue Jays were eliminated from AL wildcard contention on 20040907 wi
 The Tampa Bay Devil Rays were eliminated from the ALE title on 20040906 with 27 games left to play.
 TOR can only allow ['NYA', 'BOS'] to win 3 total games but they have 6 games left against each other.
 It looked like the Toronto Blue Jays were in contention after 20040903 but the remaining intra-division games ruled them out.
+The Cincinnati Reds were eliminated from the NLC title on 20040904 with 28 games left to play.
 The Kansas City Royals were eliminated from the ALC title on 20040904 with 28 games left to play.
 The Pittsburgh Pirates were eliminated from the NLC title on 20040904 with 27 games left to play.
-The Cincinnati Reds were eliminated from the NLC title on 20040904 with 28 games left to play.
 SEA can only allow ['OAK', 'ANA', 'TEX'] to win 13 total games but they have 20 games left against each other.
 It looked like the Seattle Mariners were in contention after 20040902 but the remaining intra-division games ruled them out.
 The Toronto Blue Jays were eliminated from the ALE title on 20040903 with 27 games left to play.
@@ -85,14 +85,14 @@ The Milwaukee Brewers were eliminated from the NLC title on 20040901 with 31 gam
 The Seattle Mariners were eliminated from the ALW title on 20040901 with 30 games left to play.
 KCA can only allow ['ANA', 'TEX'] to win 6 total games but they have 7 games left against each other.
 It looked like the Kansas City Royals were in wildcard contention after 20040831 but the remaining intra-contender games ruled them out.
-ARI can only allow ['SDN', 'SFN'] to win 1 total games but they have 6 games left against each other.
-It looked like the Arizona Diamondbacks were in wildcard contention after 20040830 but the remaining intra-contender games ruled them out.
 KCA can only allow ['ANA', 'TEX'] to win 6 total games but they have 7 games left against each other.
 It looked like the Kansas City Royals were in wildcard contention after 20040830 but the remaining intra-contender games ruled them out.
 ARI can only allow ['SDN', 'SFN'] to win 1 total games but they have 6 games left against each other.
-It looked like the Arizona Diamondbacks were in wildcard contention after 20040829 but the remaining intra-contender games ruled them out.
+It looked like the Arizona Diamondbacks were in wildcard contention after 20040830 but the remaining intra-contender games ruled them out.
 KCA can only allow ['BOS', 'ANA', 'TEX'] to win 10 total games but they have 13 games left against each other.
 It looked like the Kansas City Royals were in wildcard contention after 20040829 but the remaining intra-contender games ruled them out.
+ARI can only allow ['SDN', 'SFN'] to win 1 total games but they have 6 games left against each other.
+It looked like the Arizona Diamondbacks were in wildcard contention after 20040829 but the remaining intra-contender games ruled them out.
 ARI can only allow ['SDN', 'SFN'] to win 5 total games but they have 6 games left against each other.
 It looked like the Arizona Diamondbacks were in wildcard contention after 20040828 but the remaining intra-contender games ruled them out.
 The Kansas City Royals were eliminated from AL wildcard contention on 20040829 with 33 games left to play.

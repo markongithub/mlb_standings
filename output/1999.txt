@@ -5,8 +5,8 @@ The NL has 162 games per team.
 The Cincinnati Reds were eliminated from the NLC title on 19991003 with 0 games left to play.
 The Boston Red Sox were eliminated from the ALE title on 19990930 with 3 games left to play.
 The Oakland Athletics were eliminated from AL wildcard contention on 19990929 with 4 games left to play.
-The Oakland Athletics were eliminated from the ALW title on 19990926 with 6 games left to play.
 The New York Mets were eliminated from the NLE title on 19990926 with 6 games left to play.
+The Oakland Athletics were eliminated from the ALW title on 19990926 with 6 games left to play.
 The San Francisco Giants were eliminated from the NLW title on 19990924 with 8 games left to play.
 The San Francisco Giants were eliminated from NL wildcard contention on 19990924 with 8 games left to play.
 The Toronto Blue Jays were eliminated from AL wildcard contention on 19990924 with 8 games left to play.
@@ -18,17 +18,17 @@ The Baltimore Orioles were eliminated from the ALE title on 19990915 with 17 gam
 The Chicago White Sox were eliminated from AL wildcard contention on 19990914 with 17 games left to play.
 The Pittsburgh Pirates were eliminated from NL wildcard contention on 19990914 with 18 games left to play.
 The Pittsburgh Pirates were eliminated from the NLC title on 19990913 with 19 games left to play.
-The San Diego Padres were eliminated from the NLW title on 19990912 with 18 games left to play.
 The Los Angeles Dodgers were eliminated from the NLW title on 19990912 with 19 games left to play.
+The San Diego Padres were eliminated from the NLW title on 19990912 with 18 games left to play.
 The Philadelphia Phillies were eliminated from NL wildcard contention on 19990912 with 19 games left to play.
 The St. Louis Cardinals were eliminated from NL wildcard contention on 19990912 with 19 games left to play.
 The Tampa Bay Devil Rays were eliminated from AL wildcard contention on 19990912 with 19 games left to play.
 The Colorado Rockies were eliminated from the NLW title on 19990911 with 19 games left to play.
 The St. Louis Cardinals were eliminated from the NLC title on 19990911 with 19 games left to play.
-The San Diego Padres were eliminated from NL wildcard contention on 19990911 with 19 games left to play.
-The Minnesota Twins were eliminated from AL wildcard contention on 19990911 with 21 games left to play.
 The Detroit Tigers were eliminated from AL wildcard contention on 19990911 with 21 games left to play.
 The Los Angeles Dodgers were eliminated from NL wildcard contention on 19990911 with 20 games left to play.
+The Minnesota Twins were eliminated from AL wildcard contention on 19990911 with 21 games left to play.
+The San Diego Padres were eliminated from NL wildcard contention on 19990911 with 19 games left to play.
 PHI can only allow ['ATL', 'NYN'] to win 5 total games but they have 6 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19990909 but the remaining intra-division games ruled them out.
 The Philadelphia Phillies were eliminated from the NLE title on 19990909 with 22 games left to play.
@@ -45,8 +45,8 @@ The Minnesota Twins were eliminated from the ALC title on 19990905 with 27 games
 The Chicago Cubs were eliminated from NL wildcard contention on 19990905 with 27 games left to play.
 The Florida Marlins were eliminated from NL wildcard contention on 19990904 with 27 games left to play.
 The Anaheim Angels were eliminated from the ALW title on 19990903 with 28 games left to play.
-The Montreal Expos were eliminated from the NLE title on 19990903 with 28 games left to play.
 The Detroit Tigers were eliminated from the ALC title on 19990903 with 28 games left to play.
+The Montreal Expos were eliminated from the NLE title on 19990903 with 28 games left to play.
 The Kansas City Royals were eliminated from the ALC title on 19990901 with 29 games left to play.
 FLO can only allow ['ATL', 'NYN'] to win 5 total games but they have 6 games left against each other.
 It looked like the Florida Marlins were in contention after 19990830 but the remaining intra-division games ruled them out.

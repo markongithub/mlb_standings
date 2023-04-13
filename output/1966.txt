@@ -4,16 +4,16 @@ The AL has 162 games per team.
 The NL has 162 games per team.
 The San Francisco Giants were eliminated from the NL title on 19661002 with 1 games left to play.
 The Pittsburgh Pirates were eliminated from the NL title on 19661001 with 1 games left to play.
-The Philadelphia Phillies were eliminated from the NL title on 19660923 with 8 games left to play.
 The Atlanta Braves were eliminated from the NL title on 19660923 with 8 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19660923 with 8 games left to play.
 The St. Louis Cardinals were eliminated from the NL title on 19660923 with 9 games left to play.
 The Detroit Tigers were eliminated from the AL title on 19660922 with 9 games left to play.
 The Minnesota Twins were eliminated from the AL title on 19660921 with 9 games left to play.
 CIN can only allow ['PIT', 'SFN'] to win 6 total games but they have 7 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19660916 but the remaining intra-division games ruled them out.
 The Cincinnati Reds were eliminated from the NL title on 19660916 with 16 games left to play.
-The Chicago White Sox were eliminated from the AL title on 19660915 with 13 games left to play.
 The California Angels were eliminated from the AL title on 19660915 with 16 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19660915 with 13 games left to play.
 The Cleveland Indians were eliminated from the AL title on 19660913 with 15 games left to play.
 HOU can only allow ['PIT', 'SFN'] to win 1 total games but they have 7 games left against each other.
 It looked like the Houston Astros were in contention after 19660908 but the remaining intra-division games ruled them out.
@@ -28,10 +28,10 @@ It looked like the Houston Astros were in contention after 19660904 but the rema
 NYN can only allow ['PIT', 'SFN'] to win 6 total games but they have 7 games left against each other.
 It looked like the New York Mets were in contention after 19660904 but the remaining intra-division games ruled them out.
 The New York Yankees were eliminated from the AL title on 19660905 with 21 games left to play.
+The Houston Astros were eliminated from the NL title on 19660904 with 23 games left to play.
 The Kansas City Athletics were eliminated from the AL title on 19660904 with 22 games left to play.
 The New York Mets were eliminated from the NL title on 19660904 with 24 games left to play.
 The Washington Senators were eliminated from the AL title on 19660904 with 21 games left to play.
-The Houston Astros were eliminated from the NL title on 19660904 with 23 games left to play.
 The Boston Red Sox were eliminated from the AL title on 19660903 with 22 games left to play.
 CHN can only allow ['PIT', 'SFN'] to win 0 total games but they have 7 games left against each other.
 It looked like the Chicago Cubs were in contention after 19660830 but the remaining intra-division games ruled them out.

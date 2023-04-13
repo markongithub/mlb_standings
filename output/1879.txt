@@ -25,10 +25,10 @@ CL2 can only allow ['PRO', 'CHN'] to win 2 total games but they have 3 games lef
 It looked like the Cleveland Spiders were in contention after 18790828 but the remaining intra-division games ruled them out.
 CL2 can only allow ['PRO', 'BSN'] to win 4 total games but they have 5 games left against each other.
 It looked like the Cleveland Spiders were in contention after 18790827 but the remaining intra-division games ruled them out.
-SR1 can only allow ['PRO', 'CHN'] to win 2 total games but they have 3 games left against each other.
-It looked like the Syracuse Stars were in contention after 18790826 but the remaining intra-division games ruled them out.
 CL2 can only allow ['PRO', 'CHN', 'BSN'] to win 8 total games but they have 11 games left against each other.
 It looked like the Cleveland Spiders were in contention after 18790826 but the remaining intra-division games ruled them out.
+SR1 can only allow ['PRO', 'CHN'] to win 2 total games but they have 3 games left against each other.
+It looked like the Syracuse Stars were in contention after 18790826 but the remaining intra-division games ruled them out.
 SR1 can only allow ['PRO', 'CHN', 'BSN', 'BFN'] to win 21 total games but they have 23 games left against each other.
 It looked like the Syracuse Stars were in contention after 18790825 but the remaining intra-division games ruled them out.
 The Cleveland Spiders were eliminated from the NL title on 18790826 with 25 games left to play.

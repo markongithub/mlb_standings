@@ -3,8 +3,8 @@ The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AL has 154 games per team.
 The NL has 154 games per team.
 The New York Yankees were eliminated from the AL title on 19481002 with 1 games left to play.
-The St. Louis Cardinals were eliminated from the NL title on 19480929 with 5 games left to play.
 The Brooklyn Dodgers were eliminated from the NL title on 19480929 with 3 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19480929 with 5 games left to play.
 The Pittsburgh Pirates were eliminated from the NL title on 19480926 with 5 games left to play.
 PHA can only allow ['BOS', 'CLE'] to win 0 total games but they have 1 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19480920 but the remaining intra-division games ruled them out.
@@ -17,8 +17,8 @@ It looked like the Detroit Tigers were in contention after 19480912 but the rema
 The Detroit Tigers were eliminated from the AL title on 19480912 with 22 games left to play.
 CIN can only allow ['BSN', 'PIT', 'BRO', 'SLN', 'NY1'] to win 26 total games but they have 31 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19480910 but the remaining intra-division games ruled them out.
-The Philadelphia Phillies were eliminated from the NL title on 19480911 with 19 games left to play.
 The Chicago Cubs were eliminated from the NL title on 19480911 with 20 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19480911 with 19 games left to play.
 The Cincinnati Reds were eliminated from the NL title on 19480910 with 22 games left to play.
 SLA can only allow ['BOS', 'NYA'] to win 0 total games but they have 8 games left against each other.
 It looked like the St. Louis Browns were in contention after 19480903 but the remaining intra-division games ruled them out.
@@ -39,10 +39,10 @@ It looked like the Washington Senators were in contention after 19480830 but the
 The St. Louis Browns were eliminated from the AL title on 19480831 with 33 games left to play.
 WS1 can only allow ['BOS', 'NYA', 'PHA'] to win 13 total games but they have 19 games left against each other.
 It looked like the Washington Senators were in contention after 19480829 but the remaining intra-division games ruled them out.
-WS1 can only allow ['BOS', 'NYA', 'CLE', 'PHA', 'DET'] to win 47 total games but they have 49 games left against each other.
-It looked like the Washington Senators were in contention after 19480828 but the remaining intra-division games ruled them out.
 CHA can only allow ['BOS', 'NYA'] to win 2 total games but they have 8 games left against each other.
 It looked like the Chicago White Sox were in contention after 19480828 but the remaining intra-division games ruled them out.
+WS1 can only allow ['BOS', 'NYA', 'CLE', 'PHA', 'DET'] to win 47 total games but they have 49 games left against each other.
+It looked like the Washington Senators were in contention after 19480828 but the remaining intra-division games ruled them out.
 CHA can only allow ['BOS', 'NYA'] to win 6 total games but they have 8 games left against each other.
 It looked like the Chicago White Sox were in contention after 19480827 but the remaining intra-division games ruled them out.
 The Washington Senators were eliminated from the AL title on 19480828 with 33 games left to play.

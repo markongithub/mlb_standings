@@ -12,14 +12,14 @@ The Cincinnati Reds were eliminated from the NL title on 19670917 with 12 games 
 WS2 can only allow ['DET', 'BOS'] to win 0 total games but they have 2 games left against each other.
 It looked like the Washington Senators were in contention after 19670915 but the remaining intra-division games ruled them out.
 The Chicago Cubs were eliminated from the NL title on 19670916 with 11 games left to play.
-The Washington Senators were eliminated from the AL title on 19670915 with 15 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 19670915 with 16 games left to play.
-The Cleveland Indians were eliminated from the AL title on 19670913 with 14 games left to play.
+The Washington Senators were eliminated from the AL title on 19670915 with 15 games left to play.
 The Atlanta Braves were eliminated from the NL title on 19670913 with 17 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19670913 with 14 games left to play.
 BAL can only allow ['MIN', 'BOS'] to win 1 total games but they have 2 games left against each other.
 It looked like the Baltimore Orioles were in contention after 19670911 but the remaining intra-division games ruled them out.
-The Pittsburgh Pirates were eliminated from the NL title on 19670911 with 17 games left to play.
 The Baltimore Orioles were eliminated from the AL title on 19670911 with 19 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19670911 with 17 games left to play.
 NYA can only allow ['DET', 'MIN', 'BOS'] to win 3 total games but they have 4 games left against each other.
 It looked like the New York Yankees were in contention after 19670909 but the remaining intra-division games ruled them out.
 The New York Yankees were eliminated from the AL title on 19670909 with 19 games left to play.

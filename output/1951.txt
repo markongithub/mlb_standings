@@ -6,8 +6,8 @@ The Cleveland Indians were eliminated from the AL title on 19510928 with 2 games
 The Boston Red Sox were eliminated from the AL title on 19510927 with 5 games left to play.
 CHA can only allow ['NYA', 'BOS'] to win 7 total games but they have 8 games left against each other.
 It looked like the Chicago White Sox were in contention after 19510914 but the remaining intra-division games ruled them out.
-The St. Louis Cardinals were eliminated from the NL title on 19510914 with 14 games left to play.
 The Chicago White Sox were eliminated from the AL title on 19510914 with 13 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19510914 with 14 games left to play.
 The Boston Braves were eliminated from the NL title on 19510911 with 18 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 19510907 with 19 games left to play.
 The Detroit Tigers were eliminated from the AL title on 19510903 with 22 games left to play.

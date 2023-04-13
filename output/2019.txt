@@ -5,8 +5,8 @@ The NL has 162 games per team.
 The Milwaukee Brewers were eliminated from the NLC title on 20190929 with 0 games left to play.
 The Cleveland Indians were eliminated from AL wildcard contention on 20190927 with 2 games left to play.
 The Cleveland Indians were eliminated from the ALC title on 20190925 with 4 games left to play.
-The New York Mets were eliminated from NL wildcard contention on 20190925 with 4 games left to play.
 The Chicago Cubs were eliminated from NL wildcard contention on 20190925 with 4 games left to play.
+The New York Mets were eliminated from NL wildcard contention on 20190925 with 4 games left to play.
 The Philadelphia Phillies were eliminated from NL wildcard contention on 20190924 with 5 games left to play.
 The Arizona Diamondbacks were eliminated from NL wildcard contention on 20190923 with 5 games left to play.
 The Chicago Cubs were eliminated from the NLC title on 20190922 with 6 games left to play.
@@ -15,8 +15,8 @@ The Washington Nationals were eliminated from the NLE title on 20190920 with 10 
 The Boston Red Sox were eliminated from AL wildcard contention on 20190920 with 9 games left to play.
 The San Francisco Giants were eliminated from NL wildcard contention on 20190920 with 8 games left to play.
 The Tampa Bay Rays were eliminated from the ALE title on 20190919 with 9 games left to play.
-The San Diego Padres were eliminated from NL wildcard contention on 20190916 with 12 games left to play.
 The Cincinnati Reds were eliminated from NL wildcard contention on 20190916 with 11 games left to play.
+The San Diego Padres were eliminated from NL wildcard contention on 20190916 with 12 games left to play.
 CIN can only allow ['SLN', 'CHN'] to win 4 total games but they have 7 games left against each other.
 It looked like the Cincinnati Reds were in contention after 20190913 but the remaining intra-division games ruled them out.
 The Philadelphia Phillies were eliminated from the NLE title on 20190914 with 15 games left to play.
@@ -43,9 +43,9 @@ It looked like the Chicago White Sox were in contention after 20190902 but the r
 The San Francisco Giants were eliminated from the NLW title on 20190903 with 24 games left to play.
 MIA can only allow ['CHN', 'MIL', 'ARI', 'SDN'] to win 17 total games but they have 20 games left against each other.
 It looked like the Miami Marlins were in wildcard contention after 20190902 but the remaining intra-contender games ruled them out.
-The San Diego Padres were eliminated from the NLW title on 20190902 with 25 games left to play.
 The Los Angeles Angels were eliminated from the ALW title on 20190902 with 24 games left to play.
 The Chicago White Sox were eliminated from the ALC title on 20190902 with 25 games left to play.
+The San Diego Padres were eliminated from the NLW title on 20190902 with 25 games left to play.
 MIA can only allow ['CHN', 'MIL', 'ARI', 'SDN'] to win 19 total games but they have 21 games left against each other.
 It looked like the Miami Marlins were in wildcard contention after 20190901 but the remaining intra-contender games ruled them out.
 The Toronto Blue Jays were eliminated from AL wildcard contention on 20190902 with 23 games left to play.

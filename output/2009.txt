@@ -19,8 +19,8 @@ It looked like the Chicago White Sox were in contention after 20090925 but the r
 The Chicago Cubs were eliminated from the NLC title on 20090926 with 8 games left to play.
 CHA can only allow ['DET', 'MIN'] to win 3 total games but they have 4 games left against each other.
 It looked like the Chicago White Sox were in contention after 20090924 but the remaining intra-division games ruled them out.
-The San Francisco Giants were eliminated from the NLW title on 20090924 with 9 games left to play.
 The Chicago White Sox were eliminated from the ALC title on 20090924 with 9 games left to play.
+The San Francisco Giants were eliminated from the NLW title on 20090924 with 9 games left to play.
 The Seattle Mariners were eliminated from the ALW title on 20090923 with 10 games left to play.
 The Minnesota Twins were eliminated from AL wildcard contention on 20090923 with 10 games left to play.
 The Seattle Mariners were eliminated from AL wildcard contention on 20090923 with 10 games left to play.
@@ -29,8 +29,8 @@ The Tampa Bay Rays were eliminated from AL wildcard contention on 20090922 with 
 The Milwaukee Brewers were eliminated from the NLC title on 20090921 with 12 games left to play.
 The Houston Astros were eliminated from NL wildcard contention on 20090920 with 13 games left to play.
 The Houston Astros were eliminated from the NLC title on 20090918 with 15 games left to play.
-The Cincinnati Reds were eliminated from NL wildcard contention on 20090918 with 14 games left to play.
 The Chicago White Sox were eliminated from AL wildcard contention on 20090918 with 14 games left to play.
+The Cincinnati Reds were eliminated from NL wildcard contention on 20090918 with 14 games left to play.
 CLE can only allow ['DET', 'MIN'] to win 4 total games but they have 7 games left against each other.
 It looked like the Cleveland Indians were in contention after 20090916 but the remaining intra-division games ruled them out.
 CLE can only allow ['DET', 'MIN', 'CHA'] to win 15 total games but they have 16 games left against each other.
@@ -48,8 +48,8 @@ It looked like the Oakland Athletics were in contention after 20090912 but the r
 The Cincinnati Reds were eliminated from the NLC title on 20090913 with 19 games left to play.
 The New York Mets were eliminated from the NLE title on 20090913 with 18 games left to play.
 The Tampa Bay Rays were eliminated from the ALE title on 20090913 with 19 games left to play.
-The New York Mets were eliminated from NL wildcard contention on 20090913 with 18 games left to play.
 The Cleveland Indians were eliminated from AL wildcard contention on 20090913 with 20 games left to play.
+The New York Mets were eliminated from NL wildcard contention on 20090913 with 18 games left to play.
 OAK can only allow ['ANA', 'TEX'] to win 6 total games but they have 7 games left against each other.
 It looked like the Oakland Athletics were in contention after 20090911 but the remaining intra-division games ruled them out.
 The Kansas City Royals were eliminated from the ALC title on 20090912 with 20 games left to play.
@@ -62,8 +62,8 @@ ARI can only allow ['LAN', 'COL', 'SFN'] to win 10 total games but they have 12 
 It looked like the Arizona Diamondbacks were in contention after 20090909 but the remaining intra-division games ruled them out.
 ARI can only allow ['LAN', 'COL', 'SFN'] to win 11 total games but they have 12 games left against each other.
 It looked like the Arizona Diamondbacks were in contention after 20090908 but the remaining intra-division games ruled them out.
-The Pittsburgh Pirates were eliminated from NL wildcard contention on 20090909 with 24 games left to play.
 The Baltimore Orioles were eliminated from AL wildcard contention on 20090909 with 23 games left to play.
+The Pittsburgh Pirates were eliminated from NL wildcard contention on 20090909 with 24 games left to play.
 The Arizona Diamondbacks were eliminated from the NLW title on 20090908 with 22 games left to play.
 The Pittsburgh Pirates were eliminated from the NLC title on 20090907 with 26 games left to play.
 The Toronto Blue Jays were eliminated from the ALE title on 20090907 with 25 games left to play.
@@ -73,5 +73,5 @@ It looked like the Washington Nationals were in wildcard contention after 200909
 WAS can only allow ['COL', 'SFN'] to win 1 total games but they have 3 games left against each other.
 It looked like the Washington Nationals were in wildcard contention after 20090902 but the remaining intra-contender games ruled them out.
 The Washington Nationals were eliminated from NL wildcard contention on 20090902 with 28 games left to play.
-The Washington Nationals were eliminated from the NLE title on 20090901 with 29 games left to play.
 The Baltimore Orioles were eliminated from the ALE title on 20090901 with 29 games left to play.
+The Washington Nationals were eliminated from the NLE title on 20090901 with 29 games left to play.

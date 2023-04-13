@@ -14,8 +14,8 @@ CHN can only allow ['BSN', 'BRO'] to win 4 total games but they have 5 games lef
 It looked like the Chicago Cubs were in contention after 18920921 but the remaining intra-division games ruled them out.
 The Chicago Cubs were eliminated from the NL title on 18920921 with 27 games left to play.
 The New York Giants were eliminated from the NL title on 18920916 with 27 games left to play.
-The St. Louis Cardinals were eliminated from the NL title on 18920912 with 31 games left to play.
 The Louisville Colonels were eliminated from the NL title on 18920912 with 28 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 18920912 with 31 games left to play.
 WSN can only allow ['BSN', 'BRO'] to win 2 total games but they have 5 games left against each other.
 It looked like the Washington Senators were in contention after 18920909 but the remaining intra-division games ruled them out.
 The Washington Senators were eliminated from the NL title on 18920909 with 30 games left to play.

@@ -4,8 +4,8 @@ The AL has 154 games per team.
 The NL has 154 games per team.
 The Philadelphia Athletics were eliminated from the AL title on 19250924 with 7 games left to play.
 The New York Giants were eliminated from the NL title on 19250923 with 9 games left to play.
-The St. Louis Browns were eliminated from the AL title on 19250918 with 14 games left to play.
 The Cincinnati Reds were eliminated from the NL title on 19250918 with 12 games left to play.
+The St. Louis Browns were eliminated from the AL title on 19250918 with 14 games left to play.
 The Detroit Tigers were eliminated from the AL title on 19250917 with 16 games left to play.
 The Chicago White Sox were eliminated from the AL title on 19250915 with 16 games left to play.
 The Brooklyn Robins were eliminated from the NL title on 19250914 with 18 games left to play.
@@ -13,8 +13,8 @@ The St. Louis Cardinals were eliminated from the NL title on 19250908 with 19 ga
 The Cleveland Indians were eliminated from the AL title on 19250907 with 22 games left to play.
 The Boston Braves were eliminated from the NL title on 19250906 with 20 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 19250906 with 26 games left to play.
-The New York Yankees were eliminated from the AL title on 19250905 with 29 games left to play.
 The Chicago Cubs were eliminated from the NL title on 19250905 with 21 games left to play.
+The New York Yankees were eliminated from the AL title on 19250905 with 29 games left to play.
 BOS can only allow ['WS1', 'PHA'] to win 2 total games but they have 7 games left against each other.
 It looked like the Boston Red Sox were in contention after 19250820 but the remaining intra-division games ruled them out.
 BOS can only allow ['PHA', 'WS1'] to win 5 total games but they have 7 games left against each other.

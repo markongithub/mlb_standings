@@ -10,16 +10,16 @@ SLA can only allow ['NYA', 'CLE'] to win 0 total games but they have 4 games lef
 It looked like the St. Louis Browns were in contention after 19210914 but the remaining intra-division games ruled them out.
 BOS can only allow ['NYA', 'CLE'] to win 0 total games but they have 4 games left against each other.
 It looked like the Boston Red Sox were in contention after 19210913 but the remaining intra-division games ruled them out.
-The St. Louis Browns were eliminated from the AL title on 19210914 with 14 games left to play.
 The Brooklyn Robins were eliminated from the NL title on 19210914 with 16 games left to play.
-WS1 can only allow ['NYA', 'CLE'] to win 1 total games but they have 4 games left against each other.
-It looked like the Washington Senators were in contention after 19210912 but the remaining intra-division games ruled them out.
+The St. Louis Browns were eliminated from the AL title on 19210914 with 14 games left to play.
 BOS can only allow ['NYA', 'CLE'] to win 3 total games but they have 4 games left against each other.
 It looked like the Boston Red Sox were in contention after 19210912 but the remaining intra-division games ruled them out.
 WS1 can only allow ['NYA', 'CLE'] to win 1 total games but they have 4 games left against each other.
-It looked like the Washington Senators were in contention after 19210911 but the remaining intra-division games ruled them out.
+It looked like the Washington Senators were in contention after 19210912 but the remaining intra-division games ruled them out.
 BOS can only allow ['NYA', 'CLE'] to win 3 total games but they have 4 games left against each other.
 It looked like the Boston Red Sox were in contention after 19210911 but the remaining intra-division games ruled them out.
+WS1 can only allow ['NYA', 'CLE'] to win 1 total games but they have 4 games left against each other.
+It looked like the Washington Senators were in contention after 19210911 but the remaining intra-division games ruled them out.
 WS1 can only allow ['NYA', 'CLE'] to win 3 total games but they have 4 games left against each other.
 It looked like the Washington Senators were in contention after 19210910 but the remaining intra-division games ruled them out.
 The Boston Red Sox were eliminated from the AL title on 19210911 with 22 games left to play.

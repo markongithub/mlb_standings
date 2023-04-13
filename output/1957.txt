@@ -7,12 +7,12 @@ The St. Louis Cardinals were eliminated from the NL title on 19570923 with 5 gam
 The Brooklyn Dodgers were eliminated from the NL title on 19570920 with 6 games left to play.
 CIN can only allow ['MLN', 'SLN'] to win 2 total games but they have 3 games left against each other.
 It looked like the Cincinnati Redlegs were in contention after 19570915 but the remaining intra-division games ruled them out.
-The Cincinnati Redlegs were eliminated from the NL title on 19570915 with 12 games left to play.
 The Boston Red Sox were eliminated from the AL title on 19570915 with 11 games left to play.
+The Cincinnati Redlegs were eliminated from the NL title on 19570915 with 12 games left to play.
 The Detroit Tigers were eliminated from the AL title on 19570911 with 16 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 19570911 with 13 games left to play.
-The Cleveland Indians were eliminated from the AL title on 19570907 with 19 games left to play.
 The Baltimore Orioles were eliminated from the AL title on 19570907 with 19 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19570907 with 19 games left to play.
 The New York Giants were eliminated from the NL title on 19570906 with 15 games left to play.
 The Chicago Cubs were eliminated from the NL title on 19570831 with 29 games left to play.
 PIT can only allow ['MLN', 'BRO', 'SLN', 'CIN', 'PHI'] to win 40 total games but they have 41 games left against each other.

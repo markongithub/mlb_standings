@@ -6,15 +6,15 @@ The Toronto Blue Jays were eliminated from the ALE title on 19860928 with 6 game
 The New York Yankees were eliminated from the ALE title on 19860927 with 8 games left to play.
 The Texas Rangers were eliminated from the ALW title on 19860926 with 9 games left to play.
 The Cincinnati Reds were eliminated from the NLW title on 19860925 with 9 games left to play.
-The San Francisco Giants were eliminated from the NLW title on 19860924 with 10 games left to play.
 The Detroit Tigers were eliminated from the ALE title on 19860924 with 10 games left to play.
+The San Francisco Giants were eliminated from the NLW title on 19860924 with 10 games left to play.
 The Atlanta Braves were eliminated from the NLW title on 19860919 with 16 games left to play.
-The San Diego Padres were eliminated from the NLW title on 19860919 with 15 games left to play.
-The Los Angeles Dodgers were eliminated from the NLW title on 19860919 with 15 games left to play.
 The Cleveland Indians were eliminated from the ALE title on 19860919 with 15 games left to play.
+The Los Angeles Dodgers were eliminated from the NLW title on 19860919 with 15 games left to play.
+The San Diego Padres were eliminated from the NLW title on 19860919 with 15 games left to play.
 The Kansas City Royals were eliminated from the ALW title on 19860918 with 16 games left to play.
-The Philadelphia Phillies were eliminated from the NLE title on 19860917 with 17 games left to play.
 The Oakland Athletics were eliminated from the ALW title on 19860917 with 15 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 19860917 with 17 games left to play.
 The Baltimore Orioles were eliminated from the ALE title on 19860916 with 17 games left to play.
 The Chicago White Sox were eliminated from the ALW title on 19860916 with 18 games left to play.
 The Milwaukee Brewers were eliminated from the ALE title on 19860916 with 17 games left to play.

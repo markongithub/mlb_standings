@@ -7,10 +7,10 @@ The Montreal Expos were eliminated from the NLE title on 19930928 with 5 games l
 The New York Yankees were eliminated from the ALE title on 19930927 with 5 games left to play.
 The Texas Rangers were eliminated from the ALW title on 19930927 with 7 games left to play.
 The Baltimore Orioles were eliminated from the ALE title on 19930926 with 7 games left to play.
-The Kansas City Royals were eliminated from the ALW title on 19930924 with 8 games left to play.
-The Detroit Tigers were eliminated from the ALE title on 19930924 with 9 games left to play.
-The Seattle Mariners were eliminated from the ALW title on 19930924 with 9 games left to play.
 The Boston Red Sox were eliminated from the ALE title on 19930924 with 9 games left to play.
+The Detroit Tigers were eliminated from the ALE title on 19930924 with 9 games left to play.
+The Kansas City Royals were eliminated from the ALW title on 19930924 with 8 games left to play.
+The Seattle Mariners were eliminated from the ALW title on 19930924 with 9 games left to play.
 The St. Louis Cardinals were eliminated from the NLE title on 19930922 with 10 games left to play.
 CLE can only allow ['TOR', 'NYA'] to win 2 total games but they have 3 games left against each other.
 It looked like the Cleveland Indians were in contention after 19930917 but the remaining intra-division games ruled them out.
@@ -25,19 +25,19 @@ The Cleveland Indians were eliminated from the ALE title on 19930915 with 15 gam
 The Los Angeles Dodgers were eliminated from the NLW title on 19930914 with 18 games left to play.
 MIN can only allow ['CHA', 'TEX', 'KCA', 'SEA'] to win 16 total games but they have 20 games left against each other.
 It looked like the Minnesota Twins were in contention after 19930912 but the remaining intra-division games ruled them out.
-MIL can only allow ['TOR', 'NYA'] to win 1 total games but they have 3 games left against each other.
-It looked like the Milwaukee Brewers were in contention after 19930911 but the remaining intra-division games ruled them out.
 MIN can only allow ['CHA', 'TEX', 'KCA', 'SEA'] to win 18 total games but they have 20 games left against each other.
 It looked like the Minnesota Twins were in contention after 19930911 but the remaining intra-division games ruled them out.
-OAK can only allow ['CHA', 'TEX', 'KCA', 'SEA'] to win 17 total games but they have 20 games left against each other.
-It looked like the Oakland Athletics were in contention after 19930910 but the remaining intra-division games ruled them out.
+MIL can only allow ['TOR', 'NYA'] to win 1 total games but they have 3 games left against each other.
+It looked like the Milwaukee Brewers were in contention after 19930911 but the remaining intra-division games ruled them out.
 MIL can only allow ['TOR', 'NYA', 'BAL'] to win 9 total games but they have 10 games left against each other.
 It looked like the Milwaukee Brewers were in contention after 19930910 but the remaining intra-division games ruled them out.
+OAK can only allow ['CHA', 'TEX', 'KCA', 'SEA'] to win 17 total games but they have 20 games left against each other.
+It looked like the Oakland Athletics were in contention after 19930910 but the remaining intra-division games ruled them out.
 The Minnesota Twins were eliminated from the ALW title on 19930911 with 20 games left to play.
-The Oakland Athletics were eliminated from the ALW title on 19930910 with 23 games left to play.
-The Milwaukee Brewers were eliminated from the ALE title on 19930910 with 20 games left to play.
-The Pittsburgh Pirates were eliminated from the NLE title on 19930910 with 21 games left to play.
 The Cincinnati Reds were eliminated from the NLW title on 19930910 with 20 games left to play.
+The Milwaukee Brewers were eliminated from the ALE title on 19930910 with 20 games left to play.
+The Oakland Athletics were eliminated from the ALW title on 19930910 with 23 games left to play.
+The Pittsburgh Pirates were eliminated from the NLE title on 19930910 with 21 games left to play.
 The Florida Marlins were eliminated from the NLE title on 19930904 with 27 games left to play.
 The San Diego Padres were eliminated from the NLW title on 19930829 with 31 games left to play.
 The Colorado Rockies were eliminated from the NLW title on 19930826 with 34 games left to play.

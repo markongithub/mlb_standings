@@ -4,8 +4,8 @@ The AL has 154 games per team.
 The NL has 154 games per team.
 CLE can only allow ['NYA', 'BOS'] to win 2 total games but they have 4 games left against each other.
 It looked like the Cleveland Indians were in contention after 19490920 but the remaining intra-division games ruled them out.
-The Detroit Tigers were eliminated from the AL title on 19490920 with 7 games left to play.
 The Cleveland Indians were eliminated from the AL title on 19490920 with 10 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19490920 with 7 games left to play.
 PHA can only allow ['NYA', 'BOS'] to win 3 total games but they have 4 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19490915 but the remaining intra-division games ruled them out.
 PHA can only allow ['NYA', 'BOS'] to win 3 total games but they have 4 games left against each other.
@@ -46,8 +46,8 @@ CHA can only allow ['NYA', 'BOS', 'CLE', 'DET'] to win 23 total games but they h
 It looked like the Chicago White Sox were in contention after 19490829 but the remaining intra-division games ruled them out.
 CHA can only allow ['NYA', 'BOS', 'CLE', 'DET'] to win 26 total games but they have 27 games left against each other.
 It looked like the Chicago White Sox were in contention after 19490828 but the remaining intra-division games ruled them out.
-The Chicago Cubs were eliminated from the NL title on 19490828 with 27 games left to play.
 The Chicago White Sox were eliminated from the AL title on 19490828 with 29 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19490828 with 27 games left to play.
 WS1 can only allow ['NYA', 'BOS'] to win 2 total games but they have 6 games left against each other.
 It looked like the Washington Senators were in contention after 19490826 but the remaining intra-division games ruled them out.
 WS1 can only allow ['NYA', 'BOS', 'CLE'] to win 13 total games but they have 16 games left against each other.

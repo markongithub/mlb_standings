@@ -8,15 +8,15 @@ The Chicago Cubs were eliminated from the NLE title on 19690924 with 5 games lef
 The Los Angeles Dodgers were eliminated from the NLW title on 19690924 with 6 games left to play.
 The Houston Astros were eliminated from the NLW title on 19690923 with 9 games left to play.
 The Oakland Athletics were eliminated from the ALW title on 19690922 with 10 games left to play.
-The St. Louis Cardinals were eliminated from the NLE title on 19690921 with 9 games left to play.
 The Pittsburgh Pirates were eliminated from the NLE title on 19690921 with 8 games left to play.
+The St. Louis Cardinals were eliminated from the NLE title on 19690921 with 9 games left to play.
 The Detroit Tigers were eliminated from the ALE title on 19690913 with 17 games left to play.
 The Boston Red Sox were eliminated from the ALE title on 19690911 with 21 games left to play.
 The California Angels were eliminated from the ALW title on 19690909 with 24 games left to play.
-The Washington Senators were eliminated from the ALE title on 19690907 with 22 games left to play.
 The New York Yankees were eliminated from the ALE title on 19690907 with 24 games left to play.
-The Kansas City Royals were eliminated from the ALW title on 19690904 with 27 games left to play.
+The Washington Senators were eliminated from the ALE title on 19690907 with 22 games left to play.
 The Chicago White Sox were eliminated from the ALW title on 19690904 with 29 games left to play.
+The Kansas City Royals were eliminated from the ALW title on 19690904 with 27 games left to play.
 PHI can only allow ['CHN', 'NYN', 'PIT', 'SLN'] to win 31 total games but they have 34 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19690901 but the remaining intra-division games ruled them out.
 The Seattle Pilots were eliminated from the ALW title on 19690902 with 29 games left to play.

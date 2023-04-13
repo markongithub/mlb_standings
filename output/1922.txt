@@ -13,10 +13,10 @@ The Brooklyn Robins were eliminated from the NL title on 19220916 with 14 games 
 DET can only allow ['NYA', 'SLA'] to win 1 total games but they have 3 games left against each other.
 It looked like the Detroit Tigers were in contention after 19220914 but the remaining intra-division games ruled them out.
 The Detroit Tigers were eliminated from the AL title on 19220914 with 12 games left to play.
-CLE can only allow ['NYA', 'SLA'] to win 0 total games but they have 3 games left against each other.
-It looked like the Cleveland Indians were in contention after 19220912 but the remaining intra-division games ruled them out.
 CHA can only allow ['NYA', 'SLA'] to win 2 total games but they have 3 games left against each other.
 It looked like the Chicago White Sox were in contention after 19220912 but the remaining intra-division games ruled them out.
+CLE can only allow ['NYA', 'SLA'] to win 0 total games but they have 3 games left against each other.
+It looked like the Cleveland Indians were in contention after 19220912 but the remaining intra-division games ruled them out.
 CLE can only allow ['NYA', 'SLA'] to win 1 total games but they have 3 games left against each other.
 It looked like the Cleveland Indians were in contention after 19220911 but the remaining intra-division games ruled them out.
 The Chicago White Sox were eliminated from the AL title on 19220912 with 16 games left to play.

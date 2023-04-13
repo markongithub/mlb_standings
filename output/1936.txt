@@ -7,8 +7,8 @@ The Chicago Cubs were eliminated from the NL title on 19360923 with 3 games left
 The Pittsburgh Pirates were eliminated from the NL title on 19360919 with 7 games left to play.
 The Cincinnati Reds were eliminated from the NL title on 19360913 with 13 games left to play.
 The Boston Bees were eliminated from the NL title on 19360910 with 19 games left to play.
-The Cleveland Indians were eliminated from the AL title on 19360909 with 17 games left to play.
 The Chicago White Sox were eliminated from the AL title on 19360909 with 16 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19360909 with 17 games left to play.
 The Detroit Tigers were eliminated from the AL title on 19360908 with 17 games left to play.
 The Washington Senators were eliminated from the AL title on 19360907 with 17 games left to play.
 BRO can only allow ['NY1', 'SLN', 'CHN'] to win 6 total games but they have 10 games left against each other.

@@ -29,6 +29,6 @@ It looked like the Philadelphia Phillies were in contention after 19300819 but t
 PHI can only allow ['CHN', 'NY1', 'BRO', 'SLN', 'PIT', 'BSN', 'CIN'] to win 108 total games but they have 114 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19300818 but the remaining intra-division games ruled them out.
 The Chicago White Sox were eliminated from the AL title on 19300819 with 35 games left to play.
-The St. Louis Browns were eliminated from the AL title on 19300818 with 35 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 19300818 with 38 games left to play.
+The St. Louis Browns were eliminated from the AL title on 19300818 with 35 games left to play.
 The Boston Red Sox were eliminated from the AL title on 19300813 with 39 games left to play.

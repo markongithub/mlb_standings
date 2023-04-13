@@ -38,14 +38,14 @@ It looked like the New York Mets were in contention after 19650827 but the remai
 NYN can only allow ['CIN', 'MLN', 'SFN', 'LAN'] to win 20 total games but they have 27 games left against each other.
 It looked like the New York Mets were in contention after 19650826 but the remaining intra-division games ruled them out.
 The Boston Red Sox were eliminated from the AL title on 19650827 with 33 games left to play.
-KC1 can only allow ['MIN', 'CHA', 'BAL', 'DET', 'CLE'] to win 42 total games but they have 49 games left against each other.
-It looked like the Kansas City Athletics were in contention after 19650825 but the remaining intra-division games ruled them out.
 NYN can only allow ['SFN', 'MLN', 'LAN', 'CIN'] to win 21 total games but they have 28 games left against each other.
 It looked like the New York Mets were in contention after 19650825 but the remaining intra-division games ruled them out.
-KC1 can only allow ['MIN', 'CHA', 'DET', 'BAL', 'CLE'] to win 46 total games but they have 50 games left against each other.
-It looked like the Kansas City Athletics were in contention after 19650824 but the remaining intra-division games ruled them out.
+KC1 can only allow ['MIN', 'CHA', 'BAL', 'DET', 'CLE'] to win 42 total games but they have 49 games left against each other.
+It looked like the Kansas City Athletics were in contention after 19650825 but the remaining intra-division games ruled them out.
 NYN can only allow ['MLN', 'SFN', 'LAN', 'CIN'] to win 22 total games but they have 29 games left against each other.
 It looked like the New York Mets were in contention after 19650824 but the remaining intra-division games ruled them out.
+KC1 can only allow ['MIN', 'CHA', 'DET', 'BAL', 'CLE'] to win 46 total games but they have 50 games left against each other.
+It looked like the Kansas City Athletics were in contention after 19650824 but the remaining intra-division games ruled them out.
 NYN can only allow ['MLN', 'SFN', 'LAN', 'CIN'] to win 23 total games but they have 30 games left against each other.
 It looked like the New York Mets were in contention after 19650823 but the remaining intra-division games ruled them out.
 The Kansas City Athletics were eliminated from the AL title on 19650824 with 39 games left to play.

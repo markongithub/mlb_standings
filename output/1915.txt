@@ -9,10 +9,10 @@ KCF can only allow ['PTF', 'CHF'] to win 1 total games but they have 4 games lef
 It looked like the Kansas City Packers were in contention after 19150929 but the remaining intra-division games ruled them out.
 KCF can only allow ['PTF', 'CHF'] to win 2 total games but they have 5 games left against each other.
 It looked like the Kansas City Packers were in contention after 19150928 but the remaining intra-division games ruled them out.
-NEW can only allow ['PTF', 'CHF'] to win 3 total games but they have 5 games left against each other.
-It looked like the Newark Peppers were in contention after 19150927 but the remaining intra-division games ruled them out.
 KCF can only allow ['PTF', 'CHF'] to win 3 total games but they have 5 games left against each other.
 It looked like the Kansas City Packers were in contention after 19150927 but the remaining intra-division games ruled them out.
+NEW can only allow ['PTF', 'CHF'] to win 3 total games but they have 5 games left against each other.
+It looked like the Newark Peppers were in contention after 19150927 but the remaining intra-division games ruled them out.
 The Brooklyn Dodgers were eliminated from the NL title on 19150928 with 7 games left to play.
 The Kansas City Packers were eliminated from the FL title on 19150927 with 6 games left to play.
 The Newark Peppers were eliminated from the FL title on 19150927 with 9 games left to play.
@@ -22,8 +22,8 @@ BUF can only allow ['PTF', 'CHF'] to win 4 total games but they have 5 games lef
 It looked like the Buffalo Blues were in contention after 19150922 but the remaining intra-division games ruled them out.
 BUF can only allow ['PTF', 'CHF'] to win 4 total games but they have 5 games left against each other.
 It looked like the Buffalo Blues were in contention after 19150921 but the remaining intra-division games ruled them out.
-The Chicago Cubs were eliminated from the NL title on 19150922 with 15 games left to play.
 The Chicago White Sox were eliminated from the AL title on 19150922 with 11 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19150922 with 15 games left to play.
 The Washington Senators were eliminated from the AL title on 19150922 with 14 games left to play.
 BRF can only allow ['PTF', 'CHF', 'NEW'] to win 12 total games but they have 15 games left against each other.
 It looked like the Brooklyn Tip-Tops were in contention after 19150920 but the remaining intra-division games ruled them out.
@@ -32,10 +32,10 @@ The Cincinnati Reds were eliminated from the NL title on 19150921 with 13 games 
 The St. Louis Cardinals were eliminated from the NL title on 19150921 with 8 games left to play.
 BRF can only allow ['PTF', 'CHF', 'NEW'] to win 13 total games but they have 15 games left against each other.
 It looked like the Brooklyn Tip-Tops were in contention after 19150919 but the remaining intra-division games ruled them out.
-PIT can only allow ['PHI', 'BRO'] to win 3 total games but they have 4 games left against each other.
-It looked like the Pittsburgh Pirates were in contention after 19150918 but the remaining intra-division games ruled them out.
 NY1 can only allow ['PHI', 'BRO'] to win 3 total games but they have 4 games left against each other.
 It looked like the New York Giants were in contention after 19150918 but the remaining intra-division games ruled them out.
+PIT can only allow ['PHI', 'BRO'] to win 3 total games but they have 4 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19150918 but the remaining intra-division games ruled them out.
 The Brooklyn Tip-Tops were eliminated from the FL title on 19150919 with 12 games left to play.
 The New York Giants were eliminated from the NL title on 19150918 with 16 games left to play.
 The Pittsburgh Pirates were eliminated from the NL title on 19150918 with 10 games left to play.
@@ -56,22 +56,22 @@ BLF can only allow ['NEW', 'PTF', 'SLF', 'KCF', 'CHF', 'BUF', 'BRF'] to win 82 t
 It looked like the Baltimore Terrapins were in contention after 19150901 but the remaining intra-division games ruled them out.
 CLE can only allow ['BOS', 'DET'] to win 1 total games but they have 4 games left against each other.
 It looked like the Cleveland Indians were in contention after 19150831 but the remaining intra-division games ruled them out.
-SLA can only allow ['BOS', 'DET'] to win 1 total games but they have 4 games left against each other.
-It looked like the St.Louis Browns were in contention after 19150831 but the remaining intra-division games ruled them out.
 BLF can only allow ['NEW', 'PTF', 'SLF', 'KCF', 'CHF', 'BUF', 'BRF'] to win 84 total games but they have 85 games left against each other.
 It looked like the Baltimore Terrapins were in contention after 19150831 but the remaining intra-division games ruled them out.
+SLA can only allow ['BOS', 'DET'] to win 1 total games but they have 4 games left against each other.
+It looked like the St.Louis Browns were in contention after 19150831 but the remaining intra-division games ruled them out.
 CLE can only allow ['BOS', 'DET'] to win 2 total games but they have 4 games left against each other.
 It looked like the Cleveland Indians were in contention after 19150830 but the remaining intra-division games ruled them out.
-SLA can only allow ['BOS', 'DET', 'CHA'] to win 12 total games but they have 14 games left against each other.
-It looked like the St.Louis Browns were in contention after 19150830 but the remaining intra-division games ruled them out.
 BLF can only allow ['NEW', 'PTF', 'SLF', 'CHF', 'KCF', 'BUF', 'BRF'] to win 87 total games but they have 88 games left against each other.
 It looked like the Baltimore Terrapins were in contention after 19150830 but the remaining intra-division games ruled them out.
+SLA can only allow ['BOS', 'DET', 'CHA'] to win 12 total games but they have 14 games left against each other.
+It looked like the St.Louis Browns were in contention after 19150830 but the remaining intra-division games ruled them out.
 CLE can only allow ['BOS', 'DET'] to win 2 total games but they have 4 games left against each other.
 It looked like the Cleveland Indians were in contention after 19150829 but the remaining intra-division games ruled them out.
-SLA can only allow ['BOS', 'DET', 'CHA'] to win 12 total games but they have 14 games left against each other.
-It looked like the St.Louis Browns were in contention after 19150829 but the remaining intra-division games ruled them out.
 BLF can only allow ['NEW', 'PTF', 'CHF', 'SLF', 'KCF', 'BUF', 'BRF'] to win 89 total games but they have 90 games left against each other.
 It looked like the Baltimore Terrapins were in contention after 19150829 but the remaining intra-division games ruled them out.
+SLA can only allow ['BOS', 'DET', 'CHA'] to win 12 total games but they have 14 games left against each other.
+It looked like the St.Louis Browns were in contention after 19150829 but the remaining intra-division games ruled them out.
 BLF can only allow ['PTF', 'NEW', 'CHF', 'KCF', 'SLF', 'BUF', 'BRF'] to win 92 total games but they have 93 games left against each other.
 It looked like the Baltimore Terrapins were in contention after 19150828 but the remaining intra-division games ruled them out.
 The Cleveland Indians were eliminated from the AL title on 19150829 with 35 games left to play.

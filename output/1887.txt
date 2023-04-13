@@ -2,8 +2,8 @@ This season has 16 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AA has 140 games per team.
 The NL has 126 games per team.
-The Philadelphia Phillies were eliminated from the NL title on 18871006 with 4 games left to play.
 The Chicago Cubs were eliminated from the NL title on 18871006 with 6 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 18871006 with 4 games left to play.
 The Cincinnati Reds were eliminated from the AA title on 18870929 with 10 games left to play.
 The New York Giants were eliminated from the NL title on 18870928 with 10 games left to play.
 The Boston Braves were eliminated from the NL title on 18870926 with 14 games left to play.

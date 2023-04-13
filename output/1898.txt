@@ -10,14 +10,14 @@ NY1 can only allow ['BSN', 'BLN'] to win 5 total games but they have 6 games lef
 It looked like the New York Giants were in contention after 18980926 but the remaining intra-division games ruled them out.
 CHN can only allow ['BSN', 'BLN'] to win 5 total games but they have 6 games left against each other.
 It looked like the Chicago Cubs were in contention after 18980926 but the remaining intra-division games ruled them out.
-The New York Giants were eliminated from the NL title on 18980926 with 19 games left to play.
 The Chicago Cubs were eliminated from the NL title on 18980926 with 15 games left to play.
+The New York Giants were eliminated from the NL title on 18980926 with 19 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 18980926 with 23 games left to play.
 PIT can only allow ['BSN', 'BLN'] to win 4 total games but they have 6 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 18980921 but the remaining intra-division games ruled them out.
 The Pittsburgh Pirates were eliminated from the NL title on 18980921 with 20 games left to play.
-The Louisville Colonels were eliminated from the NL title on 18980915 with 26 games left to play.
 The Brooklyn Dodgers were eliminated from the NL title on 18980915 with 36 games left to play.
+The Louisville Colonels were eliminated from the NL title on 18980915 with 26 games left to play.
 The Washington Senators were eliminated from the NL title on 18980906 with 37 games left to play.
 SLN can only allow ['BSN', 'BLN', 'CIN'] to win 6 total games but they have 10 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 18980830 but the remaining intra-division games ruled them out.

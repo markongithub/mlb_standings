@@ -27,6 +27,6 @@ CIN can only allow ['NY1', 'BSN', 'PIT', 'SLN'] to win 28 total games but they h
 It looked like the Cincinnati Reds were in contention after 19330830 but the remaining intra-division games ruled them out.
 CIN can only allow ['NY1', 'BSN', 'PIT', 'CHN', 'SLN'] to win 44 total games but they have 45 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19330829 but the remaining intra-division games ruled them out.
-The Cincinnati Reds were eliminated from the NL title on 19330829 with 29 games left to play.
 The Boston Red Sox were eliminated from the AL title on 19330829 with 27 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19330829 with 29 games left to play.
 The St. Louis Browns were eliminated from the AL title on 19330823 with 33 games left to play.

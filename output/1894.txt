@@ -9,14 +9,14 @@ The Pittsburgh Pirates were eliminated from the NL title on 18940906 with 20 gam
 The Chicago Cubs were eliminated from the NL title on 18940904 with 22 games left to play.
 The Cincinnati Reds were eliminated from the NL title on 18940903 with 23 games left to play.
 The St. Louis Cardinals were eliminated from the NL title on 18940901 with 23 games left to play.
-LS3 can only allow ['BSN', 'BLN', 'NY1', 'CL4'] to win 18 total games but they have 21 games left against each other.
-It looked like the Louisville Colonels were in contention after 18940822 but the remaining intra-division games ruled them out.
 WSN can only allow ['BSN', 'BLN', 'NY1', 'CL4'] to win 18 total games but they have 21 games left against each other.
 It looked like the Washington Senators were in contention after 18940822 but the remaining intra-division games ruled them out.
-LS3 can only allow ['BSN', 'BLN', 'NY1', 'CL4'] to win 20 total games but they have 21 games left against each other.
-It looked like the Louisville Colonels were in contention after 18940821 but the remaining intra-division games ruled them out.
+LS3 can only allow ['BSN', 'BLN', 'NY1', 'CL4'] to win 18 total games but they have 21 games left against each other.
+It looked like the Louisville Colonels were in contention after 18940822 but the remaining intra-division games ruled them out.
 WSN can only allow ['BSN', 'BLN', 'NY1', 'CL4'] to win 20 total games but they have 21 games left against each other.
 It looked like the Washington Senators were in contention after 18940821 but the remaining intra-division games ruled them out.
+LS3 can only allow ['BSN', 'BLN', 'NY1', 'CL4'] to win 20 total games but they have 21 games left against each other.
+It looked like the Louisville Colonels were in contention after 18940821 but the remaining intra-division games ruled them out.
 WSN can only allow ['BSN', 'BLN', 'NY1', 'CL4', 'PHI', 'PIT', 'BRO', 'CHN', 'CIN'] to win 110 total games but they have 116 games left against each other.
 It looked like the Washington Senators were in contention after 18940820 but the remaining intra-division games ruled them out.
 The Louisville Colonels were eliminated from the NL title on 18940821 with 33 games left to play.

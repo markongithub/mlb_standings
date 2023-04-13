@@ -5,9 +5,9 @@ The NL has 162 games per team.
 Traceback (most recent call last):
   File "/mnt/c/Users/digam/git/github.com/markongithub/mlb_standings/run_one_year_retro.py", line 7, in <module>
     mlb_standings.run_one_year_retro(int(sys.argv[1]))
-  File "/mnt/c/Users/digam/git/github.com/markongithub/mlb_standings/mlb_standings.py", line 922, in run_one_year_retro
+  File "/mnt/c/Users/digam/git/github.com/markongithub/mlb_standings/mlb_standings.py", line 926, in run_one_year_retro
     return show_dumb_elimination_output4(played, unplayed, season_params)
-  File "/mnt/c/Users/digam/git/github.com/markongithub/mlb_standings/mlb_standings.py", line 1263, in show_dumb_elimination_output4
+  File "/mnt/c/Users/digam/git/github.com/markongithub/mlb_standings/mlb_standings.py", line 1267, in show_dumb_elimination_output4
     wildcard_contenders = wildcard_contenders_naive(
   File "/mnt/c/Users/digam/git/github.com/markongithub/mlb_standings/mlb_standings.py", line 601, in wildcard_contenders_naive
     return set(wildcard_standings(standings_immutable, season_params).index)

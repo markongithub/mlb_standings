@@ -9,8 +9,8 @@ It looked like the Philadelphia Phillies were in contention after 18890927 but t
 The Philadelphia Phillies were eliminated from the NL title on 18890927 with 18 games left to play.
 CHN can only allow ['NY1', 'BSN'] to win 3 total games but they have 4 games left against each other.
 It looked like the Chicago Cubs were in contention after 18890923 but the remaining intra-division games ruled them out.
-The Cincinnati Reds were eliminated from the AA title on 18890923 with 15 games left to play.
 The Chicago Cubs were eliminated from the NL title on 18890923 with 17 games left to play.
+The Cincinnati Reds were eliminated from the AA title on 18890923 with 15 games left to play.
 CL4 can only allow ['NY1', 'BSN'] to win 2 total games but they have 4 games left against each other.
 It looked like the Cleveland Spiders were in contention after 18890920 but the remaining intra-division games ruled them out.
 The Cleveland Spiders were eliminated from the NL title on 18890920 with 20 games left to play.

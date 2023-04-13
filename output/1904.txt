@@ -14,10 +14,10 @@ The Pittsburgh Pirates were eliminated from the NL title on 19040922 with 20 gam
 SLA can only allow ['NYA', 'BOS'] to win 4 total games but they have 5 games left against each other.
 It looked like the St.Louis Browns were in contention after 19040915 but the remaining intra-division games ruled them out.
 The Cincinnati Reds were eliminated from the NL title on 19040916 with 24 games left to play.
-SLA can only allow ['NYA', 'BOS'] to win 5 total games but they have 6 games left against each other.
-It looked like the St.Louis Browns were in contention after 19040914 but the remaining intra-division games ruled them out.
 DET can only allow ['NYA', 'BOS'] to win 1 total games but they have 6 games left against each other.
 It looked like the Detroit Tigers were in contention after 19040914 but the remaining intra-division games ruled them out.
+SLA can only allow ['NYA', 'BOS'] to win 5 total games but they have 6 games left against each other.
+It looked like the St.Louis Browns were in contention after 19040914 but the remaining intra-division games ruled them out.
 DET can only allow ['NYA', 'BOS'] to win 4 total games but they have 7 games left against each other.
 It looked like the Detroit Tigers were in contention after 19040913 but the remaining intra-division games ruled them out.
 The St.Louis Browns were eliminated from the AL title on 19040914 with 27 games left to play.

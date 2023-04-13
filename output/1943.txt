@@ -11,8 +11,8 @@ The Chicago White Sox were eliminated from the AL title on 19430915 with 18 game
 The St. Louis Browns were eliminated from the AL title on 19430912 with 21 games left to play.
 The Boston Red Sox were eliminated from the AL title on 19430911 with 20 games left to play.
 The Pittsburgh Pirates were eliminated from the NL title on 19430910 with 16 games left to play.
-The Chicago Cubs were eliminated from the NL title on 19430906 with 24 games left to play.
 The Boston Braves were eliminated from the NL title on 19430906 with 30 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19430906 with 24 games left to play.
 The Philadelphia Blue Jays were eliminated from the NL title on 19430904 with 29 games left to play.
 PHA can only allow ['NYA', 'CLE', 'WS1', 'CHA', 'DET'] to win 41 total games but they have 47 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19430828 but the remaining intra-division games ruled them out.

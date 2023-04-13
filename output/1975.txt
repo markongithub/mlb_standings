@@ -5,19 +5,19 @@ The NL has 162 games per team.
 The Baltimore Orioles were eliminated from the ALE title on 19750927 with 5 games left to play.
 The Kansas City Royals were eliminated from the ALW title on 19750924 with 4 games left to play.
 The Philadelphia Phillies were eliminated from the NLE title on 19750922 with 6 games left to play.
-The St. Louis Cardinals were eliminated from the NLE title on 19750919 with 9 games left to play.
 The New York Mets were eliminated from the NLE title on 19750919 with 8 games left to play.
+The St. Louis Cardinals were eliminated from the NLE title on 19750919 with 9 games left to play.
 The New York Yankees were eliminated from the ALE title on 19750916 with 12 games left to play.
-The Cleveland Indians were eliminated from the ALE title on 19750915 with 17 games left to play.
 The Chicago Cubs were eliminated from the NLE title on 19750915 with 11 games left to play.
+The Cleveland Indians were eliminated from the ALE title on 19750915 with 17 games left to play.
 MON can only allow ['PIT', 'PHI', 'SLN', 'NYN'] to win 21 total games but they have 23 games left against each other.
 It looked like the Montreal Expos were in contention after 19750910 but the remaining intra-division games ruled them out.
 The Chicago White Sox were eliminated from the ALW title on 19750910 with 18 games left to play.
 The Minnesota Twins were eliminated from the ALW title on 19750910 with 21 games left to play.
 The Montreal Expos were eliminated from the NLE title on 19750910 with 18 games left to play.
 The Texas Rangers were eliminated from the ALW title on 19750910 with 15 games left to play.
-The Los Angeles Dodgers were eliminated from the NLW title on 19750907 with 19 games left to play.
 The California Angels were eliminated from the ALW title on 19750907 with 19 games left to play.
+The Los Angeles Dodgers were eliminated from the NLW title on 19750907 with 19 games left to play.
 The Milwaukee Brewers were eliminated from the ALE title on 19750906 with 21 games left to play.
 The San Francisco Giants were eliminated from the NLW title on 19750905 with 22 games left to play.
 The Detroit Tigers were eliminated from the ALE title on 19750903 with 26 games left to play.

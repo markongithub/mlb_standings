@@ -10,12 +10,12 @@ It looked like the Cleveland Spiders were in contention after 18970906 but the r
 The Cleveland Spiders were eliminated from the NL title on 18970906 with 22 games left to play.
 CHN can only allow ['BLN', 'BSN'] to win 2 total games but they have 3 games left against each other.
 It looked like the Chicago Cubs were in contention after 18970831 but the remaining intra-division games ruled them out.
-The Pittsburgh Pirates were eliminated from the NL title on 18970831 with 27 games left to play.
 The Chicago Cubs were eliminated from the NL title on 18970831 with 24 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 18970831 with 27 games left to play.
+The Brooklyn Dodgers were eliminated from the NL title on 18970828 with 26 games left to play.
+The Louisville Colonels were eliminated from the NL title on 18970828 with 24 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 18970828 with 24 games left to play.
 The Washington Senators were eliminated from the NL title on 18970828 with 28 games left to play.
-The Louisville Colonels were eliminated from the NL title on 18970828 with 24 games left to play.
-The Brooklyn Dodgers were eliminated from the NL title on 18970828 with 26 games left to play.
 SLN can only allow ['BSN', 'CIN', 'BLN'] to win 9 total games but they have 11 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 18970811 but the remaining intra-division games ruled them out.
 SLN can only allow ['BSN', 'CIN', 'BLN', 'NY1', 'CL4', 'CHN', 'PHI', 'PIT', 'BRO'] to win 130 total games but they have 131 games left against each other.

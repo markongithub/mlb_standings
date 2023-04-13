@@ -14,7 +14,7 @@ The Philadelphia Phillies were eliminated from the NL title on 19310830 with 26 
 The St. Louis Browns were eliminated from the AL title on 19310824 with 34 games left to play.
 CIN can only allow ['SLN', 'NY1', 'CHN', 'BRO', 'BSN', 'PIT'] to win 69 total games but they have 76 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19310822 but the remaining intra-division games ruled them out.
-The Cincinnati Reds were eliminated from the NL title on 19310822 with 33 games left to play.
 The Boston Red Sox were eliminated from the AL title on 19310822 with 36 games left to play.
 The Chicago White Sox were eliminated from the AL title on 19310822 with 36 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19310822 with 33 games left to play.
 The Detroit Tigers were eliminated from the AL title on 19310821 with 36 games left to play.

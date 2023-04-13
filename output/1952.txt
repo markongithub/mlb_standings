@@ -8,10 +8,10 @@ The St. Louis Cardinals were eliminated from the NL title on 19520920 with 7 gam
 The Chicago White Sox were eliminated from the AL title on 19520916 with 8 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 19520915 with 11 games left to play.
 The Boston Red Sox were eliminated from the AL title on 19520914 with 12 games left to play.
-PHA can only allow ['NYA', 'CLE'] to win 0 total games but they have 1 games left against each other.
-It looked like the Philadelphia Athletics were in contention after 19520912 but the remaining intra-division games ruled them out.
 WS1 can only allow ['NYA', 'CLE'] to win 0 total games but they have 1 games left against each other.
 It looked like the Washington Senators were in contention after 19520912 but the remaining intra-division games ruled them out.
+PHA can only allow ['NYA', 'CLE'] to win 0 total games but they have 1 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19520912 but the remaining intra-division games ruled them out.
 The Philadelphia Athletics were eliminated from the AL title on 19520912 with 12 games left to play.
 The Washington Senators were eliminated from the AL title on 19520912 with 11 games left to play.
 The Chicago Cubs were eliminated from the NL title on 19520906 with 17 games left to play.

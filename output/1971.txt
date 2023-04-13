@@ -10,14 +10,14 @@ The Houston Astros were eliminated from the NLW title on 19710919 with 9 games l
 The Cincinnati Reds were eliminated from the NLW title on 19710917 with 9 games left to play.
 The Boston Red Sox were eliminated from the ALE title on 19710916 with 11 games left to play.
 The New York Yankees were eliminated from the ALE title on 19710916 with 13 games left to play.
-The New York Mets were eliminated from the NLE title on 19710915 with 13 games left to play.
 The Kansas City Royals were eliminated from the ALW title on 19710915 with 14 games left to play.
+The New York Mets were eliminated from the NLE title on 19710915 with 13 games left to play.
 The Chicago Cubs were eliminated from the NLE title on 19710914 with 15 games left to play.
 The Chicago White Sox were eliminated from the ALW title on 19710906 with 22 games left to play.
 The Minnesota Twins were eliminated from the ALW title on 19710906 with 24 games left to play.
 The Montreal Expos were eliminated from the NLE title on 19710906 with 24 games left to play.
-The Philadelphia Phillies were eliminated from the NLE title on 19710904 with 24 games left to play.
 The California Angels were eliminated from the ALW title on 19710904 with 24 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 19710904 with 24 games left to play.
 The Washington Senators were eliminated from the ALE title on 19710904 with 25 games left to play.
 The Cleveland Indians were eliminated from the ALE title on 19710901 with 27 games left to play.
 SDN can only allow ['SFN', 'LAN', 'ATL'] to win 16 total games but they have 17 games left against each other.

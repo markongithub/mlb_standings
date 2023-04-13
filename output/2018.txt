@@ -10,15 +10,15 @@ The Cleveland Indians were eliminated from AL wildcard contention on 20180924 wi
 The Tampa Bay Rays were eliminated from AL wildcard contention on 20180924 with 6 games left to play.
 The Arizona Diamondbacks were eliminated from the NLW title on 20180923 with 6 games left to play.
 The Arizona Diamondbacks were eliminated from NL wildcard contention on 20180923 with 6 games left to play.
-The Pittsburgh Pirates were eliminated from NL wildcard contention on 20180923 with 8 games left to play.
 The Philadelphia Phillies were eliminated from NL wildcard contention on 20180923 with 7 games left to play.
+The Pittsburgh Pirates were eliminated from NL wildcard contention on 20180923 with 8 games left to play.
 The Philadelphia Phillies were eliminated from the NLE title on 20180922 with 8 games left to play.
 The Seattle Mariners were eliminated from AL wildcard contention on 20180922 with 8 games left to play.
 The Washington Nationals were eliminated from NL wildcard contention on 20180922 with 7 games left to play.
 The Washington Nationals were eliminated from the NLE title on 20180921 with 8 games left to play.
 The New York Yankees were eliminated from the ALE title on 20180920 with 10 games left to play.
-The Seattle Mariners were eliminated from the ALW title on 20180918 with 11 games left to play.
 The Pittsburgh Pirates were eliminated from the NLC title on 20180918 with 12 games left to play.
+The Seattle Mariners were eliminated from the ALW title on 20180918 with 11 games left to play.
 SFN can only allow ['COL', 'LAN'] to win 0 total games but they have 3 games left against each other.
 It looked like the San Francisco Giants were in contention after 20180916 but the remaining intra-division games ruled them out.
 The New York Mets were eliminated from NL wildcard contention on 20180917 with 12 games left to play.
@@ -36,14 +36,14 @@ It looked like the Cincinnati Reds were in wildcard contention after 20180909 bu
 The Cincinnati Reds were eliminated from NL wildcard contention on 20180909 with 18 games left to play.
 MIA can only allow ['ATL', 'PHI'] to win 3 total games but they have 7 games left against each other.
 It looked like the Miami Marlins were in contention after 20180907 but the remaining intra-division games ruled them out.
-The Toronto Blue Jays were eliminated from AL wildcard contention on 20180908 with 20 games left to play.
 The Minnesota Twins were eliminated from AL wildcard contention on 20180908 with 21 games left to play.
+The Toronto Blue Jays were eliminated from AL wildcard contention on 20180908 with 20 games left to play.
 MIA can only allow ['ATL', 'PHI'] to win 6 total games but they have 7 games left against each other.
 It looked like the Miami Marlins were in contention after 20180906 but the remaining intra-division games ruled them out.
 MIA can only allow ['SLN', 'LAN'] to win 2 total games but they have 4 games left against each other.
 It looked like the Miami Marlins were in wildcard contention after 20180906 but the remaining intra-contender games ruled them out.
-The Miami Marlins were eliminated from the NLE title on 20180906 with 22 games left to play.
 The Detroit Tigers were eliminated from the ALC title on 20180906 with 22 games left to play.
+The Miami Marlins were eliminated from the NLE title on 20180906 with 22 games left to play.
 MIA can only allow ['SLN', 'LAN'] to win 2 total games but they have 4 games left against each other.
 It looked like the Miami Marlins were in wildcard contention after 20180905 but the remaining intra-contender games ruled them out.
 SDN can only allow ['COL', 'LAN'] to win 0 total games but they have 6 games left against each other.

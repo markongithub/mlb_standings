@@ -20,8 +20,8 @@ It looked like the Brooklyn Robins were in contention after 19270908 but the rem
 The Boston Braves were eliminated from the NL title on 19270909 with 25 games left to play.
 BRO can only allow ['PIT', 'NY1', 'SLN'] to win 10 total games but they have 11 games left against each other.
 It looked like the Brooklyn Robins were in contention after 19270907 but the remaining intra-division games ruled them out.
-The Washington Senators were eliminated from the AL title on 19270908 with 23 games left to play.
 The Detroit Tigers were eliminated from the AL title on 19270908 with 22 games left to play.
+The Washington Senators were eliminated from the AL title on 19270908 with 23 games left to play.
 BRO can only allow ['PIT', 'NY1', 'SLN', 'CHN'] to win 19 total games but they have 24 games left against each other.
 It looked like the Brooklyn Robins were in contention after 19270906 but the remaining intra-division games ruled them out.
 BRO can only allow ['PIT', 'NY1', 'SLN', 'CHN'] to win 22 total games but they have 25 games left against each other.

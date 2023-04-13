@@ -2,8 +2,8 @@ This season has 6 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The NL has 60 games per team.
 The Louisville Grays were eliminated from the NL title on 18770917 with 8 games left to play.
-The St. Louis Brown Stockings were eliminated from the NL title on 18770915 with 9 games left to play.
 The Hartford Dark Blues were eliminated from the NL title on 18770915 with 8 games left to play.
+The St. Louis Brown Stockings were eliminated from the NL title on 18770915 with 9 games left to play.
 The Chicago Cubs were eliminated from the NL title on 18770913 with 14 games left to play.
 CN1 can only allow ['BSN', 'LS1', 'SL3'] to win 6 total games but they have 10 games left against each other.
 It looked like the Cincinnati Reds were in contention after 18770826 but the remaining intra-division games ruled them out.

@@ -48,6 +48,6 @@ BOS can only allow ['CHA', 'NYA', 'PHA', 'CLE', 'SLA', 'DET'] to win 86 total ga
 It looked like the Boston Red Sox were in contention after 19060824 but the remaining intra-division games ruled them out.
 BOS can only allow ['CHA', 'NYA', 'PHA', 'CLE', 'SLA', 'DET'] to win 93 total games but they have 94 games left against each other.
 It looked like the Boston Red Sox were in contention after 19060823 but the remaining intra-division games ruled them out.
-The St. Louis Cardinals were eliminated from the NL title on 19060823 with 40 games left to play.
 The Boston Red Sox were eliminated from the AL title on 19060823 with 42 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19060823 with 40 games left to play.
 The Boston Braves were eliminated from the NL title on 19060821 with 41 games left to play.

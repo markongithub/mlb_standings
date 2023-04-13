@@ -3,8 +3,8 @@ The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AL has 162 games per team.
 The NL has 154 games per team.
 The Los Angeles Dodgers were eliminated from the NL title on 19610926 with 4 games left to play.
-The San Francisco Giants were eliminated from the NL title on 19610920 with 9 games left to play.
 The Detroit Tigers were eliminated from the AL title on 19610920 with 10 games left to play.
+The San Francisco Giants were eliminated from the NL title on 19610920 with 9 games left to play.
 The Milwaukee Braves were eliminated from the NL title on 19610917 with 11 games left to play.
 The St. Louis Cardinals were eliminated from the NL title on 19610916 with 12 games left to play.
 The Baltimore Orioles were eliminated from the AL title on 19610915 with 13 games left to play.
@@ -25,8 +25,8 @@ MIN can only allow ['NYA', 'DET'] to win 4 total games but they have 7 games lef
 It looked like the Minnesota Twins were in contention after 19610830 but the remaining intra-division games ruled them out.
 LAA can only allow ['NYA', 'DET'] to win 4 total games but they have 7 games left against each other.
 It looked like the Los Angeles Angels were in contention after 19610830 but the remaining intra-division games ruled them out.
-The Minnesota Twins were eliminated from the AL title on 19610830 with 32 games left to play.
 The Los Angeles Angels were eliminated from the AL title on 19610830 with 30 games left to play.
+The Minnesota Twins were eliminated from the AL title on 19610830 with 32 games left to play.
 WS2 can only allow ['NYA', 'DET'] to win 2 total games but they have 7 games left against each other.
 It looked like the Washington Senators were in contention after 19610827 but the remaining intra-division games ruled them out.
 The Washington Senators were eliminated from the AL title on 19610827 with 36 games left to play.

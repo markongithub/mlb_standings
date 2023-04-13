@@ -21,32 +21,32 @@ It looked like the Boston Braves were in contention after 19080910 but the remai
 BSN can only allow ['NY1', 'PIT', 'CHN'] to win 6 total games but they have 7 games left against each other.
 It looked like the Boston Braves were in contention after 19080909 but the remaining intra-division games ruled them out.
 The Boston Braves were eliminated from the NL title on 19080909 with 26 games left to play.
-NYA can only allow ['DET', 'CHA'] to win 0 total games but they have 6 games left against each other.
-It looked like the New York Yankees were in contention after 19080906 but the remaining intra-division games ruled them out.
 BRO can only allow ['NY1', 'PIT'] to win 1 total games but they have 4 games left against each other.
 It looked like the Brooklyn Dodgers were in contention after 19080906 but the remaining intra-division games ruled them out.
-NYA can only allow ['DET', 'SLA'] to win 2 total games but they have 9 games left against each other.
-It looked like the New York Yankees were in contention after 19080905 but the remaining intra-division games ruled them out.
+NYA can only allow ['DET', 'CHA'] to win 0 total games but they have 6 games left against each other.
+It looked like the New York Yankees were in contention after 19080906 but the remaining intra-division games ruled them out.
 BRO can only allow ['NY1', 'PIT'] to win 2 total games but they have 4 games left against each other.
 It looked like the Brooklyn Dodgers were in contention after 19080905 but the remaining intra-division games ruled them out.
+NYA can only allow ['DET', 'SLA'] to win 2 total games but they have 9 games left against each other.
+It looked like the New York Yankees were in contention after 19080905 but the remaining intra-division games ruled them out.
 SLN can only allow ['NY1', 'PIT'] to win 2 total games but they have 4 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 19080905 but the remaining intra-division games ruled them out.
-NYA can only allow ['DET', 'SLA'] to win 5 total games but they have 10 games left against each other.
-It looked like the New York Yankees were in contention after 19080904 but the remaining intra-division games ruled them out.
 BRO can only allow ['NY1', 'PIT', 'CHN'] to win 8 total games but they have 10 games left against each other.
 It looked like the Brooklyn Dodgers were in contention after 19080904 but the remaining intra-division games ruled them out.
+NYA can only allow ['DET', 'SLA'] to win 5 total games but they have 10 games left against each other.
+It looked like the New York Yankees were in contention after 19080904 but the remaining intra-division games ruled them out.
 SLN can only allow ['NY1', 'PIT', 'CHN'] to win 8 total games but they have 10 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 19080904 but the remaining intra-division games ruled them out.
-NYA can only allow ['DET', 'SLA'] to win 8 total games but they have 11 games left against each other.
-It looked like the New York Yankees were in contention after 19080903 but the remaining intra-division games ruled them out.
 BRO can only allow ['NY1', 'PIT', 'CHN', 'PHI'] to win 26 total games but they have 31 games left against each other.
 It looked like the Brooklyn Dodgers were in contention after 19080903 but the remaining intra-division games ruled them out.
+NYA can only allow ['DET', 'SLA'] to win 8 total games but they have 11 games left against each other.
+It looked like the New York Yankees were in contention after 19080903 but the remaining intra-division games ruled them out.
 SLN can only allow ['NY1', 'PIT', 'CHN'] to win 10 total games but they have 11 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 19080903 but the remaining intra-division games ruled them out.
 NYA can only allow ['DET', 'SLA'] to win 10 total games but they have 11 games left against each other.
 It looked like the New York Yankees were in contention after 19080902 but the remaining intra-division games ruled them out.
-The St. Louis Cardinals were eliminated from the NL title on 19080903 with 34 games left to play.
 The Brooklyn Dodgers were eliminated from the NL title on 19080903 with 35 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19080903 with 34 games left to play.
 NYA can only allow ['SLA', 'CHA', 'CLE'] to win 21 total games but they have 22 games left against each other.
 It looked like the New York Yankees were in contention after 19080901 but the remaining intra-division games ruled them out.
 NYA can only allow ['DET', 'SLA', 'CHA', 'CLE'] to win 33 total games but they have 43 games left against each other.

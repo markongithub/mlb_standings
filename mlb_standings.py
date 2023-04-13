@@ -918,7 +918,9 @@ def run_one_year_retro(year):
     if year == 1891:
         game_log, schedule = fix_1891(game_log, schedule)
     if year == 1905:
-        print("I don't understand why Philly was declared the winner of the 1905 AL, so this output is going to imply Chicago was still in contention at the end of the season. Yes, I have read the Chuck Hildebrandt SABR article. It doesn't clear things up.")
+        print(
+            "I don't understand why Philly was declared the winner of the 1905 AL, so this output is going to imply Chicago was still in contention at the end of the season. Yes, I have read the Chuck Hildebrandt SABR article. It doesn't clear things up."
+        )
     season_params = SeasonParameters(year, nicknames, team_ids, schedule)
     played, unplayed = retrosheet_to_played_unplayed(game_log, schedule, season_params)
     return show_dumb_elimination_output4(played, unplayed, season_params)
@@ -1242,7 +1244,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
             new_contenders = div_contenders.difference(tomorrows_div_contenders)
         # if new_contenders:
         # print(f'Teams eliminated from their division titles on {datetime_to_retro(tomorrow)}: {new_contenders}')
-        for eliminated_team in new_contenders:
+        for eliminated_team in sorted(new_contenders):
             games_to_go_at_elimination = (
                 tomorrows_standings.loc[eliminated_team]["season_length"]
                 - tomorrows_standings.loc[eliminated_team]["W"]
@@ -1288,7 +1290,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
             new_contenders = wildcard_contenders.difference(
                 tomorrows_wildcard_contenders
             )
-        for eliminated_team in new_contenders:
+        for eliminated_team in sorted(new_contenders):
             games_to_go_at_elimination = (
                 tomorrows_standings.loc[eliminated_team]["season_length"]
                 - tomorrows_standings.loc[eliminated_team]["W"]

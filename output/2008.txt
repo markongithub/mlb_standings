@@ -15,14 +15,14 @@ The St. Louis Cardinals were eliminated from NL wildcard contention on 20080923 
 The Florida Marlins were eliminated from the NLE title on 20080922 with 6 games left to play.
 CLE can only allow ['CHA', 'MIN'] to win 2 total games but they have 3 games left against each other.
 It looked like the Cleveland Indians were in contention after 20080920 but the remaining intra-division games ruled them out.
-The Toronto Blue Jays were eliminated from AL wildcard contention on 20080921 with 6 games left to play.
 The Minnesota Twins were eliminated from AL wildcard contention on 20080921 with 6 games left to play.
+The Toronto Blue Jays were eliminated from AL wildcard contention on 20080921 with 6 games left to play.
 CLE can only allow ['CHA', 'MIN'] to win 2 total games but they have 3 games left against each other.
 It looked like the Cleveland Indians were in contention after 20080919 but the remaining intra-division games ruled them out.
 The Milwaukee Brewers were eliminated from the NLC title on 20080920 with 7 games left to play.
 The New York Yankees were eliminated from the ALE title on 20080920 with 7 games left to play.
-The Toronto Blue Jays were eliminated from the ALE title on 20080919 with 8 games left to play.
 The Cleveland Indians were eliminated from the ALC title on 20080919 with 9 games left to play.
+The Toronto Blue Jays were eliminated from the ALE title on 20080919 with 8 games left to play.
 The Arizona Diamondbacks were eliminated from NL wildcard contention on 20080919 with 9 games left to play.
 The Colorado Rockies were eliminated from the NLW title on 20080918 with 9 games left to play.
 The Houston Astros were eliminated from the NLC title on 20080918 with 10 games left to play.
@@ -31,8 +31,8 @@ DET can only allow ['CHA', 'MIN'] to win 1 total games but they have 3 games lef
 It looked like the Detroit Tigers were in contention after 20080915 but the remaining intra-division games ruled them out.
 The St. Louis Cardinals were eliminated from the NLC title on 20080916 with 12 games left to play.
 The Detroit Tigers were eliminated from the ALC title on 20080915 with 13 games left to play.
-The Detroit Tigers were eliminated from AL wildcard contention on 20080913 with 16 games left to play.
 The Cleveland Indians were eliminated from AL wildcard contention on 20080913 with 14 games left to play.
+The Detroit Tigers were eliminated from AL wildcard contention on 20080913 with 16 games left to play.
 The Texas Rangers were eliminated from AL wildcard contention on 20080913 with 13 games left to play.
 The Colorado Rockies were eliminated from NL wildcard contention on 20080911 with 15 games left to play.
 KCA can only allow ['CHA', 'MIN'] to win 1 total games but they have 3 games left against each other.
@@ -43,8 +43,8 @@ It looked like the San Francisco Giants were in wildcard contention after 200809
 The Cincinnati Reds were eliminated from NL wildcard contention on 20080910 with 16 games left to play.
 SDN can only allow ['LAN', 'ARI', 'COL', 'SFN'] to win 22 total games but they have 24 games left against each other.
 It looked like the San Diego Padres were in contention after 20080908 but the remaining intra-division games ruled them out.
-The Kansas City Royals were eliminated from the ALC title on 20080909 with 19 games left to play.
 The Atlanta Braves were eliminated from the NLE title on 20080909 with 17 games left to play.
+The Kansas City Royals were eliminated from the ALC title on 20080909 with 19 games left to play.
 SFN can only allow ['MIL', 'PHI'] to win 3 total games but they have 4 games left against each other.
 It looked like the San Francisco Giants were in wildcard contention after 20080908 but the remaining intra-contender games ruled them out.
 SDN can only allow ['LAN', 'ARI', 'COL', 'SFN'] to win 23 total games but they have 25 games left against each other.
@@ -58,8 +58,8 @@ The Oakland Athletics were eliminated from the ALW title on 20080907 with 20 gam
 BAL can only allow ['TBA', 'BOS'] to win 2 total games but they have 6 games left against each other.
 It looked like the Baltimore Orioles were in contention after 20080905 but the remaining intra-division games ruled them out.
 The San Diego Padres were eliminated from the NLW title on 20080906 with 20 games left to play.
-The Pittsburgh Pirates were eliminated from NL wildcard contention on 20080906 with 21 games left to play.
 The Atlanta Braves were eliminated from NL wildcard contention on 20080906 with 19 games left to play.
+The Pittsburgh Pirates were eliminated from NL wildcard contention on 20080906 with 21 games left to play.
 BAL can only allow ['TBA', 'BOS'] to win 5 total games but they have 6 games left against each other.
 It looked like the Baltimore Orioles were in contention after 20080904 but the remaining intra-division games ruled them out.
 The Kansas City Royals were eliminated from AL wildcard contention on 20080905 with 22 games left to play.

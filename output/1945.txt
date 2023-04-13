@@ -14,8 +14,8 @@ BRO can only allow ['CHN', 'SLN'] to win 4 total games but they have 5 games lef
 It looked like the Brooklyn Dodgers were in contention after 19450916 but the remaining intra-division games ruled them out.
 PIT can only allow ['CHN', 'SLN'] to win 3 total games but they have 5 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 19450915 but the remaining intra-division games ruled them out.
-The Cleveland Indians were eliminated from the AL title on 19450916 with 16 games left to play.
 The Brooklyn Dodgers were eliminated from the NL title on 19450916 with 12 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19450916 with 16 games left to play.
 NY1 can only allow ['CHN', 'SLN'] to win 3 total games but they have 5 games left against each other.
 It looked like the New York Giants were in contention after 19450914 but the remaining intra-division games ruled them out.
 The Pittsburgh Pirates were eliminated from the NL title on 19450915 with 9 games left to play.

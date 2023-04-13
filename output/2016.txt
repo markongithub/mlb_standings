@@ -31,10 +31,10 @@ The Arizona Diamondbacks were eliminated from NL wildcard contention on 20160916
 The Oakland Athletics were eliminated from AL wildcard contention on 20160916 with 15 games left to play.
 The San Diego Padres were eliminated from NL wildcard contention on 20160916 with 15 games left to play.
 The St. Louis Cardinals were eliminated from the NLC title on 20160915 with 16 games left to play.
-TBA can only allow ['TOR', 'SEA'] to win 1 total games but they have 3 games left against each other.
-It looked like the Tampa Bay Rays were in wildcard contention after 20160914 but the remaining intra-contender games ruled them out.
 ANA can only allow ['TOR', 'SEA', 'NYA'] to win 6 total games but they have 7 games left against each other.
 It looked like the Los Angeles Angels were in wildcard contention after 20160914 but the remaining intra-contender games ruled them out.
+TBA can only allow ['TOR', 'SEA'] to win 1 total games but they have 3 games left against each other.
+It looked like the Tampa Bay Rays were in wildcard contention after 20160914 but the remaining intra-contender games ruled them out.
 TBA can only allow ['BAL', 'NYA'] to win 2 total games but they have 3 games left against each other.
 It looked like the Tampa Bay Rays were in wildcard contention after 20160913 but the remaining intra-contender games ruled them out.
 The Los Angeles Angels were eliminated from AL wildcard contention on 20160914 with 17 games left to play.
@@ -49,8 +49,8 @@ TBA can only allow ['BOS', 'TOR', 'BAL'] to win 11 total games but they have 15 
 It looked like the Tampa Bay Rays were in contention after 20160909 but the remaining intra-division games ruled them out.
 SDN can only allow ['LAN', 'SFN'] to win 4 total games but they have 6 games left against each other.
 It looked like the San Diego Padres were in contention after 20160909 but the remaining intra-division games ruled them out.
-The Arizona Diamondbacks were eliminated from the NLW title on 20160910 with 21 games left to play.
 The Los Angeles Angels were eliminated from the ALW title on 20160910 with 21 games left to play.
+The Arizona Diamondbacks were eliminated from the NLW title on 20160910 with 21 games left to play.
 The Philadelphia Phillies were eliminated from the NLE title on 20160910 with 20 games left to play.
 TBA can only allow ['BOS', 'TOR', 'BAL'] to win 15 total games but they have 16 games left against each other.
 It looked like the Tampa Bay Rays were in contention after 20160908 but the remaining intra-division games ruled them out.

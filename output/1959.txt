@@ -23,8 +23,8 @@ CIN can only allow ['SFN', 'MLN', 'LAN'] to win 5 total games but they have 7 ga
 It looked like the Cincinnati Redlegs were in contention after 19590912 but the remaining intra-division games ruled them out.
 CHN can only allow ['SFN', 'MLN', 'LAN'] to win 5 total games but they have 7 games left against each other.
 It looked like the Chicago Cubs were in contention after 19590912 but the remaining intra-division games ruled them out.
-The Cincinnati Redlegs were eliminated from the NL title on 19590912 with 11 games left to play.
 The Chicago Cubs were eliminated from the NL title on 19590912 with 13 games left to play.
+The Cincinnati Redlegs were eliminated from the NL title on 19590912 with 11 games left to play.
 SLN can only allow ['SFN', 'MLN', 'LAN'] to win 6 total games but they have 7 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 19590909 but the remaining intra-division games ruled them out.
 The St. Louis Cardinals were eliminated from the NL title on 19590909 with 14 games left to play.
@@ -35,8 +35,8 @@ PHI can only allow ['SFN', 'LAN'] to win 2 total games but they have 3 games lef
 It looked like the Philadelphia Phillies were in contention after 19590904 but the remaining intra-division games ruled them out.
 PHI can only allow ['SFN', 'LAN'] to win 2 total games but they have 3 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19590903 but the remaining intra-division games ruled them out.
-The Kansas City Athletics were eliminated from the AL title on 19590904 with 23 games left to play.
 The Boston Red Sox were eliminated from the AL title on 19590904 with 19 games left to play.
+The Kansas City Athletics were eliminated from the AL title on 19590904 with 23 games left to play.
 PHI can only allow ['SFN', 'LAN', 'MLN', 'PIT'] to win 13 total games but they have 17 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19590902 but the remaining intra-division games ruled them out.
 PHI can only allow ['SFN', 'LAN', 'MLN', 'PIT'] to win 15 total games but they have 17 games left against each other.

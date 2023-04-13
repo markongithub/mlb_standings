@@ -4,8 +4,8 @@ The AL has 154 games per team.
 The NL has 154 games per team.
 The Philadelphia Phillies were eliminated from the NL title on 19130929 with 10 games left to play.
 The Cleveland Indians were eliminated from the AL title on 19130923 with 9 games left to play.
-The Washington Senators were eliminated from the AL title on 19130922 with 10 games left to play.
 The Chicago Cubs were eliminated from the NL title on 19130922 with 9 games left to play.
+The Washington Senators were eliminated from the AL title on 19130922 with 10 games left to play.
 The Boston Red Sox were eliminated from the AL title on 19130917 with 18 games left to play.
 The Pittsburgh Pirates were eliminated from the NL title on 19130915 with 16 games left to play.
 The Chicago White Sox were eliminated from the AL title on 19130912 with 16 games left to play.

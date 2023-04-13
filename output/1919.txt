@@ -3,19 +3,19 @@ The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AL has 140 games per team.
 The NL has 140 games per team.
 The Cleveland Indians were eliminated from the AL title on 19190924 with 4 games left to play.
-The New York Yankees were eliminated from the AL title on 19190917 with 12 games left to play.
 The Detroit Tigers were eliminated from the AL title on 19190917 with 9 games left to play.
+The New York Yankees were eliminated from the AL title on 19190917 with 12 games left to play.
 The New York Giants were eliminated from the NL title on 19190916 with 11 games left to play.
 The St. Louis Browns were eliminated from the AL title on 19190911 with 14 games left to play.
-The Chicago Cubs were eliminated from the NL title on 19190907 with 20 games left to play.
 The Boston Red Sox were eliminated from the AL title on 19190907 with 20 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19190907 with 20 games left to play.
 The Pittsburgh Pirates were eliminated from the NL title on 19190902 with 24 games left to play.
 The Brooklyn Robins were eliminated from the NL title on 19190901 with 23 games left to play.
 WS1 can only allow ['CHA', 'DET', 'CLE'] to win 15 total games but they have 16 games left against each other.
 It looked like the Washington Senators were in contention after 19190825 but the remaining intra-division games ruled them out.
 The Washington Senators were eliminated from the AL title on 19190825 with 29 games left to play.
-The Philadelphia Phillies were eliminated from the NL title on 19190823 with 36 games left to play.
 The Boston Braves were eliminated from the NL title on 19190823 with 37 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19190823 with 36 games left to play.
 The St. Louis Cardinals were eliminated from the NL title on 19190822 with 36 games left to play.
 PHA can only allow ['CHA', 'DET', 'CLE', 'SLA'] to win 29 total games but they have 34 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19190818 but the remaining intra-division games ruled them out.

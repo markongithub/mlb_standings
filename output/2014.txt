@@ -23,9 +23,9 @@ PHI can only allow ['PIT', 'MIL'] to win 1 total games but they have 3 games lef
 It looked like the Philadelphia Phillies were in wildcard contention after 20140916 but the remaining intra-contender games ruled them out.
 The Cincinnati Reds were eliminated from NL wildcard contention on 20140917 with 9 games left to play.
 The San Diego Padres were eliminated from NL wildcard contention on 20140917 with 11 games left to play.
-The Toronto Blue Jays were eliminated from the ALE title on 20140916 with 12 games left to play.
-The Miami Marlins were eliminated from the NLE title on 20140916 with 12 games left to play.
 The Atlanta Braves were eliminated from the NLE title on 20140916 with 11 games left to play.
+The Miami Marlins were eliminated from the NLE title on 20140916 with 12 games left to play.
+The Toronto Blue Jays were eliminated from the ALE title on 20140916 with 12 games left to play.
 The Philadelphia Phillies were eliminated from NL wildcard contention on 20140916 with 11 games left to play.
 The Cincinnati Reds were eliminated from the NLC title on 20140915 with 11 games left to play.
 The New York Yankees were eliminated from the ALE title on 20140915 with 13 games left to play.
@@ -37,8 +37,8 @@ The New York Mets were eliminated from the NLE title on 20140914 with 12 games l
 The Chicago Cubs were eliminated from NL wildcard contention on 20140914 with 13 games left to play.
 SDN can only allow ['LAN', 'SFN'] to win 3 total games but they have 5 games left against each other.
 It looked like the San Diego Padres were in contention after 20140912 but the remaining intra-division games ruled them out.
-The Philadelphia Phillies were eliminated from the NLE title on 20140913 with 14 games left to play.
 The Chicago White Sox were eliminated from the ALC title on 20140913 with 14 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 20140913 with 14 games left to play.
 The Houston Astros were eliminated from AL wildcard contention on 20140913 with 14 games left to play.
 SDN can only allow ['LAN', 'SFN'] to win 4 total games but they have 6 games left against each other.
 It looked like the San Diego Padres were in contention after 20140911 but the remaining intra-division games ruled them out.
@@ -48,8 +48,8 @@ SDN can only allow ['LAN', 'SFN'] to win 5 total games but they have 6 games lef
 It looked like the San Diego Padres were in contention after 20140910 but the remaining intra-division games ruled them out.
 MIN can only allow ['KCA', 'DET'] to win 0 total games but they have 3 games left against each other.
 It looked like the Minnesota Twins were in contention after 20140910 but the remaining intra-division games ruled them out.
-The Tampa Bay Rays were eliminated from the ALE title on 20140911 with 15 games left to play.
 The Chicago Cubs were eliminated from the NLC title on 20140911 with 16 games left to play.
+The Tampa Bay Rays were eliminated from the ALE title on 20140911 with 15 games left to play.
 ARI can only allow ['PIT', 'MIL'] to win 1 total games but they have 3 games left against each other.
 It looked like the Arizona Diamondbacks were in wildcard contention after 20140910 but the remaining intra-contender games ruled them out.
 The Minnesota Twins were eliminated from AL wildcard contention on 20140911 with 16 games left to play.
@@ -58,8 +58,8 @@ It looked like the Minnesota Twins were in contention after 20140909 but the rem
 The San Diego Padres were eliminated from the NLW title on 20140910 with 17 games left to play.
 COL can only allow ['PIT', 'ATL'] to win 3 total games but they have 4 games left against each other.
 It looked like the Colorado Rockies were in wildcard contention after 20140909 but the remaining intra-contender games ruled them out.
-The Boston Red Sox were eliminated from AL wildcard contention on 20140910 with 16 games left to play.
 The Arizona Diamondbacks were eliminated from NL wildcard contention on 20140910 with 17 games left to play.
+The Boston Red Sox were eliminated from AL wildcard contention on 20140910 with 16 games left to play.
 MIN can only allow ['KCA', 'DET'] to win 2 total games but they have 5 games left against each other.
 It looked like the Minnesota Twins were in contention after 20140908 but the remaining intra-division games ruled them out.
 The Colorado Rockies were eliminated from NL wildcard contention on 20140909 with 17 games left to play.

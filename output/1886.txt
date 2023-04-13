@@ -15,8 +15,8 @@ BSN can only allow ['CHN', 'DTN'] to win 4 total games but they have 5 games lef
 It looked like the Boston Braves were in contention after 18860909 but the remaining intra-division games ruled them out.
 BSN can only allow ['CHN', 'DTN'] to win 5 total games but they have 6 games left against each other.
 It looked like the Boston Braves were in contention after 18860908 but the remaining intra-division games ruled them out.
-The New York Metropolitans were eliminated from the AA title on 18860908 with 35 games left to play.
 The Boston Braves were eliminated from the NL title on 18860908 with 31 games left to play.
+The New York Metropolitans were eliminated from the AA title on 18860908 with 35 games left to play.
 SL5 can only allow ['CHN', 'DTN'] to win 2 total games but they have 6 games left against each other.
 It looked like the St. Louis Maroons were in contention after 18860831 but the remaining intra-division games ruled them out.
 The Baltimore Orioles were eliminated from the AA title on 18860901 with 37 games left to play.

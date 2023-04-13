@@ -18,22 +18,22 @@ It looked like the Boston Braves were in contention after 19200910 but the remai
 WS1 can only allow ['CHA', 'NYA'] to win 2 total games but they have 3 games left against each other.
 It looked like the Washington Senators were in contention after 19200910 but the remaining intra-division games ruled them out.
 The St. Louis Cardinals were eliminated from the NL title on 19200911 with 19 games left to play.
+BOS can only allow ['CLE', 'CHA'] to win 1 total games but they have 3 games left against each other.
+It looked like the Boston Red Sox were in contention after 19200909 but the remaining intra-division games ruled them out.
 BSN can only allow ['CIN', 'BRO', 'NY1', 'PIT'] to win 23 total games but they have 27 games left against each other.
 It looked like the Boston Braves were in contention after 19200909 but the remaining intra-division games ruled them out.
 WS1 can only allow ['CLE', 'CHA', 'NYA'] to win 7 total games but they have 8 games left against each other.
 It looked like the Washington Senators were in contention after 19200909 but the remaining intra-division games ruled them out.
-BOS can only allow ['CLE', 'CHA'] to win 1 total games but they have 3 games left against each other.
-It looked like the Boston Red Sox were in contention after 19200909 but the remaining intra-division games ruled them out.
 BOS can only allow ['CLE', 'NYA', 'CHA'] to win 6 total games but they have 9 games left against each other.
 It looked like the Boston Red Sox were in contention after 19200908 but the remaining intra-division games ruled them out.
-The Washington Senators were eliminated from the AL title on 19200909 with 26 games left to play.
 The Boston Braves were eliminated from the NL title on 19200909 with 28 games left to play.
-PHI can only allow ['CIN', 'BRO', 'NY1'] to win 8 total games but they have 12 games left against each other.
-It looked like the Philadelphia Phillies were in contention after 19200907 but the remaining intra-division games ruled them out.
+The Washington Senators were eliminated from the AL title on 19200909 with 26 games left to play.
 BOS can only allow ['CLE', 'NYA', 'CHA'] to win 7 total games but they have 9 games left against each other.
 It looked like the Boston Red Sox were in contention after 19200907 but the remaining intra-division games ruled them out.
-The Philadelphia Phillies were eliminated from the NL title on 19200907 with 24 games left to play.
+PHI can only allow ['CIN', 'BRO', 'NY1'] to win 8 total games but they have 12 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19200907 but the remaining intra-division games ruled them out.
 The Boston Red Sox were eliminated from the AL title on 19200907 with 21 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19200907 with 24 games left to play.
 DET can only allow ['CLE', 'CHA'] to win 2 total games but they have 3 games left against each other.
 It looked like the Detroit Tigers were in contention after 19200902 but the remaining intra-division games ruled them out.
 DET can only allow ['CLE', 'CHA', 'NYA'] to win 5 total games but they have 9 games left against each other.

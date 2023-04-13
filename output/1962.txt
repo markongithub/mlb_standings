@@ -6,8 +6,8 @@ The Minnesota Twins were eliminated from the AL title on 19620925 with 3 games l
 The Los Angeles Angels were eliminated from the AL title on 19620923 with 6 games left to play.
 The Cincinnati Reds were eliminated from the NL title on 19620922 with 5 games left to play.
 The Pittsburgh Pirates were eliminated from the NL title on 19620921 with 8 games left to play.
-The Detroit Tigers were eliminated from the AL title on 19620918 with 11 games left to play.
 The Chicago White Sox were eliminated from the AL title on 19620918 with 10 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19620918 with 11 games left to play.
 The Baltimore Orioles were eliminated from the AL title on 19620912 with 15 games left to play.
 The Cleveland Indians were eliminated from the AL title on 19620912 with 14 games left to play.
 The St. Louis Cardinals were eliminated from the NL title on 19620911 with 16 games left to play.
@@ -28,14 +28,14 @@ It looked like the Washington Senators were in contention after 19620826 but the
 The Washington Senators were eliminated from the AL title on 19620826 with 31 games left to play.
 CHN can only allow ['LAN', 'SFN', 'CIN'] to win 8 total games but they have 12 games left against each other.
 It looked like the Chicago Cubs were in contention after 19620822 but the remaining intra-division games ruled them out.
-HOU can only allow ['LAN', 'SFN', 'CIN'] to win 9 total games but they have 12 games left against each other.
-It looked like the Houston Colt .45's were in contention after 19620821 but the remaining intra-division games ruled them out.
 CHN can only allow ['LAN', 'SFN', 'CIN', 'PIT'] to win 23 total games but they have 26 games left against each other.
 It looked like the Chicago Cubs were in contention after 19620821 but the remaining intra-division games ruled them out.
-HOU can only allow ['LAN', 'SFN', 'CIN', 'PIT', 'SLN'] to win 44 total games but they have 46 games left against each other.
-It looked like the Houston Colt .45's were in contention after 19620820 but the remaining intra-division games ruled them out.
+HOU can only allow ['LAN', 'SFN', 'CIN'] to win 9 total games but they have 12 games left against each other.
+It looked like the Houston Colt .45's were in contention after 19620821 but the remaining intra-division games ruled them out.
 CHN can only allow ['LAN', 'SFN', 'CIN', 'PIT', 'SLN'] to win 44 total games but they have 46 games left against each other.
 It looked like the Chicago Cubs were in contention after 19620820 but the remaining intra-division games ruled them out.
+HOU can only allow ['LAN', 'SFN', 'CIN', 'PIT', 'SLN'] to win 44 total games but they have 46 games left against each other.
+It looked like the Houston Colt .45's were in contention after 19620820 but the remaining intra-division games ruled them out.
 CHN can only allow ['LAN', 'SFN', 'CIN', 'PIT', 'SLN', 'MLN'] to win 65 total games but they have 70 games left against each other.
 It looked like the Chicago Cubs were in contention after 19620819 but the remaining intra-division games ruled them out.
 The Houston Colt .45's were eliminated from the NL title on 19620820 with 39 games left to play.

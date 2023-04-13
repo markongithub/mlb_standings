@@ -8,17 +8,17 @@ The Chicago White Sox were eliminated from the AL title on 19161002 with 3 games
 The New York Giants were eliminated from the NL title on 19161002 with 5 games left to play.
 The Detroit Tigers were eliminated from the AL title on 19160929 with 3 games left to play.
 The New York Yankees were eliminated from the AL title on 19160923 with 9 games left to play.
-SLA can only allow ['BOS', 'DET'] to win 0 total games but they have 1 games left against each other.
-It looked like the St. Louis Browns were in contention after 19160920 but the remaining intra-division games ruled them out.
 CLE can only allow ['BOS', 'DET'] to win 0 total games but they have 1 games left against each other.
 It looked like the Cleveland Indians were in contention after 19160920 but the remaining intra-division games ruled them out.
+SLA can only allow ['BOS', 'DET'] to win 0 total games but they have 1 games left against each other.
+It looked like the St. Louis Browns were in contention after 19160920 but the remaining intra-division games ruled them out.
 The Washington Senators were eliminated from the AL title on 19160921 with 12 games left to play.
-SLA can only allow ['BOS', 'DET'] to win 1 total games but they have 2 games left against each other.
-It looked like the St. Louis Browns were in contention after 19160919 but the remaining intra-division games ruled them out.
 CLE can only allow ['BOS', 'DET'] to win 1 total games but they have 2 games left against each other.
 It looked like the Cleveland Indians were in contention after 19160919 but the remaining intra-division games ruled them out.
-The St. Louis Browns were eliminated from the AL title on 19160919 with 9 games left to play.
+SLA can only allow ['BOS', 'DET'] to win 1 total games but they have 2 games left against each other.
+It looked like the St. Louis Browns were in contention after 19160919 but the remaining intra-division games ruled them out.
 The Cleveland Indians were eliminated from the AL title on 19160919 with 10 games left to play.
+The St. Louis Browns were eliminated from the AL title on 19160919 with 9 games left to play.
 The Pittsburgh Pirates were eliminated from the NL title on 19160916 with 16 games left to play.
 CHN can only allow ['BRO', 'PHI'] to win 1 total games but they have 3 games left against each other.
 It looked like the Chicago Cubs were in contention after 19160913 but the remaining intra-division games ruled them out.

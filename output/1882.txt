@@ -7,8 +7,8 @@ The Buffalo Bisons were eliminated from the NL title on 18820923 with 5 games le
 The Boston Braves were eliminated from the NL title on 18820920 with 5 games left to play.
 The Detroit Wolverines were eliminated from the NL title on 18820920 with 6 games left to play.
 The Cleveland Spiders were eliminated from the NL title on 18820919 with 7 games left to play.
-The Philadelphia Athletics were eliminated from the AA title on 18820916 with 12 games left to play.
 The Louisville Colonels were eliminated from the AA title on 18820916 with 12 games left to play.
+The Philadelphia Athletics were eliminated from the AA title on 18820916 with 12 games left to play.
 The Pittsburgh Pirates were eliminated from the AA title on 18820913 with 11 games left to play.
 SL4 can only allow ['CN2', 'LS2'] to win 9 total games but they have 10 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 18820904 but the remaining intra-division games ruled them out.
