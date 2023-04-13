@@ -917,6 +917,8 @@ def run_one_year_retro(year):
         game_log, schedule = fix_1890(game_log, schedule)
     if year == 1891:
         game_log, schedule = fix_1891(game_log, schedule)
+    if year == 1905:
+        print("I don't understand why Philly was declared the winner of the 1905 AL, so this output is going to imply Chicago was still in contention at the end of the season. Yes, I have read the Chuck Hildebrandt SABR article. It doesn't clear things up.")
     season_params = SeasonParameters(year, nicknames, team_ids, schedule)
     played, unplayed = retrosheet_to_played_unplayed(game_log, schedule, season_params)
     return show_dumb_elimination_output4(played, unplayed, season_params)

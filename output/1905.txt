@@ -1,3 +1,4 @@
+I don't understand why Philly was declared the winner of the 1905 AL, so this output is going to imply Chicago was still in contention at the end of the season. Yes, I have read the Chuck Hildebrandt SABR article. It doesn't clear things up.
 This season has 16 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AL has 154 games per team.
@@ -9,11 +10,11 @@ CLE can only allow ['PHA', 'CHA'] to win 1 total games but they have 3 games lef
 It looked like the Cleveland Indians were in contention after 19050925 but the remaining intra-division games ruled them out.
 The Boston Red Sox were eliminated from the AL title on 19050926 with 15 games left to play.
 The New York Yankees were eliminated from the AL title on 19050926 with 19 games left to play.
-The Detroit Tigers were eliminated from the AL title on 19050925 with 14 games left to play.
 The Chicago Cubs were eliminated from the NL title on 19050925 with 12 games left to play.
 The Cleveland Indians were eliminated from the AL title on 19050925 with 14 games left to play.
-The Washington Senators were eliminated from the AL title on 19050919 with 23 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19050925 with 14 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 19050919 with 21 games left to play.
+The Washington Senators were eliminated from the AL title on 19050919 with 23 games left to play.
 CIN can only allow ['NY1', 'PIT'] to win 1 total games but they have 3 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19050910 but the remaining intra-division games ruled them out.
 CIN can only allow ['NY1', 'PIT'] to win 2 total games but they have 3 games left against each other.
