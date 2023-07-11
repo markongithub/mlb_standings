@@ -272,16 +272,21 @@ def division_contenders(standings_immutable, season_length, division_winners=1):
     df = standings_immutable.copy()
     #    print(f'division_contenders was called with columns {df.columns}')
     # df['div'] = divisions['div']
-    max_wins = df["season_length"] - df["L"]
+    df["max_wins"] = df["season_length"] - df["L"]
     division_contenders = set()
-    for index, row in df.iterrows():
-        division_win_threshold = (
-            df.loc[(df["div"] == row["div"])]["W"].nlargest(division_winners).min()
+    division_win_threshold = {}
+    for division in df["div"].unique():
+        division_win_threshold[division] = (
+            df.loc[(df["div"] == division)]["W"].nlargest(division_winners).min()
         )
-        # print(f'{index} will need {division_win_threshold} wins to win this division.')
-        if max_wins[index] >= division_win_threshold:
-            division_contenders.add(index)
-    return division_contenders
+    # print(f'Win thresholds by division: {division_win_threshold}')
+    def i_fail_at_pandas(division):
+        return division_win_threshold[division]
+
+    df["is_contender"] = df["max_wins"] >= df["div"].apply(i_fail_at_pandas)
+    output = df.loc[df["is_contender"]]["div"]
+    # print(f'Here is what I think I will return: {output}')
+    return output
 
 
 def retro_to_datetime(retro_str):
@@ -1219,11 +1224,26 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
         )
         # print(current_standings)
 
-        div_contenders = division_contenders(
+        div_contenders_df = division_contenders(
             current_standings,
             season_params.season_lengths,
             division_winners=season_params.winners_per_division,
         )
+        if current_date == max_date:
+            # check for end-of-season ties
+            # print(f"div_contenders_df: {div_contenders_df}")
+            winners_by_division = div_contenders_df.groupby(div_contenders_df).size()
+            # print(f"winners_by_division: {winners_by_division}")
+            for (index, value) in winners_by_division.items():
+                if value > season_params.winners_per_division:
+                    contenders_set = set(
+                        div_contenders_df.loc[lambda x: x == index].index
+                    )
+                    print(
+                        f"The {index} has more contenders at the end of the season than I expected: {contenders_set}. Either I made a mistake or they had an extra playoff to resolve the tie."
+                    )
+
+        div_contenders = set(div_contenders_df.index)
         # print(f"naive division contenders: {sorted(div_contenders)}")
         for supposed_contender in sorted(div_contenders.copy()):
             # If you're in contention tomorrow, you're in contention today, so I am not going to
