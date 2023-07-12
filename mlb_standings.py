@@ -924,7 +924,7 @@ def run_one_year_retro(year):
         game_log, schedule = fix_1891(game_log, schedule)
     if year == 1905:
         print(
-            "I don't understand why Philly was declared the winner of the 1905 AL, so this output is going to imply Chicago was still in contention at the end of the season. Yes, I have read the Chuck Hildebrandt SABR article. It doesn't clear things up."
+            "I am not handling ties correctly, so this output is going to imply Chicago was still in contention at the end of the season. Sorry, I hope to fix it soon!"
         )
     season_params = SeasonParameters(year, nicknames, team_ids, schedule)
     played, unplayed = retrosheet_to_played_unplayed(game_log, schedule, season_params)
@@ -1240,7 +1240,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
                         div_contenders_df.loc[lambda x: x == index].index
                     )
                     print(
-                        f"The {index} has more contenders at the end of the season than I expected: {contenders_set}. Either I made a mistake or they had an extra playoff to resolve the tie."
+                        f"The {index} has more contenders at the end of the season than I expected: {contenders_set}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on."
                     )
 
         div_contenders = set(div_contenders_df.index)

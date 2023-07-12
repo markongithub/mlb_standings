@@ -2,6 +2,8 @@ This season has 16 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AL has 154 games per team.
 The NL has 154 games per team.
+The AL has more contenders at the end of the season than I expected: {'CHA', 'DET', 'CLE'}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
+The NL has more contenders at the end of the season than I expected: {'CHN', 'NY1', 'PIT'}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
 The St.Louis Browns were eliminated from the AL title on 19081003 with 5 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 19080925 with 14 games left to play.
 The Boston Red Sox were eliminated from the AL title on 19080923 with 14 games left to play.

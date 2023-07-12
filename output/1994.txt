@@ -2,3 +2,9 @@ This season has 28 teams.
 The top 1 teams from each division go to the postseason, plus 1 wild cards.
 The AL has 162 games per team.
 The NL has 162 games per team.
+The ALC has more contenders at the end of the season than I expected: {'KCA', 'CLE', 'MIL', 'MIN', 'CHA'}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
+The ALE has more contenders at the end of the season than I expected: {'DET', 'BAL', 'TOR', 'BOS', 'NYA'}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
+The ALW has more contenders at the end of the season than I expected: {'SEA', 'OAK', 'CAL', 'TEX'}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
+The NLC has more contenders at the end of the season than I expected: {'HOU', 'PIT', 'CHN', 'SLN', 'CIN'}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
+The NLE has more contenders at the end of the season than I expected: {'MON', 'PHI', 'NYN', 'ATL', 'FLO'}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
+The NLW has more contenders at the end of the season than I expected: {'COL', 'SFN', 'SDN', 'LAN'}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.

@@ -3,6 +3,8 @@ The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AA has 140 games per team.
 The NL has 140 games per team.
 The PL has 140 games per team.
+The NL has more contenders at the end of the season than I expected: {'CHN', 'PHI', 'BRO'}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
+The PL has more contenders at the end of the season than I expected: {'NYP', 'BSP', 'BRP'}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
 The St. Louis Cardinals were eliminated from the AA title on 18901010 with 7 games left to play.
 The Columbus Colts were eliminated from the AA title on 18901008 with 11 games left to play.
 The Toledo Maumees were eliminated from the AA title on 18901006 with 15 games left to play.

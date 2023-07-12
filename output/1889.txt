@@ -2,6 +2,8 @@ This season has 16 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AA has 140 games per team.
 The NL has 140 games per team.
+The AA has more contenders at the end of the season than I expected: {'BR3', 'SL4'}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
+The NL has more contenders at the end of the season than I expected: {'NY1', 'BSN'}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
 The Philadelphia Athletics were eliminated from the AA title on 18891003 with 16 games left to play.
 The Baltimore Orioles were eliminated from the AA title on 18890929 with 18 games left to play.
 PHI can only allow ['BSN', 'NY1'] to win 0 total games but they have 4 games left against each other.

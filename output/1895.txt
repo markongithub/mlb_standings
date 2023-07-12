@@ -1,6 +1,7 @@
 This season has 12 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The NL has 132 games per team.
+The NL has more contenders at the end of the season than I expected: {'CL4', 'BLN'}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
 The Philadelphia Phillies were eliminated from the NL title on 18950925 with 5 games left to play.
 CHN can only allow ['BLN', 'CL4'] to win 0 total games but they have 1 games left against each other.
 It looked like the Chicago Cubs were in contention after 18950915 but the remaining intra-division games ruled them out.

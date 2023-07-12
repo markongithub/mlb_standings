@@ -2,6 +2,7 @@ This season has 16 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AL has 154 games per team.
 The NL has 154 games per team.
+The AL has more contenders at the end of the season than I expected: {'DET', 'NYA'}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
 The St. Louis Cardinals were eliminated from the NL title on 19350927 with 2 games left to play.
 NY1 can only allow ['CHN', 'SLN'] to win 4 total games but they have 5 games left against each other.
 It looked like the New York Giants were in contention after 19350922 but the remaining intra-division games ruled them out.

@@ -2,6 +2,7 @@ This season has 26 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AL has 162 games per team.
 The NL has 162 games per team.
+The ALE has more contenders at the end of the season than I expected: {'MIL', 'BAL'}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
 The Los Angeles Dodgers were eliminated from the NLW title on 19821003 with 0 games left to play.
 The Kansas City Royals were eliminated from the ALW title on 19821002 with 1 games left to play.
 The San Francisco Giants were eliminated from the NLW title on 19821002 with 1 games left to play.
