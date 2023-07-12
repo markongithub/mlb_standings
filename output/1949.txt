@@ -14,10 +14,10 @@ PHI can only allow ['SLN', 'BRO'] to win 1 total games but they have 3 games lef
 It looked like the Philadelphia Phillies were in contention after 19490913 but the remaining intra-division games ruled them out.
 The Philadelphia Athletics were eliminated from the AL title on 19490914 with 15 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 19490913 with 14 games left to play.
-NY1 can only allow ['SLN', 'BRO'] to win 0 total games but they have 3 games left against each other.
-It looked like the New York Giants were in contention after 19490910 but the remaining intra-division games ruled them out.
 BSN can only allow ['SLN', 'BRO'] to win 0 total games but they have 3 games left against each other.
 It looked like the Boston Braves were in contention after 19490910 but the remaining intra-division games ruled them out.
+NY1 can only allow ['SLN', 'BRO'] to win 0 total games but they have 3 games left against each other.
+It looked like the New York Giants were in contention after 19490910 but the remaining intra-division games ruled them out.
 BSN can only allow ['SLN', 'BRO'] to win 2 total games but they have 3 games left against each other.
 It looked like the Boston Braves were in contention after 19490909 but the remaining intra-division games ruled them out.
 The New York Giants were eliminated from the NL title on 19490910 with 18 games left to play.
@@ -29,14 +29,14 @@ It looked like the Pittsburgh Pirates were in contention after 19490905 but the 
 The Pittsburgh Pirates were eliminated from the NL title on 19490905 with 24 games left to play.
 CIN can only allow ['SLN', 'BRO'] to win 1 total games but they have 3 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19490903 but the remaining intra-division games ruled them out.
-CIN can only allow ['SLN', 'BRO'] to win 1 total games but they have 3 games left against each other.
-It looked like the Cincinnati Reds were in contention after 19490902 but the remaining intra-division games ruled them out.
 CHA can only allow ['NYA', 'BOS'] to win 0 total games but they have 6 games left against each other.
 It looked like the Chicago White Sox were in contention after 19490902 but the remaining intra-division games ruled them out.
-CIN can only allow ['SLN', 'BRO'] to win 2 total games but they have 3 games left against each other.
-It looked like the Cincinnati Reds were in contention after 19490901 but the remaining intra-division games ruled them out.
+CIN can only allow ['SLN', 'BRO'] to win 1 total games but they have 3 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19490902 but the remaining intra-division games ruled them out.
 CHA can only allow ['NYA', 'BOS'] to win 3 total games but they have 6 games left against each other.
 It looked like the Chicago White Sox were in contention after 19490901 but the remaining intra-division games ruled them out.
+CIN can only allow ['SLN', 'BRO'] to win 2 total games but they have 3 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19490901 but the remaining intra-division games ruled them out.
 CHA can only allow ['NYA', 'BOS'] to win 4 total games but they have 6 games left against each other.
 It looked like the Chicago White Sox were in contention after 19490831 but the remaining intra-division games ruled them out.
 The Cincinnati Reds were eliminated from the NL title on 19490901 with 28 games left to play.

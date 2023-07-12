@@ -48,24 +48,24 @@ The Colorado Rockies were eliminated from NL wildcard contention on 20120915 wit
 The Seattle Mariners were eliminated from the ALW title on 20120914 with 17 games left to play.
 CHN can only allow ['SLN', 'LAN'] to win 1 total games but they have 4 games left against each other.
 It looked like the Chicago Cubs were in wildcard contention after 20120912 but the remaining intra-contender games ruled them out.
+CHN can only allow ['SLN', 'LAN'] to win 1 total games but they have 4 games left against each other.
+It looked like the Chicago Cubs were in wildcard contention after 20120911 but the remaining intra-contender games ruled them out.
 CLE can only allow ['BAL', 'TBA'] to win 2 total games but they have 5 games left against each other.
 It looked like the Cleveland Indians were in wildcard contention after 20120911 but the remaining intra-contender games ruled them out.
 MIN can only allow ['BAL', 'TBA'] to win 2 total games but they have 5 games left against each other.
 It looked like the Minnesota Twins were in wildcard contention after 20120911 but the remaining intra-contender games ruled them out.
-CHN can only allow ['SLN', 'LAN'] to win 1 total games but they have 4 games left against each other.
-It looked like the Chicago Cubs were in wildcard contention after 20120911 but the remaining intra-contender games ruled them out.
 The Colorado Rockies were eliminated from the NLW title on 20120911 with 21 games left to play.
+CHN can only allow ['SLN', 'LAN'] to win 3 total games but they have 4 games left against each other.
+It looked like the Chicago Cubs were in wildcard contention after 20120910 but the remaining intra-contender games ruled them out.
 CLE can only allow ['BAL', 'TBA'] to win 5 total games but they have 6 games left against each other.
 It looked like the Cleveland Indians were in wildcard contention after 20120910 but the remaining intra-contender games ruled them out.
 MIN can only allow ['BAL', 'TBA'] to win 5 total games but they have 6 games left against each other.
 It looked like the Minnesota Twins were in wildcard contention after 20120910 but the remaining intra-contender games ruled them out.
-CHN can only allow ['SLN', 'LAN'] to win 3 total games but they have 4 games left against each other.
-It looked like the Chicago Cubs were in wildcard contention after 20120910 but the remaining intra-contender games ruled them out.
 The New York Mets were eliminated from the NLE title on 20120910 with 21 games left to play.
-MIN can only allow ['BAL', 'TBA'] to win 5 total games but they have 6 games left against each other.
-It looked like the Minnesota Twins were in wildcard contention after 20120909 but the remaining intra-contender games ruled them out.
 CHN can only allow ['SLN', 'LAN'] to win 3 total games but they have 4 games left against each other.
 It looked like the Chicago Cubs were in wildcard contention after 20120909 but the remaining intra-contender games ruled them out.
+MIN can only allow ['BAL', 'TBA'] to win 5 total games but they have 6 games left against each other.
+It looked like the Minnesota Twins were in wildcard contention after 20120909 but the remaining intra-contender games ruled them out.
 The Cleveland Indians were eliminated from AL wildcard contention on 20120910 with 21 games left to play.
 The Chicago Cubs were eliminated from NL wildcard contention on 20120909 with 22 games left to play.
 The Minnesota Twins were eliminated from AL wildcard contention on 20120909 with 22 games left to play.

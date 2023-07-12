@@ -25,10 +25,10 @@ The Cincinnati Reds were eliminated from NL wildcard contention on 20050921 with
 The Minnesota Twins were eliminated from AL wildcard contention on 20050921 with 11 games left to play.
 The San Francisco Giants were eliminated from NL wildcard contention on 20050921 with 11 games left to play.
 The Texas Rangers were eliminated from the ALW title on 20050920 with 11 games left to play.
-TOR can only allow ['BOS', 'NYA'] to win 2 total games but they have 3 games left against each other.
-It looked like the Toronto Blue Jays were in contention after 20050918 but the remaining intra-division games ruled them out.
 MIN can only allow ['CHA', 'CLE'] to win 3 total games but they have 6 games left against each other.
 It looked like the Minnesota Twins were in contention after 20050918 but the remaining intra-division games ruled them out.
+TOR can only allow ['BOS', 'NYA'] to win 2 total games but they have 3 games left against each other.
+It looked like the Toronto Blue Jays were in contention after 20050918 but the remaining intra-division games ruled them out.
 The Colorado Rockies were eliminated from the NLW title on 20050919 with 13 games left to play.
 The Texas Rangers were eliminated from AL wildcard contention on 20050919 with 12 games left to play.
 The Toronto Blue Jays were eliminated from AL wildcard contention on 20050919 with 13 games left to play.
@@ -54,15 +54,15 @@ SEA can only allow ['ANA', 'OAK'] to win 1 total games but they have 4 games lef
 It looked like the Seattle Mariners were in contention after 20050912 but the remaining intra-division games ruled them out.
 SEA can only allow ['ANA', 'OAK'] to win 2 total games but they have 4 games left against each other.
 It looked like the Seattle Mariners were in contention after 20050911 but the remaining intra-division games ruled them out.
-PIT can only allow ['HOU', 'FLO'] to win 2 total games but they have 4 games left against each other.
-It looked like the Pittsburgh Pirates were in wildcard contention after 20050911 but the remaining intra-contender games ruled them out.
 COL can only allow ['HOU', 'FLO'] to win 2 total games but they have 4 games left against each other.
 It looked like the Colorado Rockies were in wildcard contention after 20050911 but the remaining intra-contender games ruled them out.
+PIT can only allow ['HOU', 'FLO'] to win 2 total games but they have 4 games left against each other.
+It looked like the Pittsburgh Pirates were in wildcard contention after 20050911 but the remaining intra-contender games ruled them out.
 The Seattle Mariners were eliminated from the ALW title on 20050911 with 20 games left to play.
-PIT can only allow ['HOU', 'FLO', 'PHI', 'WAS'] to win 13 total games but they have 14 games left against each other.
-It looked like the Pittsburgh Pirates were in wildcard contention after 20050910 but the remaining intra-contender games ruled them out.
 COL can only allow ['HOU', 'FLO'] to win 2 total games but they have 4 games left against each other.
 It looked like the Colorado Rockies were in wildcard contention after 20050910 but the remaining intra-contender games ruled them out.
+PIT can only allow ['HOU', 'FLO', 'PHI', 'WAS'] to win 13 total games but they have 14 games left against each other.
+It looked like the Pittsburgh Pirates were in wildcard contention after 20050910 but the remaining intra-contender games ruled them out.
 The Seattle Mariners were eliminated from AL wildcard contention on 20050911 with 20 games left to play.
 The Chicago Cubs were eliminated from the NLC title on 20050910 with 20 games left to play.
 The Milwaukee Brewers were eliminated from the NLC title on 20050910 with 20 games left to play.

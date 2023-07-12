@@ -46,10 +46,10 @@ The Detroit Tigers were eliminated from the ALC title on 20180906 with 22 games 
 The Miami Marlins were eliminated from the NLE title on 20180906 with 22 games left to play.
 MIA can only allow ['SLN', 'LAN'] to win 2 total games but they have 4 games left against each other.
 It looked like the Miami Marlins were in wildcard contention after 20180905 but the remaining intra-contender games ruled them out.
-SDN can only allow ['COL', 'LAN'] to win 0 total games but they have 6 games left against each other.
-It looked like the San Diego Padres were in contention after 20180904 but the remaining intra-division games ruled them out.
 CIN can only allow ['CHN', 'MIL', 'SLN'] to win 9 total games but they have 10 games left against each other.
 It looked like the Cincinnati Reds were in contention after 20180904 but the remaining intra-division games ruled them out.
+SDN can only allow ['COL', 'LAN'] to win 0 total games but they have 6 games left against each other.
+It looked like the San Diego Padres were in contention after 20180904 but the remaining intra-division games ruled them out.
 The Chicago White Sox were eliminated from the ALC title on 20180905 with 22 games left to play.
 MIA can only allow ['SLN', 'LAN'] to win 3 total games but they have 4 games left against each other.
 It looked like the Miami Marlins were in wildcard contention after 20180904 but the remaining intra-contender games ruled them out.

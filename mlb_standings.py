@@ -1225,7 +1225,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
             division_winners=season_params.winners_per_division,
         )
         # print(f"naive division contenders: {sorted(div_contenders)}")
-        for supposed_contender in div_contenders.copy():
+        for supposed_contender in sorted(div_contenders.copy()):
             # If you're in contention tomorrow, you're in contention today, so I am not going to
             # waste CPU time on you.
             if (
@@ -1270,7 +1270,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
         # print(
         #   f"naive wildcard contenders after {date_str} games: {sorted(wildcard_contenders)}"
         # )
-        for supposed_contender in wildcard_contenders.copy():
+        for supposed_contender in sorted(wildcard_contenders.copy()):
             # If you're in contention tomorrow, you're in contention today, so I am not going to
             # waste CPU time on you.
             if (

@@ -54,22 +54,22 @@ BLF can only allow ['NEW', 'PTF', 'SLF', 'CHF', 'KCF', 'BUF', 'BRF'] to win 79 t
 It looked like the Baltimore Terrapins were in contention after 19150902 but the remaining intra-division games ruled them out.
 BLF can only allow ['NEW', 'PTF', 'SLF', 'KCF', 'CHF', 'BUF', 'BRF'] to win 82 total games but they have 83 games left against each other.
 It looked like the Baltimore Terrapins were in contention after 19150901 but the remaining intra-division games ruled them out.
-CLE can only allow ['BOS', 'DET'] to win 1 total games but they have 4 games left against each other.
-It looked like the Cleveland Indians were in contention after 19150831 but the remaining intra-division games ruled them out.
 BLF can only allow ['NEW', 'PTF', 'SLF', 'KCF', 'CHF', 'BUF', 'BRF'] to win 84 total games but they have 85 games left against each other.
 It looked like the Baltimore Terrapins were in contention after 19150831 but the remaining intra-division games ruled them out.
+CLE can only allow ['BOS', 'DET'] to win 1 total games but they have 4 games left against each other.
+It looked like the Cleveland Indians were in contention after 19150831 but the remaining intra-division games ruled them out.
 SLA can only allow ['BOS', 'DET'] to win 1 total games but they have 4 games left against each other.
 It looked like the St.Louis Browns were in contention after 19150831 but the remaining intra-division games ruled them out.
-CLE can only allow ['BOS', 'DET'] to win 2 total games but they have 4 games left against each other.
-It looked like the Cleveland Indians were in contention after 19150830 but the remaining intra-division games ruled them out.
 BLF can only allow ['NEW', 'PTF', 'SLF', 'CHF', 'KCF', 'BUF', 'BRF'] to win 87 total games but they have 88 games left against each other.
 It looked like the Baltimore Terrapins were in contention after 19150830 but the remaining intra-division games ruled them out.
+CLE can only allow ['BOS', 'DET'] to win 2 total games but they have 4 games left against each other.
+It looked like the Cleveland Indians were in contention after 19150830 but the remaining intra-division games ruled them out.
 SLA can only allow ['BOS', 'DET', 'CHA'] to win 12 total games but they have 14 games left against each other.
 It looked like the St.Louis Browns were in contention after 19150830 but the remaining intra-division games ruled them out.
-CLE can only allow ['BOS', 'DET'] to win 2 total games but they have 4 games left against each other.
-It looked like the Cleveland Indians were in contention after 19150829 but the remaining intra-division games ruled them out.
 BLF can only allow ['NEW', 'PTF', 'CHF', 'SLF', 'KCF', 'BUF', 'BRF'] to win 89 total games but they have 90 games left against each other.
 It looked like the Baltimore Terrapins were in contention after 19150829 but the remaining intra-division games ruled them out.
+CLE can only allow ['BOS', 'DET'] to win 2 total games but they have 4 games left against each other.
+It looked like the Cleveland Indians were in contention after 19150829 but the remaining intra-division games ruled them out.
 SLA can only allow ['BOS', 'DET', 'CHA'] to win 12 total games but they have 14 games left against each other.
 It looked like the St.Louis Browns were in contention after 19150829 but the remaining intra-division games ruled them out.
 BLF can only allow ['PTF', 'NEW', 'CHF', 'KCF', 'SLF', 'BUF', 'BRF'] to win 92 total games but they have 93 games left against each other.

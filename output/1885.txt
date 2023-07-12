@@ -19,10 +19,10 @@ The New York Metropolitans were eliminated from the AA title on 18850821 with 31
 The Boston Braves were eliminated from the NL title on 18850820 with 33 games left to play.
 SL5 can only allow ['CHN', 'NY1'] to win 3 total games but they have 4 games left against each other.
 It looked like the St. Louis Maroons were in contention after 18850818 but the remaining intra-division games ruled them out.
-DTN can only allow ['CHN', 'NY1'] to win 3 total games but they have 4 games left against each other.
-It looked like the Detroit Wolverines were in contention after 18850817 but the remaining intra-division games ruled them out.
 BFN can only allow ['CHN', 'NY1'] to win 3 total games but they have 4 games left against each other.
 It looked like the Buffalo Bisons were in contention after 18850817 but the remaining intra-division games ruled them out.
+DTN can only allow ['CHN', 'NY1'] to win 3 total games but they have 4 games left against each other.
+It looked like the Detroit Wolverines were in contention after 18850817 but the remaining intra-division games ruled them out.
 The St. Louis Maroons were eliminated from the NL title on 18850818 with 36 games left to play.
 The Buffalo Bisons were eliminated from the NL title on 18850817 with 36 games left to play.
 The Detroit Wolverines were eliminated from the NL title on 18850817 with 37 games left to play.

@@ -6,10 +6,10 @@ The Cincinnati Reds were eliminated from the NL title on 18981004 with 6 games l
 CL4 can only allow ['BSN', 'BLN'] to win 5 total games but they have 6 games left against each other.
 It looked like the Cleveland Spiders were in contention after 18980930 but the remaining intra-division games ruled them out.
 The Cleveland Spiders were eliminated from the NL title on 18980930 with 17 games left to play.
-NY1 can only allow ['BSN', 'BLN'] to win 5 total games but they have 6 games left against each other.
-It looked like the New York Giants were in contention after 18980926 but the remaining intra-division games ruled them out.
 CHN can only allow ['BSN', 'BLN'] to win 5 total games but they have 6 games left against each other.
 It looked like the Chicago Cubs were in contention after 18980926 but the remaining intra-division games ruled them out.
+NY1 can only allow ['BSN', 'BLN'] to win 5 total games but they have 6 games left against each other.
+It looked like the New York Giants were in contention after 18980926 but the remaining intra-division games ruled them out.
 The Chicago Cubs were eliminated from the NL title on 18980926 with 15 games left to play.
 The New York Giants were eliminated from the NL title on 18980926 with 19 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 18980926 with 23 games left to play.

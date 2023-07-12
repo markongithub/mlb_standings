@@ -39,18 +39,18 @@ It looked like the Kansas City Royals were in contention after 19700903 but the 
 KCA can only allow ['MIN', 'CAL', 'OAK'] to win 15 total games but they have 19 games left against each other.
 It looked like the Kansas City Royals were in contention after 19700902 but the remaining intra-division games ruled them out.
 The Kansas City Royals were eliminated from the ALW title on 19700902 with 28 games left to play.
-MIL can only allow ['MIN', 'CAL', 'OAK'] to win 17 total games but they have 19 games left against each other.
-It looked like the Milwaukee Brewers were in contention after 19700831 but the remaining intra-division games ruled them out.
 CHA can only allow ['MIN', 'CAL'] to win 2 total games but they have 7 games left against each other.
 It looked like the Chicago White Sox were in contention after 19700831 but the remaining intra-division games ruled them out.
 MIL can only allow ['MIN', 'CAL', 'OAK'] to win 17 total games but they have 19 games left against each other.
-It looked like the Milwaukee Brewers were in contention after 19700830 but the remaining intra-division games ruled them out.
+It looked like the Milwaukee Brewers were in contention after 19700831 but the remaining intra-division games ruled them out.
 CHA can only allow ['MIN', 'CAL'] to win 2 total games but they have 7 games left against each other.
 It looked like the Chicago White Sox were in contention after 19700830 but the remaining intra-division games ruled them out.
-MIL can only allow ['MIN', 'CAL', 'OAK'] to win 18 total games but they have 19 games left against each other.
-It looked like the Milwaukee Brewers were in contention after 19700829 but the remaining intra-division games ruled them out.
+MIL can only allow ['MIN', 'CAL', 'OAK'] to win 17 total games but they have 19 games left against each other.
+It looked like the Milwaukee Brewers were in contention after 19700830 but the remaining intra-division games ruled them out.
 CHA can only allow ['MIN', 'CAL', 'OAK'] to win 15 total games but they have 19 games left against each other.
 It looked like the Chicago White Sox were in contention after 19700829 but the remaining intra-division games ruled them out.
+MIL can only allow ['MIN', 'CAL', 'OAK'] to win 18 total games but they have 19 games left against each other.
+It looked like the Milwaukee Brewers were in contention after 19700829 but the remaining intra-division games ruled them out.
 CHA can only allow ['MIN', 'CAL', 'OAK'] to win 17 total games but they have 19 games left against each other.
 It looked like the Chicago White Sox were in contention after 19700828 but the remaining intra-division games ruled them out.
 The Milwaukee Brewers were eliminated from the ALW title on 19700829 with 30 games left to play.

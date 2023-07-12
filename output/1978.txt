@@ -23,10 +23,10 @@ The Minnesota Twins were eliminated from the ALW title on 19780914 with 17 games
 The Oakland Athletics were eliminated from the ALW title on 19780914 with 15 games left to play.
 CHA can only allow ['KCA', 'CAL'] to win 1 total games but they have 3 games left against each other.
 It looked like the Chicago White Sox were in contention after 19780912 but the remaining intra-division games ruled them out.
-SLN can only allow ['PHI', 'PIT', 'CHN'] to win 11 total games but they have 13 games left against each other.
-It looked like the St. Louis Cardinals were in contention after 19780911 but the remaining intra-division games ruled them out.
 CHA can only allow ['KCA', 'CAL'] to win 2 total games but they have 3 games left against each other.
 It looked like the Chicago White Sox were in contention after 19780911 but the remaining intra-division games ruled them out.
+SLN can only allow ['PHI', 'PIT', 'CHN'] to win 11 total games but they have 13 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19780911 but the remaining intra-division games ruled them out.
 The Houston Astros were eliminated from the NLW title on 19780912 with 18 games left to play.
 The Chicago White Sox were eliminated from the ALW title on 19780911 with 18 games left to play.
 The St. Louis Cardinals were eliminated from the NLE title on 19780911 with 17 games left to play.
@@ -36,10 +36,10 @@ NYN can only allow ['PHI', 'PIT'] to win 5 total games but they have 6 games lef
 It looked like the New York Mets were in contention after 19780907 but the remaining intra-division games ruled them out.
 SEA can only allow ['KCA', 'CAL'] to win 3 total games but they have 7 games left against each other.
 It looked like the Seattle Mariners were in contention after 19780907 but the remaining intra-division games ruled them out.
-NYN can only allow ['PHI', 'PIT', 'CHN'] to win 14 total games but they have 15 games left against each other.
-It looked like the New York Mets were in contention after 19780906 but the remaining intra-division games ruled them out.
 ATL can only allow ['LAN', 'SFN', 'CIN'] to win 11 total games but they have 13 games left against each other.
 It looked like the Atlanta Braves were in contention after 19780906 but the remaining intra-division games ruled them out.
+NYN can only allow ['PHI', 'PIT', 'CHN'] to win 14 total games but they have 15 games left against each other.
+It looked like the New York Mets were in contention after 19780906 but the remaining intra-division games ruled them out.
 SEA can only allow ['KCA', 'CAL'] to win 4 total games but they have 7 games left against each other.
 It looked like the Seattle Mariners were in contention after 19780906 but the remaining intra-division games ruled them out.
 ATL can only allow ['LAN', 'SFN', 'CIN', 'SDN'] to win 28 total games but they have 29 games left against each other.

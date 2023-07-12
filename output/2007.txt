@@ -30,31 +30,31 @@ The Minnesota Twins were eliminated from AL wildcard contention on 20070917 with
 The Oakland Athletics were eliminated from AL wildcard contention on 20070917 with 10 games left to play.
 PIT can only allow ['LAN', 'COL'] to win 5 total games but they have 7 games left against each other.
 It looked like the Pittsburgh Pirates were in wildcard contention after 20070915 but the remaining intra-contender games ruled them out.
-WAS can only allow ['LAN', 'COL'] to win 5 total games but they have 7 games left against each other.
-It looked like the Washington Nationals were in wildcard contention after 20070915 but the remaining intra-contender games ruled them out.
 SFN can only allow ['LAN', 'COL'] to win 5 total games but they have 7 games left against each other.
 It looked like the San Francisco Giants were in wildcard contention after 20070915 but the remaining intra-contender games ruled them out.
+WAS can only allow ['LAN', 'COL'] to win 5 total games but they have 7 games left against each other.
+It looked like the Washington Nationals were in wildcard contention after 20070915 but the remaining intra-contender games ruled them out.
 The Cincinnati Reds were eliminated from NL wildcard contention on 20070916 with 13 games left to play.
 The Minnesota Twins were eliminated from the ALC title on 20070915 with 14 games left to play.
 The Oakland Athletics were eliminated from the ALW title on 20070915 with 12 games left to play.
-WAS can only allow ['LAN', 'COL'] to win 6 total games but they have 7 games left against each other.
-It looked like the Washington Nationals were in wildcard contention after 20070914 but the remaining intra-contender games ruled them out.
 FLO can only allow ['LAN', 'COL'] to win 4 total games but they have 7 games left against each other.
 It looked like the Florida Marlins were in wildcard contention after 20070914 but the remaining intra-contender games ruled them out.
+WAS can only allow ['LAN', 'COL'] to win 6 total games but they have 7 games left against each other.
+It looked like the Washington Nationals were in wildcard contention after 20070914 but the remaining intra-contender games ruled them out.
 The Pittsburgh Pirates were eliminated from NL wildcard contention on 20070915 with 14 games left to play.
 The San Francisco Giants were eliminated from NL wildcard contention on 20070915 with 14 games left to play.
 The Texas Rangers were eliminated from AL wildcard contention on 20070915 with 14 games left to play.
 The Toronto Blue Jays were eliminated from the ALE title on 20070914 with 15 games left to play.
-HOU can only allow ['LAN', 'COL'] to win 5 total games but they have 7 games left against each other.
-It looked like the Houston Astros were in wildcard contention after 20070913 but the remaining intra-contender games ruled them out.
 FLO can only allow ['LAN', 'COL'] to win 5 total games but they have 7 games left against each other.
 It looked like the Florida Marlins were in wildcard contention after 20070913 but the remaining intra-contender games ruled them out.
+HOU can only allow ['LAN', 'COL'] to win 5 total games but they have 7 games left against each other.
+It looked like the Houston Astros were in wildcard contention after 20070913 but the remaining intra-contender games ruled them out.
 The Washington Nationals were eliminated from NL wildcard contention on 20070914 with 15 games left to play.
 The Texas Rangers were eliminated from the ALW title on 20070913 with 16 games left to play.
-HOU can only allow ['SDN', 'LAN', 'COL'] to win 10 total games but they have 11 games left against each other.
-It looked like the Houston Astros were in wildcard contention after 20070912 but the remaining intra-contender games ruled them out.
 FLO can only allow ['LAN', 'COL'] to win 6 total games but they have 7 games left against each other.
 It looked like the Florida Marlins were in wildcard contention after 20070912 but the remaining intra-contender games ruled them out.
+HOU can only allow ['SDN', 'LAN', 'COL'] to win 10 total games but they have 11 games left against each other.
+It looked like the Houston Astros were in wildcard contention after 20070912 but the remaining intra-contender games ruled them out.
 The San Francisco Giants were eliminated from the NLW title on 20070912 with 16 games left to play.
 The Washington Nationals were eliminated from the NLE title on 20070912 with 16 games left to play.
 FLO can only allow ['SDN', 'COL', 'LAN'] to win 9 total games but they have 12 games left against each other.

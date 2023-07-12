@@ -25,10 +25,10 @@ The Cleveland Indians were eliminated from the ALE title on 19930915 with 15 gam
 The Los Angeles Dodgers were eliminated from the NLW title on 19930914 with 18 games left to play.
 MIN can only allow ['CHA', 'TEX', 'KCA', 'SEA'] to win 16 total games but they have 20 games left against each other.
 It looked like the Minnesota Twins were in contention after 19930912 but the remaining intra-division games ruled them out.
-MIN can only allow ['CHA', 'TEX', 'KCA', 'SEA'] to win 18 total games but they have 20 games left against each other.
-It looked like the Minnesota Twins were in contention after 19930911 but the remaining intra-division games ruled them out.
 MIL can only allow ['TOR', 'NYA'] to win 1 total games but they have 3 games left against each other.
 It looked like the Milwaukee Brewers were in contention after 19930911 but the remaining intra-division games ruled them out.
+MIN can only allow ['CHA', 'TEX', 'KCA', 'SEA'] to win 18 total games but they have 20 games left against each other.
+It looked like the Minnesota Twins were in contention after 19930911 but the remaining intra-division games ruled them out.
 MIL can only allow ['TOR', 'NYA', 'BAL'] to win 9 total games but they have 10 games left against each other.
 It looked like the Milwaukee Brewers were in contention after 19930910 but the remaining intra-division games ruled them out.
 OAK can only allow ['CHA', 'TEX', 'KCA', 'SEA'] to win 17 total games but they have 20 games left against each other.

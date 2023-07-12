@@ -45,10 +45,10 @@ TBA can only allow ['BOS', 'TOR'] to win 3 total games but they have 4 games lef
 It looked like the Tampa Bay Rays were in contention after 20160910 but the remaining intra-division games ruled them out.
 The Pittsburgh Pirates were eliminated from the NLC title on 20160911 with 21 games left to play.
 The Atlanta Braves were eliminated from NL wildcard contention on 20160911 with 19 games left to play.
-TBA can only allow ['BOS', 'TOR', 'BAL'] to win 11 total games but they have 15 games left against each other.
-It looked like the Tampa Bay Rays were in contention after 20160909 but the remaining intra-division games ruled them out.
 SDN can only allow ['LAN', 'SFN'] to win 4 total games but they have 6 games left against each other.
 It looked like the San Diego Padres were in contention after 20160909 but the remaining intra-division games ruled them out.
+TBA can only allow ['BOS', 'TOR', 'BAL'] to win 11 total games but they have 15 games left against each other.
+It looked like the Tampa Bay Rays were in contention after 20160909 but the remaining intra-division games ruled them out.
 The Los Angeles Angels were eliminated from the ALW title on 20160910 with 21 games left to play.
 The Arizona Diamondbacks were eliminated from the NLW title on 20160910 with 21 games left to play.
 The Philadelphia Phillies were eliminated from the NLE title on 20160910 with 20 games left to play.

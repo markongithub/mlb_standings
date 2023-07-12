@@ -22,19 +22,19 @@ The Pittsburgh Pirates were eliminated from the NL title on 19450915 with 9 game
 NY1 can only allow ['CHN', 'SLN'] to win 4 total games but they have 5 games left against each other.
 It looked like the New York Giants were in contention after 19450913 but the remaining intra-division games ruled them out.
 The New York Giants were eliminated from the NL title on 19450913 with 14 games left to play.
-CHA can only allow ['DET', 'WS1'] to win 4 total games but they have 5 games left against each other.
-It looked like the Chicago White Sox were in contention after 19450911 but the remaining intra-division games ruled them out.
 BOS can only allow ['DET', 'WS1'] to win 2 total games but they have 5 games left against each other.
 It looked like the Boston Red Sox were in contention after 19450911 but the remaining intra-division games ruled them out.
+CHA can only allow ['DET', 'WS1'] to win 4 total games but they have 5 games left against each other.
+It looked like the Chicago White Sox were in contention after 19450911 but the remaining intra-division games ruled them out.
 The Boston Red Sox were eliminated from the AL title on 19450911 with 15 games left to play.
 The Chicago White Sox were eliminated from the AL title on 19450911 with 15 games left to play.
 BSN can only allow ['CHN', 'SLN'] to win 4 total games but they have 5 games left against each other.
 It looked like the Boston Braves were in contention after 19450905 but the remaining intra-division games ruled them out.
 The Boston Braves were eliminated from the NL title on 19450905 with 24 games left to play.
-PHA can only allow ['DET', 'WS1'] to win 1 total games but they have 5 games left against each other.
-It looked like the Philadelphia Athletics were in contention after 19450902 but the remaining intra-division games ruled them out.
 CIN can only allow ['CHN', 'SLN', 'BRO', 'NY1', 'PIT'] to win 35 total games but they have 38 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19450902 but the remaining intra-division games ruled them out.
+PHA can only allow ['DET', 'WS1'] to win 1 total games but they have 5 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19450902 but the remaining intra-division games ruled them out.
 PHA can only allow ['DET', 'WS1'] to win 2 total games but they have 5 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19450901 but the remaining intra-division games ruled them out.
 The Cincinnati Reds were eliminated from the NL title on 19450902 with 30 games left to play.

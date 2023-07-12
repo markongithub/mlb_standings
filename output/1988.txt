@@ -34,18 +34,18 @@ It looked like the Baltimore Orioles were in contention after 19880831 but the r
 BAL can only allow ['DET', 'BOS', 'NYA', 'CLE'] to win 29 total games but they have 33 games left against each other.
 It looked like the Baltimore Orioles were in contention after 19880830 but the remaining intra-division games ruled them out.
 The Seattle Mariners were eliminated from the ALW title on 19880831 with 28 games left to play.
-BAL can only allow ['DET', 'BOS', 'NYA', 'CLE'] to win 30 total games but they have 33 games left against each other.
-It looked like the Baltimore Orioles were in contention after 19880829 but the remaining intra-division games ruled them out.
 ATL can only allow ['LAN', 'HOU', 'SFN'] to win 13 total games but they have 16 games left against each other.
 It looked like the Atlanta Braves were in contention after 19880829 but the remaining intra-division games ruled them out.
-BAL can only allow ['DET', 'BOS', 'NYA', 'TOR', 'CLE'] to win 48 total games but they have 52 games left against each other.
-It looked like the Baltimore Orioles were in contention after 19880828 but the remaining intra-division games ruled them out.
+BAL can only allow ['DET', 'BOS', 'NYA', 'CLE'] to win 30 total games but they have 33 games left against each other.
+It looked like the Baltimore Orioles were in contention after 19880829 but the remaining intra-division games ruled them out.
 ATL can only allow ['LAN', 'HOU', 'SFN', 'CIN'] to win 28 total games but they have 32 games left against each other.
 It looked like the Atlanta Braves were in contention after 19880828 but the remaining intra-division games ruled them out.
-BAL can only allow ['DET', 'BOS', 'NYA', 'TOR', 'CLE'] to win 51 total games but they have 52 games left against each other.
-It looked like the Baltimore Orioles were in contention after 19880827 but the remaining intra-division games ruled them out.
+BAL can only allow ['DET', 'BOS', 'NYA', 'TOR', 'CLE'] to win 48 total games but they have 52 games left against each other.
+It looked like the Baltimore Orioles were in contention after 19880828 but the remaining intra-division games ruled them out.
 ATL can only allow ['LAN', 'HOU', 'SFN', 'CIN'] to win 30 total games but they have 32 games left against each other.
 It looked like the Atlanta Braves were in contention after 19880827 but the remaining intra-division games ruled them out.
+BAL can only allow ['DET', 'BOS', 'NYA', 'TOR', 'CLE'] to win 51 total games but they have 52 games left against each other.
+It looked like the Baltimore Orioles were in contention after 19880827 but the remaining intra-division games ruled them out.
 ATL can only allow ['LAN', 'HOU', 'SFN', 'CIN', 'SDN'] to win 52 total games but they have 53 games left against each other.
 It looked like the Atlanta Braves were in contention after 19880826 but the remaining intra-division games ruled them out.
 The Baltimore Orioles were eliminated from the ALE title on 19880827 with 34 games left to play.

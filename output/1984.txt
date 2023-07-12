@@ -22,15 +22,15 @@ The Houston Astros were eliminated from the NLW title on 19840920 with 9 games l
 SEA can only allow ['KCA', 'CAL'] to win 3 total games but they have 6 games left against each other.
 It looked like the Seattle Mariners were in contention after 19840918 but the remaining intra-division games ruled them out.
 The Los Angeles Dodgers were eliminated from the NLW title on 19840919 with 10 games left to play.
-TEX can only allow ['KCA', 'CAL'] to win 4 total games but they have 7 games left against each other.
-It looked like the Texas Rangers were in contention after 19840917 but the remaining intra-division games ruled them out.
 SEA can only allow ['KCA', 'CAL'] to win 4 total games but they have 7 games left against each other.
 It looked like the Seattle Mariners were in contention after 19840917 but the remaining intra-division games ruled them out.
+TEX can only allow ['KCA', 'CAL'] to win 4 total games but they have 7 games left against each other.
+It looked like the Texas Rangers were in contention after 19840917 but the remaining intra-division games ruled them out.
 The Toronto Blue Jays were eliminated from the ALE title on 19840918 with 11 games left to play.
-TEX can only allow ['KCA', 'CAL'] to win 7 total games but they have 8 games left against each other.
-It looked like the Texas Rangers were in contention after 19840916 but the remaining intra-division games ruled them out.
 SEA can only allow ['KCA', 'CAL'] to win 5 total games but they have 8 games left against each other.
 It looked like the Seattle Mariners were in contention after 19840916 but the remaining intra-division games ruled them out.
+TEX can only allow ['KCA', 'CAL'] to win 7 total games but they have 8 games left against each other.
+It looked like the Texas Rangers were in contention after 19840916 but the remaining intra-division games ruled them out.
 The Baltimore Orioles were eliminated from the ALE title on 19840917 with 14 games left to play.
 The New York Yankees were eliminated from the ALE title on 19840916 with 14 games left to play.
 The Seattle Mariners were eliminated from the ALW title on 19840916 with 12 games left to play.

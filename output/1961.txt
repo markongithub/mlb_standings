@@ -21,10 +21,10 @@ It looked like the Minnesota Twins were in contention after 19610901 but the rem
 MIN can only allow ['NYA', 'DET'] to win 3 total games but they have 7 games left against each other.
 It looked like the Minnesota Twins were in contention after 19610831 but the remaining intra-division games ruled them out.
 The Boston Red Sox were eliminated from the AL title on 19610901 with 25 games left to play.
-MIN can only allow ['NYA', 'DET'] to win 4 total games but they have 7 games left against each other.
-It looked like the Minnesota Twins were in contention after 19610830 but the remaining intra-division games ruled them out.
 LAA can only allow ['NYA', 'DET'] to win 4 total games but they have 7 games left against each other.
 It looked like the Los Angeles Angels were in contention after 19610830 but the remaining intra-division games ruled them out.
+MIN can only allow ['NYA', 'DET'] to win 4 total games but they have 7 games left against each other.
+It looked like the Minnesota Twins were in contention after 19610830 but the remaining intra-division games ruled them out.
 The Los Angeles Angels were eliminated from the AL title on 19610830 with 30 games left to play.
 The Minnesota Twins were eliminated from the AL title on 19610830 with 32 games left to play.
 WS2 can only allow ['NYA', 'DET'] to win 2 total games but they have 7 games left against each other.

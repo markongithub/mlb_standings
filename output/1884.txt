@@ -35,27 +35,27 @@ IN2 can only allow ['NY4', 'CL5'] to win 2 total games but they have 4 games lef
 It looked like the Indianapolis Blues were in contention after 18840824 but the remaining intra-division games ruled them out.
 IN2 can only allow ['NY4', 'CL5'] to win 2 total games but they have 4 games left against each other.
 It looked like the Indianapolis Blues were in contention after 18840823 but the remaining intra-division games ruled them out.
+IN2 can only allow ['NY4', 'CL5', 'LS2'] to win 11 total games but they have 12 games left against each other.
+It looked like the Indianapolis Blues were in contention after 18840822 but the remaining intra-division games ruled them out.
 PT1 can only allow ['NY4', 'CL5'] to win 2 total games but they have 4 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 18840822 but the remaining intra-division games ruled them out.
 IN2 can only allow ['NY4', 'CL5', 'LS2'] to win 11 total games but they have 12 games left against each other.
-It looked like the Indianapolis Blues were in contention after 18840822 but the remaining intra-division games ruled them out.
+It looked like the Indianapolis Blues were in contention after 18840821 but the remaining intra-division games ruled them out.
 PT1 can only allow ['NY4', 'CL5', 'LS2'] to win 11 total games but they have 12 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 18840821 but the remaining intra-division games ruled them out.
-IN2 can only allow ['NY4', 'CL5', 'LS2'] to win 11 total games but they have 12 games left against each other.
-It looked like the Indianapolis Blues were in contention after 18840821 but the remaining intra-division games ruled them out.
-PT1 can only allow ['NY4', 'CL5', 'LS2', 'CN2', 'PH4'] to win 33 total games but they have 34 games left against each other.
-It looked like the Pittsburgh Pirates were in contention after 18840820 but the remaining intra-division games ruled them out.
 IN2 can only allow ['NY4', 'CL5', 'LS2', 'SL4', 'CN2', 'BL2', 'PH4'] to win 66 total games but they have 67 games left against each other.
 It looked like the Indianapolis Blues were in contention after 18840820 but the remaining intra-division games ruled them out.
-PT1 can only allow ['NY4', 'CL5', 'LS2', 'SL4', 'CN2', 'PH4'] to win 41 total games but they have 43 games left against each other.
-It looked like the Pittsburgh Pirates were in contention after 18840819 but the remaining intra-division games ruled them out.
+PT1 can only allow ['NY4', 'CL5', 'LS2', 'CN2', 'PH4'] to win 33 total games but they have 34 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 18840820 but the remaining intra-division games ruled them out.
 PHI can only allow ['PRO', 'BSN', 'BFN'] to win 15 total games but they have 16 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 18840819 but the remaining intra-division games ruled them out.
+PT1 can only allow ['NY4', 'CL5', 'LS2', 'SL4', 'CN2', 'PH4'] to win 41 total games but they have 43 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 18840819 but the remaining intra-division games ruled them out.
 The Indianapolis Blues were eliminated from the AA title on 18840820 with 37 games left to play.
-PT1 can only allow ['NY4', 'CL5', 'SL4', 'LS2', 'CN2', 'BL2', 'PH4'] to win 65 total games but they have 68 games left against each other.
-It looked like the Pittsburgh Pirates were in contention after 18840818 but the remaining intra-division games ruled them out.
 PHI can only allow ['PRO', 'BSN', 'BFN', 'NY1', 'CHN'] to win 47 total games but they have 50 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 18840818 but the remaining intra-division games ruled them out.
+PT1 can only allow ['NY4', 'CL5', 'SL4', 'LS2', 'CN2', 'BL2', 'PH4'] to win 65 total games but they have 68 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 18840818 but the remaining intra-division games ruled them out.
 PT1 can only allow ['NY4', 'CL5', 'SL4', 'LS2', 'CN2', 'BL2', 'PH4'] to win 66 total games but they have 69 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 18840817 but the remaining intra-division games ruled them out.
 The Philadelphia Phillies were eliminated from the NL title on 18840818 with 34 games left to play.
@@ -66,17 +66,17 @@ It looked like the Richmond Virginias were in contention after 18840815 but the 
 The Pittsburgh Pirates were eliminated from the AA title on 18840816 with 35 games left to play.
 RIC can only allow ['NY4', 'CL5', 'SL4', 'LS2', 'CN2'] to win 28 total games but they have 30 games left against each other.
 It looked like the Richmond Virginias were in contention after 18840814 but the remaining intra-division games ruled them out.
-RIC can only allow ['NY4', 'CL5', 'LS2', 'SL4', 'CN2'] to win 31 total games but they have 32 games left against each other.
-It looked like the Richmond Virginias were in contention after 18840813 but the remaining intra-division games ruled them out.
 DTN can only allow ['PRO', 'BFN'] to win 8 total games but they have 9 games left against each other.
 It looked like the Detroit Wolverines were in contention after 18840813 but the remaining intra-division games ruled them out.
-RIC can only allow ['NY4', 'CL5', 'LS2', 'SL4', 'CN2'] to win 32 total games but they have 33 games left against each other.
-It looked like the Richmond Virginias were in contention after 18840812 but the remaining intra-division games ruled them out.
+RIC can only allow ['NY4', 'CL5', 'LS2', 'SL4', 'CN2'] to win 31 total games but they have 32 games left against each other.
+It looked like the Richmond Virginias were in contention after 18840813 but the remaining intra-division games ruled them out.
 DTN can only allow ['PRO', 'BSN', 'BFN'] to win 16 total games but they have 17 games left against each other.
 It looked like the Detroit Wolverines were in contention after 18840812 but the remaining intra-division games ruled them out.
-RIC can only allow ['NY4', 'CL5', 'LS2', 'SL4', 'CN2', 'PH4'] to win 53 total games but they have 54 games left against each other.
-It looked like the Richmond Virginias were in contention after 18840811 but the remaining intra-division games ruled them out.
+RIC can only allow ['NY4', 'CL5', 'LS2', 'SL4', 'CN2'] to win 32 total games but they have 33 games left against each other.
+It looked like the Richmond Virginias were in contention after 18840812 but the remaining intra-division games ruled them out.
 DTN can only allow ['PRO', 'BSN', 'BFN', 'NY1', 'CHN'] to win 54 total games but they have 58 games left against each other.
 It looked like the Detroit Wolverines were in contention after 18840811 but the remaining intra-division games ruled them out.
+RIC can only allow ['NY4', 'CL5', 'LS2', 'SL4', 'CN2', 'PH4'] to win 53 total games but they have 54 games left against each other.
+It looked like the Richmond Virginias were in contention after 18840811 but the remaining intra-division games ruled them out.
 The Detroit Wolverines were eliminated from the NL title on 18840811 with 37 games left to play.
 The Richmond Virginias were eliminated from the AA title on 18840811 with 42 games left to play.

@@ -25,21 +25,21 @@ It looked like the Pittsburgh Pirates were in contention after 19540822 but the 
 BOS can only allow ['CLE', 'NYA'] to win 4 total games but they have 5 games left against each other.
 It looked like the Boston Red Sox were in contention after 19540821 but the remaining intra-division games ruled them out.
 The Pittsburgh Pirates were eliminated from the NL title on 19540822 with 32 games left to play.
+BOS can only allow ['CLE', 'NYA', 'CHA'] to win 13 total games but they have 14 games left against each other.
+It looked like the Boston Red Sox were in contention after 19540820 but the remaining intra-division games ruled them out.
 DET can only allow ['CLE', 'NYA', 'CHA'] to win 13 total games but they have 14 games left against each other.
 It looked like the Detroit Tigers were in contention after 19540820 but the remaining intra-division games ruled them out.
 WS1 can only allow ['CLE', 'NYA'] to win 3 total games but they have 5 games left against each other.
 It looked like the Washington Senators were in contention after 19540820 but the remaining intra-division games ruled them out.
-BOS can only allow ['CLE', 'NYA', 'CHA'] to win 13 total games but they have 14 games left against each other.
-It looked like the Boston Red Sox were in contention after 19540820 but the remaining intra-division games ruled them out.
 WS1 can only allow ['CLE', 'NYA'] to win 4 total games but they have 5 games left against each other.
 It looked like the Washington Senators were in contention after 19540819 but the remaining intra-division games ruled them out.
 The Boston Red Sox were eliminated from the AL title on 19540820 with 36 games left to play.
 The Detroit Tigers were eliminated from the AL title on 19540820 with 34 games left to play.
 The Washington Senators were eliminated from the AL title on 19540819 with 37 games left to play.
-PHA can only allow ['CLE', 'NYA'] to win 1 total games but they have 5 games left against each other.
-It looked like the Philadelphia Athletics were in contention after 19540813 but the remaining intra-division games ruled them out.
 BAL can only allow ['CLE', 'NYA'] to win 3 total games but they have 5 games left against each other.
 It looked like the Baltimore Orioles were in contention after 19540813 but the remaining intra-division games ruled them out.
+PHA can only allow ['CLE', 'NYA'] to win 1 total games but they have 5 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19540813 but the remaining intra-division games ruled them out.
 PHA can only allow ['CLE', 'NYA'] to win 3 total games but they have 5 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19540812 but the remaining intra-division games ruled them out.
 The Baltimore Orioles were eliminated from the AL title on 19540813 with 41 games left to play.

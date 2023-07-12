@@ -19,10 +19,10 @@ It looked like the Brooklyn Dodgers were in contention after 19370913 but the re
 BRO can only allow ['NY1', 'CHN'] to win 2 total games but they have 3 games left against each other.
 It looked like the Brooklyn Dodgers were in contention after 19370912 but the remaining intra-division games ruled them out.
 The Brooklyn Dodgers were eliminated from the NL title on 19370912 with 23 games left to play.
-PHI can only allow ['NY1', 'CHN'] to win 1 total games but they have 3 games left against each other.
-It looked like the Philadelphia Phillies were in contention after 19370910 but the remaining intra-division games ruled them out.
 CIN can only allow ['NY1', 'CHN'] to win 1 total games but they have 3 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19370910 but the remaining intra-division games ruled them out.
+PHI can only allow ['NY1', 'CHN'] to win 1 total games but they have 3 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19370910 but the remaining intra-division games ruled them out.
 The Washington Senators were eliminated from the AL title on 19370911 with 23 games left to play.
 PHI can only allow ['NY1', 'CHN'] to win 2 total games but they have 3 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19370909 but the remaining intra-division games ruled them out.

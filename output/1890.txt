@@ -28,22 +28,22 @@ BL3 can only allow ['LS2', 'SL4', 'CL6'] to win 13 total games but they have 16 
 It looked like the Baltimore Orioles were in contention after 18900902 but the remaining intra-division games ruled them out.
 BL3 can only allow ['LS2', 'SL4', 'TL2'] to win 16 total games but they have 21 games left against each other.
 It looked like the Baltimore Orioles were in contention after 18900901 but the remaining intra-division games ruled them out.
+BFP can only allow ['BSP', 'BRP', 'NYP'] to win 9 total games but they have 13 games left against each other.
+It looked like the Buffalo Bisons were in contention after 18900831 but the remaining intra-division games ruled them out.
 BL3 can only allow ['LS2', 'SL4', 'TL2'] to win 20 total games but they have 21 games left against each other.
 It looked like the Baltimore Orioles were in contention after 18900831 but the remaining intra-division games ruled them out.
 BFP can only allow ['BSP', 'BRP', 'NYP'] to win 9 total games but they have 13 games left against each other.
-It looked like the Buffalo Bisons were in contention after 18900831 but the remaining intra-division games ruled them out.
+It looked like the Buffalo Bisons were in contention after 18900830 but the remaining intra-division games ruled them out.
 BL3 can only allow ['LS2', 'SL4', 'TL2', 'RC2'] to win 35 total games but they have 36 games left against each other.
 It looked like the Baltimore Orioles were in contention after 18900830 but the remaining intra-division games ruled them out.
-BFP can only allow ['BSP', 'BRP', 'NYP'] to win 9 total games but they have 13 games left against each other.
-It looked like the Buffalo Bisons were in contention after 18900830 but the remaining intra-division games ruled them out.
-BL3 can only allow ['LS2', 'SL4', 'TL2', 'PH4', 'RC2'] to win 56 total games but they have 58 games left against each other.
-It looked like the Baltimore Orioles were in contention after 18900829 but the remaining intra-division games ruled them out.
 BFP can only allow ['BSP', 'NYP', 'BRP', 'PHP'] to win 25 total games but they have 27 games left against each other.
 It looked like the Buffalo Bisons were in contention after 18900829 but the remaining intra-division games ruled them out.
-BL3 can only allow ['LS2', 'SL4', 'TL2', 'PH4', 'RC2', 'CL6'] to win 78 total games but they have 84 games left against each other.
-It looked like the Baltimore Orioles were in contention after 18900828 but the remaining intra-division games ruled them out.
+BL3 can only allow ['LS2', 'SL4', 'TL2', 'PH4', 'RC2'] to win 56 total games but they have 58 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18900829 but the remaining intra-division games ruled them out.
 BFP can only allow ['BSP', 'NYP', 'BRP', 'PHP', 'CHP', 'PTP', 'CLP'] to win 97 total games but they have 100 games left against each other.
 It looked like the Buffalo Bisons were in contention after 18900828 but the remaining intra-division games ruled them out.
+BL3 can only allow ['LS2', 'SL4', 'TL2', 'PH4', 'RC2', 'CL6'] to win 78 total games but they have 84 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18900828 but the remaining intra-division games ruled them out.
 CL4 can only allow ['BRO', 'BSN'] to win 1 total games but they have 5 games left against each other.
 It looked like the Cleveland Spiders were in contention after 18900828 but the remaining intra-division games ruled them out.
 BL3 can only allow ['LS2', 'SL4', 'TL2', 'PH4', 'RC2', 'CL6'] to win 81 total games but they have 86 games left against each other.

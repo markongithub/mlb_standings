@@ -36,14 +36,14 @@ It looked like the Chicago White Sox were in contention after 19790912 but the r
 The Detroit Tigers were eliminated from the ALE title on 19790913 with 16 games left to play.
 CHA can only allow ['CAL', 'KCA'] to win 4 total games but they have 7 games left against each other.
 It looked like the Chicago White Sox were in contention after 19790911 but the remaining intra-division games ruled them out.
-SFN can only allow ['HOU', 'CIN'] to win 0 total games but they have 5 games left against each other.
-It looked like the San Francisco Giants were in contention after 19790910 but the remaining intra-division games ruled them out.
 CHA can only allow ['CAL', 'KCA'] to win 4 total games but they have 7 games left against each other.
 It looked like the Chicago White Sox were in contention after 19790910 but the remaining intra-division games ruled them out.
 SFN can only allow ['HOU', 'CIN'] to win 0 total games but they have 5 games left against each other.
-It looked like the San Francisco Giants were in contention after 19790909 but the remaining intra-division games ruled them out.
+It looked like the San Francisco Giants were in contention after 19790910 but the remaining intra-division games ruled them out.
 CHA can only allow ['CAL', 'KCA'] to win 5 total games but they have 7 games left against each other.
 It looked like the Chicago White Sox were in contention after 19790909 but the remaining intra-division games ruled them out.
+SFN can only allow ['HOU', 'CIN'] to win 0 total games but they have 5 games left against each other.
+It looked like the San Francisco Giants were in contention after 19790909 but the remaining intra-division games ruled them out.
 SEA can only allow ['CAL', 'KCA'] to win 5 total games but they have 7 games left against each other.
 It looked like the Seattle Mariners were in contention after 19790908 but the remaining intra-division games ruled them out.
 SFN can only allow ['CIN', 'HOU'] to win 3 total games but they have 5 games left against each other.

@@ -14,16 +14,16 @@ It looked like the Seattle Mariners were in contention after 19980917 but the re
 The Los Angeles Dodgers were eliminated from NL wildcard contention on 19980918 with 8 games left to play.
 SEA can only allow ['TEX', 'ANA'] to win 2 total games but they have 4 games left against each other.
 It looked like the Seattle Mariners were in contention after 19980916 but the remaining intra-division games ruled them out.
-SEA can only allow ['ANA', 'TEX'] to win 3 total games but they have 5 games left against each other.
-It looked like the Seattle Mariners were in contention after 19980915 but the remaining intra-division games ruled them out.
 OAK can only allow ['ANA', 'TEX'] to win 1 total games but they have 5 games left against each other.
 It looked like the Oakland Athletics were in contention after 19980915 but the remaining intra-division games ruled them out.
+SEA can only allow ['ANA', 'TEX'] to win 3 total games but they have 5 games left against each other.
+It looked like the Seattle Mariners were in contention after 19980915 but the remaining intra-division games ruled them out.
 The Chicago White Sox were eliminated from the ALC title on 19980916 with 11 games left to play.
 The St. Louis Cardinals were eliminated from NL wildcard contention on 19980916 with 9 games left to play.
-SEA can only allow ['ANA', 'TEX'] to win 4 total games but they have 5 games left against each other.
-It looked like the Seattle Mariners were in contention after 19980914 but the remaining intra-division games ruled them out.
 OAK can only allow ['ANA', 'TEX'] to win 4 total games but they have 5 games left against each other.
 It looked like the Oakland Athletics were in contention after 19980914 but the remaining intra-division games ruled them out.
+SEA can only allow ['ANA', 'TEX'] to win 4 total games but they have 5 games left against each other.
+It looked like the Seattle Mariners were in contention after 19980914 but the remaining intra-division games ruled them out.
 The Kansas City Royals were eliminated from the ALC title on 19980915 with 13 games left to play.
 The Chicago White Sox were eliminated from AL wildcard contention on 19980915 with 12 games left to play.
 The Chicago Cubs were eliminated from the NLC title on 19980914 with 11 games left to play.

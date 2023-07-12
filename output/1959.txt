@@ -11,18 +11,18 @@ It looked like the Pittsburgh Pirates were in contention after 19590918 but the 
 PIT can only allow ['SFN', 'LAN'] to win 2 total games but they have 3 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 19590917 but the remaining intra-division games ruled them out.
 The Pittsburgh Pirates were eliminated from the NL title on 19590917 with 7 games left to play.
-CIN can only allow ['SFN', 'MLN'] to win 1 total games but they have 2 games left against each other.
-It looked like the Cincinnati Redlegs were in contention after 19590914 but the remaining intra-division games ruled them out.
 CHN can only allow ['SFN', 'MLN'] to win 1 total games but they have 2 games left against each other.
 It looked like the Chicago Cubs were in contention after 19590914 but the remaining intra-division games ruled them out.
-CIN can only allow ['SFN', 'LAN'] to win 2 total games but they have 3 games left against each other.
-It looked like the Cincinnati Redlegs were in contention after 19590913 but the remaining intra-division games ruled them out.
+CIN can only allow ['SFN', 'MLN'] to win 1 total games but they have 2 games left against each other.
+It looked like the Cincinnati Redlegs were in contention after 19590914 but the remaining intra-division games ruled them out.
 CHN can only allow ['SFN', 'LAN'] to win 2 total games but they have 3 games left against each other.
 It looked like the Chicago Cubs were in contention after 19590913 but the remaining intra-division games ruled them out.
-CIN can only allow ['SFN', 'MLN', 'LAN'] to win 5 total games but they have 7 games left against each other.
-It looked like the Cincinnati Redlegs were in contention after 19590912 but the remaining intra-division games ruled them out.
+CIN can only allow ['SFN', 'LAN'] to win 2 total games but they have 3 games left against each other.
+It looked like the Cincinnati Redlegs were in contention after 19590913 but the remaining intra-division games ruled them out.
 CHN can only allow ['SFN', 'MLN', 'LAN'] to win 5 total games but they have 7 games left against each other.
 It looked like the Chicago Cubs were in contention after 19590912 but the remaining intra-division games ruled them out.
+CIN can only allow ['SFN', 'MLN', 'LAN'] to win 5 total games but they have 7 games left against each other.
+It looked like the Cincinnati Redlegs were in contention after 19590912 but the remaining intra-division games ruled them out.
 The Chicago Cubs were eliminated from the NL title on 19590912 with 13 games left to play.
 The Cincinnati Redlegs were eliminated from the NL title on 19590912 with 11 games left to play.
 SLN can only allow ['SFN', 'MLN', 'LAN'] to win 6 total games but they have 7 games left against each other.

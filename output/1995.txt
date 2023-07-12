@@ -38,18 +38,18 @@ The New York Yankees were eliminated from the ALE title on 19950920 with 9 games
 SLN can only allow ['LAN', 'SDN'] to win 6 total games but they have 7 games left against each other.
 It looked like the St. Louis Cardinals were in wildcard contention after 19950918 but the remaining intra-contender games ruled them out.
 The Chicago Cubs were eliminated from the NLC title on 19950918 with 13 games left to play.
-SLN can only allow ['LAN', 'SDN'] to win 6 total games but they have 7 games left against each other.
-It looked like the St. Louis Cardinals were in wildcard contention after 19950917 but the remaining intra-contender games ruled them out.
 DET can only allow ['SEA', 'TEX'] to win 1 total games but they have 7 games left against each other.
 It looked like the Detroit Tigers were in wildcard contention after 19950917 but the remaining intra-contender games ruled them out.
+SLN can only allow ['LAN', 'SDN'] to win 6 total games but they have 7 games left against each other.
+It looked like the St. Louis Cardinals were in wildcard contention after 19950917 but the remaining intra-contender games ruled them out.
 DET can only allow ['SEA', 'TEX'] to win 4 total games but they have 7 games left against each other.
 It looked like the Detroit Tigers were in wildcard contention after 19950916 but the remaining intra-contender games ruled them out.
 The St. Louis Cardinals were eliminated from NL wildcard contention on 19950917 with 13 games left to play.
 The Detroit Tigers were eliminated from AL wildcard contention on 19950916 with 14 games left to play.
-TOR can only allow ['SEA', 'TEX'] to win 1 total games but they have 7 games left against each other.
-It looked like the Toronto Blue Jays were in wildcard contention after 19950914 but the remaining intra-contender games ruled them out.
 PIT can only allow ['LAN', 'SDN'] to win 6 total games but they have 7 games left against each other.
 It looked like the Pittsburgh Pirates were in wildcard contention after 19950914 but the remaining intra-contender games ruled them out.
+TOR can only allow ['SEA', 'TEX'] to win 1 total games but they have 7 games left against each other.
+It looked like the Toronto Blue Jays were in wildcard contention after 19950914 but the remaining intra-contender games ruled them out.
 TOR can only allow ['SEA', 'TEX'] to win 4 total games but they have 7 games left against each other.
 It looked like the Toronto Blue Jays were in wildcard contention after 19950913 but the remaining intra-contender games ruled them out.
 The Pittsburgh Pirates were eliminated from NL wildcard contention on 19950914 with 16 games left to play.

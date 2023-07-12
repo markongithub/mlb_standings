@@ -10,17 +10,17 @@ The New York Giants were eliminated from the NL title on 19500925 with 7 games l
 The St. Louis Cardinals were eliminated from the NL title on 19500917 with 15 games left to play.
 CIN can only allow ['PHI', 'BRO', 'BSN', 'NY1'] to win 26 total games but they have 29 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19500907 but the remaining intra-division games ruled them out.
-WS1 can only allow ['NYA', 'DET'] to win 1 total games but they have 3 games left against each other.
-It looked like the Washington Senators were in contention after 19500906 but the remaining intra-division games ruled them out.
 CIN can only allow ['PHI', 'BRO', 'BSN', 'NY1'] to win 28 total games but they have 31 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19500906 but the remaining intra-division games ruled them out.
+WS1 can only allow ['NYA', 'DET'] to win 1 total games but they have 3 games left against each other.
+It looked like the Washington Senators were in contention after 19500906 but the remaining intra-division games ruled them out.
 WS1 can only allow ['NYA', 'DET'] to win 2 total games but they have 3 games left against each other.
 It looked like the Washington Senators were in contention after 19500905 but the remaining intra-division games ruled them out.
 The Cincinnati Reds were eliminated from the NL title on 19500906 with 27 games left to play.
-WS1 can only allow ['NYA', 'BOS'] to win 3 total games but they have 6 games left against each other.
-It looked like the Washington Senators were in contention after 19500904 but the remaining intra-division games ruled them out.
 CHN can only allow ['PHI', 'BRO', 'BSN', 'NY1'] to win 32 total games but they have 35 games left against each other.
 It looked like the Chicago Cubs were in contention after 19500904 but the remaining intra-division games ruled them out.
+WS1 can only allow ['NYA', 'BOS'] to win 3 total games but they have 6 games left against each other.
+It looked like the Washington Senators were in contention after 19500904 but the remaining intra-division games ruled them out.
 WS1 can only allow ['NYA', 'DET', 'BOS', 'CLE'] to win 18 total games but they have 19 games left against each other.
 It looked like the Washington Senators were in contention after 19500903 but the remaining intra-division games ruled them out.
 The Chicago Cubs were eliminated from the NL title on 19500904 with 26 games left to play.
@@ -29,28 +29,28 @@ CHA can only allow ['NYA', 'BOS'] to win 5 total games but they have 6 games lef
 It looked like the Chicago White Sox were in contention after 19500829 but the remaining intra-division games ruled them out.
 CHA can only allow ['DET', 'NYA', 'CLE'] to win 12 total games but they have 13 games left against each other.
 It looked like the Chicago White Sox were in contention after 19500828 but the remaining intra-division games ruled them out.
-PIT can only allow ['PHI', 'BRO', 'BSN'] to win 17 total games but they have 23 games left against each other.
-It looked like the Pittsburgh Pirates were in contention after 19500827 but the remaining intra-division games ruled them out.
 CHA can only allow ['DET', 'NYA', 'CLE'] to win 12 total games but they have 13 games left against each other.
 It looked like the Chicago White Sox were in contention after 19500827 but the remaining intra-division games ruled them out.
+PIT can only allow ['PHI', 'BRO', 'BSN'] to win 17 total games but they have 23 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19500827 but the remaining intra-division games ruled them out.
 PIT can only allow ['PHI', 'BRO', 'BSN', 'NY1'] to win 42 total games but they have 44 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 19500826 but the remaining intra-division games ruled them out.
 SLA can only allow ['DET', 'NYA'] to win 2 total games but they have 3 games left against each other.
 It looked like the St. Louis Browns were in contention after 19500826 but the remaining intra-division games ruled them out.
 The Chicago White Sox were eliminated from the AL title on 19500827 with 31 games left to play.
-SLA can only allow ['NYA', 'CLE'] to win 5 total games but they have 6 games left against each other.
-It looked like the St. Louis Browns were in contention after 19500825 but the remaining intra-division games ruled them out.
 PHA can only allow ['DET', 'NYA'] to win 2 total games but they have 3 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19500825 but the remaining intra-division games ruled them out.
+SLA can only allow ['NYA', 'CLE'] to win 5 total games but they have 6 games left against each other.
+It looked like the St. Louis Browns were in contention after 19500825 but the remaining intra-division games ruled them out.
 The Pittsburgh Pirates were eliminated from the NL title on 19500826 with 35 games left to play.
-SLA can only allow ['NYA', 'CLE', 'BOS'] to win 15 total games but they have 16 games left against each other.
-It looked like the St. Louis Browns were in contention after 19500824 but the remaining intra-division games ruled them out.
 PHA can only allow ['NYA', 'CLE'] to win 5 total games but they have 6 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19500824 but the remaining intra-division games ruled them out.
-SLA can only allow ['DET', 'NYA', 'CLE', 'BOS'] to win 27 total games but they have 28 games left against each other.
-It looked like the St. Louis Browns were in contention after 19500823 but the remaining intra-division games ruled them out.
+SLA can only allow ['NYA', 'CLE', 'BOS'] to win 15 total games but they have 16 games left against each other.
+It looked like the St. Louis Browns were in contention after 19500824 but the remaining intra-division games ruled them out.
 PHA can only allow ['DET', 'NYA', 'CLE'] to win 10 total games but they have 14 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19500823 but the remaining intra-division games ruled them out.
+SLA can only allow ['DET', 'NYA', 'CLE', 'BOS'] to win 27 total games but they have 28 games left against each other.
+It looked like the St. Louis Browns were in contention after 19500823 but the remaining intra-division games ruled them out.
 PHA can only allow ['DET', 'NYA', 'CLE'] to win 14 total games but they have 15 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19500822 but the remaining intra-division games ruled them out.
 The St. Louis Browns were eliminated from the AL title on 19500823 with 40 games left to play.

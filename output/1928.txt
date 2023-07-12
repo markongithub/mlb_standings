@@ -17,23 +17,23 @@ It looked like the Brooklyn Robins were in contention after 19280914 but the rem
 BRO can only allow ['SLN', 'NY1', 'CHN'] to win 6 total games but they have 7 games left against each other.
 It looked like the Brooklyn Robins were in contention after 19280913 but the remaining intra-division games ruled them out.
 The Brooklyn Robins were eliminated from the NL title on 19280913 with 14 games left to play.
-WS1 can only allow ['NYA', 'PHA'] to win 3 total games but they have 4 games left against each other.
-It looked like the Washington Senators were in contention after 19280831 but the remaining intra-division games ruled them out.
 CHA can only allow ['NYA', 'PHA'] to win 1 total games but they have 4 games left against each other.
 It looked like the Chicago White Sox were in contention after 19280831 but the remaining intra-division games ruled them out.
-DET can only allow ['NYA', 'PHA'] to win 2 total games but they have 4 games left against each other.
-It looked like the Detroit Tigers were in contention after 19280830 but the remaining intra-division games ruled them out.
-CHA can only allow ['NYA', 'PHA'] to win 2 total games but they have 4 games left against each other.
-It looked like the Chicago White Sox were in contention after 19280830 but the remaining intra-division games ruled them out.
+WS1 can only allow ['NYA', 'PHA'] to win 3 total games but they have 4 games left against each other.
+It looked like the Washington Senators were in contention after 19280831 but the remaining intra-division games ruled them out.
 BSN can only allow ['SLN', 'CHN', 'CIN'] to win 12 total games but they have 13 games left against each other.
 It looked like the Boston Braves were in contention after 19280830 but the remaining intra-division games ruled them out.
-The Washington Senators were eliminated from the AL title on 19280831 with 27 games left to play.
-DET can only allow ['NYA', 'PHA'] to win 2 total games but they have 4 games left against each other.
-It looked like the Detroit Tigers were in contention after 19280829 but the remaining intra-division games ruled them out.
 CHA can only allow ['NYA', 'PHA'] to win 2 total games but they have 4 games left against each other.
-It looked like the Chicago White Sox were in contention after 19280829 but the remaining intra-division games ruled them out.
+It looked like the Chicago White Sox were in contention after 19280830 but the remaining intra-division games ruled them out.
+DET can only allow ['NYA', 'PHA'] to win 2 total games but they have 4 games left against each other.
+It looked like the Detroit Tigers were in contention after 19280830 but the remaining intra-division games ruled them out.
+The Washington Senators were eliminated from the AL title on 19280831 with 27 games left to play.
 BSN can only allow ['SLN', 'CIN', 'CHN'] to win 13 total games but they have 14 games left against each other.
 It looked like the Boston Braves were in contention after 19280829 but the remaining intra-division games ruled them out.
+CHA can only allow ['NYA', 'PHA'] to win 2 total games but they have 4 games left against each other.
+It looked like the Chicago White Sox were in contention after 19280829 but the remaining intra-division games ruled them out.
+DET can only allow ['NYA', 'PHA'] to win 2 total games but they have 4 games left against each other.
+It looked like the Detroit Tigers were in contention after 19280829 but the remaining intra-division games ruled them out.
 BSN can only allow ['SLN', 'CIN', 'CHN'] to win 13 total games but they have 14 games left against each other.
 It looked like the Boston Braves were in contention after 19280828 but the remaining intra-division games ruled them out.
 The Chicago White Sox were eliminated from the AL title on 19280829 with 28 games left to play.
@@ -43,10 +43,10 @@ It looked like the Boston Braves were in contention after 19280827 but the remai
 The Cleveland Indians were eliminated from the AL title on 19280828 with 26 games left to play.
 BSN can only allow ['SLN', 'CHN', 'CIN'] to win 15 total games but they have 16 games left against each other.
 It looked like the Boston Braves were in contention after 19280826 but the remaining intra-division games ruled them out.
-PHI can only allow ['SLN', 'CHN', 'CIN'] to win 9 total games but they have 16 games left against each other.
-It looked like the Philadelphia Phillies were in contention after 19280825 but the remaining intra-division games ruled them out.
 BSN can only allow ['SLN', 'CHN', 'CIN', 'PIT'] to win 32 total games but they have 33 games left against each other.
 It looked like the Boston Braves were in contention after 19280825 but the remaining intra-division games ruled them out.
+PHI can only allow ['SLN', 'CHN', 'CIN'] to win 9 total games but they have 16 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19280825 but the remaining intra-division games ruled them out.
 PHI can only allow ['SLN', 'CIN', 'CHN'] to win 15 total games but they have 16 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19280824 but the remaining intra-division games ruled them out.
 The Boston Braves were eliminated from the NL title on 19280825 with 43 games left to play.

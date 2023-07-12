@@ -40,14 +40,14 @@ It looked like the San Diego Padres were in contention after 20140912 but the re
 The Chicago White Sox were eliminated from the ALC title on 20140913 with 14 games left to play.
 The Philadelphia Phillies were eliminated from the NLE title on 20140913 with 14 games left to play.
 The Houston Astros were eliminated from AL wildcard contention on 20140913 with 14 games left to play.
-SDN can only allow ['LAN', 'SFN'] to win 4 total games but they have 6 games left against each other.
-It looked like the San Diego Padres were in contention after 20140911 but the remaining intra-division games ruled them out.
 CHN can only allow ['SLN', 'PIT', 'MIL', 'CIN'] to win 17 total games but they have 18 games left against each other.
 It looked like the Chicago Cubs were in contention after 20140911 but the remaining intra-division games ruled them out.
-SDN can only allow ['LAN', 'SFN'] to win 5 total games but they have 6 games left against each other.
-It looked like the San Diego Padres were in contention after 20140910 but the remaining intra-division games ruled them out.
+SDN can only allow ['LAN', 'SFN'] to win 4 total games but they have 6 games left against each other.
+It looked like the San Diego Padres were in contention after 20140911 but the remaining intra-division games ruled them out.
 MIN can only allow ['KCA', 'DET'] to win 0 total games but they have 3 games left against each other.
 It looked like the Minnesota Twins were in contention after 20140910 but the remaining intra-division games ruled them out.
+SDN can only allow ['LAN', 'SFN'] to win 5 total games but they have 6 games left against each other.
+It looked like the San Diego Padres were in contention after 20140910 but the remaining intra-division games ruled them out.
 The Chicago Cubs were eliminated from the NLC title on 20140911 with 16 games left to play.
 The Tampa Bay Rays were eliminated from the ALE title on 20140911 with 15 games left to play.
 ARI can only allow ['PIT', 'MIL'] to win 1 total games but they have 3 games left against each other.
@@ -72,15 +72,15 @@ It looked like the Arizona Diamondbacks were in contention after 20140905 but th
 COL can only allow ['LAN', 'SFN'] to win 2 total games but they have 6 games left against each other.
 It looked like the Colorado Rockies were in contention after 20140904 but the remaining intra-division games ruled them out.
 The Arizona Diamondbacks were eliminated from the NLW title on 20140905 with 21 games left to play.
-HOU can only allow ['ANA', 'OAK', 'SEA'] to win 12 total games but they have 13 games left against each other.
-It looked like the Houston Astros were in contention after 20140903 but the remaining intra-division games ruled them out.
 COL can only allow ['LAN', 'SFN'] to win 2 total games but they have 6 games left against each other.
 It looked like the Colorado Rockies were in contention after 20140903 but the remaining intra-division games ruled them out.
+HOU can only allow ['ANA', 'OAK', 'SEA'] to win 12 total games but they have 13 games left against each other.
+It looked like the Houston Astros were in contention after 20140903 but the remaining intra-division games ruled them out.
 The Texas Rangers were eliminated from AL wildcard contention on 20140904 with 22 games left to play.
-HOU can only allow ['ANA', 'OAK', 'SEA'] to win 13 total games but they have 14 games left against each other.
-It looked like the Houston Astros were in contention after 20140902 but the remaining intra-division games ruled them out.
 COL can only allow ['LAN', 'SFN'] to win 2 total games but they have 6 games left against each other.
 It looked like the Colorado Rockies were in contention after 20140902 but the remaining intra-division games ruled them out.
+HOU can only allow ['ANA', 'OAK', 'SEA'] to win 13 total games but they have 14 games left against each other.
+It looked like the Houston Astros were in contention after 20140902 but the remaining intra-division games ruled them out.
 HOU can only allow ['ANA', 'OAK', 'SEA'] to win 14 total games but they have 15 games left against each other.
 It looked like the Houston Astros were in contention after 20140901 but the remaining intra-division games ruled them out.
 The Colorado Rockies were eliminated from the NLW title on 20140902 with 23 games left to play.

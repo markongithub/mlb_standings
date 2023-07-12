@@ -22,10 +22,10 @@ The Colorado Rockies were eliminated from NL wildcard contention on 19970918 wit
 The Houston Astros were eliminated from NL wildcard contention on 19970918 with 10 games left to play.
 The New York Mets were eliminated from the NLE title on 19970917 with 10 games left to play.
 The Milwaukee Brewers were eliminated from AL wildcard contention on 19970917 with 13 games left to play.
-SDN can only allow ['LAN', 'SFN'] to win 1 total games but they have 2 games left against each other.
-It looked like the San Diego Padres were in contention after 19970915 but the remaining intra-division games ruled them out.
 CHN can only allow ['HOU', 'PIT'] to win 3 total games but they have 5 games left against each other.
 It looked like the Chicago Cubs were in contention after 19970915 but the remaining intra-division games ruled them out.
+SDN can only allow ['LAN', 'SFN'] to win 1 total games but they have 2 games left against each other.
+It looked like the San Diego Padres were in contention after 19970915 but the remaining intra-division games ruled them out.
 The Boston Red Sox were eliminated from AL wildcard contention on 19970916 with 11 games left to play.
 The Chicago White Sox were eliminated from AL wildcard contention on 19970916 with 12 games left to play.
 The Detroit Tigers were eliminated from AL wildcard contention on 19970916 with 12 games left to play.

@@ -36,18 +36,18 @@ It looked like the Houston Colt .45's were in contention after 19630824 but the 
 HOU can only allow ['LAN', 'SLN', 'SFN', 'PHI', 'MLN', 'CHN', 'PIT'] to win 84 total games but they have 85 games left against each other.
 It looked like the Houston Colt .45's were in contention after 19630823 but the remaining intra-division games ruled them out.
 The Washington Senators were eliminated from the AL title on 19630824 with 34 games left to play.
-NYN can only allow ['LAN', 'SFN', 'PHI'] to win 14 total games but they have 16 games left against each other.
-It looked like the New York Mets were in contention after 19630822 but the remaining intra-division games ruled them out.
 HOU can only allow ['LAN', 'SLN', 'SFN', 'PHI', 'MLN', 'PIT', 'CIN', 'CHN'] to win 110 total games but they have 111 games left against each other.
 It looked like the Houston Colt .45's were in contention after 19630822 but the remaining intra-division games ruled them out.
-NYN can only allow ['LAN', 'SFN', 'PHI'] to win 15 total games but they have 16 games left against each other.
-It looked like the New York Mets were in contention after 19630821 but the remaining intra-division games ruled them out.
+NYN can only allow ['LAN', 'SFN', 'PHI'] to win 14 total games but they have 16 games left against each other.
+It looked like the New York Mets were in contention after 19630822 but the remaining intra-division games ruled them out.
 HOU can only allow ['LAN', 'SLN', 'SFN', 'PHI', 'MLN', 'CHN', 'PIT', 'CIN'] to win 113 total games but they have 114 games left against each other.
 It looked like the Houston Colt .45's were in contention after 19630821 but the remaining intra-division games ruled them out.
-NYN can only allow ['LAN', 'SLN', 'SFN', 'PHI'] to win 23 total games but they have 27 games left against each other.
-It looked like the New York Mets were in contention after 19630820 but the remaining intra-division games ruled them out.
+NYN can only allow ['LAN', 'SFN', 'PHI'] to win 15 total games but they have 16 games left against each other.
+It looked like the New York Mets were in contention after 19630821 but the remaining intra-division games ruled them out.
 HOU can only allow ['LAN', 'SLN', 'SFN', 'PHI', 'MLN', 'CHN', 'CIN', 'PIT'] to win 116 total games but they have 117 games left against each other.
 It looked like the Houston Colt .45's were in contention after 19630820 but the remaining intra-division games ruled them out.
+NYN can only allow ['LAN', 'SLN', 'SFN', 'PHI'] to win 23 total games but they have 27 games left against each other.
+It looked like the New York Mets were in contention after 19630820 but the remaining intra-division games ruled them out.
 NYN can only allow ['LAN', 'SLN', 'SFN', 'PHI', 'MLN'] to win 42 total games but they have 46 games left against each other.
 It looked like the New York Mets were in contention after 19630819 but the remaining intra-division games ruled them out.
 The Houston Colt .45's were eliminated from the NL title on 19630820 with 36 games left to play.

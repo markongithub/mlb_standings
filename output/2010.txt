@@ -28,10 +28,10 @@ The Milwaukee Brewers were eliminated from the NLC title on 20100919 with 14 gam
 The Houston Astros were eliminated from NL wildcard contention on 20100919 with 13 games left to play.
 The Los Angeles Dodgers were eliminated from NL wildcard contention on 20100919 with 12 games left to play.
 The Toronto Blue Jays were eliminated from AL wildcard contention on 20100919 with 13 games left to play.
-TOR can only allow ['NYA', 'TBA'] to win 1 total games but they have 4 games left against each other.
-It looked like the Toronto Blue Jays were in contention after 20100917 but the remaining intra-division games ruled them out.
 NYN can only allow ['PHI', 'ATL'] to win 5 total games but they have 6 games left against each other.
 It looked like the New York Mets were in contention after 20100917 but the remaining intra-division games ruled them out.
+TOR can only allow ['NYA', 'TBA'] to win 1 total games but they have 4 games left against each other.
+It looked like the Toronto Blue Jays were in contention after 20100917 but the remaining intra-division games ruled them out.
 The Detroit Tigers were eliminated from the ALC title on 20100918 with 14 games left to play.
 The Florida Marlins were eliminated from the NLE title on 20100918 with 15 games left to play.
 The Detroit Tigers were eliminated from AL wildcard contention on 20100918 with 14 games left to play.

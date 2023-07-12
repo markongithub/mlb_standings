@@ -28,31 +28,31 @@ KC1 can only allow ['NYA', 'CLE', 'CHA'] to win 12 total games but they have 13 
 It looked like the Kansas City Athletics were in contention after 19550826 but the remaining intra-division games ruled them out.
 KC1 can only allow ['NYA', 'CHA', 'CLE'] to win 13 total games but they have 14 games left against each other.
 It looked like the Kansas City Athletics were in contention after 19550825 but the remaining intra-division games ruled them out.
-WS1 can only allow ['NYA', 'CHA'] to win 1 total games but they have 4 games left against each other.
-It looked like the Washington Senators were in contention after 19550824 but the remaining intra-division games ruled them out.
 KC1 can only allow ['NYA', 'CHA', 'CLE'] to win 14 total games but they have 15 games left against each other.
 It looked like the Kansas City Athletics were in contention after 19550824 but the remaining intra-division games ruled them out.
-WS1 can only allow ['CHA', 'NYA', 'CLE'] to win 8 total games but they have 15 games left against each other.
-It looked like the Washington Senators were in contention after 19550823 but the remaining intra-division games ruled them out.
+WS1 can only allow ['NYA', 'CHA'] to win 1 total games but they have 4 games left against each other.
+It looked like the Washington Senators were in contention after 19550824 but the remaining intra-division games ruled them out.
 KC1 can only allow ['CHA', 'NYA', 'CLE', 'BOS'] to win 26 total games but they have 29 games left against each other.
 It looked like the Kansas City Athletics were in contention after 19550823 but the remaining intra-division games ruled them out.
-WS1 can only allow ['CHA', 'NYA', 'CLE'] to win 12 total games but they have 15 games left against each other.
-It looked like the Washington Senators were in contention after 19550822 but the remaining intra-division games ruled them out.
+WS1 can only allow ['CHA', 'NYA', 'CLE'] to win 8 total games but they have 15 games left against each other.
+It looked like the Washington Senators were in contention after 19550823 but the remaining intra-division games ruled them out.
 KC1 can only allow ['CHA', 'NYA', 'CLE', 'BOS'] to win 28 total games but they have 30 games left against each other.
 It looked like the Kansas City Athletics were in contention after 19550822 but the remaining intra-division games ruled them out.
 WS1 can only allow ['CHA', 'NYA', 'CLE'] to win 12 total games but they have 15 games left against each other.
-It looked like the Washington Senators were in contention after 19550821 but the remaining intra-division games ruled them out.
+It looked like the Washington Senators were in contention after 19550822 but the remaining intra-division games ruled them out.
 KC1 can only allow ['CHA', 'NYA', 'CLE', 'BOS'] to win 28 total games but they have 30 games left against each other.
 It looked like the Kansas City Athletics were in contention after 19550821 but the remaining intra-division games ruled them out.
-WS1 can only allow ['CHA', 'NYA', 'CLE', 'BOS'] to win 29 total games but they have 30 games left against each other.
-It looked like the Washington Senators were in contention after 19550820 but the remaining intra-division games ruled them out.
+WS1 can only allow ['CHA', 'NYA', 'CLE'] to win 12 total games but they have 15 games left against each other.
+It looked like the Washington Senators were in contention after 19550821 but the remaining intra-division games ruled them out.
 BAL can only allow ['NYA', 'CLE'] to win 3 total games but they have 5 games left against each other.
 It looked like the Baltimore Orioles were in contention after 19550820 but the remaining intra-division games ruled them out.
+WS1 can only allow ['CHA', 'NYA', 'CLE', 'BOS'] to win 29 total games but they have 30 games left against each other.
+It looked like the Washington Senators were in contention after 19550820 but the remaining intra-division games ruled them out.
 The Kansas City Athletics were eliminated from the AL title on 19550821 with 31 games left to play.
-WS1 can only allow ['CHA', 'NYA', 'CLE', 'BOS', 'DET'] to win 49 total games but they have 51 games left against each other.
-It looked like the Washington Senators were in contention after 19550819 but the remaining intra-division games ruled them out.
 BAL can only allow ['CHA', 'NYA', 'CLE'] to win 13 total games but they have 15 games left against each other.
 It looked like the Baltimore Orioles were in contention after 19550819 but the remaining intra-division games ruled them out.
+WS1 can only allow ['CHA', 'NYA', 'CLE', 'BOS', 'DET'] to win 49 total games but they have 51 games left against each other.
+It looked like the Washington Senators were in contention after 19550819 but the remaining intra-division games ruled them out.
 The Pittsburgh Pirates were eliminated from the NL title on 19550820 with 32 games left to play.
 BAL can only allow ['CHA', 'NYA', 'CLE', 'BOS'] to win 28 total games but they have 30 games left against each other.
 It looked like the Baltimore Orioles were in contention after 19550818 but the remaining intra-division games ruled them out.

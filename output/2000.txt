@@ -68,10 +68,10 @@ The Chicago Cubs were eliminated from the NLC title on 20000909 with 21 games le
 MON can only allow ['ATL', 'NYN'] to win 4 total games but they have 6 games left against each other.
 It looked like the Montreal Expos were in contention after 20000906 but the remaining intra-division games ruled them out.
 The Minnesota Twins were eliminated from the ALC title on 20000907 with 22 games left to play.
-PHI can only allow ['ATL', 'NYN'] to win 1 total games but they have 6 games left against each other.
-It looked like the Philadelphia Phillies were in contention after 20000905 but the remaining intra-division games ruled them out.
 MON can only allow ['ATL', 'NYN'] to win 5 total games but they have 6 games left against each other.
 It looked like the Montreal Expos were in contention after 20000905 but the remaining intra-division games ruled them out.
+PHI can only allow ['ATL', 'NYN'] to win 1 total games but they have 6 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 20000905 but the remaining intra-division games ruled them out.
 PHI can only allow ['ATL', 'NYN'] to win 5 total games but they have 6 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 20000904 but the remaining intra-division games ruled them out.
 The Montreal Expos were eliminated from the NLE title on 20000905 with 27 games left to play.

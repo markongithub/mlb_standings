@@ -45,10 +45,10 @@ CHN can only allow ['PIT', 'NY1'] to win 2 total games but they have 3 games lef
 It looked like the Chicago Cubs were in contention after 19210901 but the remaining intra-division games ruled them out.
 CHN can only allow ['PIT', 'NY1'] to win 2 total games but they have 3 games left against each other.
 It looked like the Chicago Cubs were in contention after 19210831 but the remaining intra-division games ruled them out.
-PHA can only allow ['CLE', 'NYA'] to win 2 total games but they have 4 games left against each other.
-It looked like the Philadelphia Athletics were in contention after 19210830 but the remaining intra-division games ruled them out.
 CHN can only allow ['PIT', 'NY1'] to win 2 total games but they have 3 games left against each other.
 It looked like the Chicago Cubs were in contention after 19210830 but the remaining intra-division games ruled them out.
+PHA can only allow ['CLE', 'NYA'] to win 2 total games but they have 4 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19210830 but the remaining intra-division games ruled them out.
 PHA can only allow ['CLE', 'NYA'] to win 3 total games but they have 4 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19210829 but the remaining intra-division games ruled them out.
 The Chicago Cubs were eliminated from the NL title on 19210830 with 30 games left to play.

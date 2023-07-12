@@ -15,10 +15,10 @@ It looked like the Cincinnati Reds were in contention after 19010909 but the rem
 NY1 can only allow ['PIT', 'PHI'] to win 2 total games but they have 6 games left against each other.
 It looked like the New York Giants were in contention after 19010908 but the remaining intra-division games ruled them out.
 The Cincinnati Reds were eliminated from the NL title on 19010909 with 29 games left to play.
-NY1 can only allow ['PIT', 'PHI'] to win 2 total games but they have 6 games left against each other.
-It looked like the New York Giants were in contention after 19010907 but the remaining intra-division games ruled them out.
 CLE can only allow ['CHA', 'BOS'] to win 5 total games but they have 6 games left against each other.
 It looked like the Cleveland Indians were in contention after 19010907 but the remaining intra-division games ruled them out.
+NY1 can only allow ['PIT', 'PHI'] to win 2 total games but they have 6 games left against each other.
+It looked like the New York Giants were in contention after 19010907 but the remaining intra-division games ruled them out.
 NY1 can only allow ['PIT', 'PHI'] to win 3 total games but they have 7 games left against each other.
 It looked like the New York Giants were in contention after 19010906 but the remaining intra-division games ruled them out.
 The Cleveland Indians were eliminated from the AL title on 19010907 with 23 games left to play.

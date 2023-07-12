@@ -8,10 +8,10 @@ The Detroit Tigers were eliminated from the AL title on 19240922 with 4 games le
 The Chicago Cubs were eliminated from the NL title on 19240919 with 11 games left to play.
 The Cincinnati Reds were eliminated from the NL title on 19240918 with 9 games left to play.
 The St. Louis Browns were eliminated from the AL title on 19240917 with 10 games left to play.
-PHA can only allow ['WS1', 'NYA', 'DET'] to win 4 total games but they have 6 games left against each other.
-It looked like the Philadelphia Athletics were in contention after 19240909 but the remaining intra-division games ruled them out.
 CLE can only allow ['WS1', 'NYA', 'DET'] to win 4 total games but they have 6 games left against each other.
 It looked like the Cleveland Indians were in contention after 19240909 but the remaining intra-division games ruled them out.
+PHA can only allow ['WS1', 'NYA', 'DET'] to win 4 total games but they have 6 games left against each other.
+It looked like the Philadelphia Athletics were in contention after 19240909 but the remaining intra-division games ruled them out.
 The Boston Red Sox were eliminated from the AL title on 19240909 with 18 games left to play.
 The Cleveland Indians were eliminated from the AL title on 19240909 with 16 games left to play.
 The Philadelphia Athletics were eliminated from the AL title on 19240909 with 19 games left to play.
