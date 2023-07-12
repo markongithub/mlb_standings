@@ -1,7 +1,7 @@
 This season has 12 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The NL has 132 games per team.
-The NL has more contenders at the end of the season than I expected: {'BSN', 'BLN'}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
+The NL has more contenders at the end of the season than I expected: ['BLN', 'BSN']. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
 The New York Giants were eliminated from the NL title on 18970921 with 9 games left to play.
 CIN can only allow ['BLN', 'BSN'] to win 1 total games but they have 3 games left against each other.
 It looked like the Cincinnati Reds were in contention after 18970913 but the remaining intra-division games ruled them out.

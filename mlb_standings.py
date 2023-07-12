@@ -601,11 +601,6 @@ def wildcard_standings(standings_immutable, season_params):
     # )
 
 
-def wildcard_contenders_naive(standings_immutable, season_params):
-    # standings = wildcard_standings(standings_immutable, season_params)
-    return set(wildcard_standings(standings_immutable, season_params).index)
-
-
 def wildcard_threats(standings_immutable, season_params, team):
     # We only care about teams with more max_wins than us
     df = standings_immutable.copy()
@@ -1229,6 +1224,15 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
             season_params.season_lengths,
             division_winners=season_params.winners_per_division,
         )
+        div_contenders = set(div_contenders_df.index)
+        # print(f"naive division contenders: {sorted(div_contenders)}")
+        # print(f'My busted view of the wildcard standings: {wildcard_standings(current_standings, divisions, wildcard_count, division_winners=winners_per_division, games_per_season=games_per_season)}')
+        wildcard_contenders_df = wildcard_standings(current_standings, season_params)
+        wildcard_contenders = set(wildcard_contenders_df.index)
+
+        # print(
+        #   f"naive wildcard contenders after {date_str} games: {sorted(wildcard_contenders)}"
+        # )
         if current_date == max_date:
             # check for end-of-season ties
             # print(f"div_contenders_df: {div_contenders_df}")
@@ -1240,11 +1244,28 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
                         div_contenders_df.loc[lambda x: x == index].index
                     )
                     print(
-                        f"The {index} has more contenders at the end of the season than I expected: {contenders_set}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on."
+                        f"The {index} has more contenders at the end of the season than I expected: {sorted(contenders_set)}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on."
                     )
+            if season_params.wildcard_count:
+                wildcards_by_league = (
+                    wildcard_contenders_df.loc[
+                        wildcard_contenders_df["division_leader"] == False
+                    ]
+                    .groupby("lg")
+                    .size()
+                )
+                for (index, value) in wildcards_by_league.items():
+                    if value > season_params.wildcard_count:
+                        contenders_set = set(
+                            wildcard_contenders_df.loc[
+                                (wildcard_contenders_df["lg"] == index)
+                                & (wildcard_contenders_df["division_leader"] == False)
+                            ].index
+                        )
+                        print(
+                            f"The {index} has more wild card contenders (who are not leading their divisions) at the end of the season than I expected: {sorted(contenders_set)}. This discrepancy is either because my analysis is wrong, or it was an actual tie and they held a playoff later on."
+                        )
 
-        div_contenders = set(div_contenders_df.index)
-        # print(f"naive division contenders: {sorted(div_contenders)}")
         for supposed_contender in sorted(div_contenders.copy()):
             # If you're in contention tomorrow, you're in contention today, so I am not going to
             # waste CPU time on you.
@@ -1283,13 +1304,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
             else:
                 eliminations[elim_franchise] = {"division": new_pair}
         # print(f'PHI max wins: {current_standings.loc["PHI"]["max_wins"]}, SLN wins: {current_standings.loc["SLN"]["W"]}')
-        # print(f'My busted view of the wildcard standings: {wildcard_standings(current_standings, divisions, wildcard_count, division_winners=winners_per_division, games_per_season=games_per_season)}')
-        wildcard_contenders = wildcard_contenders_naive(
-            current_standings, season_params
-        )
-        # print(
-        #   f"naive wildcard contenders after {date_str} games: {sorted(wildcard_contenders)}"
-        # )
+
         for supposed_contender in sorted(wildcard_contenders.copy()):
             # If you're in contention tomorrow, you're in contention today, so I am not going to
             # waste CPU time on you.

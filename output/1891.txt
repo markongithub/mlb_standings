@@ -2,7 +2,7 @@ This season has 16 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AA has 140 games per team.
 The NL has 140 games per team.
-The NL has more contenders at the end of the season than I expected: {'BSN', 'CHN'}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
+The NL has more contenders at the end of the season than I expected: ['BSN', 'CHN']. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
 The St. Louis Cardinals were eliminated from the AA title on 18911001 with 7 games left to play.
 The New York Giants were eliminated from the NL title on 18910930 with 11 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 18910924 with 12 games left to play.

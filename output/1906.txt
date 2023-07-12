@@ -2,7 +2,7 @@ This season has 16 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AL has 154 games per team.
 The NL has 154 games per team.
-The AL has more contenders at the end of the season than I expected: {'CHA', 'NYA'}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
+The AL has more contenders at the end of the season than I expected: ['CHA', 'NYA']. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
 The Cleveland Indians were eliminated from the AL title on 19061004 with 4 games left to play.
 The Philadelphia Athletics were eliminated from the AL title on 19060930 with 12 games left to play.
 SLA can only allow ['NYA', 'CLE'] to win 4 total games but they have 5 games left against each other.

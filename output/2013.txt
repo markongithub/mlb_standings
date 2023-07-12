@@ -2,6 +2,7 @@ This season has 30 teams.
 The top 1 teams from each division go to the postseason, plus 2 wild cards.
 The AL has 162 games per team.
 The NL has 162 games per team.
+The AL has more wild card contenders (who are not leading their divisions) at the end of the season than I expected: ['CLE', 'TBA', 'TEX']. This discrepancy is either because my analysis is wrong, or it was an actual tie and they held a playoff later on.
 The Pittsburgh Pirates were eliminated from the NLC title on 20130927 with 2 games left to play.
 The Cincinnati Reds were eliminated from the NLC title on 20130925 with 3 games left to play.
 The Cleveland Indians were eliminated from the ALC title on 20130925 with 4 games left to play.

@@ -2,7 +2,7 @@ This season has 16 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AL has 154 games per team.
 The NL has 154 games per team.
-The AL has more contenders at the end of the season than I expected: {'NYA', 'BOS'}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
+The AL has more contenders at the end of the season than I expected: ['BOS', 'NYA']. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
 CHA can only allow ['NYA', 'BOS'] to win 2 total games but they have 3 games left against each other.
 It looked like the Chicago White Sox were in contention after 19041004 but the remaining intra-division games ruled them out.
 The Chicago White Sox were eliminated from the AL title on 19041004 with 5 games left to play.
