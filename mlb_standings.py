@@ -1005,6 +1005,15 @@ def statsapi_schedule_to_played_unplayed(schedule_json_path):
     return played, unplayed
 
 
+def all_tied(current_standings, contenders_set):
+    unique_wins = set()
+    unique_losses = set()
+    for contender in contenders_set:
+        unique_wins.add(current_standings.loc[contender]["W"])
+        unique_losses.add(current_standings.loc[contender]["L"])
+    return len(unique_wins) == 1 and len(unique_losses) == 1
+
+
 def show_dumb_elimination_output4(played, unplayed, season_params):
     team_count = count_teams(played, unplayed, season_params.divisions)
     print(f"This season has {team_count} teams.")
@@ -1035,6 +1044,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
     ):
         date_str = datetime_to_retro(current_date)
         # print(f"Starting analysis of {date_str}")
+
         current_standings = compute_standings(
             played.loc[played["completion_date"] <= date_str]
         )
@@ -1078,9 +1088,14 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
                     contenders_set = set(
                         div_contenders_df.loc[lambda x: x == index].index
                     )
-                    print(
-                        f"The {index} has more contenders at the end of the season than I expected: {sorted(contenders_set)}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on."
-                    )
+                    if all_tied(current_standings, contenders_set):
+                        print(
+                            f"The regular season ended with a tie in the {index} between {sorted(contenders_set)}."
+                        )
+                    else:
+                        print(
+                            f"The {index} has more contenders at the end of the season than I expected: {sorted(contenders_set)}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on."
+                        )
             if season_params.wildcard_count:
                 wildcards_by_league = (
                     wildcard_contenders_df.loc[
@@ -1097,9 +1112,14 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
                                 & (wildcard_contenders_df["division_leader"] == False)
                             ].index
                         )
-                        print(
-                            f"The {index} has more wild card contenders (who are not leading their divisions) at the end of the season than I expected: {sorted(contenders_set)}. This discrepancy is either because my analysis is wrong, or it was an actual tie and they held a playoff later on."
-                        )
+                        if all_tied(current_standings, contenders_set):
+                            print(
+                                f"The regular season ended with a tie for the {index} wild card between {sorted(contenders_set)}."
+                            )
+                        else:
+                            print(
+                                f"The {index} has more wild card contenders (who are not leading their divisions) at the end of the season than I expected: {sorted(contenders_set)}. This discrepancy is either because my analysis is wrong, or it was an actual tie and they held a playoff later on."
+                            )
 
         for supposed_contender in sorted(div_contenders.copy()):
             # If you're in contention tomorrow, you're in contention today, so I am not going to

@@ -2,7 +2,7 @@ This season has 30 teams.
 The top 1 teams from each division go to the postseason, plus 1 wild cards.
 The AL has 162 games per team.
 The NL has 162 games per team.
-The NL has more wild card contenders (who are not leading their divisions) at the end of the season than I expected: ['CIN', 'NYN']. This discrepancy is either because my analysis is wrong, or it was an actual tie and they held a playoff later on.
+The regular season ended with a tie for the NL wild card between ['CIN', 'NYN'].
 The Cincinnati Reds were eliminated from the NLC title on 19991003 with 0 games left to play.
 The Boston Red Sox were eliminated from the ALE title on 19990930 with 3 games left to play.
 The Oakland Athletics were eliminated from AL wildcard contention on 19990929 with 4 games left to play.
