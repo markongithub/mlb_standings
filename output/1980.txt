@@ -17,11 +17,11 @@ The Atlanta Braves were eliminated from the NLW title on 19800926 with 8 games l
 SFN can only allow ['HOU', 'LAN'] to win 0 total games but they have 3 games left against each other.
 It looked like the San Francisco Giants were in contention after 19800920 but the remaining intra-division games ruled them out.
 The Boston Red Sox were eliminated from the ALE title on 19800921 with 16 games left to play.
-SFN can only allow ['LAN', 'HOU', 'CIN', 'ATL'] to win 16 total games but they have 17 games left against each other.
+SFN can only allow ['LAN', 'HOU', 'CIN', 'ATL'] to win 16 total games but they have 18 games left against each other.
 It looked like the San Francisco Giants were in contention after 19800919 but the remaining intra-division games ruled them out.
 SLN can only allow ['MON', 'PHI'] to win 4 total games but they have 6 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 19800919 but the remaining intra-division games ruled them out.
-SFN can only allow ['LAN', 'HOU', 'CIN', 'ATL'] to win 17 total games but they have 18 games left against each other.
+SFN can only allow ['LAN', 'HOU', 'CIN', 'ATL'] to win 17 total games but they have 19 games left against each other.
 It looked like the San Francisco Giants were in contention after 19800918 but the remaining intra-division games ruled them out.
 SLN can only allow ['MON', 'PHI'] to win 4 total games but they have 6 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 19800918 but the remaining intra-division games ruled them out.

@@ -44,6 +44,8 @@ class SeasonParameters(object):
             self.season_lengths = pd.Series(data=[162, 162], index=["NL", "AL"])
             # [['NL', 162], ['AL', 162]], columns=['lg', 'length'])
         self.tiebreakers_required = year >= 2022
+        self.special_message = get_special_message(year)
+        self.abort_abort_abort = year in [1981, 1994]
 
     def use_half_seasons(self, team):
         if self.year == 1981:
@@ -720,8 +722,6 @@ def wildcards_for_year(year):
     # eliminations.
     if year >= 1994:
         return 1
-    if year == 1981:
-        return "1981 was weird sorry"
     return 0
 
 
@@ -729,6 +729,16 @@ def get_winners_per_division(year):
     if year == 2020:
         return 2
     return 1
+
+
+def get_special_message(year):
+    if year == 1981:
+        return "1981 had two division races and I haven't implemented that. Sorry!"
+    elif year == 1994:
+        return "1994 ended early and nobody was eliminated. What a happy ending!"
+    elif year == 2020:
+        return "There were ties for the division slots but all of those tied teams ended up wild cards so it didn't really matter. I haven't figured out how to handle those situations yet. Sorry!"
+    return None
 
 
 def run_one_year_retro(year):
@@ -1030,6 +1040,10 @@ def format_team_id_list(divisions, team_ids):
 
 def show_dumb_elimination_output4(played, unplayed, season_params):
     team_count = count_teams(played, unplayed, season_params.divisions)
+    if season_params.special_message:
+        print(season_params.special_message)
+    if season_params.abort_abort_abort:
+        return
     print(f"This season has {team_count} teams.")
     print(
         f"The top {season_params.winners_per_division} teams from each division go to the postseason, plus {season_params.wildcard_count} wild cards."

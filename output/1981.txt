@@ -1,4 +1,1 @@
-This season has 26 teams.
-The top 1 teams from each division go to the postseason, plus 1981 was weird sorry wild cards.
-The AL has 162 games per team.
-The NL has 162 games per team.
+1981 had two division races and I haven't implemented that. Sorry!
