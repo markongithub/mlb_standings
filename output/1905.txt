@@ -20,10 +20,10 @@ CIN can only allow ['NY1', 'PIT'] to win 1 total games but they have 3 games lef
 It looked like the Cincinnati Reds were in contention after 19050910 but the remaining intra-division games ruled them out.
 CIN can only allow ['NY1', 'PIT'] to win 2 total games but they have 3 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19050909 but the remaining intra-division games ruled them out.
-SLA can only allow ['PHA', 'CHA', 'NYA', 'CLE', 'DET'] to win 47 total games but they have 48 games left against each other.
+SLA can only allow ['PHA', 'CHA', 'NYA', 'CLE', 'DET'] to win 47 total games but they have 49 games left against each other.
 It looked like the St.Louis Browns were in contention after 19050908 but the remaining intra-division games ruled them out.
 The Cincinnati Reds were eliminated from the NL title on 19050909 with 26 games left to play.
-SLA can only allow ['PHA', 'CHA', 'NYA', 'CLE', 'BOS', 'DET', 'WS1'] to win 100 total games but they have 104 games left against each other.
+SLA can only allow ['PHA', 'CHA', 'NYA', 'CLE', 'BOS', 'DET'] to win 73 total games but they have 74 games left against each other.
 It looked like the St.Louis Browns were in contention after 19050907 but the remaining intra-division games ruled them out.
 The St.Louis Browns were eliminated from the AL title on 19050907 with 32 games left to play.
 The St. Louis Cardinals were eliminated from the NL title on 19050828 with 35 games left to play.

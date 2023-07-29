@@ -668,8 +668,14 @@ def retrosheet_to_played_unplayed(game_log, schedule, season_params: SeasonParam
     unplayed["completion_date"] = np.nan  # I'm going to regret this.
     # Do we still need to dropna(subset=['home']) on unplayed?
     played = game_log.copy()
+    # This doesn't work because lots of teams played more than 154 games in the
+    # 154-game era, and I don't mean tiebreakers, I mean like the 158 games
+    # that the 1905 Chicago White Sox played for some reason.
     played = played.drop(
-        played[played["home_game_num"] > season_params.season_lengths.max()].index
+        played[
+            (played["home_game_num"] > season_params.season_lengths.max())
+            & (played["visitor_game_num"] > season_params.season_lengths.max())
+        ].index
     )
 
     played["home_won"] = False

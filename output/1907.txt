@@ -36,7 +36,7 @@ WS1 can only allow ['DET', 'CHA', 'CLE'] to win 18 total games but they have 19 
 It looked like the Washington Senators were in contention after 19070901 but the remaining intra-division games ruled them out.
 WS1 can only allow ['DET', 'PHA', 'CHA', 'CLE'] to win 27 total games but they have 29 games left against each other.
 It looked like the Washington Senators were in contention after 19070831 but the remaining intra-division games ruled them out.
-WS1 can only allow ['DET', 'PHA', 'CHA', 'CLE', 'SLA'] to win 58 total games but they have 59 games left against each other.
+WS1 can only allow ['DET', 'PHA', 'CHA', 'CLE', 'SLA'] to win 58 total games but they have 60 games left against each other.
 It looked like the Washington Senators were in contention after 19070830 but the remaining intra-division games ruled them out.
 The Washington Senators were eliminated from the AL title on 19070830 with 42 games left to play.
 The Cincinnati Reds were eliminated from the NL title on 19070829 with 36 games left to play.

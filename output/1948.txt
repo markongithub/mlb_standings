@@ -2,7 +2,7 @@ This season has 16 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AL has 154 games per team.
 The NL has 154 games per team.
-The AL has more contenders at the end of the season than I expected: ['BOS', 'CLE']. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
+The regular season ended with a tie in the AL between the Boston Red Sox and the Cleveland Indians.
 The New York Yankees were eliminated from the AL title on 19481002 with 1 games left to play.
 The Brooklyn Dodgers were eliminated from the NL title on 19480929 with 3 games left to play.
 The St. Louis Cardinals were eliminated from the NL title on 19480929 with 5 games left to play.
@@ -16,11 +16,15 @@ It looked like the Detroit Tigers were in contention after 19480913 but the rema
 DET can only allow ['BOS', 'NYA'] to win 2 total games but they have 5 games left against each other.
 It looked like the Detroit Tigers were in contention after 19480912 but the remaining intra-division games ruled them out.
 The Detroit Tigers were eliminated from the AL title on 19480912 with 22 games left to play.
-CIN can only allow ['BSN', 'PIT', 'BRO', 'SLN', 'NY1'] to win 26 total games but they have 31 games left against each other.
+CHN can only allow ['BSN', 'PIT', 'BRO', 'SLN', 'NY1'] to win 31 total games but they have 32 games left against each other.
+It looked like the Chicago Cubs were in contention after 19480910 but the remaining intra-division games ruled them out.
+CIN can only allow ['BSN', 'PIT', 'BRO', 'NY1'] to win 21 total games but they have 22 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19480910 but the remaining intra-division games ruled them out.
-The Chicago Cubs were eliminated from the NL title on 19480911 with 20 games left to play.
-The Philadelphia Phillies were eliminated from the NL title on 19480911 with 19 games left to play.
+PHI can only allow ['BSN', 'PIT', 'BRO', 'SLN', 'NY1'] to win 31 total games but they have 32 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19480910 but the remaining intra-division games ruled them out.
+The Chicago Cubs were eliminated from the NL title on 19480910 with 21 games left to play.
 The Cincinnati Reds were eliminated from the NL title on 19480910 with 22 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19480910 with 21 games left to play.
 SLA can only allow ['BOS', 'NYA'] to win 0 total games but they have 8 games left against each other.
 It looked like the St. Louis Browns were in contention after 19480903 but the remaining intra-division games ruled them out.
 SLA can only allow ['BOS', 'NYA'] to win 5 total games but they have 8 games left against each other.
@@ -42,7 +46,7 @@ WS1 can only allow ['BOS', 'NYA', 'PHA'] to win 13 total games but they have 19 
 It looked like the Washington Senators were in contention after 19480829 but the remaining intra-division games ruled them out.
 CHA can only allow ['BOS', 'NYA'] to win 2 total games but they have 8 games left against each other.
 It looked like the Chicago White Sox were in contention after 19480828 but the remaining intra-division games ruled them out.
-WS1 can only allow ['BOS', 'NYA', 'CLE', 'PHA', 'DET'] to win 47 total games but they have 49 games left against each other.
+WS1 can only allow ['BOS', 'NYA', 'CLE', 'PHA', 'DET'] to win 47 total games but they have 50 games left against each other.
 It looked like the Washington Senators were in contention after 19480828 but the remaining intra-division games ruled them out.
 CHA can only allow ['BOS', 'NYA'] to win 6 total games but they have 8 games left against each other.
 It looked like the Chicago White Sox were in contention after 19480827 but the remaining intra-division games ruled them out.

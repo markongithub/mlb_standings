@@ -19,9 +19,9 @@ PHI can only allow ['PIT', 'CIN'] to win 5 total games but they have 9 games lef
 It looked like the Philadelphia Phillies were in contention after 19380831 but the remaining intra-division games ruled them out.
 PHI can only allow ['PIT', 'NY1', 'CHN', 'CIN'] to win 28 total games but they have 30 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19380830 but the remaining intra-division games ruled them out.
-PHI can only allow ['PIT', 'NY1', 'CHN', 'CIN', 'BSN', 'BRO', 'SLN'] to win 94 total games but they have 98 games left against each other.
+PHI can only allow ['PIT', 'NY1', 'CHN', 'CIN', 'BSN', 'SLN'] to win 73 total games but they have 75 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19380829 but the remaining intra-division games ruled them out.
-PHI can only allow ['PIT', 'NY1', 'CHN', 'CIN', 'BSN', 'BRO', 'SLN'] to win 96 total games but they have 100 games left against each other.
+PHI can only allow ['PIT', 'NY1', 'CHN', 'CIN', 'BSN', 'SLN'] to win 75 total games but they have 76 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19380828 but the remaining intra-division games ruled them out.
 The Philadelphia Phillies were eliminated from the NL title on 19380828 with 39 games left to play.
 The Philadelphia Athletics were eliminated from the AL title on 19380827 with 36 games left to play.
