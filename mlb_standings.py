@@ -658,6 +658,16 @@ def count_teams(played, unplayed, divisions):
     return len(schedule_teams)
 
 
+# This doesn't work because lots of teams played more than 154 games in the
+# 154-game era, and I don't mean tiebreakers, I mean like the 158 games
+# that the 1905 Chicago White Sox played for some reason.
+def is_tiebreaker(
+    season_params, home_team, home_game_num, visiting_team, visitor_game_num
+):
+    max_game = season_params.season_lengths.max()
+    return home_game_num > max_game and visitor_game_num > max_game
+
+
 def retrosheet_to_played_unplayed(game_log, schedule, season_params: SeasonParameters):
     unplayed = schedule.copy()
     unplayed["completion"] = unplayed["completion"].astype(str)
@@ -670,15 +680,18 @@ def retrosheet_to_played_unplayed(game_log, schedule, season_params: SeasonParam
     unplayed["completion_date"] = np.nan  # I'm going to regret this.
     # Do we still need to dropna(subset=['home']) on unplayed?
     played = game_log.copy()
-    # This doesn't work because lots of teams played more than 154 games in the
-    # 154-game era, and I don't mean tiebreakers, I mean like the 158 games
-    # that the 1905 Chicago White Sox played for some reason.
-    played = played.drop(
-        played[
-            (played["home_game_num"] > season_params.season_lengths.max())
-            & (played["visitor_game_num"] > season_params.season_lengths.max())
-        ].index
-    )
+    played = played[
+        played.apply(
+            lambda row: not is_tiebreaker(
+                season_params,
+                row["home"],
+                row["home_game_num"],
+                row["visitor"],
+                row["visitor_game_num"],
+            ),
+            axis=1,
+        )
+    ]
 
     played["home_won"] = False
     played.loc[
