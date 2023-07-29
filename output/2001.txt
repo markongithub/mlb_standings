@@ -2,7 +2,7 @@ This season has 30 teams.
 The top 1 teams from each division go to the postseason, plus 1 wild cards.
 The AL has 162 games per team.
 The NL has 162 games per team.
-The regular season ended with a tie in the NLC between ['HOU', 'SLN'].
+The regular season ended with a tie in the NLC between the Houston Astros and the St. Louis Cardinals.
 The Arizona Diamondbacks were eliminated from NL wildcard contention on 20011007 with 0 games left to play.
 The Philadelphia Phillies were eliminated from the NLE title on 20011005 with 3 games left to play.
 The San Francisco Giants were eliminated from the NLW title on 20011005 with 2 games left to play.

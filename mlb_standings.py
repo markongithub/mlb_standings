@@ -1006,6 +1006,22 @@ def all_tied(current_standings, contenders_set):
     return len(unique_wins) == 1 and len(unique_losses) == 1
 
 
+def format_list(string_list):
+    if len(string_list) == 1:
+        return string_list[0]
+    elif len(string_list) == 2:
+        return " and ".join(string_list)
+    else:
+        last_item = "and " + string_list[-1]
+        new_list = string_list[:-1] + last_item
+        return ", ".join(new_list)
+
+
+def format_team_id_list(divisions, team_ids):
+    pretty_teams = list(map(lambda t: "the " + display_name(divisions, t), team_ids))
+    return format_list(pretty_teams)
+
+
 def show_dumb_elimination_output4(played, unplayed, season_params):
     team_count = count_teams(played, unplayed, season_params.divisions)
     print(f"This season has {team_count} teams.")
@@ -1082,7 +1098,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
                     )
                     if all_tied(current_standings, contenders_set):
                         print(
-                            f"The regular season ended with a tie in the {index} between {sorted(contenders_set)}."
+                            f"The regular season ended with a tie in the {index} between {format_team_id_list(season_params.divisions, sorted(contenders_set))}."
                         )
                     else:
                         print(
@@ -1106,7 +1122,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
                         )
                         if all_tied(current_standings, contenders_set):
                             print(
-                                f"The regular season ended with a tie for the {index} wild card between {sorted(contenders_set)}."
+                                f"The regular season ended with a tie for the {index} wild card between {format_team_id_list(season_params.divisions, sorted(contenders_set))}."
                             )
                         else:
                             print(

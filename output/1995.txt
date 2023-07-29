@@ -2,7 +2,7 @@ This season has 28 teams.
 The top 1 teams from each division go to the postseason, plus 1 wild cards.
 The AL has 144 games per team.
 The NL has 144 games per team.
-The regular season ended with a tie in the ALW between ['CAL', 'SEA'].
+The regular season ended with a tie in the ALW between the California Angels and the Seattle Mariners.
 The Colorado Rockies were eliminated from the NLW title on 19951001 with 0 games left to play.
 The California Angels were eliminated from AL wildcard contention on 19951001 with 0 games left to play.
 The Houston Astros were eliminated from NL wildcard contention on 19951001 with 0 games left to play.

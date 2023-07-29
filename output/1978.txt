@@ -2,7 +2,7 @@ This season has 26 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AL has 162 games per team.
 The NL has 162 games per team.
-The regular season ended with a tie in the ALE between ['BOS', 'NYA'].
+The regular season ended with a tie in the ALE between the Boston Red Sox and the New York Yankees.
 The Pittsburgh Pirates were eliminated from the NLE title on 19780930 with 2 games left to play.
 The California Angels were eliminated from the ALW title on 19780926 with 5 games left to play.
 The Milwaukee Brewers were eliminated from the ALE title on 19780926 with 4 games left to play.

@@ -2,7 +2,7 @@ This season has 30 teams.
 The top 1 teams from each division go to the postseason, plus 1 wild cards.
 The AL has 162 games per team.
 The NL has 162 games per team.
-The regular season ended with a tie for the NL wild card between ['CHN', 'SFN'].
+The regular season ended with a tie for the NL wild card between the Chicago Cubs and the San Francisco Giants.
 The New York Mets were eliminated from NL wildcard contention on 19980927 with 0 games left to play.
 The Anaheim Angels were eliminated from the ALW title on 19980925 with 2 games left to play.
 The Cleveland Indians were eliminated from AL wildcard contention on 19980925 with 2 games left to play.
