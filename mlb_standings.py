@@ -320,14 +320,6 @@ def load_schedule(filename):
     )
 
 
-#    df['completion'] = df['completion'].astype(str)
-#    df['makeup_date'] = df['makeup_date'].astype(str)
-#    return df.dropna(subset=['home'])
-
-schedule_path = "./data/2021SKED.TXT"
-SCHEDULE = load_schedule(schedule_path)
-
-
 def find_unplayed_games(schedule):
     return schedule.loc[
         (schedule["makeup_date"].str.startswith("not", na=False))
