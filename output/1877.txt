@@ -11,6 +11,6 @@ CN1 can only allow ['BSN', 'LS1', 'SL3'] to win 6 total games but they have 10 g
 It looked like the Cincinnati Reds were in contention after 18770825 but the remaining intra-division games ruled them out.
 CN1 can only allow ['LS1', 'BSN', 'SL3'] to win 8 total games but they have 11 games left against each other.
 It looked like the Cincinnati Reds were in contention after 18770824 but the remaining intra-division games ruled them out.
-CN1 can only allow ['LS1', 'BSN', 'SL3', 'HAR', 'CHN'] to win 28 total games but they have 33 games left against each other.
+CN1 can only allow ['LS1', 'BSN', 'SL3', 'HAR'] to win 18 total games but they have 19 games left against each other.
 It looked like the Cincinnati Reds were in contention after 18770823 but the remaining intra-division games ruled them out.
 The Cincinnati Reds were eliminated from the NL title on 18770823 with 21 games left to play.

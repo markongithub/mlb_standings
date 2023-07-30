@@ -17,7 +17,7 @@ The New York Yankees were eliminated from the ALE title on 19690907 with 24 game
 The Washington Senators were eliminated from the ALE title on 19690907 with 22 games left to play.
 The Chicago White Sox were eliminated from the ALW title on 19690904 with 29 games left to play.
 The Kansas City Royals were eliminated from the ALW title on 19690904 with 27 games left to play.
-PHI can only allow ['CHN', 'NYN', 'PIT', 'SLN'] to win 31 total games but they have 34 games left against each other.
+PHI can only allow ['CHN', 'NYN', 'PIT', 'SLN'] to win 31 total games but they have 35 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19690901 but the remaining intra-division games ruled them out.
 The Seattle Pilots were eliminated from the ALW title on 19690902 with 29 games left to play.
 The Philadelphia Phillies were eliminated from the NLE title on 19690901 with 31 games left to play.
@@ -32,7 +32,7 @@ SDN can only allow ['CIN', 'LAN', 'SFN', 'HOU'] to win 30 total games but they h
 It looked like the San Diego Padres were in contention after 19690823 but the remaining intra-division games ruled them out.
 SDN can only allow ['CIN', 'LAN', 'SFN', 'HOU'] to win 35 total games but they have 37 games left against each other.
 It looked like the San Diego Padres were in contention after 19690822 but the remaining intra-division games ruled them out.
-MON can only allow ['CHN', 'NYN', 'SLN', 'PIT'] to win 32 total games but they have 34 games left against each other.
+MON can only allow ['CHN', 'NYN', 'SLN', 'PIT'] to win 32 total games but they have 35 games left against each other.
 It looked like the Montreal Expos were in contention after 19690821 but the remaining intra-division games ruled them out.
 SDN can only allow ['CIN', 'LAN', 'SFN', 'HOU', 'ATL'] to win 50 total games but they have 56 games left against each other.
 It looked like the San Diego Padres were in contention after 19690821 but the remaining intra-division games ruled them out.

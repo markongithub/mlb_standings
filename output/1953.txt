@@ -21,12 +21,12 @@ It looked like the St. Louis Browns were in contention after 19530815 but the re
 SLA can only allow ['NYA', 'CHA', 'CLE', 'BOS'] to win 35 total games but they have 36 games left against each other.
 It looked like the St. Louis Browns were in contention after 19530814 but the remaining intra-division games ruled them out.
 The St. Louis Browns were eliminated from the AL title on 19530814 with 38 games left to play.
-PIT can only allow ['BRO', 'MLN', 'PHI', 'SLN'] to win 30 total games but they have 31 games left against each other.
+PIT can only allow ['BRO', 'MLN', 'PHI', 'SLN'] to win 30 total games but they have 32 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 19530812 but the remaining intra-division games ruled them out.
-PIT can only allow ['BRO', 'MLN', 'PHI', 'SLN', 'NY1'] to win 59 total games but they have 63 games left against each other.
+PIT can only allow ['BRO', 'MLN', 'PHI', 'SLN', 'NY1'] to win 59 total games but they have 64 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 19530811 but the remaining intra-division games ruled them out.
-PIT can only allow ['BRO', 'MLN', 'PHI', 'SLN', 'NY1', 'CIN'] to win 93 total games but they have 94 games left against each other.
+PIT can only allow ['BRO', 'MLN', 'PHI', 'SLN', 'NY1', 'CIN'] to win 93 total games but they have 95 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 19530810 but the remaining intra-division games ruled them out.
-PIT can only allow ['BRO', 'MLN', 'PHI', 'SLN', 'NY1', 'CIN'] to win 94 total games but they have 95 games left against each other.
+PIT can only allow ['BRO', 'MLN', 'PHI', 'SLN', 'NY1', 'CIN'] to win 94 total games but they have 96 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 19530809 but the remaining intra-division games ruled them out.
 The Pittsburgh Pirates were eliminated from the NL title on 19530809 with 39 games left to play.

@@ -43,6 +43,6 @@ PHI can only allow ['CIN', 'BRO', 'SLN', 'NY1', 'PIT'] to win 49 total games but
 It looked like the Philadelphia Phillies were in contention after 19400830 but the remaining intra-division games ruled them out.
 PHI can only allow ['CIN', 'BRO', 'SLN', 'NY1', 'PIT'] to win 50 total games but they have 51 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19400829 but the remaining intra-division games ruled them out.
-PHI can only allow ['CIN', 'BRO', 'SLN', 'NY1', 'PIT', 'CHN'] to win 73 total games but they have 75 games left against each other.
+PHI can only allow ['CIN', 'BRO', 'SLN', 'NY1', 'PIT', 'CHN'] to win 73 total games but they have 77 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19400828 but the remaining intra-division games ruled them out.
 The Philadelphia Phillies were eliminated from the NL title on 19400828 with 38 games left to play.

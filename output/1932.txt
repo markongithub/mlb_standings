@@ -11,7 +11,7 @@ The Boston Braves were eliminated from the NL title on 19320911 with 11 games le
 The Cleveland Indians were eliminated from the AL title on 19320910 with 17 games left to play.
 The St. Louis Cardinals were eliminated from the NL title on 19320910 with 16 games left to play.
 The New York Giants were eliminated from the NL title on 19320909 with 18 games left to play.
-CIN can only allow ['CHN', 'PIT', 'BRO', 'PHI', 'SLN', 'BSN'] to win 49 total games but they have 50 games left against each other.
+CIN can only allow ['CHN', 'PIT', 'BRO', 'PHI', 'SLN', 'BSN'] to win 49 total games but they have 52 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19320902 but the remaining intra-division games ruled them out.
 The Detroit Tigers were eliminated from the AL title on 19320903 with 26 games left to play.
 The Cincinnati Reds were eliminated from the NL title on 19320902 with 21 games left to play.

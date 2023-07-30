@@ -15,34 +15,34 @@ It looked like the Washington Senators were in contention after 19520912 but the
 The Philadelphia Athletics were eliminated from the AL title on 19520912 with 12 games left to play.
 The Washington Senators were eliminated from the AL title on 19520912 with 11 games left to play.
 The Chicago Cubs were eliminated from the NL title on 19520906 with 17 games left to play.
-SLA can only allow ['NYA', 'CLE', 'BOS', 'PHA'] to win 21 total games but they have 23 games left against each other.
+SLA can only allow ['NYA', 'CLE', 'BOS', 'PHA'] to win 21 total games but they have 24 games left against each other.
 It looked like the St. Louis Browns were in contention after 19520831 but the remaining intra-division games ruled them out.
-SLA can only allow ['NYA', 'BOS', 'PHA', 'WS1'] to win 32 total games but they have 36 games left against each other.
+SLA can only allow ['NYA', 'CLE', 'BOS', 'PHA'] to win 25 total games but they have 26 games left against each other.
 It looked like the St. Louis Browns were in contention after 19520830 but the remaining intra-division games ruled them out.
 The Boston Braves were eliminated from the NL title on 19520831 with 27 games left to play.
-SLA can only allow ['NYA', 'BOS', 'PHA', 'WS1'] to win 33 total games but they have 37 games left against each other.
+SLA can only allow ['NYA', 'BOS', 'PHA', 'WS1'] to win 33 total games but they have 38 games left against each other.
 It looked like the St. Louis Browns were in contention after 19520829 but the remaining intra-division games ruled them out.
 The Cincinnati Reds were eliminated from the NL title on 19520830 with 26 games left to play.
-SLA can only allow ['NYA', 'BOS', 'PHA', 'WS1'] to win 36 total games but they have 40 games left against each other.
+SLA can only allow ['NYA', 'BOS', 'PHA', 'WS1'] to win 36 total games but they have 41 games left against each other.
 It looked like the St. Louis Browns were in contention after 19520828 but the remaining intra-division games ruled them out.
-SLA can only allow ['NYA', 'BOS', 'PHA', 'WS1'] to win 37 total games but they have 41 games left against each other.
+SLA can only allow ['NYA', 'BOS', 'PHA', 'WS1'] to win 37 total games but they have 42 games left against each other.
 It looked like the St. Louis Browns were in contention after 19520827 but the remaining intra-division games ruled them out.
-SLA can only allow ['NYA', 'CLE', 'BOS', 'PHA', 'WS1', 'CHA'] to win 64 total games but they have 66 games left against each other.
+SLA can only allow ['NYA', 'CLE', 'BOS', 'PHA', 'WS1', 'CHA'] to win 64 total games but they have 67 games left against each other.
 It looked like the St. Louis Browns were in contention after 19520826 but the remaining intra-division games ruled them out.
-DET can only allow ['NYA', 'BOS', 'PHA'] to win 18 total games but they have 22 games left against each other.
+DET can only allow ['NYA', 'CLE', 'PHA'] to win 14 total games but they have 15 games left against each other.
 It looked like the Detroit Tigers were in contention after 19520825 but the remaining intra-division games ruled them out.
 The St. Louis Browns were eliminated from the AL title on 19520826 with 26 games left to play.
-DET can only allow ['NYA', 'BOS', 'PHA'] to win 18 total games but they have 22 games left against each other.
+DET can only allow ['NYA', 'BOS', 'PHA'] to win 18 total games but they have 23 games left against each other.
 It looked like the Detroit Tigers were in contention after 19520824 but the remaining intra-division games ruled them out.
-DET can only allow ['NYA', 'CLE', 'BOS', 'PHA', 'CHA'] to win 40 total games but they have 43 games left against each other.
+DET can only allow ['NYA', 'CLE', 'BOS', 'PHA'] to win 30 total games but they have 31 games left against each other.
 It looked like the Detroit Tigers were in contention after 19520823 but the remaining intra-division games ruled them out.
-DET can only allow ['CLE', 'NYA', 'BOS', 'PHA', 'CHA'] to win 42 total games but they have 45 games left against each other.
+DET can only allow ['CLE', 'NYA', 'BOS', 'PHA', 'CHA'] to win 42 total games but they have 46 games left against each other.
 It looked like the Detroit Tigers were in contention after 19520822 but the remaining intra-division games ruled them out.
-DET can only allow ['NYA', 'BOS', 'PHA', 'WS1'] to win 40 total games but they have 41 games left against each other.
+DET can only allow ['NYA', 'BOS', 'PHA', 'WS1'] to win 40 total games but they have 42 games left against each other.
 It looked like the Detroit Tigers were in contention after 19520821 but the remaining intra-division games ruled them out.
-DET can only allow ['NYA', 'CLE', 'BOS', 'WS1', 'PHA'] to win 48 total games but they have 56 games left against each other.
+DET can only allow ['NYA', 'CLE', 'BOS', 'WS1', 'PHA'] to win 48 total games but they have 57 games left against each other.
 It looked like the Detroit Tigers were in contention after 19520820 but the remaining intra-division games ruled them out.
-DET can only allow ['NYA', 'CLE', 'BOS', 'WS1', 'PHA'] to win 55 total games but they have 57 games left against each other.
+DET can only allow ['NYA', 'CLE', 'BOS', 'WS1', 'PHA'] to win 55 total games but they have 58 games left against each other.
 It looked like the Detroit Tigers were in contention after 19520819 but the remaining intra-division games ruled them out.
 The Detroit Tigers were eliminated from the AL title on 19520819 with 36 games left to play.
 PIT can only allow ['BRO', 'NY1', 'SLN'] to win 16 total games but they have 17 games left against each other.

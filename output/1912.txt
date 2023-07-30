@@ -19,6 +19,6 @@ It looked like the Boston Braves were in contention after 19120819 but the remai
 The St.Louis Browns were eliminated from the AL title on 19120820 with 40 games left to play.
 BSN can only allow ['NY1', 'CHN', 'PIT'] to win 17 total games but they have 19 games left against each other.
 It looked like the Boston Braves were in contention after 19120818 but the remaining intra-division games ruled them out.
-BSN can only allow ['NY1', 'CHN', 'PIT', 'PHI', 'CIN', 'SLN'] to win 93 total games but they have 100 games left against each other.
+BSN can only allow ['NY1', 'CHN', 'PIT', 'PHI', 'CIN', 'SLN'] to win 93 total games but they have 101 games left against each other.
 It looked like the Boston Braves were in contention after 19120817 but the remaining intra-division games ruled them out.
 The Boston Braves were eliminated from the NL title on 19120817 with 47 games left to play.

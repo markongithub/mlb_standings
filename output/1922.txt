@@ -29,16 +29,18 @@ BOS can only allow ['NYA', 'SLA'] to win 1 total games but they have 3 games lef
 It looked like the Boston Red Sox were in contention after 19220902 but the remaining intra-division games ruled them out.
 PHI can only allow ['NY1', 'CHN', 'PIT'] to win 10 total games but they have 12 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19220902 but the remaining intra-division games ruled them out.
-PHI can only allow ['NY1', 'CHN', 'SLN', 'PIT', 'CIN'] to win 30 total games but they have 36 games left against each other.
+PHI can only allow ['NY1', 'CHN', 'SLN', 'PIT'] to win 22 total games but they have 24 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19220901 but the remaining intra-division games ruled them out.
 The Boston Red Sox were eliminated from the AL title on 19220902 with 28 games left to play.
-The Philadelphia Phillies were eliminated from the NL title on 19220901 with 34 games left to play.
+PHI can only allow ['NY1', 'CHN', 'SLN', 'PIT', 'CIN', 'BRO'] to win 60 total games but they have 61 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19220831 but the remaining intra-division games ruled them out.
+The Philadelphia Phillies were eliminated from the NL title on 19220831 with 36 games left to play.
 BSN can only allow ['NY1', 'CHN', 'CIN'] to win 11 total games but they have 12 games left against each other.
 It looked like the Boston Braves were in contention after 19220829 but the remaining intra-division games ruled them out.
-BSN can only allow ['NY1', 'CHN', 'SLN', 'PIT'] to win 21 total games but they have 26 games left against each other.
+BSN can only allow ['NY1', 'CHN', 'SLN', 'PIT'] to win 21 total games but they have 28 games left against each other.
 It looked like the Boston Braves were in contention after 19220828 but the remaining intra-division games ruled them out.
-BSN can only allow ['NY1', 'CHN', 'SLN', 'PIT'] to win 22 total games but they have 26 games left against each other.
+BSN can only allow ['NY1', 'CHN', 'SLN', 'PIT'] to win 22 total games but they have 28 games left against each other.
 It looked like the Boston Braves were in contention after 19220827 but the remaining intra-division games ruled them out.
-BSN can only allow ['NY1', 'SLN', 'CHN', 'PIT', 'CIN'] to win 42 total games but they have 43 games left against each other.
+BSN can only allow ['NY1', 'SLN', 'CHN', 'PIT', 'CIN'] to win 42 total games but they have 46 games left against each other.
 It looked like the Boston Braves were in contention after 19220826 but the remaining intra-division games ruled them out.
 The Boston Braves were eliminated from the NL title on 19220826 with 38 games left to play.

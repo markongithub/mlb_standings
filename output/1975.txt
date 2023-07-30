@@ -8,9 +8,11 @@ The Philadelphia Phillies were eliminated from the NLE title on 19750922 with 6 
 The New York Mets were eliminated from the NLE title on 19750919 with 8 games left to play.
 The St. Louis Cardinals were eliminated from the NLE title on 19750919 with 9 games left to play.
 The New York Yankees were eliminated from the ALE title on 19750916 with 12 games left to play.
-The Chicago Cubs were eliminated from the NLE title on 19750915 with 11 games left to play.
+CHN can only allow ['PIT', 'PHI', 'SLN'] to win 12 total games but they have 13 games left against each other.
+It looked like the Chicago Cubs were in contention after 19750914 but the remaining intra-division games ruled them out.
 The Cleveland Indians were eliminated from the ALE title on 19750915 with 17 games left to play.
-MON can only allow ['PIT', 'PHI', 'SLN', 'NYN'] to win 21 total games but they have 23 games left against each other.
+The Chicago Cubs were eliminated from the NLE title on 19750914 with 13 games left to play.
+MON can only allow ['PIT', 'PHI', 'SLN'] to win 12 total games but they have 13 games left against each other.
 It looked like the Montreal Expos were in contention after 19750910 but the remaining intra-division games ruled them out.
 The Chicago White Sox were eliminated from the ALW title on 19750910 with 18 games left to play.
 The Minnesota Twins were eliminated from the ALW title on 19750910 with 21 games left to play.

@@ -15,10 +15,12 @@ The Baltimore Orioles were eliminated from the AL title on 19570907 with 19 game
 The Cleveland Indians were eliminated from the AL title on 19570907 with 19 games left to play.
 The New York Giants were eliminated from the NL title on 19570906 with 15 games left to play.
 The Chicago Cubs were eliminated from the NL title on 19570831 with 29 games left to play.
-PIT can only allow ['MLN', 'BRO', 'SLN', 'CIN', 'PHI'] to win 40 total games but they have 41 games left against each other.
+PIT can only allow ['MLN', 'BRO', 'SLN', 'CIN'] to win 26 total games but they have 27 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 19570829 but the remaining intra-division games ruled them out.
-PIT can only allow ['MLN', 'BRO', 'SLN', 'CIN', 'PHI'] to win 40 total games but they have 41 games left against each other.
+PIT can only allow ['MLN', 'BRO', 'SLN', 'CIN'] to win 26 total games but they have 27 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 19570828 but the remaining intra-division games ruled them out.
-The Pittsburgh Pirates were eliminated from the NL title on 19570828 with 29 games left to play.
+PIT can only allow ['MLN', 'SLN', 'BRO', 'PHI', 'CIN'] to win 42 total games but they have 45 games left against each other.
+It looked like the Pittsburgh Pirates were in contention after 19570827 but the remaining intra-division games ruled them out.
+The Pittsburgh Pirates were eliminated from the NL title on 19570827 with 30 games left to play.
 The Washington Senators were eliminated from the AL title on 19570825 with 30 games left to play.
 The Kansas City Athletics were eliminated from the AL title on 19570824 with 31 games left to play.

@@ -14,17 +14,17 @@ The Chicago White Sox were eliminated from the AL title on 19030908 with 21 game
 The Brooklyn Dodgers were eliminated from the NL title on 19030907 with 21 games left to play.
 The Boston Braves were eliminated from the NL title on 19030901 with 30 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 19030828 with 39 games left to play.
-WS1 can only allow ['BOS', 'CLE', 'PHA', 'NYA', 'DET', 'SLA'] to win 66 total games but they have 69 games left against each other.
+WS1 can only allow ['BOS', 'CLE', 'PHA', 'NYA', 'DET', 'SLA'] to win 66 total games but they have 70 games left against each other.
 It looked like the Washington Senators were in contention after 19030825 but the remaining intra-division games ruled them out.
-WS1 can only allow ['BOS', 'CLE', 'PHA', 'NYA', 'DET', 'SLA'] to win 67 total games but they have 70 games left against each other.
+WS1 can only allow ['BOS', 'CLE', 'PHA', 'NYA', 'DET', 'SLA'] to win 67 total games but they have 71 games left against each other.
 It looked like the Washington Senators were in contention after 19030824 but the remaining intra-division games ruled them out.
-WS1 can only allow ['BOS', 'CLE', 'PHA', 'DET', 'NYA', 'SLA'] to win 69 total games but they have 72 games left against each other.
+WS1 can only allow ['BOS', 'CLE', 'PHA', 'DET', 'NYA', 'SLA'] to win 69 total games but they have 73 games left against each other.
 It looked like the Washington Senators were in contention after 19030823 but the remaining intra-division games ruled them out.
-WS1 can only allow ['BOS', 'CLE', 'PHA', 'NYA', 'DET', 'SLA'] to win 72 total games but they have 74 games left against each other.
+WS1 can only allow ['BOS', 'CLE', 'PHA', 'NYA', 'DET', 'SLA'] to win 72 total games but they have 75 games left against each other.
 It looked like the Washington Senators were in contention after 19030822 but the remaining intra-division games ruled them out.
 SLN can only allow ['PIT', 'NY1', 'CHN'] to win 10 total games but they have 14 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 19030821 but the remaining intra-division games ruled them out.
-WS1 can only allow ['BOS', 'CLE', 'PHA', 'NYA', 'DET', 'SLA', 'CHA'] to win 104 total games but they have 109 games left against each other.
+WS1 can only allow ['BOS', 'CLE', 'PHA', 'NYA', 'DET', 'SLA', 'CHA'] to win 104 total games but they have 110 games left against each other.
 It looked like the Washington Senators were in contention after 19030821 but the remaining intra-division games ruled them out.
 The St. Louis Cardinals were eliminated from the NL title on 19030821 with 31 games left to play.
 The Washington Senators were eliminated from the AL title on 19030821 with 37 games left to play.

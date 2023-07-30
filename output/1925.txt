@@ -19,6 +19,6 @@ BOS can only allow ['WS1', 'PHA'] to win 2 total games but they have 7 games lef
 It looked like the Boston Red Sox were in contention after 19250820 but the remaining intra-division games ruled them out.
 BOS can only allow ['PHA', 'WS1'] to win 5 total games but they have 7 games left against each other.
 It looked like the Boston Red Sox were in contention after 19250819 but the remaining intra-division games ruled them out.
-BOS can only allow ['PHA', 'WS1', 'CHA', 'SLA', 'DET', 'NYA', 'CLE'] to win 115 total games but they have 121 games left against each other.
+BOS can only allow ['PHA', 'WS1', 'CHA', 'SLA', 'DET', 'NYA', 'CLE'] to win 115 total games but they have 122 games left against each other.
 It looked like the Boston Red Sox were in contention after 19250818 but the remaining intra-division games ruled them out.
 The Boston Red Sox were eliminated from the AL title on 19250818 with 42 games left to play.

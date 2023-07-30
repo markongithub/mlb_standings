@@ -16,11 +16,11 @@ The Chicago White Sox were eliminated from the AL title on 19390914 with 17 game
 The Pittsburgh Pirates were eliminated from the NL title on 19390914 with 19 games left to play.
 The Cleveland Indians were eliminated from the AL title on 19390910 with 21 games left to play.
 The Detroit Tigers were eliminated from the AL title on 19390908 with 23 games left to play.
-PHI can only allow ['CIN', 'SLN', 'CHN'] to win 14 total games but they have 16 games left against each other.
+PHI can only allow ['CIN', 'SLN', 'CHN'] to win 14 total games but they have 17 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19390902 but the remaining intra-division games ruled them out.
-PHI can only allow ['CIN', 'SLN', 'CHN'] to win 15 total games but they have 17 games left against each other.
+PHI can only allow ['CIN', 'SLN', 'CHN'] to win 15 total games but they have 18 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19390901 but the remaining intra-division games ruled them out.
-PHI can only allow ['CIN', 'SLN', 'CHN', 'BRO', 'NY1', 'PIT'] to win 74 total games but they have 75 games left against each other.
+PHI can only allow ['CIN', 'SLN', 'CHN', 'BRO', 'NY1', 'PIT'] to win 74 total games but they have 76 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19390831 but the remaining intra-division games ruled them out.
 The Philadelphia Phillies were eliminated from the NL title on 19390831 with 37 games left to play.
 The Washington Senators were eliminated from the AL title on 19390826 with 34 games left to play.

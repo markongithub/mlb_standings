@@ -16,15 +16,15 @@ The Boston Red Sox were eliminated from the AL title on 19620910 with 17 games l
 The Milwaukee Braves were eliminated from the NL title on 19620908 with 18 games left to play.
 The Kansas City Athletics were eliminated from the AL title on 19620907 with 20 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 19620901 with 22 games left to play.
-WS2 can only allow ['NYA', 'MIN', 'LAA', 'DET', 'BAL', 'CLE'] to win 48 total games but they have 49 games left against each other.
+WS2 can only allow ['NYA', 'MIN', 'LAA', 'CHA', 'DET', 'BAL'] to win 44 total games but they have 45 games left against each other.
 It looked like the Washington Senators were in contention after 19620830 but the remaining intra-division games ruled them out.
-WS2 can only allow ['NYA', 'MIN', 'LAA', 'DET', 'BAL', 'CLE'] to win 48 total games but they have 49 games left against each other.
+WS2 can only allow ['NYA', 'MIN', 'LAA', 'CHA', 'DET', 'BAL'] to win 45 total games but they have 46 games left against each other.
 It looked like the Washington Senators were in contention after 19620829 but the remaining intra-division games ruled them out.
-WS2 can only allow ['NYA', 'LAA', 'MIN', 'CHA', 'DET', 'BAL', 'CLE', 'KC1'] to win 90 total games but they have 93 games left against each other.
+WS2 can only allow ['NYA', 'LAA', 'MIN', 'CHA', 'DET', 'BAL', 'CLE', 'BOS'] to win 88 total games but they have 89 games left against each other.
 It looked like the Washington Senators were in contention after 19620828 but the remaining intra-division games ruled them out.
-WS2 can only allow ['NYA', 'LAA', 'MIN', 'CHA', 'BAL', 'DET', 'CLE', 'KC1'] to win 93 total games but they have 96 games left against each other.
+WS2 can only allow ['NYA', 'LAA', 'MIN', 'CHA', 'BAL', 'DET', 'CLE', 'KC1'] to win 93 total games but they have 97 games left against each other.
 It looked like the Washington Senators were in contention after 19620827 but the remaining intra-division games ruled them out.
-WS2 can only allow ['NYA', 'LAA', 'MIN', 'CHA', 'DET', 'BAL', 'CLE', 'KC1'] to win 94 total games but they have 97 games left against each other.
+WS2 can only allow ['NYA', 'LAA', 'MIN', 'CHA', 'DET', 'BAL', 'CLE', 'KC1'] to win 94 total games but they have 98 games left against each other.
 It looked like the Washington Senators were in contention after 19620826 but the remaining intra-division games ruled them out.
 The Washington Senators were eliminated from the AL title on 19620826 with 31 games left to play.
 CHN can only allow ['LAN', 'SFN', 'CIN'] to win 8 total games but they have 12 games left against each other.

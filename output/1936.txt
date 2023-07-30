@@ -6,26 +6,28 @@ The St. Louis Cardinals were eliminated from the NL title on 19360924 with 3 gam
 The Chicago Cubs were eliminated from the NL title on 19360923 with 3 games left to play.
 The Pittsburgh Pirates were eliminated from the NL title on 19360919 with 7 games left to play.
 The Cincinnati Reds were eliminated from the NL title on 19360913 with 13 games left to play.
-The Boston Bees were eliminated from the NL title on 19360910 with 19 games left to play.
+BSN can only allow ['NY1', 'SLN', 'CHN'] to win 10 total games but they have 11 games left against each other.
+It looked like the Boston Bees were in contention after 19360909 but the remaining intra-division games ruled them out.
+The Boston Bees were eliminated from the NL title on 19360909 with 20 games left to play.
 The Chicago White Sox were eliminated from the AL title on 19360909 with 16 games left to play.
 The Cleveland Indians were eliminated from the AL title on 19360909 with 17 games left to play.
 The Detroit Tigers were eliminated from the AL title on 19360908 with 17 games left to play.
 The Washington Senators were eliminated from the AL title on 19360907 with 17 games left to play.
-BRO can only allow ['NY1', 'SLN', 'CHN'] to win 6 total games but they have 10 games left against each other.
+BRO can only allow ['NY1', 'SLN', 'CHN'] to win 6 total games but they have 11 games left against each other.
 It looked like the Brooklyn Dodgers were in contention after 19360905 but the remaining intra-division games ruled them out.
-BRO can only allow ['NY1', 'SLN', 'CHN'] to win 7 total games but they have 10 games left against each other.
+BRO can only allow ['NY1', 'SLN', 'CHN'] to win 7 total games but they have 11 games left against each other.
 It looked like the Brooklyn Dodgers were in contention after 19360904 but the remaining intra-division games ruled them out.
-BRO can only allow ['NY1', 'SLN', 'CHN'] to win 8 total games but they have 10 games left against each other.
+BRO can only allow ['NY1', 'SLN', 'CHN'] to win 8 total games but they have 11 games left against each other.
 It looked like the Brooklyn Dodgers were in contention after 19360903 but the remaining intra-division games ruled them out.
 The Boston Red Sox were eliminated from the AL title on 19360904 with 21 games left to play.
-BRO can only allow ['NY1', 'SLN', 'CHN'] to win 9 total games but they have 11 games left against each other.
+BRO can only allow ['NY1', 'SLN', 'CHN'] to win 9 total games but they have 12 games left against each other.
 It looked like the Brooklyn Dodgers were in contention after 19360902 but the remaining intra-division games ruled them out.
 The Brooklyn Dodgers were eliminated from the NL title on 19360902 with 28 games left to play.
 PHI can only allow ['NY1', 'CHN'] to win 2 total games but they have 6 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19360828 but the remaining intra-division games ruled them out.
 PHI can only allow ['NY1', 'CHN'] to win 4 total games but they have 6 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19360827 but the remaining intra-division games ruled them out.
-PHI can only allow ['NY1', 'SLN', 'CHN'] to win 11 total games but they have 16 games left against each other.
+PHI can only allow ['NY1', 'SLN', 'CHN'] to win 11 total games but they have 17 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19360826 but the remaining intra-division games ruled them out.
 The Philadelphia Phillies were eliminated from the NL title on 19360826 with 35 games left to play.
 The St. Louis Browns were eliminated from the AL title on 19360825 with 33 games left to play.

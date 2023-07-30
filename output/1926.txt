@@ -25,14 +25,14 @@ BSN can only allow ['PIT', 'SLN', 'CIN'] to win 11 total games but they have 12 
 It looked like the Boston Braves were in contention after 19260831 but the remaining intra-division games ruled them out.
 The Boston Braves were eliminated from the NL title on 19260831 with 29 games left to play.
 The St. Louis Browns were eliminated from the AL title on 19260829 with 26 games left to play.
-BOS can only allow ['NYA', 'CLE', 'PHA', 'WS1', 'DET', 'CHA'] to win 69 total games but they have 76 games left against each other.
+BOS can only allow ['NYA', 'CLE', 'PHA', 'WS1', 'DET'] to win 52 total games but they have 53 games left against each other.
 It looked like the Boston Red Sox were in contention after 19260819 but the remaining intra-division games ruled them out.
-BOS can only allow ['NYA', 'CLE', 'PHA', 'DET', 'WS1', 'CHA'] to win 70 total games but they have 77 games left against each other.
+BOS can only allow ['NYA', 'CLE', 'PHA', 'DET', 'WS1'] to win 53 total games but they have 54 games left against each other.
 It looked like the Boston Red Sox were in contention after 19260818 but the remaining intra-division games ruled them out.
-BOS can only allow ['NYA', 'CLE', 'PHA', 'DET', 'WS1', 'CHA'] to win 70 total games but they have 77 games left against each other.
+BOS can only allow ['NYA', 'CLE', 'PHA', 'DET', 'WS1'] to win 53 total games but they have 54 games left against each other.
 It looked like the Boston Red Sox were in contention after 19260817 but the remaining intra-division games ruled them out.
-BOS can only allow ['NYA', 'CLE', 'PHA', 'DET', 'WS1', 'CHA'] to win 73 total games but they have 80 games left against each other.
+BOS can only allow ['NYA', 'CLE', 'PHA', 'DET', 'WS1'] to win 55 total games but they have 56 games left against each other.
 It looked like the Boston Red Sox were in contention after 19260816 but the remaining intra-division games ruled them out.
-BOS can only allow ['NYA', 'CLE', 'PHA', 'DET', 'WS1', 'CHA'] to win 79 total games but they have 80 games left against each other.
+BOS can only allow ['NYA', 'CLE', 'PHA', 'DET', 'WS1', 'CHA'] to win 79 total games but they have 82 games left against each other.
 It looked like the Boston Red Sox were in contention after 19260815 but the remaining intra-division games ruled them out.
 The Boston Red Sox were eliminated from the AL title on 19260815 with 39 games left to play.

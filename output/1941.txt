@@ -23,12 +23,12 @@ PHI can only allow ['BRO', 'SLN'] to win 1 total games but they have 7 games lef
 It looked like the Philadelphia Phillies were in contention after 19410818 but the remaining intra-division games ruled them out.
 PHI can only allow ['BRO', 'SLN'] to win 6 total games but they have 7 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19410817 but the remaining intra-division games ruled them out.
-PHI can only allow ['SLN', 'BRO', 'PIT', 'CIN', 'NY1', 'CHN'] to win 89 total games but they have 91 games left against each other.
+PHI can only allow ['SLN', 'BRO', 'PIT', 'CIN', 'NY1'] to win 62 total games but they have 64 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19410816 but the remaining intra-division games ruled them out.
-PHI can only allow ['SLN', 'BRO', 'PIT', 'CIN', 'NY1', 'CHN', 'BSN'] to win 129 total games but they have 131 games left against each other.
+PHI can only allow ['SLN', 'BRO', 'PIT', 'CIN', 'NY1', 'CHN', 'BSN'] to win 129 total games but they have 133 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19410815 but the remaining intra-division games ruled them out.
-PHI can only allow ['SLN', 'BRO', 'PIT', 'CIN', 'NY1', 'CHN', 'BSN'] to win 130 total games but they have 132 games left against each other.
+PHI can only allow ['SLN', 'BRO', 'PIT', 'CIN', 'NY1', 'CHN', 'BSN'] to win 130 total games but they have 134 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19410814 but the remaining intra-division games ruled them out.
-PHI can only allow ['SLN', 'BRO', 'PIT', 'CIN', 'NY1', 'CHN', 'BSN'] to win 132 total games but they have 134 games left against each other.
+PHI can only allow ['SLN', 'BRO', 'PIT', 'CIN', 'NY1', 'CHN', 'BSN'] to win 132 total games but they have 136 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19410813 but the remaining intra-division games ruled them out.
 The Philadelphia Phillies were eliminated from the NL title on 19410813 with 47 games left to play.

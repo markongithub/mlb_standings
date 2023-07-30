@@ -22,11 +22,11 @@ PHI can only allow ['CHN', 'NY1', 'BRO'] to win 13 total games but they have 14 
 It looked like the Philadelphia Phillies were in contention after 19300822 but the remaining intra-division games ruled them out.
 PHI can only allow ['CHN', 'NY1', 'BRO', 'SLN', 'PIT', 'BSN'] to win 65 total games but they have 71 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19300821 but the remaining intra-division games ruled them out.
-PHI can only allow ['CHN', 'NY1', 'BRO', 'SLN', 'PIT', 'BSN', 'CIN'] to win 101 total games but they have 107 games left against each other.
+PHI can only allow ['CHN', 'NY1', 'BRO', 'SLN', 'PIT', 'BSN', 'CIN'] to win 101 total games but they have 109 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19300820 but the remaining intra-division games ruled them out.
-PHI can only allow ['CHN', 'NY1', 'BRO', 'SLN', 'PIT', 'BSN', 'CIN'] to win 105 total games but they have 111 games left against each other.
+PHI can only allow ['CHN', 'NY1', 'BRO', 'SLN', 'PIT', 'BSN', 'CIN'] to win 105 total games but they have 113 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19300819 but the remaining intra-division games ruled them out.
-PHI can only allow ['CHN', 'NY1', 'BRO', 'SLN', 'PIT', 'BSN', 'CIN'] to win 108 total games but they have 114 games left against each other.
+PHI can only allow ['CHN', 'NY1', 'BRO', 'SLN', 'PIT', 'BSN', 'CIN'] to win 108 total games but they have 116 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19300818 but the remaining intra-division games ruled them out.
 The Chicago White Sox were eliminated from the AL title on 19300819 with 35 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 19300818 with 38 games left to play.

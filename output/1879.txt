@@ -2,45 +2,49 @@ This season has 8 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The NL has 84 games per team.
 The Boston Braves were eliminated from the NL title on 18790926 with 3 games left to play.
-BFN can only allow ['PRO', 'BSN'] to win 2 total games but they have 4 games left against each other.
+BFN can only allow ['PRO', 'BSN'] to win 2 total games but they have 5 games left against each other.
 It looked like the Buffalo Bisons were in contention after 18790923 but the remaining intra-division games ruled them out.
-BFN can only allow ['PRO', 'BSN'] to win 3 total games but they have 5 games left against each other.
+BFN can only allow ['PRO', 'BSN'] to win 3 total games but they have 6 games left against each other.
 It looked like the Buffalo Bisons were in contention after 18790922 but the remaining intra-division games ruled them out.
-CHN can only allow ['PRO', 'BSN'] to win 3 total games but they have 5 games left against each other.
+CHN can only allow ['PRO', 'BSN'] to win 3 total games but they have 6 games left against each other.
 It looked like the Chicago Cubs were in contention after 18790922 but the remaining intra-division games ruled them out.
-BFN can only allow ['PRO', 'BSN'] to win 3 total games but they have 5 games left against each other.
+BFN can only allow ['PRO', 'BSN'] to win 3 total games but they have 6 games left against each other.
 It looked like the Buffalo Bisons were in contention after 18790921 but the remaining intra-division games ruled them out.
-CHN can only allow ['PRO', 'BSN'] to win 3 total games but they have 5 games left against each other.
+CHN can only allow ['PRO', 'BSN'] to win 3 total games but they have 6 games left against each other.
 It looked like the Chicago Cubs were in contention after 18790921 but the remaining intra-division games ruled them out.
-BFN can only allow ['PRO', 'BSN'] to win 3 total games but they have 5 games left against each other.
+BFN can only allow ['PRO', 'BSN'] to win 3 total games but they have 6 games left against each other.
 It looked like the Buffalo Bisons were in contention after 18790920 but the remaining intra-division games ruled them out.
-CHN can only allow ['PRO', 'BSN'] to win 3 total games but they have 5 games left against each other.
+CHN can only allow ['PRO', 'BSN'] to win 3 total games but they have 6 games left against each other.
 It looked like the Chicago Cubs were in contention after 18790920 but the remaining intra-division games ruled them out.
-BFN can only allow ['PRO', 'BSN'] to win 4 total games but they have 5 games left against each other.
+BFN can only allow ['PRO', 'BSN'] to win 4 total games but they have 6 games left against each other.
 It looked like the Buffalo Bisons were in contention after 18790919 but the remaining intra-division games ruled them out.
 The Chicago Cubs were eliminated from the NL title on 18790920 with 12 games left to play.
 The Buffalo Bisons were eliminated from the NL title on 18790919 with 14 games left to play.
-The Cincinnati Reds were eliminated from the NL title on 18790917 with 14 games left to play.
+CN1 can only allow ['PRO', 'BSN'] to win 5 total games but they have 6 games left against each other.
+It looked like the Cincinnati Reds were in contention after 18790916 but the remaining intra-division games ruled them out.
+CN1 can only allow ['PRO', 'BSN'] to win 5 total games but they have 6 games left against each other.
+It looked like the Cincinnati Reds were in contention after 18790915 but the remaining intra-division games ruled them out.
+The Cincinnati Reds were eliminated from the NL title on 18790915 with 15 games left to play.
 CL2 can only allow ['PRO', 'CHN'] to win 2 total games but they have 3 games left against each other.
 It looked like the Cleveland Spiders were in contention after 18790828 but the remaining intra-division games ruled them out.
-CL2 can only allow ['PRO', 'BSN'] to win 4 total games but they have 5 games left against each other.
+CL2 can only allow ['PRO', 'BSN'] to win 4 total games but they have 6 games left against each other.
 It looked like the Cleveland Spiders were in contention after 18790827 but the remaining intra-division games ruled them out.
-CL2 can only allow ['PRO', 'CHN', 'BSN'] to win 8 total games but they have 11 games left against each other.
+CL2 can only allow ['PRO', 'BSN'] to win 5 total games but they have 6 games left against each other.
 It looked like the Cleveland Spiders were in contention after 18790826 but the remaining intra-division games ruled them out.
 SR1 can only allow ['PRO', 'CHN'] to win 2 total games but they have 3 games left against each other.
 It looked like the Syracuse Stars were in contention after 18790826 but the remaining intra-division games ruled them out.
-SR1 can only allow ['PRO', 'CHN', 'BSN', 'BFN'] to win 21 total games but they have 23 games left against each other.
+SR1 can only allow ['PRO', 'CHN', 'BSN'] to win 11 total games but they have 12 games left against each other.
 It looked like the Syracuse Stars were in contention after 18790825 but the remaining intra-division games ruled them out.
 The Cleveland Spiders were eliminated from the NL title on 18790826 with 25 games left to play.
-SR1 can only allow ['PRO', 'CHN', 'BSN', 'BFN'] to win 22 total games but they have 23 games left against each other.
+SR1 can only allow ['PRO', 'CHN', 'BSN', 'BFN'] to win 22 total games but they have 24 games left against each other.
 It looked like the Syracuse Stars were in contention after 18790824 but the remaining intra-division games ruled them out.
-SR1 can only allow ['PRO', 'CHN', 'BSN', 'BFN'] to win 22 total games but they have 23 games left against each other.
+SR1 can only allow ['PRO', 'CHN', 'BSN', 'BFN'] to win 22 total games but they have 24 games left against each other.
 It looked like the Syracuse Stars were in contention after 18790823 but the remaining intra-division games ruled them out.
-TRN can only allow ['PRO', 'BSN'] to win 4 total games but they have 5 games left against each other.
+TRN can only allow ['PRO', 'BSN'] to win 4 total games but they have 6 games left against each other.
 It looked like the Troy Trojans were in contention after 18790822 but the remaining intra-division games ruled them out.
 The Syracuse Stars were eliminated from the NL title on 18790823 with 24 games left to play.
-TRN can only allow ['PRO', 'CHN', 'BSN'] to win 7 total games but they have 11 games left against each other.
+TRN can only allow ['PRO', 'BSN'] to win 5 total games but they have 6 games left against each other.
 It looked like the Troy Trojans were in contention after 18790821 but the remaining intra-division games ruled them out.
-TRN can only allow ['PRO', 'CHN', 'BFN', 'BSN'] to win 20 total games but they have 24 games left against each other.
+TRN can only allow ['PRO', 'CHN', 'BFN', 'BSN'] to win 20 total games but they have 25 games left against each other.
 It looked like the Troy Trojans were in contention after 18790820 but the remaining intra-division games ruled them out.
 The Troy Trojans were eliminated from the NL title on 18790820 with 29 games left to play.

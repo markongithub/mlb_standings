@@ -23,13 +23,17 @@ The Cleveland Indians were eliminated from the AL title on 19600914 with 14 game
 The Washington Senators were eliminated from the AL title on 19600914 with 13 games left to play.
 The San Francisco Giants were eliminated from the NL title on 19600912 with 16 games left to play.
 The Detroit Tigers were eliminated from the AL title on 19600908 with 19 games left to play.
-CIN can only allow ['PIT', 'MLN'] to win 7 total games but they have 8 games left against each other.
+CIN can only allow ['PIT', 'MLN'] to win 7 total games but they have 9 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19600904 but the remaining intra-division games ruled them out.
 The Boston Red Sox were eliminated from the AL title on 19600905 with 22 games left to play.
-The Cincinnati Reds were eliminated from the NL title on 19600904 with 22 games left to play.
-CHN can only allow ['PIT', 'MLN'] to win 7 total games but they have 8 games left against each other.
+CIN can only allow ['PIT', 'MLN'] to win 8 total games but they have 9 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19600903 but the remaining intra-division games ruled them out.
+CHN can only allow ['PIT', 'MLN'] to win 7 total games but they have 9 games left against each other.
 It looked like the Chicago Cubs were in contention after 19600902 but the remaining intra-division games ruled them out.
-The Chicago Cubs were eliminated from the NL title on 19600902 with 27 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19600903 with 23 games left to play.
+CHN can only allow ['PIT', 'MLN'] to win 8 total games but they have 9 games left against each other.
+It looked like the Chicago Cubs were in contention after 19600901 but the remaining intra-division games ruled them out.
+The Chicago Cubs were eliminated from the NL title on 19600901 with 28 games left to play.
 KC1 can only allow ['NYA', 'BAL'] to win 1 total games but they have 7 games left against each other.
 It looked like the Kansas City Athletics were in contention after 19600829 but the remaining intra-division games ruled them out.
 The Philadelphia Phillies were eliminated from the NL title on 19600830 with 28 games left to play.
