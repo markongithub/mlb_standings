@@ -35,8 +35,8 @@ CL4 can only allow ['BRO', 'BSN', 'PHI', 'BLN', 'CHN', 'CIN', 'SLN', 'PIT', 'LS3
 It looked like the Cleveland Spiders were in contention after 18990806 but the remaining intra-division games ruled them out.
 CL4 can only allow ['BRO', 'BSN', 'PHI', 'BLN', 'CHN', 'SLN', 'CIN', 'PIT', 'LS3', 'NY1'] to win 253 total games but they have 254 games left against each other.
 It looked like the Cleveland Spiders were in contention after 18990805 but the remaining intra-division games ruled them out.
-CL4 can only allow ['BRO', 'BSN', 'PHI', 'BLN', 'SLN', 'CHN', 'CIN', 'PIT', 'LS3', 'NY1', 'WSN'] to win 310 total games but they have 312 games left against each other.
+CL4 can only allow ['BRO', 'BSN', 'PHI', 'BLN', 'SLN', 'CHN', 'CIN', 'PIT', 'LS3', 'NY1', 'WSN'] to win 310 total games but they have 313 games left against each other.
 It looked like the Cleveland Spiders were in contention after 18990804 but the remaining intra-division games ruled them out.
-CL4 can only allow ['BRO', 'BSN', 'PHI', 'BLN', 'SLN', 'CHN', 'CIN', 'PIT', 'LS3', 'NY1', 'WSN'] to win 314 total games but they have 316 games left against each other.
+CL4 can only allow ['BRO', 'BSN', 'PHI', 'BLN', 'SLN', 'CHN', 'CIN', 'PIT', 'LS3', 'NY1', 'WSN'] to win 314 total games but they have 317 games left against each other.
 It looked like the Cleveland Spiders were in contention after 18990803 but the remaining intra-division games ruled them out.
 The Cleveland Spiders were eliminated from the NL title on 18990803 with 60 games left to play.

@@ -754,15 +754,15 @@ def get_special_message(year):
     return None
 
 
-def run_one_year_retro(year):
+def run_one_year_retro(year, data_path="data"):
     # print(f"starting analysis of {year}")
-    nicknames = load_nicknames("data/CurrentNames.csv")
-    team_ids = load_team_ids("data/TEAMABR.TXT")
-    game_log = load_game_log(f"./data/GL{year}.TXT")
+    nicknames = load_nicknames(f"{data_path}/CurrentNames.csv")
+    team_ids = load_team_ids(f"{data_path}/TEAMABR.TXT")
+    game_log = load_game_log(f"{data_path}/GL{year}.TXT")
     if year == 2020:
-        schedule = load_schedule("./data/2020REV.TXT")
+        schedule = load_schedule("{data_path}/2020REV.TXT")
     else:
-        schedule = load_schedule(f"./data/{year}SKED.TXT")
+        schedule = load_schedule(f"{data_path}/{year}SKED.TXT")
     if year == 1880:
         schedule = fix_1880(schedule)
     if year == 1882:
@@ -854,9 +854,9 @@ def assign_wins_with_brute_force(
     return None
 
 
-def check_division_contention(date_str, year, team):
-    game_log = load_game_log(f"./data/GL{year}.TXT")
-    schedule = load_schedule(f"./data/{year}SKED.TXT")
+def check_division_contention(date_str, year, team, data_path="./data"):
+    game_log = load_game_log(f"{data_path}/GL{year}.TXT")
+    schedule = load_schedule(f"{data_path}/{year}SKED.TXT")
     divisions = divisions_for_year(NICKNAMES, TEAM_IDS_UNDEFINED_LOL, year)
     season_lengths = get_season_length(schedule)
     matchups = games_between_rivals_after_date(
