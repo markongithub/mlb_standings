@@ -17,12 +17,12 @@ The Philadelphia Athletics were eliminated from the AL title on 19170829 with 35
 PIT can only allow ['NY1', 'PHI', 'SLN', 'BRO', 'CHN', 'CIN'] to win 67 total games but they have 71 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 19170827 but the remaining intra-division games ruled them out.
 The St. Louis Browns were eliminated from the AL title on 19170828 with 29 games left to play.
-PIT can only allow ['NY1', 'PHI', 'SLN', 'BRO', 'CHN', 'BSN'] to win 84 total games but they have 86 games left against each other.
+PIT can only allow ['NY1', 'PHI', 'SLN', 'BRO', 'CHN', 'BSN'] to win 84 total games but they have 88 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 19170826 but the remaining intra-division games ruled them out.
-PIT can only allow ['NY1', 'PHI', 'SLN', 'BRO', 'CHN', 'BSN'] to win 84 total games but they have 86 games left against each other.
+PIT can only allow ['NY1', 'PHI', 'SLN', 'BRO', 'CHN', 'BSN'] to win 84 total games but they have 88 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 19170825 but the remaining intra-division games ruled them out.
-PIT can only allow ['NY1', 'PHI', 'SLN', 'CHN', 'BRO', 'CIN', 'BSN'] to win 110 total games but they have 114 games left against each other.
+PIT can only allow ['NY1', 'PHI', 'SLN', 'CHN', 'BRO', 'CIN', 'BSN'] to win 110 total games but they have 116 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 19170824 but the remaining intra-division games ruled them out.
-PIT can only allow ['NY1', 'PHI', 'SLN', 'CHN', 'CIN', 'BRO', 'BSN'] to win 114 total games but they have 118 games left against each other.
+PIT can only allow ['NY1', 'PHI', 'SLN', 'CHN', 'CIN', 'BRO', 'BSN'] to win 114 total games but they have 120 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 19170823 but the remaining intra-division games ruled them out.
 The Pittsburgh Pirates were eliminated from the NL title on 19170823 with 40 games left to play.

@@ -59,8 +59,8 @@ LS2 can only allow ['SL4', 'BR3', 'BL2'] to win 18 total games but they have 19 
 It looked like the Louisville Colonels were in contention after 18890813 but the remaining intra-division games ruled them out.
 LS2 can only allow ['SL4', 'BR3', 'PH4', 'BL2'] to win 40 total games but they have 43 games left against each other.
 It looked like the Louisville Colonels were in contention after 18890812 but the remaining intra-division games ruled them out.
-LS2 can only allow ['SL4', 'BR3', 'PH4', 'BL2', 'CN2', 'KC2'] to win 100 total games but they have 104 games left against each other.
+LS2 can only allow ['SL4', 'BR3', 'PH4', 'BL2', 'CN2', 'KC2'] to win 100 total games but they have 105 games left against each other.
 It looked like the Louisville Colonels were in contention after 18890811 but the remaining intra-division games ruled them out.
-LS2 can only allow ['SL4', 'BR3', 'PH4', 'BL2', 'CN2', 'KC2', 'CL6'] to win 144 total games but they have 146 games left against each other.
+LS2 can only allow ['SL4', 'BR3', 'PH4', 'BL2', 'CN2', 'KC2', 'CL6'] to win 144 total games but they have 147 games left against each other.
 It looked like the Louisville Colonels were in contention after 18890810 but the remaining intra-division games ruled them out.
 The Louisville Colonels were eliminated from the AA title on 18890810 with 49 games left to play.

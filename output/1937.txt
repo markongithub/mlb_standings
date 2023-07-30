@@ -28,9 +28,9 @@ PHI can only allow ['NY1', 'CHN'] to win 2 total games but they have 3 games lef
 It looked like the Philadelphia Phillies were in contention after 19370909 but the remaining intra-division games ruled them out.
 The Cincinnati Reds were eliminated from the NL title on 19370910 with 28 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 19370909 with 25 games left to play.
-PHA can only allow ['NYA', 'DET', 'BOS', 'CHA', 'CLE', 'WS1'] to win 89 total games but they have 90 games left against each other.
+PHA can only allow ['NYA', 'DET', 'BOS', 'CHA', 'CLE', 'WS1'] to win 89 total games but they have 91 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19370826 but the remaining intra-division games ruled them out.
-SLA can only allow ['NYA', 'DET', 'BOS', 'CHA', 'CLE', 'WS1'] to win 87 total games but they have 92 games left against each other.
+SLA can only allow ['NYA', 'DET', 'BOS', 'CHA', 'CLE', 'WS1'] to win 87 total games but they have 93 games left against each other.
 It looked like the St. Louis Browns were in contention after 19370825 but the remaining intra-division games ruled them out.
 The Philadelphia Athletics were eliminated from the AL title on 19370826 with 43 games left to play.
 The St. Louis Browns were eliminated from the AL title on 19370825 with 42 games left to play.

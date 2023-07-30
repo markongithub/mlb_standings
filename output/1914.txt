@@ -21,28 +21,34 @@ PTF can only allow ['CHF', 'IND'] to win 0 total games but they have 1 games lef
 It looked like the Pittsburgh Rebels were in contention after 19140919 but the remaining intra-division games ruled them out.
 The Detroit Tigers were eliminated from the AL title on 19140920 with 13 games left to play.
 The Washington Senators were eliminated from the AL title on 19140920 with 17 games left to play.
-PTF can only allow ['IND', 'CHF', 'BLF', 'BUF', 'BRF', 'KCF'] to win 40 total games but they have 42 games left against each other.
+PTF can only allow ['CHF', 'BLF', 'BRF'] to win 17 total games but they have 18 games left against each other.
 It looked like the Pittsburgh Rebels were in contention after 19140918 but the remaining intra-division games ruled them out.
-SLF can only allow ['IND', 'CHF', 'BLF', 'BUF', 'BRF', 'KCF'] to win 40 total games but they have 42 games left against each other.
+SLF can only allow ['CHF', 'BLF', 'BRF'] to win 17 total games but they have 18 games left against each other.
 It looked like the St.Louis Terriers were in contention after 19140918 but the remaining intra-division games ruled them out.
 CIN can only allow ['BSN', 'NY1'] to win 3 total games but they have 5 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19140917 but the remaining intra-division games ruled them out.
-PTF can only allow ['IND', 'CHF', 'BLF', 'BUF', 'BRF', 'KCF'] to win 43 total games but they have 44 games left against each other.
+PTF can only allow ['CHF', 'BLF', 'BRF'] to win 17 total games but they have 18 games left against each other.
 It looked like the Pittsburgh Rebels were in contention after 19140917 but the remaining intra-division games ruled them out.
 The St.Louis Terriers were eliminated from the FL title on 19140918 with 19 games left to play.
-The Cincinnati Reds were eliminated from the NL title on 19140917 with 21 games left to play.
+CIN can only allow ['BSN', 'NY1', 'SLN', 'CHN'] to win 21 total games but they have 23 games left against each other.
+It looked like the Cincinnati Reds were in contention after 19140916 but the remaining intra-division games ruled them out.
 The Pittsburgh Rebels were eliminated from the FL title on 19140917 with 24 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19140916 with 22 games left to play.
 The Chicago White Sox were eliminated from the AL title on 19140913 with 22 games left to play.
 The New York Yankees were eliminated from the AL title on 19140908 with 25 games left to play.
 The St.Louis Browns were eliminated from the AL title on 19140907 with 26 games left to play.
-CLE can only allow ['PHA', 'BOS', 'WS1', 'DET', 'SLA', 'CHA', 'NYA'] to win 105 total games but they have 116 games left against each other.
+CLE can only allow ['PHA', 'BOS', 'WS1', 'DET', 'SLA', 'CHA'] to win 82 total games but they have 89 games left against each other.
 It looked like the Cleveland Indians were in contention after 19140823 but the remaining intra-division games ruled them out.
-CLE can only allow ['PHA', 'BOS', 'WS1', 'DET', 'SLA', 'CHA', 'NYA'] to win 105 total games but they have 116 games left against each other.
+CLE can only allow ['PHA', 'BOS', 'WS1', 'DET', 'SLA', 'CHA'] to win 82 total games but they have 89 games left against each other.
 It looked like the Cleveland Indians were in contention after 19140822 but the remaining intra-division games ruled them out.
-CLE can only allow ['PHA', 'BOS', 'WS1', 'DET', 'SLA', 'CHA', 'NYA'] to win 117 total games but they have 120 games left against each other.
+CLE can only allow ['PHA', 'BOS', 'WS1', 'DET', 'SLA', 'CHA', 'NYA'] to win 117 total games but they have 131 games left against each other.
 It looked like the Cleveland Indians were in contention after 19140821 but the remaining intra-division games ruled them out.
-CLE can only allow ['PHA', 'BOS', 'WS1', 'DET', 'SLA', 'CHA', 'NYA'] to win 117 total games but they have 120 games left against each other.
+CLE can only allow ['PHA', 'BOS', 'WS1', 'DET', 'SLA', 'CHA', 'NYA'] to win 117 total games but they have 131 games left against each other.
 It looked like the Cleveland Indians were in contention after 19140820 but the remaining intra-division games ruled them out.
-CLE can only allow ['PHA', 'BOS', 'WS1', 'DET', 'SLA', 'CHA', 'NYA'] to win 120 total games but they have 123 games left against each other.
+CLE can only allow ['PHA', 'BOS', 'WS1', 'DET', 'SLA', 'CHA', 'NYA'] to win 120 total games but they have 134 games left against each other.
 It looked like the Cleveland Indians were in contention after 19140819 but the remaining intra-division games ruled them out.
-The Cleveland Indians were eliminated from the AL title on 19140819 with 38 games left to play.
+CLE can only allow ['PHA', 'BOS', 'WS1', 'DET', 'SLA', 'CHA', 'NYA'] to win 132 total games but they have 138 games left against each other.
+It looked like the Cleveland Indians were in contention after 19140818 but the remaining intra-division games ruled them out.
+CLE can only allow ['PHA', 'BOS', 'WS1', 'DET', 'SLA', 'CHA', 'NYA'] to win 135 total games but they have 141 games left against each other.
+It looked like the Cleveland Indians were in contention after 19140817 but the remaining intra-division games ruled them out.
+The Cleveland Indians were eliminated from the AL title on 19140817 with 40 games left to play.

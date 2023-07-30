@@ -16,14 +16,16 @@ The New York Giants were eliminated from the NL title on 19260914 with 16 games 
 The Detroit Tigers were eliminated from the AL title on 19260913 with 13 games left to play.
 The Brooklyn Robins were eliminated from the NL title on 19260911 with 15 games left to play.
 The Chicago White Sox were eliminated from the AL title on 19260911 with 15 games left to play.
-PHI can only allow ['PIT', 'CIN', 'SLN'] to win 9 total games but they have 10 games left against each other.
+PHI can only allow ['PIT', 'CIN', 'SLN'] to win 9 total games but they have 11 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19260903 but the remaining intra-division games ruled them out.
 The Philadelphia Phillies were eliminated from the NL title on 19260903 with 30 games left to play.
-BSN can only allow ['SLN', 'CIN'] to win 2 total games but they have 3 games left against each other.
+BSN can only allow ['SLN', 'CIN'] to win 2 total games but they have 4 games left against each other.
 It looked like the Boston Braves were in contention after 19260901 but the remaining intra-division games ruled them out.
-BSN can only allow ['PIT', 'SLN', 'CIN'] to win 11 total games but they have 12 games left against each other.
+BSN can only allow ['PIT', 'SLN', 'CIN'] to win 11 total games but they have 13 games left against each other.
 It looked like the Boston Braves were in contention after 19260831 but the remaining intra-division games ruled them out.
-The Boston Braves were eliminated from the NL title on 19260831 with 29 games left to play.
+BSN can only allow ['PIT', 'CIN', 'SLN', 'CHN'] to win 26 total games but they have 27 games left against each other.
+It looked like the Boston Braves were in contention after 19260830 but the remaining intra-division games ruled them out.
+The Boston Braves were eliminated from the NL title on 19260830 with 30 games left to play.
 The St. Louis Browns were eliminated from the AL title on 19260829 with 26 games left to play.
 BOS can only allow ['NYA', 'CLE', 'PHA', 'WS1', 'DET'] to win 52 total games but they have 53 games left against each other.
 It looked like the Boston Red Sox were in contention after 19260819 but the remaining intra-division games ruled them out.

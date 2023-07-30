@@ -27,9 +27,9 @@ SLA can only allow ['PHA', 'CHA', 'NYA', 'CLE', 'BOS', 'DET'] to win 73 total ga
 It looked like the St.Louis Browns were in contention after 19050907 but the remaining intra-division games ruled them out.
 The St.Louis Browns were eliminated from the AL title on 19050907 with 32 games left to play.
 The St. Louis Cardinals were eliminated from the NL title on 19050828 with 35 games left to play.
-BRO can only allow ['NY1', 'PIT', 'PHI'] to win 22 total games but they have 23 games left against each other.
+BRO can only allow ['NY1', 'PIT', 'PHI'] to win 22 total games but they have 24 games left against each other.
 It looked like the Brooklyn Dodgers were in contention after 19050822 but the remaining intra-division games ruled them out.
-BSN can only allow ['NY1', 'PIT', 'CHN', 'PHI'] to win 38 total games but they have 39 games left against each other.
+BSN can only allow ['NY1', 'PIT', 'CHN', 'PHI'] to win 38 total games but they have 40 games left against each other.
 It looked like the Boston Braves were in contention after 19050822 but the remaining intra-division games ruled them out.
 The Brooklyn Dodgers were eliminated from the NL title on 19050822 with 43 games left to play.
 The Boston Braves were eliminated from the NL title on 19050822 with 40 games left to play.

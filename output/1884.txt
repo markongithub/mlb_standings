@@ -25,20 +25,28 @@ TL1 can only allow ['NY4', 'CL5', 'LS2', 'CN2', 'PH4'] to win 27 total games but
 It looked like the Toledo Blue Stockings were in contention after 18840828 but the remaining intra-division games ruled them out.
 TL1 can only allow ['NY4', 'CL5', 'LS2', 'CN2', 'BL2', 'PH4'] to win 45 total games but they have 47 games left against each other.
 It looked like the Toledo Blue Stockings were in contention after 18840827 but the remaining intra-division games ruled them out.
+CL2 can only allow ['PRO', 'BSN', 'BFN'] to win 16 total games but they have 18 games left against each other.
+It looked like the Cleveland Spiders were in contention after 18840826 but the remaining intra-division games ruled them out.
 TL1 can only allow ['NY4', 'CL5', 'LS2', 'SL4', 'CN2', 'BL2', 'PH4'] to win 57 total games but they have 61 games left against each other.
 It looked like the Toledo Blue Stockings were in contention after 18840826 but the remaining intra-division games ruled them out.
-The Cleveland Spiders were eliminated from the NL title on 18840827 with 28 games left to play.
+CL2 can only allow ['PRO', 'BSN', 'BFN'] to win 16 total games but they have 18 games left against each other.
+It looked like the Cleveland Spiders were in contention after 18840825 but the remaining intra-division games ruled them out.
 IN2 can only allow ['NY4', 'CL5'] to win 2 total games but they have 4 games left against each other.
 It looked like the Indianapolis Blues were in contention after 18840825 but the remaining intra-division games ruled them out.
 The Toledo Blue Stockings were eliminated from the AA title on 18840826 with 31 games left to play.
+CL2 can only allow ['PRO', 'BSN', 'BFN'] to win 17 total games but they have 18 games left against each other.
+It looked like the Cleveland Spiders were in contention after 18840824 but the remaining intra-division games ruled them out.
 IN2 can only allow ['NY4', 'CL5'] to win 2 total games but they have 4 games left against each other.
 It looked like the Indianapolis Blues were in contention after 18840824 but the remaining intra-division games ruled them out.
+CL2 can only allow ['PRO', 'BSN', 'BFN'] to win 17 total games but they have 18 games left against each other.
+It looked like the Cleveland Spiders were in contention after 18840823 but the remaining intra-division games ruled them out.
 IN2 can only allow ['NY4', 'CL5'] to win 2 total games but they have 4 games left against each other.
 It looked like the Indianapolis Blues were in contention after 18840823 but the remaining intra-division games ruled them out.
 IN2 can only allow ['NY4', 'CL5', 'LS2'] to win 11 total games but they have 12 games left against each other.
 It looked like the Indianapolis Blues were in contention after 18840822 but the remaining intra-division games ruled them out.
 PT1 can only allow ['NY4', 'CL5'] to win 2 total games but they have 4 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 18840822 but the remaining intra-division games ruled them out.
+The Cleveland Spiders were eliminated from the NL title on 18840823 with 30 games left to play.
 IN2 can only allow ['NY4', 'CL5', 'LS2'] to win 11 total games but they have 12 games left against each other.
 It looked like the Indianapolis Blues were in contention after 18840821 but the remaining intra-division games ruled them out.
 PT1 can only allow ['NY4', 'CL5', 'LS2'] to win 11 total games but they have 12 games left against each other.
@@ -47,12 +55,12 @@ IN2 can only allow ['NY4', 'CL5', 'LS2', 'SL4', 'CN2', 'BL2', 'PH4'] to win 66 t
 It looked like the Indianapolis Blues were in contention after 18840820 but the remaining intra-division games ruled them out.
 PT1 can only allow ['NY4', 'CL5', 'LS2', 'CN2', 'PH4'] to win 33 total games but they have 34 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 18840820 but the remaining intra-division games ruled them out.
-PHI can only allow ['PRO', 'BSN', 'BFN'] to win 15 total games but they have 16 games left against each other.
+PHI can only allow ['PRO', 'BSN', 'BFN'] to win 15 total games but they have 18 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 18840819 but the remaining intra-division games ruled them out.
 PT1 can only allow ['NY4', 'CL5', 'LS2', 'SL4', 'CN2', 'PH4'] to win 41 total games but they have 43 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 18840819 but the remaining intra-division games ruled them out.
 The Indianapolis Blues were eliminated from the AA title on 18840820 with 37 games left to play.
-PHI can only allow ['PRO', 'BSN', 'BFN', 'NY1', 'CHN'] to win 47 total games but they have 50 games left against each other.
+PHI can only allow ['PRO', 'BSN', 'BFN'] to win 17 total games but they have 18 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 18840818 but the remaining intra-division games ruled them out.
 PT1 can only allow ['NY4', 'CL5', 'SL4', 'LS2', 'CN2', 'BL2', 'PH4'] to win 65 total games but they have 68 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 18840818 but the remaining intra-division games ruled them out.
@@ -70,13 +78,19 @@ DTN can only allow ['PRO', 'BFN'] to win 8 total games but they have 9 games lef
 It looked like the Detroit Wolverines were in contention after 18840813 but the remaining intra-division games ruled them out.
 RIC can only allow ['NY4', 'CL5', 'LS2', 'SL4', 'CN2'] to win 31 total games but they have 32 games left against each other.
 It looked like the Richmond Virginias were in contention after 18840813 but the remaining intra-division games ruled them out.
-DTN can only allow ['PRO', 'BSN', 'BFN'] to win 16 total games but they have 17 games left against each other.
+DTN can only allow ['PRO', 'BSN', 'BFN'] to win 16 total games but they have 19 games left against each other.
 It looked like the Detroit Wolverines were in contention after 18840812 but the remaining intra-division games ruled them out.
 RIC can only allow ['NY4', 'CL5', 'LS2', 'SL4', 'CN2'] to win 32 total games but they have 33 games left against each other.
 It looked like the Richmond Virginias were in contention after 18840812 but the remaining intra-division games ruled them out.
-DTN can only allow ['PRO', 'BSN', 'BFN', 'NY1', 'CHN'] to win 54 total games but they have 58 games left against each other.
+DTN can only allow ['PRO', 'BSN', 'BFN', 'CHN'] to win 39 total games but they have 40 games left against each other.
 It looked like the Detroit Wolverines were in contention after 18840811 but the remaining intra-division games ruled them out.
 RIC can only allow ['NY4', 'CL5', 'LS2', 'SL4', 'CN2', 'PH4'] to win 53 total games but they have 54 games left against each other.
 It looked like the Richmond Virginias were in contention after 18840811 but the remaining intra-division games ruled them out.
-The Detroit Wolverines were eliminated from the NL title on 18840811 with 37 games left to play.
+DTN can only allow ['PRO', 'BSN', 'BFN', 'NY1', 'CHN'] to win 61 total games but they have 62 games left against each other.
+It looked like the Detroit Wolverines were in contention after 18840810 but the remaining intra-division games ruled them out.
 The Richmond Virginias were eliminated from the AA title on 18840811 with 42 games left to play.
+DTN can only allow ['PRO', 'BSN', 'BFN', 'NY1', 'CHN'] to win 61 total games but they have 62 games left against each other.
+It looked like the Detroit Wolverines were in contention after 18840809 but the remaining intra-division games ruled them out.
+DTN can only allow ['PRO', 'BSN', 'BFN', 'NY1', 'CHN'] to win 63 total games but they have 64 games left against each other.
+It looked like the Detroit Wolverines were in contention after 18840808 but the remaining intra-division games ruled them out.
+The Detroit Wolverines were eliminated from the NL title on 18840808 with 39 games left to play.

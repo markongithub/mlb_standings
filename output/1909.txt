@@ -24,7 +24,7 @@ WS1 can only allow ['PHA', 'DET', 'BOS'] to win 14 total games but they have 17 
 It looked like the Washington Senators were in contention after 19090822 but the remaining intra-division games ruled them out.
 WS1 can only allow ['PHA', 'DET', 'BOS', 'CLE', 'NYA'] to win 61 total games but they have 62 games left against each other.
 It looked like the Washington Senators were in contention after 19090821 but the remaining intra-division games ruled them out.
-WS1 can only allow ['PHA', 'DET', 'BOS', 'CLE', 'CHA', 'NYA', 'SLA'] to win 123 total games but they have 126 games left against each other.
+WS1 can only allow ['PHA', 'DET', 'BOS', 'CLE', 'CHA', 'NYA', 'SLA'] to win 123 total games but they have 127 games left against each other.
 It looked like the Washington Senators were in contention after 19090820 but the remaining intra-division games ruled them out.
 The Washington Senators were eliminated from the AL title on 19090820 with 44 games left to play.
 BSN can only allow ['PIT', 'CHN'] to win 6 total games but they have 8 games left against each other.

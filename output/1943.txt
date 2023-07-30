@@ -17,12 +17,12 @@ The Philadelphia Blue Jays were eliminated from the NL title on 19430904 with 29
 PHA can only allow ['NYA', 'CLE', 'WS1', 'CHA', 'DET'] to win 41 total games but they have 47 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19430828 but the remaining intra-division games ruled them out.
 The New York Giants were eliminated from the NL title on 19430829 with 33 games left to play.
-PHA can only allow ['NYA', 'CLE', 'DET', 'WS1', 'CHA', 'BOS'] to win 65 total games but they have 70 games left against each other.
+PHA can only allow ['NYA', 'CLE', 'DET', 'WS1', 'CHA', 'BOS'] to win 65 total games but they have 71 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19430827 but the remaining intra-division games ruled them out.
-PHA can only allow ['NYA', 'CLE', 'DET', 'CHA', 'WS1', 'BOS'] to win 66 total games but they have 71 games left against each other.
+PHA can only allow ['NYA', 'CLE', 'DET', 'CHA', 'WS1', 'BOS'] to win 66 total games but they have 72 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19430826 but the remaining intra-division games ruled them out.
 PHA can only allow ['NYA', 'CLE', 'DET', 'WS1', 'CHA', 'SLA'] to win 72 total games but they have 79 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19430825 but the remaining intra-division games ruled them out.
-PHA can only allow ['NYA', 'DET', 'CLE', 'WS1', 'CHA', 'BOS', 'SLA'] to win 103 total games but they have 109 games left against each other.
+PHA can only allow ['NYA', 'DET', 'CLE', 'WS1', 'CHA', 'BOS', 'SLA'] to win 103 total games but they have 110 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19430824 but the remaining intra-division games ruled them out.
 The Philadelphia Athletics were eliminated from the AL title on 19430824 with 35 games left to play.

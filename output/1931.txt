@@ -12,7 +12,7 @@ The Cleveland Indians were eliminated from the AL title on 19310904 with 27 game
 The Boston Braves were eliminated from the NL title on 19310902 with 24 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 19310830 with 26 games left to play.
 The St. Louis Browns were eliminated from the AL title on 19310824 with 34 games left to play.
-CIN can only allow ['SLN', 'NY1', 'CHN', 'BRO', 'BSN', 'PIT'] to win 69 total games but they have 77 games left against each other.
+CIN can only allow ['SLN', 'NY1', 'CHN', 'BRO', 'BSN', 'PIT'] to win 69 total games but they have 78 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19310822 but the remaining intra-division games ruled them out.
 The Boston Red Sox were eliminated from the AL title on 19310822 with 36 games left to play.
 The Chicago White Sox were eliminated from the AL title on 19310822 with 36 games left to play.

@@ -31,7 +31,7 @@ The Chicago White Sox were eliminated from the AL title on 19450911 with 15 game
 BSN can only allow ['CHN', 'SLN'] to win 4 total games but they have 5 games left against each other.
 It looked like the Boston Braves were in contention after 19450905 but the remaining intra-division games ruled them out.
 The Boston Braves were eliminated from the NL title on 19450905 with 24 games left to play.
-CIN can only allow ['CHN', 'SLN', 'BRO', 'NY1', 'PIT'] to win 35 total games but they have 38 games left against each other.
+CIN can only allow ['CHN', 'SLN', 'BRO', 'NY1', 'PIT'] to win 35 total games but they have 39 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19450902 but the remaining intra-division games ruled them out.
 PHA can only allow ['DET', 'WS1'] to win 1 total games but they have 5 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19450902 but the remaining intra-division games ruled them out.
@@ -61,8 +61,8 @@ PHI can only allow ['CHN', 'SLN', 'BRO', 'NY1'] to win 40 total games but they h
 It looked like the Philadelphia Phillies were in contention after 19450815 but the remaining intra-division games ruled them out.
 PHI can only allow ['CHN', 'SLN', 'BRO', 'NY1'] to win 46 total games but they have 47 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19450814 but the remaining intra-division games ruled them out.
-PHI can only allow ['CHN', 'SLN', 'BRO', 'NY1', 'PIT'] to win 68 total games but they have 73 games left against each other.
+PHI can only allow ['CHN', 'SLN', 'BRO', 'NY1', 'PIT'] to win 68 total games but they have 74 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19450813 but the remaining intra-division games ruled them out.
-PHI can only allow ['CHN', 'SLN', 'BRO', 'NY1', 'PIT', 'BSN', 'CIN'] to win 136 total games but they have 142 games left against each other.
+PHI can only allow ['CHN', 'SLN', 'BRO', 'NY1', 'PIT', 'BSN', 'CIN'] to win 136 total games but they have 143 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19450812 but the remaining intra-division games ruled them out.
 The Philadelphia Phillies were eliminated from the NL title on 19450812 with 48 games left to play.

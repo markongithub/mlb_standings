@@ -36,7 +36,11 @@ It looked like the Chicago Cubs were in contention after 19600901 but the remain
 The Chicago Cubs were eliminated from the NL title on 19600901 with 28 games left to play.
 KC1 can only allow ['NYA', 'BAL'] to win 1 total games but they have 7 games left against each other.
 It looked like the Kansas City Athletics were in contention after 19600829 but the remaining intra-division games ruled them out.
-The Philadelphia Phillies were eliminated from the NL title on 19600830 with 28 games left to play.
+PHI can only allow ['PIT', 'SLN', 'MLN', 'LAN', 'SFN'] to win 44 total games but they have 45 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19600829 but the remaining intra-division games ruled them out.
 KC1 can only allow ['NYA', 'BAL'] to win 4 total games but they have 7 games left against each other.
 It looked like the Kansas City Athletics were in contention after 19600828 but the remaining intra-division games ruled them out.
+PHI can only allow ['PIT', 'MLN', 'SLN', 'LAN', 'SFN'] to win 46 total games but they have 47 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19600828 but the remaining intra-division games ruled them out.
 The Kansas City Athletics were eliminated from the AL title on 19600828 with 31 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 19600828 with 30 games left to play.

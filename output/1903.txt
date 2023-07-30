@@ -22,9 +22,13 @@ WS1 can only allow ['BOS', 'CLE', 'PHA', 'DET', 'NYA', 'SLA'] to win 69 total ga
 It looked like the Washington Senators were in contention after 19030823 but the remaining intra-division games ruled them out.
 WS1 can only allow ['BOS', 'CLE', 'PHA', 'NYA', 'DET', 'SLA'] to win 72 total games but they have 75 games left against each other.
 It looked like the Washington Senators were in contention after 19030822 but the remaining intra-division games ruled them out.
-SLN can only allow ['PIT', 'NY1', 'CHN'] to win 10 total games but they have 14 games left against each other.
+SLN can only allow ['PIT', 'NY1', 'CHN'] to win 10 total games but they have 15 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 19030821 but the remaining intra-division games ruled them out.
 WS1 can only allow ['BOS', 'CLE', 'PHA', 'NYA', 'DET', 'SLA', 'CHA'] to win 104 total games but they have 110 games left against each other.
 It looked like the Washington Senators were in contention after 19030821 but the remaining intra-division games ruled them out.
-The St. Louis Cardinals were eliminated from the NL title on 19030821 with 31 games left to play.
+SLN can only allow ['PIT', 'NY1', 'CHN', 'CIN', 'BRO'] to win 53 total games but they have 54 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19030820 but the remaining intra-division games ruled them out.
 The Washington Senators were eliminated from the AL title on 19030821 with 37 games left to play.
+SLN can only allow ['PIT', 'NY1', 'CHN', 'CIN', 'BRO'] to win 56 total games but they have 57 games left against each other.
+It looked like the St. Louis Cardinals were in contention after 19030819 but the remaining intra-division games ruled them out.
+The St. Louis Cardinals were eliminated from the NL title on 19030819 with 34 games left to play.

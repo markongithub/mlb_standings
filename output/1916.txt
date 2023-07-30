@@ -5,7 +5,7 @@ The NL has 154 games per team.
 The Philadelphia Phillies were eliminated from the NL title on 19161005 with 1 games left to play.
 The Boston Braves were eliminated from the NL title on 19161003 with 4 games left to play.
 The New York Giants were eliminated from the NL title on 19161002 with 5 games left to play.
-The Chicago White Sox were eliminated from the AL title on 19161001 with 1 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19161001 with 0 games left to play.
 The Detroit Tigers were eliminated from the AL title on 19160929 with 2 games left to play.
 The New York Yankees were eliminated from the AL title on 19160923 with 9 games left to play.
 CLE can only allow ['BOS', 'DET'] to win 0 total games but they have 1 games left against each other.
@@ -47,34 +47,34 @@ It looked like the Cincinnati Reds were in contention after 19160830 but the rem
 The Cincinnati Reds were eliminated from the NL title on 19160830 with 30 games left to play.
 PHA can only allow ['BOS', 'CHA'] to win 2 total games but they have 3 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160821 but the remaining intra-division games ruled them out.
-PHA can only allow ['BOS', 'CHA', 'CLE'] to win 11 total games but they have 17 games left against each other.
+PHA can only allow ['BOS', 'CHA', 'CLE'] to win 11 total games but they have 18 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160820 but the remaining intra-division games ruled them out.
-PHA can only allow ['BOS', 'CHA', 'CLE'] to win 11 total games but they have 17 games left against each other.
+PHA can only allow ['BOS', 'CHA', 'CLE'] to win 11 total games but they have 18 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160819 but the remaining intra-division games ruled them out.
-PHA can only allow ['BOS', 'CHA', 'CLE'] to win 16 total games but they have 18 games left against each other.
+PHA can only allow ['BOS', 'CHA', 'CLE'] to win 16 total games but they have 19 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160818 but the remaining intra-division games ruled them out.
-PHA can only allow ['BOS', 'CLE', 'CHA', 'NYA'] to win 31 total games but they have 39 games left against each other.
+PHA can only allow ['BOS', 'CLE', 'CHA', 'NYA'] to win 31 total games but they have 40 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160817 but the remaining intra-division games ruled them out.
-PHA can only allow ['BOS', 'CLE', 'CHA', 'NYA'] to win 37 total games but they have 41 games left against each other.
+PHA can only allow ['BOS', 'CLE', 'CHA', 'NYA'] to win 37 total games but they have 42 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160816 but the remaining intra-division games ruled them out.
-PHA can only allow ['BOS', 'CLE', 'CHA', 'NYA'] to win 40 total games but they have 44 games left against each other.
+PHA can only allow ['BOS', 'CLE', 'CHA', 'NYA'] to win 40 total games but they have 45 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160815 but the remaining intra-division games ruled them out.
-PHA can only allow ['BOS', 'CLE', 'CHA', 'SLA', 'NYA'] to win 58 total games but they have 65 games left against each other.
+PHA can only allow ['BOS', 'CLE', 'CHA', 'SLA', 'NYA'] to win 58 total games but they have 66 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160814 but the remaining intra-division games ruled them out.
-PHA can only allow ['BOS', 'CLE', 'CHA', 'DET', 'SLA', 'NYA'] to win 78 total games but they have 92 games left against each other.
+PHA can only allow ['BOS', 'CLE', 'CHA', 'DET', 'NYA'] to win 65 total games but they have 66 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160813 but the remaining intra-division games ruled them out.
-PHA can only allow ['BOS', 'CHA', 'CLE', 'SLA', 'DET', 'NYA'] to win 80 total games but they have 94 games left against each other.
+PHA can only allow ['BOS', 'CHA', 'CLE', 'SLA', 'NYA'] to win 66 total games but they have 67 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160812 but the remaining intra-division games ruled them out.
-PHA can only allow ['BOS', 'CLE', 'CHA', 'NYA', 'DET', 'SLA'] to win 83 total games but they have 96 games left against each other.
+PHA can only allow ['BOS', 'CLE', 'CHA', 'NYA', 'DET', 'SLA'] to win 83 total games but they have 98 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160811 but the remaining intra-division games ruled them out.
-PHA can only allow ['BOS', 'CLE', 'CHA', 'NYA', 'DET', 'SLA'] to win 86 total games but they have 99 games left against each other.
+PHA can only allow ['BOS', 'CLE', 'CHA', 'NYA', 'DET', 'SLA'] to win 86 total games but they have 101 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160810 but the remaining intra-division games ruled them out.
-PHA can only allow ['BOS', 'CLE', 'CHA', 'NYA', 'DET', 'SLA'] to win 96 total games but they have 101 games left against each other.
+PHA can only allow ['BOS', 'CLE', 'CHA', 'NYA', 'DET', 'SLA'] to win 96 total games but they have 103 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160809 but the remaining intra-division games ruled them out.
-PHA can only allow ['BOS', 'CHA', 'CLE', 'NYA', 'DET', 'SLA'] to win 99 total games but they have 103 games left against each other.
+PHA can only allow ['BOS', 'CHA', 'CLE', 'NYA', 'DET', 'SLA'] to win 99 total games but they have 105 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160808 but the remaining intra-division games ruled them out.
-PHA can only allow ['CHA', 'BOS', 'CLE', 'NYA', 'DET', 'WS1', 'SLA'] to win 134 total games but they have 146 games left against each other.
+PHA can only allow ['CHA', 'BOS', 'CLE', 'NYA', 'DET', 'WS1', 'SLA'] to win 134 total games but they have 150 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160807 but the remaining intra-division games ruled them out.
-PHA can only allow ['BOS', 'CHA', 'CLE', 'NYA', 'WS1', 'DET', 'SLA'] to win 145 total games but they have 149 games left against each other.
+PHA can only allow ['BOS', 'CHA', 'CLE', 'NYA', 'WS1', 'DET', 'SLA'] to win 145 total games but they have 153 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160806 but the remaining intra-division games ruled them out.
 The Philadelphia Athletics were eliminated from the AL title on 19160806 with 57 games left to play.

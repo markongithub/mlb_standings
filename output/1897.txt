@@ -1,7 +1,7 @@
 This season has 12 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The NL has 132 games per team.
-The NL has more contenders at the end of the season than I expected: ['BLN', 'BSN']. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
+The Baltimore Orioles were eliminated from the NL title on 18971002 with 2 games left to play.
 The New York Giants were eliminated from the NL title on 18970921 with 9 games left to play.
 CIN can only allow ['BLN', 'BSN'] to win 1 total games but they have 3 games left against each other.
 It looked like the Cincinnati Reds were in contention after 18970913 but the remaining intra-division games ruled them out.
@@ -19,14 +19,14 @@ The Philadelphia Phillies were eliminated from the NL title on 18970828 with 24 
 The Washington Senators were eliminated from the NL title on 18970828 with 28 games left to play.
 SLN can only allow ['BSN', 'CIN', 'BLN'] to win 9 total games but they have 11 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 18970811 but the remaining intra-division games ruled them out.
-SLN can only allow ['BSN', 'CIN', 'BLN', 'NY1', 'CL4', 'CHN', 'PHI'] to win 83 total games but they have 84 games left against each other.
+SLN can only allow ['BSN', 'CIN', 'BLN', 'NY1', 'CL4', 'CHN', 'PHI'] to win 83 total games but they have 86 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 18970810 but the remaining intra-division games ruled them out.
-SLN can only allow ['BSN', 'CIN', 'BLN', 'NY1', 'CL4', 'CHN', 'PHI', 'PIT', 'BRO', 'LS3'] to win 167 total games but they have 173 games left against each other.
+SLN can only allow ['BSN', 'CIN', 'BLN', 'NY1', 'CL4', 'CHN', 'PHI', 'PIT', 'LS3'] to win 141 total games but they have 143 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 18970809 but the remaining intra-division games ruled them out.
-SLN can only allow ['BSN', 'CIN', 'BLN', 'NY1', 'CL4', 'PHI', 'PIT', 'CHN', 'BRO', 'LS3'] to win 172 total games but they have 178 games left against each other.
+SLN can only allow ['BSN', 'CIN', 'BLN', 'NY1', 'CL4', 'PHI', 'PIT', 'CHN', 'LS3'] to win 145 total games but they have 147 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 18970808 but the remaining intra-division games ruled them out.
-SLN can only allow ['BSN', 'CIN', 'BLN', 'NY1', 'CL4', 'PHI', 'PIT', 'CHN', 'BRO', 'LS3'] to win 174 total games but they have 180 games left against each other.
+SLN can only allow ['BSN', 'CIN', 'BLN', 'NY1', 'CL4', 'PHI', 'PIT', 'CHN', 'LS3'] to win 147 total games but they have 149 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 18970807 but the remaining intra-division games ruled them out.
-SLN can only allow ['BSN', 'BLN', 'CIN', 'NY1', 'CL4', 'PHI', 'PIT', 'CHN', 'BRO', 'LS3', 'WSN'] to win 224 total games but they have 225 games left against each other.
+SLN can only allow ['BSN', 'BLN', 'CIN', 'NY1', 'CL4', 'PHI', 'PIT', 'CHN', 'BRO', 'LS3'] to win 190 total games but they have 191 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 18970806 but the remaining intra-division games ruled them out.
 The St. Louis Cardinals were eliminated from the NL title on 18970806 with 42 games left to play.

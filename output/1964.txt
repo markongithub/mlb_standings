@@ -2,9 +2,9 @@ This season has 20 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AL has 162 games per team.
 The NL has 162 games per team.
-The AL has more contenders at the end of the season than I expected: ['CHA', 'NYA']. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
 The Cincinnati Reds were eliminated from the NL title on 19641004 with 0 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 19641004 with 0 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19641003 with 1 games left to play.
 The San Francisco Giants were eliminated from the NL title on 19641003 with 1 games left to play.
 The Baltimore Orioles were eliminated from the AL title on 19641002 with 1 games left to play.
 The Milwaukee Braves were eliminated from the NL title on 19640923 with 11 games left to play.
@@ -19,12 +19,12 @@ HOU can only allow ['PHI', 'CIN', 'SLN'] to win 12 total games but they have 15 
 It looked like the Houston Colt .45's were in contention after 19640906 but the remaining intra-division games ruled them out.
 The Boston Red Sox were eliminated from the AL title on 19640907 with 21 games left to play.
 The Houston Colt .45's were eliminated from the NL title on 19640906 with 24 games left to play.
-WS2 can only allow ['BAL', 'NYA', 'CHA', 'DET', 'CLE'] to win 28 total games but they have 31 games left against each other.
+WS2 can only allow ['BAL', 'NYA', 'CHA', 'DET', 'CLE'] to win 28 total games but they have 34 games left against each other.
 It looked like the Washington Senators were in contention after 19640901 but the remaining intra-division games ruled them out.
-WS2 can only allow ['BAL', 'CHA', 'NYA', 'DET', 'MIN', 'CLE', 'LAA'] to win 64 total games but they have 66 games left against each other.
+WS2 can only allow ['BAL', 'CHA', 'NYA', 'DET', 'CLE', 'LAA'] to win 49 total games but they have 50 games left against each other.
 It looked like the Washington Senators were in contention after 19640831 but the remaining intra-division games ruled them out.
 The Washington Senators were eliminated from the AL title on 19640831 with 28 games left to play.
-KC1 can only allow ['BAL', 'CHA', 'NYA', 'DET', 'CLE', 'LAA'] to win 47 total games but they have 49 games left against each other.
+KC1 can only allow ['BAL', 'CHA', 'NYA', 'DET', 'CLE'] to win 34 total games but they have 36 games left against each other.
 It looked like the Kansas City Athletics were in contention after 19640829 but the remaining intra-division games ruled them out.
 NYN can only allow ['PHI', 'CIN', 'SFN', 'SLN', 'MLN'] to win 38 total games but they have 40 games left against each other.
 It looked like the New York Mets were in contention after 19640828 but the remaining intra-division games ruled them out.

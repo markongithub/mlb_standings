@@ -658,14 +658,35 @@ def count_teams(played, unplayed, divisions):
     return len(schedule_teams)
 
 
-# This doesn't work because lots of teams played more than 154 games in the
-# 154-game era, and I don't mean tiebreakers, I mean like the 158 games
-# that the 1905 Chicago White Sox played for some reason.
+# https://en.wikipedia.org/wiki/List_of_Major_League_Baseball_tie-breakers
+LAST_GAME_HARDCODED = {
+    (1946, "SLN"): 154,
+    (1948, "BOS"): 154,
+    (1951, "NY1"): 154,
+    (1959, "LAN"): 154,
+    (1962, "SFN"): 162,
+    (1978, "NYA"): 162,
+    (1980, "HOU"): 162,
+    (1995, "CAL"): 144,
+    (1998, "SFN"): 162,
+    (1999, "NYN"): 162,
+    (2007, "SDN"): 162,
+    (2008, "CHA"): 162,
+    (2009, "DET"): 162,
+    (2013, "TBA"): 162,
+    (2018, "MIL"): 162,
+    (2018, "COL"): 162,
+}
+
+
 def is_tiebreaker(
     season_params, home_team, home_game_num, visiting_team, visitor_game_num
 ):
-    max_game = season_params.season_lengths.max()
-    return home_game_num > max_game and visitor_game_num > max_game
+    home_max = LAST_GAME_HARDCODED.get((season_params.year, home_team))
+    visitor_max = LAST_GAME_HARDCODED.get((season_params.year, visiting_team))
+    return (home_max and home_game_num > home_max) or (
+        visitor_max and visitor_game_num > visitor_max
+    )
 
 
 def retrosheet_to_played_unplayed(game_log, schedule, season_params: SeasonParameters):
