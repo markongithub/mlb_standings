@@ -781,7 +781,7 @@ def run_one_year_retro(year, data_path="data"):
     team_ids = load_team_ids(f"{data_path}/TEAMABR.TXT")
     game_log = load_game_log(f"{data_path}/GL{year}.TXT")
     if year == 2020:
-        schedule = load_schedule("{data_path}/2020REV.TXT")
+        schedule = load_schedule(f"{data_path}/2020REV.TXT")
     else:
         schedule = load_schedule(f"{data_path}/{year}SKED.TXT")
     if year == 1880:
