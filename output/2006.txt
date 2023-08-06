@@ -2,87 +2,128 @@ This season has 30 teams.
 The top 1 teams from each division go to the postseason, plus 1 wild cards.
 The AL has 162 games per team.
 The NL has 162 games per team.
+Starting analysis of 20061001
 The regular season ended with a tie in the NLW between the Los Angeles Dodgers and the San Diego Padres.
+Starting analysis of 20060930
 The Detroit Tigers were eliminated from the ALC title on 20061001 with 0 games left to play.
 The Houston Astros were eliminated from the NLC title on 20061001 with 0 games left to play.
+Starting analysis of 20060929
 The Cincinnati Reds were eliminated from the NLC title on 20060930 with 1 games left to play.
 The Philadelphia Phillies were eliminated from NL wildcard contention on 20060930 with 1 games left to play.
+Starting analysis of 20060928
 The Oakland Athletics were eliminated from AL wildcard contention on 20060929 with 2 games left to play.
 The St. Louis Cardinals were eliminated from NL wildcard contention on 20060929 with 3 games left to play.
+Starting analysis of 20060927
 The Houston Astros were eliminated from NL wildcard contention on 20060928 with 3 games left to play.
+Starting analysis of 20060926
 The Cincinnati Reds were eliminated from NL wildcard contention on 20060927 with 4 games left to play.
+Starting analysis of 20060925
 The Los Angeles Angels were eliminated from the ALW title on 20060926 with 5 games left to play.
 The Florida Marlins were eliminated from NL wildcard contention on 20060926 with 5 games left to play.
+Starting analysis of 20060924
 The Chicago White Sox were eliminated from AL wildcard contention on 20060925 with 5 games left to play.
 The San Francisco Giants were eliminated from NL wildcard contention on 20060925 with 6 games left to play.
+Starting analysis of 20060923
 The Chicago White Sox were eliminated from the ALC title on 20060924 with 6 games left to play.
 The San Francisco Giants were eliminated from the NLW title on 20060924 with 7 games left to play.
 The Los Angeles Angels were eliminated from AL wildcard contention on 20060924 with 7 games left to play.
 The Arizona Diamondbacks were eliminated from NL wildcard contention on 20060924 with 7 games left to play.
 The Atlanta Braves were eliminated from NL wildcard contention on 20060924 with 6 games left to play.
+Starting analysis of 20060922
 The Arizona Diamondbacks were eliminated from the NLW title on 20060923 with 8 games left to play.
 The Boston Red Sox were eliminated from AL wildcard contention on 20060923 with 7 games left to play.
+Starting analysis of 20060921
 The Colorado Rockies were eliminated from the NLW title on 20060922 with 8 games left to play.
 COL can only allow ['PHI', 'FLO'] to win 5 total games but they have 6 games left against each other.
 It looked like the Colorado Rockies were in wildcard contention after 20060921 but the remaining intra-contender games ruled them out.
 The Toronto Blue Jays were eliminated from AL wildcard contention on 20060922 with 9 games left to play.
+Starting analysis of 20060920
 MIL can only allow ['PHI', 'FLO'] to win 4 total games but they have 6 games left against each other.
 It looked like the Milwaukee Brewers were in wildcard contention after 20060920 but the remaining intra-contender games ruled them out.
 The Colorado Rockies were eliminated from NL wildcard contention on 20060921 with 9 games left to play.
+Starting analysis of 20060919
 TEX can only allow ['OAK', 'ANA'] to win 6 total games but they have 7 games left against each other.
 It looked like the Texas Rangers were in contention after 20060919 but the remaining intra-division games ruled them out.
 The Boston Red Sox were eliminated from the ALE title on 20060920 with 10 games left to play.
 The Milwaukee Brewers were eliminated from NL wildcard contention on 20060920 with 10 games left to play.
+Starting analysis of 20060918
 The Milwaukee Brewers were eliminated from the NLC title on 20060919 with 11 games left to play.
 The Texas Rangers were eliminated from the ALW title on 20060919 with 10 games left to play.
 The Toronto Blue Jays were eliminated from the ALE title on 20060919 with 11 games left to play.
 The Texas Rangers were eliminated from AL wildcard contention on 20060919 with 10 games left to play.
+Starting analysis of 20060917
 The Philadelphia Phillies were eliminated from the NLE title on 20060918 with 12 games left to play.
 WAS can only allow ['PHI', 'FLO'] to win 5 total games but they have 6 games left against each other.
 It looked like the Washington Nationals were in wildcard contention after 20060917 but the remaining intra-contender games ruled them out.
+Starting analysis of 20060916
 The Washington Nationals were eliminated from NL wildcard contention on 20060917 with 13 games left to play.
+Starting analysis of 20060915
 SEA can only allow ['OAK', 'ANA'] to win 6 total games but they have 7 games left against each other.
 It looked like the Seattle Mariners were in contention after 20060915 but the remaining intra-division games ruled them out.
+Starting analysis of 20060914
 The Seattle Mariners were eliminated from the ALW title on 20060915 with 15 games left to play.
+Starting analysis of 20060913
 PIT can only allow ['PHI', 'FLO'] to win 3 total games but they have 6 games left against each other.
 It looked like the Pittsburgh Pirates were in wildcard contention after 20060913 but the remaining intra-contender games ruled them out.
 The Cleveland Indians were eliminated from AL wildcard contention on 20060914 with 17 games left to play.
 The Seattle Mariners were eliminated from AL wildcard contention on 20060914 with 16 games left to play.
+Starting analysis of 20060912
 The Cleveland Indians were eliminated from the ALC title on 20060913 with 18 games left to play.
 The Florida Marlins were eliminated from the NLE title on 20060913 with 16 games left to play.
 CHN can only allow ['PHI', 'FLO'] to win 5 total games but they have 6 games left against each other.
 It looked like the Chicago Cubs were in wildcard contention after 20060912 but the remaining intra-contender games ruled them out.
 PIT can only allow ['PHI', 'CIN', 'FLO', 'HOU', 'ATL'] to win 24 total games but they have 25 games left against each other.
 It looked like the Pittsburgh Pirates were in wildcard contention after 20060912 but the remaining intra-contender games ruled them out.
+Starting analysis of 20060911
 The Atlanta Braves were eliminated from the NLE title on 20060912 with 19 games left to play.
 The Pittsburgh Pirates were eliminated from the NLC title on 20060912 with 17 games left to play.
 CHN can only allow ['PHI', 'FLO'] to win 5 total games but they have 6 games left against each other.
 It looked like the Chicago Cubs were in wildcard contention after 20060911 but the remaining intra-contender games ruled them out.
 PIT can only allow ['SDN', 'PHI', 'FLO', 'CIN', 'HOU', 'ATL'] to win 27 total games but they have 28 games left against each other.
 It looked like the Pittsburgh Pirates were in wildcard contention after 20060911 but the remaining intra-contender games ruled them out.
+Starting analysis of 20060910
 CHN can only allow ['SLN', 'HOU'] to win 5 total games but they have 7 games left against each other.
 It looked like the Chicago Cubs were in contention after 20060910 but the remaining intra-division games ruled them out.
 CHN can only allow ['SDN', 'FLO', 'PHI', 'CIN'] to win 11 total games but they have 12 games left against each other.
 It looked like the Chicago Cubs were in wildcard contention after 20060910 but the remaining intra-contender games ruled them out.
 PIT can only allow ['SDN', 'FLO', 'PHI', 'SFN', 'CIN', 'HOU', 'ATL', 'ARI', 'COL'] to win 49 total games but they have 51 games left against each other.
 It looked like the Pittsburgh Pirates were in wildcard contention after 20060910 but the remaining intra-contender games ruled them out.
+Starting analysis of 20060909
 The Chicago Cubs were eliminated from the NLC title on 20060910 with 19 games left to play.
 BAL can only allow ['MIN', 'CHA'] to win 2 total games but they have 3 games left against each other.
 It looked like the Baltimore Orioles were in wildcard contention after 20060909 but the remaining intra-contender games ruled them out.
 The Chicago Cubs were eliminated from NL wildcard contention on 20060910 with 19 games left to play.
 The Pittsburgh Pirates were eliminated from NL wildcard contention on 20060910 with 18 games left to play.
+Starting analysis of 20060908
 The Baltimore Orioles were eliminated from the ALE title on 20060909 with 21 games left to play.
 The Baltimore Orioles were eliminated from AL wildcard contention on 20060909 with 21 games left to play.
+Starting analysis of 20060907
+Starting analysis of 20060906
+Starting analysis of 20060905
 The Washington Nationals were eliminated from the NLE title on 20060906 with 23 games left to play.
+Starting analysis of 20060904
 TBA can only allow ['MIN', 'CHA'] to win 0 total games but they have 3 games left against each other.
 It looked like the Tampa Bay Devil Rays were in wildcard contention after 20060904 but the remaining intra-contender games ruled them out.
+Starting analysis of 20060903
 The Tampa Bay Devil Rays were eliminated from AL wildcard contention on 20060904 with 24 games left to play.
+Starting analysis of 20060902
 The Tampa Bay Devil Rays were eliminated from the ALE title on 20060903 with 25 games left to play.
+Starting analysis of 20060901
+Starting analysis of 20060831
+Starting analysis of 20060830
+Starting analysis of 20060829
 KCA can only allow ['CHA', 'MIN'] to win 1 total games but they have 3 games left against each other.
 It looked like the Kansas City Royals were in wildcard contention after 20060829 but the remaining intra-contender games ruled them out.
+Starting analysis of 20060828
 KCA can only allow ['MIN', 'CHA'] to win 2 total games but they have 3 games left against each other.
 It looked like the Kansas City Royals were in wildcard contention after 20060828 but the remaining intra-contender games ruled them out.
+Starting analysis of 20060827
 KCA can only allow ['MIN', 'CHA'] to win 2 total games but they have 3 games left against each other.
 It looked like the Kansas City Royals were in wildcard contention after 20060827 but the remaining intra-contender games ruled them out.
+Starting analysis of 20060826
 The Kansas City Royals were eliminated from AL wildcard contention on 20060827 with 30 games left to play.
+Starting analysis of 20060825
+Starting analysis of 20060824
+Starting analysis of 20060823
+Starting analysis of 20060822
 The Kansas City Royals were eliminated from the ALC title on 20060823 with 34 games left to play.

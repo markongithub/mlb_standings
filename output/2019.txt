@@ -2,65 +2,113 @@ This season has 30 teams.
 The top 1 teams from each division go to the postseason, plus 2 wild cards.
 The AL has 162 games per team.
 The NL has 162 games per team.
+Starting analysis of 20190929
+Starting analysis of 20190928
 The Milwaukee Brewers were eliminated from the NLC title on 20190929 with 0 games left to play.
+Starting analysis of 20190927
+Starting analysis of 20190926
 The Cleveland Indians were eliminated from AL wildcard contention on 20190927 with 2 games left to play.
+Starting analysis of 20190925
+Starting analysis of 20190924
 The Cleveland Indians were eliminated from the ALC title on 20190925 with 4 games left to play.
 The Chicago Cubs were eliminated from NL wildcard contention on 20190925 with 4 games left to play.
 The New York Mets were eliminated from NL wildcard contention on 20190925 with 4 games left to play.
+Starting analysis of 20190923
 The Philadelphia Phillies were eliminated from NL wildcard contention on 20190924 with 5 games left to play.
+Starting analysis of 20190922
 The Arizona Diamondbacks were eliminated from NL wildcard contention on 20190923 with 5 games left to play.
+Starting analysis of 20190921
 The Chicago Cubs were eliminated from the NLC title on 20190922 with 6 games left to play.
 The Oakland Athletics were eliminated from the ALW title on 20190922 with 6 games left to play.
+Starting analysis of 20190920
+Starting analysis of 20190919
 The Washington Nationals were eliminated from the NLE title on 20190920 with 10 games left to play.
 The Boston Red Sox were eliminated from AL wildcard contention on 20190920 with 9 games left to play.
 The San Francisco Giants were eliminated from NL wildcard contention on 20190920 with 8 games left to play.
+Starting analysis of 20190918
 The Tampa Bay Rays were eliminated from the ALE title on 20190919 with 9 games left to play.
+Starting analysis of 20190917
+Starting analysis of 20190916
+Starting analysis of 20190915
 The Cincinnati Reds were eliminated from NL wildcard contention on 20190916 with 11 games left to play.
 The San Diego Padres were eliminated from NL wildcard contention on 20190916 with 12 games left to play.
+Starting analysis of 20190914
+Starting analysis of 20190913
 CIN can only allow ['SLN', 'CHN'] to win 4 total games but they have 7 games left against each other.
 It looked like the Cincinnati Reds were in contention after 20190913 but the remaining intra-division games ruled them out.
 The Philadelphia Phillies were eliminated from the NLE title on 20190914 with 15 games left to play.
 The Pittsburgh Pirates were eliminated from NL wildcard contention on 20190914 with 13 games left to play.
+Starting analysis of 20190912
 CIN can only allow ['SLN', 'CHN'] to win 6 total games but they have 7 games left against each other.
 It looked like the Cincinnati Reds were in contention after 20190912 but the remaining intra-division games ruled them out.
 The New York Mets were eliminated from the NLE title on 20190913 with 15 games left to play.
 The Texas Rangers were eliminated from AL wildcard contention on 20190913 with 13 games left to play.
+Starting analysis of 20190911
 The Cincinnati Reds were eliminated from the NLC title on 20190912 with 15 games left to play.
 The Colorado Rockies were eliminated from NL wildcard contention on 20190912 with 15 games left to play.
+Starting analysis of 20190910
+Starting analysis of 20190909
 PIT can only allow ['SLN', 'CHN'] to win 4 total games but they have 7 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 20190909 but the remaining intra-division games ruled them out.
 The Arizona Diamondbacks were eliminated from the NLW title on 20190910 with 17 games left to play.
 The Los Angeles Angels were eliminated from AL wildcard contention on 20190910 with 16 games left to play.
+Starting analysis of 20190908
 PIT can only allow ['SLN', 'CHN'] to win 5 total games but they have 7 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 20190908 but the remaining intra-division games ruled them out.
 The Boston Red Sox were eliminated from the ALE title on 20190909 with 18 games left to play.
+Starting analysis of 20190907
 The Pittsburgh Pirates were eliminated from the NLC title on 20190908 with 19 games left to play.
+Starting analysis of 20190906
 The Chicago White Sox were eliminated from AL wildcard contention on 20190907 with 20 games left to play.
+Starting analysis of 20190905
+Starting analysis of 20190904
+Starting analysis of 20190903
 The Texas Rangers were eliminated from the ALW title on 20190904 with 21 games left to play.
 The Seattle Mariners were eliminated from AL wildcard contention on 20190904 with 22 games left to play.
+Starting analysis of 20190902
 CHA can only allow ['MIN', 'CLE'] to win 5 total games but they have 6 games left against each other.
 It looked like the Chicago White Sox were in contention after 20190902 but the remaining intra-division games ruled them out.
 The San Francisco Giants were eliminated from the NLW title on 20190903 with 24 games left to play.
 MIA can only allow ['CHN', 'MIL', 'ARI', 'SDN'] to win 17 total games but they have 20 games left against each other.
 It looked like the Miami Marlins were in wildcard contention after 20190902 but the remaining intra-contender games ruled them out.
+Starting analysis of 20190901
 The Los Angeles Angels were eliminated from the ALW title on 20190902 with 24 games left to play.
 The Chicago White Sox were eliminated from the ALC title on 20190902 with 25 games left to play.
 The San Diego Padres were eliminated from the NLW title on 20190902 with 25 games left to play.
 MIA can only allow ['CHN', 'MIL', 'ARI', 'SDN'] to win 19 total games but they have 21 games left against each other.
 It looked like the Miami Marlins were in wildcard contention after 20190901 but the remaining intra-contender games ruled them out.
 The Toronto Blue Jays were eliminated from AL wildcard contention on 20190902 with 23 games left to play.
+Starting analysis of 20190831
 The Miami Marlins were eliminated from NL wildcard contention on 20190901 with 26 games left to play.
+Starting analysis of 20190830
+Starting analysis of 20190829
+Starting analysis of 20190828
+Starting analysis of 20190827
 The Colorado Rockies were eliminated from the NLW title on 20190828 with 28 games left to play.
+Starting analysis of 20190826
 The Seattle Mariners were eliminated from the ALW title on 20190827 with 29 games left to play.
 The Kansas City Royals were eliminated from AL wildcard contention on 20190827 with 29 games left to play.
+Starting analysis of 20190825
 The Miami Marlins were eliminated from the NLE title on 20190826 with 32 games left to play.
+Starting analysis of 20190824
+Starting analysis of 20190823
 KCA can only allow ['MIN', 'CLE'] to win 4 total games but they have 6 games left against each other.
 It looked like the Kansas City Royals were in contention after 20190823 but the remaining intra-division games ruled them out.
 The Detroit Tigers were eliminated from AL wildcard contention on 20190824 with 35 games left to play.
+Starting analysis of 20190822
 The Kansas City Royals were eliminated from the ALC title on 20190823 with 33 games left to play.
 The Toronto Blue Jays were eliminated from the ALE title on 20190823 with 31 games left to play.
 The Baltimore Orioles were eliminated from AL wildcard contention on 20190823 with 33 games left to play.
+Starting analysis of 20190821
+Starting analysis of 20190820
+Starting analysis of 20190819
 DET can only allow ['MIN', 'CLE'] to win 4 total games but they have 6 games left against each other.
 It looked like the Detroit Tigers were in contention after 20190819 but the remaining intra-division games ruled them out.
+Starting analysis of 20190818
 The Detroit Tigers were eliminated from the ALC title on 20190819 with 40 games left to play.
+Starting analysis of 20190817
+Starting analysis of 20190816
+Starting analysis of 20190815
+Starting analysis of 20190814
+Starting analysis of 20190813
 The Baltimore Orioles were eliminated from the ALE title on 20190814 with 41 games left to play.

@@ -2,33 +2,49 @@ This season has 30 teams.
 The top 1 teams from each division go to the postseason, plus 1 wild cards.
 The AL has 162 games per team.
 The NL has 162 games per team.
+Starting analysis of 20070930
 The regular season ended with a tie for the NL wild card between the Colorado Rockies and the San Diego Padres.
+Starting analysis of 20070929
 The New York Mets were eliminated from the NLE title on 20070930 with 0 games left to play.
 The San Diego Padres were eliminated from the NLW title on 20070930 with 0 games left to play.
 The New York Mets were eliminated from NL wildcard contention on 20070930 with 0 games left to play.
+Starting analysis of 20070928
+Starting analysis of 20070927
 The Colorado Rockies were eliminated from the NLW title on 20070928 with 2 games left to play.
 The Milwaukee Brewers were eliminated from the NLC title on 20070928 with 2 games left to play.
 The New York Yankees were eliminated from the ALE title on 20070928 with 2 games left to play.
+Starting analysis of 20070926
 The Atlanta Braves were eliminated from the NLE title on 20070927 with 3 games left to play.
 The Atlanta Braves were eliminated from NL wildcard contention on 20070927 with 3 games left to play.
 The Chicago Cubs were eliminated from NL wildcard contention on 20070927 with 3 games left to play.
+Starting analysis of 20070925
 The Detroit Tigers were eliminated from AL wildcard contention on 20070926 with 3 games left to play.
 The Milwaukee Brewers were eliminated from NL wildcard contention on 20070926 with 4 games left to play.
+Starting analysis of 20070924
 The Los Angeles Dodgers were eliminated from NL wildcard contention on 20070925 with 5 games left to play.
 The Seattle Mariners were eliminated from AL wildcard contention on 20070925 with 6 games left to play.
+Starting analysis of 20070923
+Starting analysis of 20070922
 The Detroit Tigers were eliminated from the ALC title on 20070923 with 6 games left to play.
 The Seattle Mariners were eliminated from the ALW title on 20070923 with 7 games left to play.
+Starting analysis of 20070921
 The Los Angeles Dodgers were eliminated from the NLW title on 20070922 with 7 games left to play.
+Starting analysis of 20070920
 The St. Louis Cardinals were eliminated from the NLC title on 20070921 with 9 games left to play.
+Starting analysis of 20070919
+Starting analysis of 20070918
 The Cincinnati Reds were eliminated from the NLC title on 20070919 with 10 games left to play.
 The Toronto Blue Jays were eliminated from AL wildcard contention on 20070919 with 10 games left to play.
+Starting analysis of 20070917
 The St. Louis Cardinals were eliminated from NL wildcard contention on 20070918 with 12 games left to play.
+Starting analysis of 20070916
 The Houston Astros were eliminated from the NLC title on 20070917 with 12 games left to play.
 The Pittsburgh Pirates were eliminated from the NLC title on 20070917 with 12 games left to play.
 CIN can only allow ['LAN', 'COL'] to win 6 total games but they have 7 games left against each other.
 It looked like the Cincinnati Reds were in wildcard contention after 20070916 but the remaining intra-contender games ruled them out.
 The Minnesota Twins were eliminated from AL wildcard contention on 20070917 with 12 games left to play.
 The Oakland Athletics were eliminated from AL wildcard contention on 20070917 with 10 games left to play.
+Starting analysis of 20070915
 PIT can only allow ['LAN', 'COL'] to win 5 total games but they have 7 games left against each other.
 It looked like the Pittsburgh Pirates were in wildcard contention after 20070915 but the remaining intra-contender games ruled them out.
 SFN can only allow ['LAN', 'COL'] to win 5 total games but they have 7 games left against each other.
@@ -36,6 +52,7 @@ It looked like the San Francisco Giants were in wildcard contention after 200709
 WAS can only allow ['LAN', 'COL'] to win 5 total games but they have 7 games left against each other.
 It looked like the Washington Nationals were in wildcard contention after 20070915 but the remaining intra-contender games ruled them out.
 The Cincinnati Reds were eliminated from NL wildcard contention on 20070916 with 13 games left to play.
+Starting analysis of 20070914
 The Minnesota Twins were eliminated from the ALC title on 20070915 with 14 games left to play.
 The Oakland Athletics were eliminated from the ALW title on 20070915 with 12 games left to play.
 FLO can only allow ['LAN', 'COL'] to win 4 total games but they have 7 games left against each other.
@@ -45,31 +62,44 @@ It looked like the Washington Nationals were in wildcard contention after 200709
 The Pittsburgh Pirates were eliminated from NL wildcard contention on 20070915 with 14 games left to play.
 The San Francisco Giants were eliminated from NL wildcard contention on 20070915 with 14 games left to play.
 The Texas Rangers were eliminated from AL wildcard contention on 20070915 with 14 games left to play.
+Starting analysis of 20070913
 The Toronto Blue Jays were eliminated from the ALE title on 20070914 with 15 games left to play.
 FLO can only allow ['LAN', 'COL'] to win 5 total games but they have 7 games left against each other.
 It looked like the Florida Marlins were in wildcard contention after 20070913 but the remaining intra-contender games ruled them out.
 HOU can only allow ['LAN', 'COL'] to win 5 total games but they have 7 games left against each other.
 It looked like the Houston Astros were in wildcard contention after 20070913 but the remaining intra-contender games ruled them out.
 The Washington Nationals were eliminated from NL wildcard contention on 20070914 with 15 games left to play.
+Starting analysis of 20070912
 The Texas Rangers were eliminated from the ALW title on 20070913 with 16 games left to play.
 FLO can only allow ['LAN', 'COL'] to win 6 total games but they have 7 games left against each other.
 It looked like the Florida Marlins were in wildcard contention after 20070912 but the remaining intra-contender games ruled them out.
 HOU can only allow ['SDN', 'LAN', 'COL'] to win 10 total games but they have 11 games left against each other.
 It looked like the Houston Astros were in wildcard contention after 20070912 but the remaining intra-contender games ruled them out.
+Starting analysis of 20070911
 The San Francisco Giants were eliminated from the NLW title on 20070912 with 16 games left to play.
 The Washington Nationals were eliminated from the NLE title on 20070912 with 16 games left to play.
 FLO can only allow ['SDN', 'COL', 'LAN'] to win 9 total games but they have 12 games left against each other.
 It looked like the Florida Marlins were in wildcard contention after 20070911 but the remaining intra-contender games ruled them out.
 The Houston Astros were eliminated from NL wildcard contention on 20070912 with 17 games left to play.
+Starting analysis of 20070910
 FLO can only allow ['SDN', 'LAN', 'COL'] to win 11 total games but they have 13 games left against each other.
 It looked like the Florida Marlins were in wildcard contention after 20070910 but the remaining intra-contender games ruled them out.
 The Baltimore Orioles were eliminated from AL wildcard contention on 20070911 with 19 games left to play.
 The Kansas City Royals were eliminated from AL wildcard contention on 20070911 with 18 games left to play.
+Starting analysis of 20070909
 The Florida Marlins were eliminated from NL wildcard contention on 20070910 with 18 games left to play.
+Starting analysis of 20070908
 The Florida Marlins were eliminated from the NLE title on 20070909 with 19 games left to play.
 The Kansas City Royals were eliminated from the ALC title on 20070909 with 20 games left to play.
 The Chicago White Sox were eliminated from AL wildcard contention on 20070909 with 19 games left to play.
+Starting analysis of 20070907
 The Chicago White Sox were eliminated from the ALC title on 20070908 with 20 games left to play.
 The Tampa Bay Devil Rays were eliminated from AL wildcard contention on 20070908 with 20 games left to play.
+Starting analysis of 20070906
+Starting analysis of 20070905
 The Baltimore Orioles were eliminated from the ALE title on 20070906 with 23 games left to play.
+Starting analysis of 20070904
+Starting analysis of 20070903
+Starting analysis of 20070902
+Starting analysis of 20070901
 The Tampa Bay Devil Rays were eliminated from the ALE title on 20070902 with 25 games left to play.

@@ -1,35 +1,2435 @@
 I am not handling ties correctly, so this output is going to imply Chicago was still in contention at the end of the season. Sorry, I hope to fix it soon!
+           date  doubleheader_index weekday  ... day_night completion  makeup_date
+0    1905-04-14                 0.0     Fri  ...         D        NaN          NaT
+1    1905-04-14                 0.0     Fri  ...         D        NaN          NaT
+2    1905-04-14                 0.0     Fri  ...         D        NaN          NaT
+3    1905-04-14                 0.0     Fri  ...         D       Snow   1905-06-29
+4    1905-04-14                 0.0     Fri  ...         D        NaN          NaT
+...         ...                 ...     ...  ...       ...        ...          ...
+1227 1905-10-07                 0.0     Sat  ...         D        NaN          NaT
+1228 1905-10-07                 0.0     Sat  ...         D        NaN          NaT
+1229 1905-10-08                 0.0     Sun  ...         D        NaN          NaT
+1230 1905-10-08                 0.0     Sun  ...         D        NaN          NaT
+1231 1905-10-08                 0.0     Sun  ...         D        NaN          NaT
+
+[1232 rows x 12 columns]
+     completion_date home visitor
+0         1905-04-14  BRO     PHI
+1         1905-04-14  CHA     SLA
+2         1905-04-14  CIN     PIT
+3         1905-06-29  CLE     DET
+4         1905-04-14  NY1     BSN
+...              ...  ...     ...
+1227      1905-10-07  SLA     CHA
+1228      1905-10-07  WS1     PHA
+1229      1905-10-08  CHN     SLN
+1230      1905-10-08  CIN     PIT
+1231      1905-10-08  SLA     CHA
+
+[1232 rows x 3 columns]
 This season has 16 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AL has 154 games per team.
 The NL has 154 games per team.
+... but for this season we are not assuming they play them all.
+Starting analysis of 19051008
+logged_games: Empty DataFrame
+Columns: [completion_date, visitor, home]
+Index: []
+remaining_matchups: Empty DataFrame
+Columns: [alpha1, alpha2, size]
+Index: []
+Index(['alpha2', 'size', 'alpha1'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: Series([], Name: size, dtype: int64)
+current_standings:        W    L div  lg  max_wins
+NY1  105   48  NL  NL     105.0
+PIT   96   57  NL  NL      96.0
+PHA   92   56  AL  AL      92.0
+CHN   92   61  NL  NL      92.0
+CHA   92   60  AL  AL      92.0
+PHI   83   69  NL  NL      83.0
+CIN   79   74  NL  NL      79.0
+DET   79   74  AL  AL      79.0
+BOS   78   74  AL  AL      78.0
+CLE   76   78  AL  AL      76.0
+NYA   71   78  AL  AL      71.0
+WS1   64   87  AL  AL      64.0
+SLN   58   96  NL  NL      58.0
+SLA   54   99  AL  AL      54.0
+BSN   51  103  NL  NL      51.0
+BRO   48  104  NL  NL      48.0
 The AL has more contenders at the end of the season than I expected: ['CHA', 'PHA']. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
-The Pittsburgh Pirates were eliminated from the NL title on 19051001 with 8 games left to play.
-NYA can only allow ['PHA', 'CHA'] to win 1 total games but they have 3 games left against each other.
-It looked like the New York Yankees were in contention after 19050926 but the remaining intra-division games ruled them out.
+Starting analysis of 19051007
+logged_games:      completion_date visitor home
+544       1905-10-08     CHA  SLA
+1085      1905-10-08     CHN  SLN
+1088      1905-10-08     PIT  CIN
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+remaining_matchups:   alpha1 alpha2  size
+0    CHA    SLA     2
+1    CHN    SLN     2
+2    CIN    PIT     2
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+CHA    2
+CHN    2
+CIN    2
+PIT    2
+SLA    2
+SLN    2
+Name: size, dtype: int64
+current_standings:        W    L div  lg  max_wins
+NY1  105   48  NL  NL     105.0
+PIT   96   55  NL  NL      98.0
+PHA   92   56  AL  AL      92.0
+CHA   91   59  AL  AL      93.0
+CHN   90   61  NL  NL      92.0
+PHI   83   69  NL  NL      83.0
+DET   79   74  AL  AL      79.0
+BOS   78   74  AL  AL      78.0
+CIN   77   74  NL  NL      79.0
+CLE   76   78  AL  AL      76.0
+NYA   71   78  AL  AL      71.0
+WS1   64   87  AL  AL      64.0
+SLN   58   94  NL  NL      60.0
+SLA   53   98  AL  AL      55.0
+BSN   51  103  NL  NL      51.0
+BRO   48  104  NL  NL      48.0
+Starting analysis of 19051006
+logged_games:      completion_date visitor home
+90        1905-10-07     CHA  SLA
+518       1905-10-07     PHA  WS1
+519       1905-10-07     NYA  BOS
+544       1905-10-08     CHA  SLA
+987       1905-10-07     PHI  NY1
+1085      1905-10-08     CHN  SLN
+1088      1905-10-08     PIT  CIN
+1215      1905-10-07     SLN  CIN
+1221      1905-10-07     NYA  BOS
+1222      1905-10-07     BSN  BRO
+1223      1905-10-07     SLN  CIN
+1224      1905-10-07     DET  CLE
+1225      1905-10-07     PHI  NY1
+1226      1905-10-07     CHN  PIT
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+remaining_matchups:   alpha1 alpha2  size
+0    BOS    NYA     2
+1    BRO    BSN     1
+2    CHA    SLA     4
+3    CHN    PIT     1
+4    CHN    SLN     2
+5    CIN    PIT     2
+6    CIN    SLN     2
+7    CLE    DET     1
+8    NY1    PHI     2
+9    PHA    WS1     2
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    2
+BRO    1
+BSN    1
+CHA    4
+CHN    3
+CIN    4
+CLE    1
+DET    1
+NY1    2
+NYA    2
+PHA    2
+PHI    2
+PIT    3
+SLA    4
+SLN    4
+WS1    2
+Name: size, dtype: int64
+current_standings:        W    L div  lg  max_wins
+NY1  104   47  NL  NL       106
+PIT   96   54  NL  NL        99
+PHA   92   55  AL  AL        94
+CHA   90   59  AL  AL        94
+CHN   89   61  NL  NL        92
+PHI   82   68  NL  NL        84
+DET   78   74  AL  AL        79
+CLE   76   77  AL  AL        77
+CIN   76   73  NL  NL        80
+BOS   76   74  AL  AL        78
+NYA   71   76  AL  AL        73
+WS1   63   87  AL  AL        65
+SLN   57   93  NL  NL        61
+SLA   53   97  AL  AL        57
+BSN   50  102  NL  NL        51
+BRO   47  103  NL  NL        48
+Starting analysis of 19051005
+logged_games:      completion_date visitor home
+90        1905-10-07     CHA  SLA
+518       1905-10-07     PHA  WS1
+519       1905-10-07     NYA  BOS
+544       1905-10-08     CHA  SLA
+987       1905-10-07     PHI  NY1
+1085      1905-10-08     CHN  SLN
+1088      1905-10-08     PIT  CIN
+1213      1905-10-06     NYA  BOS
+1214      1905-10-06     BSN  BRO
+1215      1905-10-07     SLN  CIN
+1216      1905-10-06     DET  CLE
+1217      1905-10-06     PHI  NY1
+1218      1905-10-06     CHN  PIT
+1219      1905-10-06     CHA  SLA
+1220      1905-10-06     PHA  WS1
+1221      1905-10-07     NYA  BOS
+1222      1905-10-07     BSN  BRO
+1223      1905-10-07     SLN  CIN
+1224      1905-10-07     DET  CLE
+1225      1905-10-07     PHI  NY1
+1226      1905-10-07     CHN  PIT
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+remaining_matchups:   alpha1 alpha2  size
+0    BOS    NYA     3
+1    BRO    BSN     2
+2    CHA    SLA     5
+3    CHN    PIT     2
+4    CHN    SLN     2
+5    CIN    PIT     2
+6    CIN    SLN     2
+7    CLE    DET     2
+8    NY1    PHI     3
+9    PHA    WS1     3
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    3
+BRO    2
+BSN    2
+CHA    5
+CHN    4
+CIN    4
+CLE    2
+DET    2
+NY1    3
+NYA    3
+PHA    3
+PHI    3
+PIT    4
+SLA    5
+SLN    4
+WS1    3
+Name: size, dtype: int64
+current_standings:        W    L div  lg  max_wins
+NY1  104   46  NL  NL       107
+PIT   96   53  NL  NL       100
+PHA   92   54  AL  AL        95
+CHA   90   58  AL  AL        95
+CHN   88   61  NL  NL        92
+PHI   81   68  NL  NL        84
+DET   78   73  AL  AL        80
+CIN   76   73  NL  NL        80
+CLE   75   77  AL  AL        77
+BOS   75   74  AL  AL        78
+NYA   71   75  AL  AL        74
+WS1   62   87  AL  AL        65
+SLN   57   93  NL  NL        61
+SLA   52   97  AL  AL        57
+BSN   50  101  NL  NL        52
+BRO   46  103  NL  NL        48
+Starting analysis of 19051004
+logged_games:      completion_date visitor home
+29        1905-10-05     PHI  NY1
+90        1905-10-07     CHA  SLA
+507       1905-10-05     PHA  WS1
+518       1905-10-07     PHA  WS1
+519       1905-10-07     NYA  BOS
+544       1905-10-08     CHA  SLA
+987       1905-10-07     PHI  NY1
+1085      1905-10-08     CHN  SLN
+1088      1905-10-08     PIT  CIN
+1098      1905-10-05     BRO  BSN
+1207      1905-10-05     NYA  BOS
+1208      1905-10-05     BSN  BRO
+1209      1905-10-05     DET  CLE
+1210      1905-10-05     PHI  NY1
+1212      1905-10-05     PHA  WS1
+1213      1905-10-06     NYA  BOS
+1214      1905-10-06     BSN  BRO
+1215      1905-10-07     SLN  CIN
+1216      1905-10-06     DET  CLE
+1217      1905-10-06     PHI  NY1
+1218      1905-10-06     CHN  PIT
+1219      1905-10-06     CHA  SLA
+1220      1905-10-06     PHA  WS1
+1221      1905-10-07     NYA  BOS
+1222      1905-10-07     BSN  BRO
+1223      1905-10-07     SLN  CIN
+1224      1905-10-07     DET  CLE
+1225      1905-10-07     PHI  NY1
+1226      1905-10-07     CHN  PIT
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+remaining_matchups:   alpha1 alpha2  size
+0    BOS    NYA     4
+1    BRO    BSN     4
+2    CHA    SLA     5
+3    CHN    PIT     2
+4    CHN    SLN     2
+5    CIN    PIT     2
+6    CIN    SLN     2
+7    CLE    DET     3
+8    NY1    PHI     5
+9    PHA    WS1     5
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    4
+BRO    4
+BSN    4
+CHA    5
+CHN    4
+CIN    4
+CLE    3
+DET    3
+NY1    5
+NYA    4
+PHA    5
+PHI    5
+PIT    4
+SLA    5
+SLN    4
+WS1    5
+Name: size, dtype: int64
+current_standings:        W    L div  lg  max_wins
+NY1  103   45  NL  NL       108
+PIT   96   53  NL  NL       100
+PHA   90   54  AL  AL        95
+CHA   90   58  AL  AL        95
+CHN   88   61  NL  NL        92
+PHI   80   67  NL  NL        85
+DET   77   73  AL  AL        80
+CIN   76   73  NL  NL        80
+CLE   75   76  AL  AL        78
+BOS   74   74  AL  AL        78
+NYA   71   74  AL  AL        75
+WS1   62   85  AL  AL        67
+SLN   57   93  NL  NL        61
+SLA   52   97  AL  AL        57
+BSN   50   99  NL  NL        54
+BRO   44  103  NL  NL        48
+Starting analysis of 19051003
+logged_games:      completion_date visitor home
+29        1905-10-05     PHI  NY1
+90        1905-10-07     CHA  SLA
+507       1905-10-05     PHA  WS1
+518       1905-10-07     PHA  WS1
+519       1905-10-07     NYA  BOS
+544       1905-10-08     CHA  SLA
+987       1905-10-07     PHI  NY1
+1085      1905-10-08     CHN  SLN
+1088      1905-10-08     PIT  CIN
+1098      1905-10-05     BRO  BSN
+1201      1905-10-04     CLE  BOS
+1202      1905-10-04     DET  NYA
+1203      1905-10-04     SLA  PHA
+1204      1905-10-04     BSN  PIT
+1206      1905-10-04     CHA  WS1
+1207      1905-10-05     NYA  BOS
+1208      1905-10-05     BSN  BRO
+1209      1905-10-05     DET  CLE
+1210      1905-10-05     PHI  NY1
+1212      1905-10-05     PHA  WS1
+1213      1905-10-06     NYA  BOS
+1214      1905-10-06     BSN  BRO
+1215      1905-10-07     SLN  CIN
+1216      1905-10-06     DET  CLE
+1217      1905-10-06     PHI  NY1
+1218      1905-10-06     CHN  PIT
+1219      1905-10-06     CHA  SLA
+1220      1905-10-06     PHA  WS1
+1221      1905-10-07     NYA  BOS
+1222      1905-10-07     BSN  BRO
+1223      1905-10-07     SLN  CIN
+1224      1905-10-07     DET  CLE
+1225      1905-10-07     PHI  NY1
+1226      1905-10-07     CHN  PIT
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CLE     1
+1     BOS    NYA     4
+2     BRO    BSN     4
+3     BSN    PIT     1
+4     CHA    SLA     5
+5     CHA    WS1     1
+6     CHN    PIT     2
+7     CHN    SLN     2
+8     CIN    PIT     2
+9     CIN    SLN     2
+10    CLE    DET     3
+11    DET    NYA     1
+12    NY1    PHI     5
+13    PHA    SLA     1
+14    PHA    WS1     5
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    5
+BRO    4
+BSN    5
+CHA    6
+CHN    4
+CIN    4
+CLE    4
+DET    4
+NY1    5
+NYA    5
+PHA    6
+PHI    5
+PIT    5
+SLA    6
+SLN    4
+WS1    6
+Name: size, dtype: int64
+current_standings:        W    L div  lg  max_wins
+NY1  103   45  NL  NL       108
+PIT   96   52  NL  NL       101
+PHA   89   54  AL  AL        95
+CHA   89   58  AL  AL        95
+CHN   88   61  NL  NL        92
+PHI   80   67  NL  NL        85
+DET   77   73  AL  AL        81
+CIN   76   73  NL  NL        80
+CLE   75   75  AL  AL        79
+BOS   73   74  AL  AL        78
+NYA   71   74  AL  AL        76
+WS1   62   84  AL  AL        68
+SLN   57   93  NL  NL        61
+SLA   52   96  AL  AL        58
+BSN   49   99  NL  NL        54
+BRO   44  103  NL  NL        48
+Starting analysis of 19051002
+logged_games:      completion_date visitor home
+29        1905-10-05     PHI  NY1
+90        1905-10-07     CHA  SLA
+507       1905-10-05     PHA  WS1
+518       1905-10-07     PHA  WS1
+519       1905-10-07     NYA  BOS
+544       1905-10-08     CHA  SLA
+872       1905-10-03     DET  NYA
+987       1905-10-07     PHI  NY1
+1085      1905-10-08     CHN  SLN
+1088      1905-10-08     PIT  CIN
+1098      1905-10-05     BRO  BSN
+1187      1905-10-03     NY1  CIN
+1190      1905-10-03     BSN  PIT
+1191      1905-10-03     BRO  SLN
+1193      1905-10-03     CLE  BOS
+1194      1905-10-03     PHI  CHN
+1195      1905-10-03     NY1  CIN
+1196      1905-10-03     DET  NYA
+1197      1905-10-03     SLA  PHA
+1198      1905-10-03     BSN  PIT
+1199      1905-10-03     BRO  SLN
+1200      1905-10-03     CHA  WS1
+1201      1905-10-04     CLE  BOS
+1202      1905-10-04     DET  NYA
+1203      1905-10-04     SLA  PHA
+1204      1905-10-04     BSN  PIT
+1206      1905-10-04     CHA  WS1
+1207      1905-10-05     NYA  BOS
+1208      1905-10-05     BSN  BRO
+1209      1905-10-05     DET  CLE
+1210      1905-10-05     PHI  NY1
+1212      1905-10-05     PHA  WS1
+1213      1905-10-06     NYA  BOS
+1214      1905-10-06     BSN  BRO
+1215      1905-10-07     SLN  CIN
+1216      1905-10-06     DET  CLE
+1217      1905-10-06     PHI  NY1
+1218      1905-10-06     CHN  PIT
+1219      1905-10-06     CHA  SLA
+1220      1905-10-06     PHA  WS1
+1221      1905-10-07     NYA  BOS
+1222      1905-10-07     BSN  BRO
+1223      1905-10-07     SLN  CIN
+1224      1905-10-07     DET  CLE
+1225      1905-10-07     PHI  NY1
+1226      1905-10-07     CHN  PIT
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CLE     2
+1     BOS    NYA     4
+2     BRO    BSN     4
+3     BRO    SLN     2
+4     BSN    PIT     3
+5     CHA    SLA     5
+6     CHA    WS1     2
+7     CHN    PHI     1
+8     CHN    PIT     2
+9     CHN    SLN     2
+10    CIN    NY1     2
+11    CIN    PIT     2
+12    CIN    SLN     2
+13    CLE    DET     3
+14    DET    NYA     3
+15    NY1    PHI     5
+16    PHA    SLA     2
+17    PHA    WS1     5
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    6
+BRO    6
+BSN    7
+CHA    7
+CHN    5
+CIN    6
+CLE    5
+DET    6
+NY1    7
+NYA    7
+PHA    7
+PHI    6
+PIT    7
+SLA    7
+SLN    6
+WS1    7
+Name: size, dtype: int64
+current_standings:        W    L div  lg  max_wins
+NY1  103   44  NL  NL       110
+PIT   94   52  NL  NL       101
+PHA   88   54  AL  AL        95
+CHN   88   61  NL  NL        93
+CHA   88   58  AL  AL        95
+PHI   80   67  NL  NL        86
+DET   77   71  AL  AL        83
+CLE   75   74  AL  AL        80
+CIN   75   73  NL  NL        81
+BOS   72   74  AL  AL        78
+NYA   69   74  AL  AL        76
+WS1   62   83  AL  AL        69
+SLN   57   91  NL  NL        63
+SLA   52   95  AL  AL        59
+BSN   49   97  NL  NL        56
+BRO   42  103  NL  NL        48
+Starting analysis of 19051001
+logged_games:      completion_date visitor home
+29        1905-10-05     PHI  NY1
+90        1905-10-07     CHA  SLA
+489       1905-10-02     DET  NYA
+507       1905-10-05     PHA  WS1
+518       1905-10-07     PHA  WS1
+519       1905-10-07     NYA  BOS
+544       1905-10-08     CHA  SLA
+872       1905-10-03     DET  NYA
+987       1905-10-07     PHI  NY1
+1085      1905-10-08     CHN  SLN
+1088      1905-10-08     PIT  CIN
+1098      1905-10-05     BRO  BSN
+1185      1905-10-02     CLE  BOS
+1186      1905-10-02     PHI  CHN
+1187      1905-10-03     NY1  CIN
+1188      1905-10-02     DET  NYA
+1189      1905-10-02     SLA  PHA
+1190      1905-10-03     BSN  PIT
+1191      1905-10-03     BRO  SLN
+1192      1905-10-02     CHA  WS1
+1193      1905-10-03     CLE  BOS
+1194      1905-10-03     PHI  CHN
+1195      1905-10-03     NY1  CIN
+1196      1905-10-03     DET  NYA
+1197      1905-10-03     SLA  PHA
+1198      1905-10-03     BSN  PIT
+1199      1905-10-03     BRO  SLN
+1200      1905-10-03     CHA  WS1
+1201      1905-10-04     CLE  BOS
+1202      1905-10-04     DET  NYA
+1203      1905-10-04     SLA  PHA
+1204      1905-10-04     BSN  PIT
+1206      1905-10-04     CHA  WS1
+1207      1905-10-05     NYA  BOS
+1208      1905-10-05     BSN  BRO
+1209      1905-10-05     DET  CLE
+1210      1905-10-05     PHI  NY1
+1212      1905-10-05     PHA  WS1
+1213      1905-10-06     NYA  BOS
+1214      1905-10-06     BSN  BRO
+1215      1905-10-07     SLN  CIN
+1216      1905-10-06     DET  CLE
+1217      1905-10-06     PHI  NY1
+1218      1905-10-06     CHN  PIT
+1219      1905-10-06     CHA  SLA
+1220      1905-10-06     PHA  WS1
+1221      1905-10-07     NYA  BOS
+1222      1905-10-07     BSN  BRO
+1223      1905-10-07     SLN  CIN
+1224      1905-10-07     DET  CLE
+1225      1905-10-07     PHI  NY1
+1226      1905-10-07     CHN  PIT
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CLE     3
+1     BOS    NYA     4
+2     BRO    BSN     4
+3     BRO    SLN     2
+4     BSN    PIT     3
+5     CHA    SLA     5
+6     CHA    WS1     3
+7     CHN    PHI     2
+8     CHN    PIT     2
+9     CHN    SLN     2
+10    CIN    NY1     2
+11    CIN    PIT     2
+12    CIN    SLN     2
+13    CLE    DET     3
+14    DET    NYA     5
+15    NY1    PHI     5
+16    PHA    SLA     3
+17    PHA    WS1     5
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    7
+BRO    6
+BSN    7
+CHA    8
+CHN    6
+CIN    6
+CLE    6
+DET    8
+NY1    7
+NYA    9
+PHA    8
+PHI    7
+PIT    7
+SLA    8
+SLN    6
+WS1    8
+Name: size, dtype: int64
+current_standings:        W    L div  lg  max_wins
+NY1  103   44  NL  NL       110
+PIT   94   52  NL  NL       101
+CHA   88   57  AL  AL        96
+PHA   87   54  AL  AL        95
+CHN   87   61  NL  NL        93
+PHI   80   66  NL  NL        87
+CLE   75   73  AL  AL        81
+CIN   75   73  NL  NL        81
+DET   75   71  AL  AL        83
+BOS   71   74  AL  AL        78
+NYA   69   72  AL  AL        78
+WS1   61   83  AL  AL        69
+SLN   57   91  NL  NL        63
+SLA   52   94  AL  AL        60
+BSN   49   97  NL  NL        56
+BRO   42  103  NL  NL        48
+Starting analysis of 19050930
+logged_games:      completion_date visitor home
+29        1905-10-05     PHI  NY1
+90        1905-10-07     CHA  SLA
+489       1905-10-02     DET  NYA
+507       1905-10-05     PHA  WS1
+518       1905-10-07     PHA  WS1
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[62 rows x 3 columns]
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CLE     3
+1     BOS    NYA     4
+2     BRO    BSN     4
+3     BRO    SLN     4
+4     BSN    PIT     3
+5     CHA    SLA     5
+6     CHA    WS1     3
+7     CHN    PHI     4
+8     CHN    PIT     2
+9     CHN    SLN     2
+10    CIN    NY1     3
+11    CIN    PIT     2
+12    CIN    SLN     2
+13    CLE    DET     3
+14    DET    NYA     5
+15    NY1    PHI     5
+16    PHA    SLA     3
+17    PHA    WS1     5
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    7
+BRO    8
+BSN    7
+CHA    8
+CHN    8
+CIN    7
+CLE    6
+DET    8
+NY1    8
+NYA    9
+PHA    8
+PHI    9
+PIT    7
+SLA    8
+SLN    8
+WS1    8
+Name: size, dtype: int64
+current_standings:        W    L div  lg  max_wins
+NY1  102   43  NL  NL       110
+PIT   94   52  NL  NL       101
+CHA   88   57  AL  AL        96
+PHA   87   54  AL  AL        95
+CHN   85   61  NL  NL        93
+PHI   80   64  NL  NL        89
+CLE   75   73  AL  AL        81
+DET   75   71  AL  AL        83
+CIN   74   72  NL  NL        81
+BOS   71   74  AL  AL        78
+NYA   69   72  AL  AL        78
+WS1   61   83  AL  AL        69
+SLN   56   90  NL  NL        64
+SLA   52   94  AL  AL        60
+BSN   49   97  NL  NL        56
+BRO   41  102  NL  NL        49
+Starting analysis of 19050929
+logged_games:      completion_date visitor home
+29        1905-10-05     PHI  NY1
+90        1905-10-07     CHA  SLA
+489       1905-10-02     DET  NYA
+507       1905-10-05     PHA  WS1
+518       1905-10-07     PHA  WS1
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[74 rows x 3 columns]
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CLE     3
+1     BOS    DET     2
+2     BOS    NYA     4
+3     BRO    BSN     4
+4     BRO    PIT     2
+5     BRO    SLN     4
+6     BSN    CHN     1
+7     BSN    PIT     3
+8     CHA    PHA     1
+9     CHA    SLA     5
+10    CHA    WS1     3
+11    CHN    PHI     4
+12    CHN    PIT     2
+13    CHN    SLN     2
+14    CIN    NY1     3
+15    CIN    PHI     1
+16    CIN    PIT     2
+17    CIN    SLN     2
+18    CLE    DET     3
+19    CLE    NYA     2
+20    DET    NYA     5
+21    NY1    PHI     5
+22    NY1    SLN     1
+23    PHA    SLA     3
+24    PHA    WS1     5
+25    SLA    WS1     2
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS     9
+BRO    10
+BSN     8
+CHA     9
+CHN     9
+CIN     8
+CLE     8
+DET    10
+NY1     9
+NYA    11
+PHA     9
+PHI    10
+PIT     9
+SLA    10
+SLN     9
+WS1    10
+Name: size, dtype: int64
+current_standings:        W    L div  lg  max_wins
+NY1  101   43  NL  NL       110
+PIT   93   52  NL  NL       102
+PHA   87   53  AL  AL        96
+CHA   87   57  AL  AL        96
+CHN   85   60  NL  NL        94
+PHI   79   64  NL  NL        89
+CLE   74   72  AL  AL        82
+CIN   74   71  NL  NL        82
+DET   74   70  AL  AL        84
+BOS   70   73  AL  AL        79
+NYA   68   71  AL  AL        79
+WS1   59   83  AL  AL        69
+SLN   56   89  NL  NL        65
+SLA   52   92  AL  AL        62
+BSN   48   97  NL  NL        56
+BRO   41  101  NL  NL        51
+The Pittsburgh Pirates were eliminated from the NL title on 19050930 with 7 games left to play.
+Starting analysis of 19050928
+logged_games:      completion_date visitor home
+29        1905-10-05     PHI  NY1
+90        1905-10-07     CHA  SLA
+489       1905-10-02     DET  NYA
+507       1905-10-05     PHA  WS1
+518       1905-10-07     PHA  WS1
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[81 rows x 3 columns]
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CLE     3
+1     BOS    DET     3
+2     BOS    NYA     4
+3     BRO    BSN     4
+4     BRO    PIT     2
+5     BRO    SLN     4
+6     BSN    CHN     1
+7     BSN    PIT     3
+8     CHA    PHA     2
+9     CHA    SLA     5
+10    CHA    WS1     3
+11    CHN    PHI     4
+12    CHN    PIT     2
+13    CHN    SLN     2
+14    CIN    NY1     3
+15    CIN    PHI     2
+16    CIN    PIT     2
+17    CIN    SLN     2
+18    CLE    DET     3
+19    CLE    NYA     3
+20    DET    NYA     5
+21    NY1    PHI     5
+22    NY1    SLN     3
+23    PHA    SLA     3
+24    PHA    WS1     5
+25    SLA    WS1     3
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    10
+BRO    10
+BSN     8
+CHA    10
+CHN     9
+CIN     9
+CLE     9
+DET    11
+NY1    11
+NYA    12
+PHA    10
+PHI    11
+PIT     9
+SLA    11
+SLN    11
+WS1    11
+Name: size, dtype: int64
+current_standings:       W    L div  lg  max_wins
+NY1  99   43  NL  NL       110
+PIT  93   52  NL  NL       102
+CHA  87   56  AL  AL        97
+PHA  86   53  AL  AL        96
+CHN  85   60  NL  NL        94
+PHI  79   63  NL  NL        90
+CLE  73   72  AL  AL        82
+CIN  73   71  NL  NL        82
+DET  73   70  AL  AL        84
+BOS  70   72  AL  AL        80
+NYA  68   70  AL  AL        80
+WS1  59   82  AL  AL        70
+SLN  56   87  NL  NL        67
+SLA  51   92  AL  AL        62
+BSN  48   97  NL  NL        56
+BRO  41  101  NL  NL        51
+Starting analysis of 19050927
+logged_games:      completion_date visitor home
+29        1905-10-05     PHI  NY1
+90        1905-10-07     CHA  SLA
+379       1905-09-28     CLE  NYA
+489       1905-10-02     DET  NYA
+507       1905-10-05     PHA  WS1
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[90 rows x 3 columns]
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CLE     3
+1     BOS    DET     4
+2     BOS    NYA     4
+3     BRO    BSN     4
+4     BRO    PIT     3
+5     BRO    SLN     4
+6     BSN    CHN     2
+7     BSN    PIT     3
+8     CHA    PHA     3
+9     CHA    SLA     5
+10    CHA    WS1     3
+11    CHN    PHI     4
+12    CHN    PIT     2
+13    CHN    SLN     2
+14    CIN    NY1     3
+15    CIN    PHI     3
+16    CIN    PIT     2
+17    CIN    SLN     2
+18    CLE    DET     3
+19    CLE    NYA     5
+20    DET    NYA     5
+21    NY1    PHI     5
+22    NY1    SLN     4
+23    PHA    SLA     3
+24    PHA    WS1     5
+25    SLA    WS1     4
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    11
+BRO    11
+BSN     9
+CHA    11
+CHN    10
+CIN    10
+CLE    11
+DET    12
+NY1    12
+NYA    14
+PHA    11
+PHI    12
+PIT    10
+SLA    12
+SLN    12
+WS1    12
+Name: size, dtype: int64
+current_standings:       W    L div  lg  max_wins
+NY1  99   42  NL  NL       111
+PIT  92   52  NL  NL       102
+CHA  87   55  AL  AL        98
+PHA  85   53  AL  AL        96
+CHN  84   60  NL  NL        94
+PHI  78   63  NL  NL        90
+CIN  73   70  NL  NL        83
+CLE  72   71  AL  AL        83
+DET  72   70  AL  AL        84
+BOS  70   71  AL  AL        81
+NYA  67   69  AL  AL        81
+WS1  58   82  AL  AL        70
+SLN  55   87  NL  NL        67
+SLA  51   91  AL  AL        63
+BSN  48   96  NL  NL        57
+BRO  41  100  NL  NL        52
+Starting analysis of 19050926
+logged_games:      completion_date visitor home
+29        1905-10-05     PHI  NY1
+90        1905-10-07     CHA  SLA
+379       1905-09-28     CLE  NYA
+489       1905-10-02     DET  NYA
+507       1905-10-05     PHA  WS1
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[99 rows x 3 columns]
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CHA     2
+1     BOS    CLE     3
+2     BOS    DET     4
+3     BOS    NYA     4
+4     BRO    BSN     4
+5     BRO    CHN     1
+6     BRO    PIT     3
+7     BRO    SLN     4
+8     BSN    CHN     2
+9     BSN    CIN     1
+10    BSN    PIT     3
+11    CHA    PHA     3
+12    CHA    SLA     5
+13    CHA    WS1     3
+14    CHN    PHI     4
+15    CHN    PIT     2
+16    CHN    SLN     2
+17    CIN    NY1     3
+18    CIN    PHI     3
+19    CIN    PIT     2
+20    CIN    SLN     2
+21    CLE    DET     3
+22    CLE    NYA     5
+23    CLE    WS1     1
+24    DET    NYA     5
+25    DET    PHA     1
+26    NY1    PHI     5
+27    NY1    PIT     1
+28    NY1    SLN     4
+29    NYA    SLA     1
+30    PHA    SLA     3
+31    PHA    WS1     5
+32    PHI    SLN     1
+33    SLA    WS1     4
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    13
+BRO    12
+BSN    10
+CHA    13
+CHN    11
+CIN    11
+CLE    12
+DET    13
+NY1    13
+NYA    15
+PHA    12
+PHI    13
+PIT    11
+SLA    13
+SLN    13
+WS1    13
+Name: size, dtype: int64
+current_standings:       W   L div  lg  max_wins
+NY1  98  42  NL  NL       111
+PIT  92  51  NL  NL       103
+CHA  86  54  AL  AL        99
+PHA  85  52  AL  AL        97
+CHN  83  60  NL  NL        94
+PHI  77  63  NL  NL        90
+CIN  73  69  NL  NL        84
+CLE  72  70  AL  AL        84
+DET  71  70  AL  AL        84
+BOS  69  70  AL  AL        82
+NYA  67  68  AL  AL        82
+WS1  57  82  AL  AL        70
+SLN  55  86  NL  NL        68
+SLA  50  91  AL  AL        63
+BSN  47  96  NL  NL        57
+BRO  41  99  NL  NL        53
+Starting analysis of 19050925
+logged_games:      completion_date visitor home
+29        1905-10-05     PHI  NY1
+90        1905-10-07     CHA  SLA
+379       1905-09-28     CLE  NYA
+422       1905-09-26     SLA  NYA
+489       1905-10-02     DET  NYA
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[110 rows x 3 columns]
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CHA     4
+1     BOS    CLE     3
+2     BOS    DET     4
+3     BOS    NYA     4
+4     BRO    BSN     4
+5     BRO    CHN     2
+6     BRO    PIT     3
+7     BRO    SLN     4
+8     BSN    CHN     2
+9     BSN    CIN     2
+10    BSN    PIT     3
+11    CHA    PHA     3
+12    CHA    SLA     5
+13    CHA    WS1     3
+14    CHN    PHI     4
+15    CHN    PIT     2
+16    CHN    SLN     2
+17    CIN    NY1     3
+18    CIN    PHI     3
+19    CIN    PIT     2
+20    CIN    SLN     2
+21    CLE    DET     3
+22    CLE    NYA     5
+23    CLE    WS1     3
+24    DET    NYA     5
+25    DET    PHA     2
+26    NY1    PHI     5
+27    NY1    PIT     2
+28    NY1    SLN     4
+29    NYA    SLA     3
+30    PHA    SLA     3
+31    PHA    WS1     5
+32    PHI    SLN     2
+33    SLA    WS1     4
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    15
+BRO    13
+BSN    11
+CHA    15
+CHN    12
+CIN    12
+CLE    14
+DET    14
+NY1    14
+NYA    17
+PHA    13
+PHI    14
+PIT    12
+SLA    15
+SLN    14
+WS1    15
+Name: size, dtype: int64
+current_standings:       W   L div  lg  max_wins
+NY1  97  42  NL  NL       111
+PIT  92  50  NL  NL       104
+PHA  85  51  AL  AL        98
+CHA  84  54  AL  AL        99
+CHN  83  59  NL  NL        95
+PHI  76  63  NL  NL        90
+CIN  72  69  NL  NL        84
+CLE  71  69  AL  AL        85
+DET  70  70  AL  AL        84
+BOS  69  68  AL  AL        84
+NYA  67  66  AL  AL        84
+WS1  56  81  AL  AL        71
+SLN  55  85  NL  NL        69
+SLA  48  91  AL  AL        63
+BSN  47  95  NL  NL        58
+BRO  40  99  NL  NL        53
 CLE can only allow ['PHA', 'CHA'] to win 1 total games but they have 3 games left against each other.
 It looked like the Cleveland Indians were in contention after 19050925 but the remaining intra-division games ruled them out.
-The Boston Red Sox were eliminated from the AL title on 19050926 with 15 games left to play.
-The New York Yankees were eliminated from the AL title on 19050926 with 19 games left to play.
+Starting analysis of 19050924
+logged_games:      completion_date visitor home
+29        1905-10-05     PHI  NY1
+90        1905-10-07     CHA  SLA
+379       1905-09-28     CLE  NYA
+422       1905-09-26     SLA  NYA
+478       1905-09-25     CHA  BOS
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[120 rows x 3 columns]
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CHA     6
+1     BOS    CLE     3
+2     BOS    DET     4
+3     BOS    NYA     4
+4     BRO    BSN     4
+5     BRO    CHN     4
+6     BRO    PIT     3
+7     BRO    SLN     4
+8     BSN    CHN     2
+9     BSN    CIN     4
+10    BSN    PIT     3
+11    CHA    PHA     3
+12    CHA    SLA     5
+13    CHA    WS1     3
+14    CHN    PHI     4
+15    CHN    PIT     2
+16    CHN    SLN     2
+17    CIN    NY1     3
+18    CIN    PHI     3
+19    CIN    PIT     2
+20    CIN    SLN     2
+21    CLE    DET     3
+22    CLE    NYA     5
+23    CLE    WS1     4
+24    DET    NYA     5
+25    DET    PHA     3
+26    NY1    PHI     5
+27    NY1    PIT     3
+28    NY1    SLN     4
+29    NYA    SLA     4
+30    PHA    SLA     3
+31    PHA    WS1     5
+32    PHI    SLN     2
+33    SLA    WS1     4
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    17
+BRO    15
+BSN    13
+CHA    17
+CHN    14
+CIN    14
+CLE    15
+DET    15
+NY1    15
+NYA    18
+PHA    14
+PHI    14
+PIT    13
+SLA    16
+SLN    14
+WS1    16
+Name: size, dtype: int64
+current_standings:       W   L div  lg  max_wins
+NY1  96  42  NL  NL       111
+PIT  92  49  NL  NL       105
+PHA  84  51  AL  AL        98
+CHN  82  58  NL  NL        96
+CHA  82  54  AL  AL        99
+PHI  76  63  NL  NL        90
+CLE  70  69  AL  AL        85
+CIN  70  69  NL  NL        84
+DET  70  69  AL  AL        85
+BOS  69  66  AL  AL        86
+NYA  66  66  AL  AL        84
+WS1  56  80  AL  AL        72
+SLN  55  85  NL  NL        69
+SLA  48  90  AL  AL        64
+BSN  47  93  NL  NL        60
+BRO  39  98  NL  NL        54
+The Boston Red Sox were eliminated from the AL title on 19050925 with 15 games left to play.
 The Chicago Cubs were eliminated from the NL title on 19050925 with 12 games left to play.
 The Cleveland Indians were eliminated from the AL title on 19050925 with 14 games left to play.
 The Detroit Tigers were eliminated from the AL title on 19050925 with 14 games left to play.
-The Philadelphia Phillies were eliminated from the NL title on 19050919 with 21 games left to play.
-The Washington Senators were eliminated from the AL title on 19050919 with 23 games left to play.
-CIN can only allow ['NY1', 'PIT'] to win 1 total games but they have 3 games left against each other.
-It looked like the Cincinnati Reds were in contention after 19050910 but the remaining intra-division games ruled them out.
-CIN can only allow ['NY1', 'PIT'] to win 2 total games but they have 3 games left against each other.
-It looked like the Cincinnati Reds were in contention after 19050909 but the remaining intra-division games ruled them out.
-SLA can only allow ['PHA', 'CHA', 'NYA', 'CLE', 'DET'] to win 47 total games but they have 49 games left against each other.
-It looked like the St.Louis Browns were in contention after 19050908 but the remaining intra-division games ruled them out.
-The Cincinnati Reds were eliminated from the NL title on 19050909 with 26 games left to play.
-SLA can only allow ['PHA', 'CHA', 'NYA', 'CLE', 'BOS', 'DET'] to win 73 total games but they have 74 games left against each other.
-It looked like the St.Louis Browns were in contention after 19050907 but the remaining intra-division games ruled them out.
-The St.Louis Browns were eliminated from the AL title on 19050907 with 32 games left to play.
-The St. Louis Cardinals were eliminated from the NL title on 19050828 with 35 games left to play.
-BRO can only allow ['NY1', 'PIT', 'PHI'] to win 22 total games but they have 24 games left against each other.
-It looked like the Brooklyn Dodgers were in contention after 19050822 but the remaining intra-division games ruled them out.
-BSN can only allow ['NY1', 'PIT', 'CHN', 'PHI'] to win 38 total games but they have 40 games left against each other.
-It looked like the Boston Braves were in contention after 19050822 but the remaining intra-division games ruled them out.
-The Brooklyn Dodgers were eliminated from the NL title on 19050822 with 43 games left to play.
-The Boston Braves were eliminated from the NL title on 19050822 with 40 games left to play.
+The New York Yankees were eliminated from the AL title on 19050925 with 17 games left to play.
+Starting analysis of 19050923
+logged_games:      completion_date visitor home
+29        1905-10-05     PHI  NY1
+90        1905-10-07     CHA  SLA
+379       1905-09-28     CLE  NYA
+422       1905-09-26     SLA  NYA
+478       1905-09-25     CHA  BOS
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[124 rows x 3 columns]
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CHA     6
+1     BOS    CLE     3
+2     BOS    DET     4
+3     BOS    NYA     4
+4     BRO    BSN     4
+5     BRO    CHN     4
+6     BRO    CIN     2
+7     BRO    PIT     3
+8     BRO    SLN     4
+9     BSN    CHN     2
+10    BSN    CIN     4
+11    BSN    PIT     3
+12    BSN    SLN     1
+13    CHA    PHA     3
+14    CHA    SLA     5
+15    CHA    WS1     3
+16    CHN    NY1     1
+17    CHN    PHI     4
+18    CHN    PIT     2
+19    CHN    SLN     2
+20    CIN    NY1     3
+21    CIN    PHI     3
+22    CIN    PIT     2
+23    CIN    SLN     2
+24    CLE    DET     3
+25    CLE    NYA     5
+26    CLE    WS1     4
+27    DET    NYA     5
+28    DET    PHA     3
+29    NY1    PHI     5
+30    NY1    PIT     3
+31    NY1    SLN     4
+32    NYA    SLA     4
+33    PHA    SLA     3
+34    PHA    WS1     5
+35    PHI    SLN     2
+36    SLA    WS1     4
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    17
+BRO    17
+BSN    14
+CHA    17
+CHN    15
+CIN    16
+CLE    15
+DET    15
+NY1    16
+NYA    18
+PHA    14
+PHI    14
+PIT    13
+SLA    16
+SLN    15
+WS1    16
+Name: size, dtype: int64
+current_standings:       W   L div  lg  max_wins
+NY1  96  41  NL  NL       112
+PIT  92  49  NL  NL       105
+PHA  84  51  AL  AL        98
+CHA  82  54  AL  AL        99
+CHN  81  58  NL  NL        96
+PHI  76  63  NL  NL        90
+CLE  70  69  AL  AL        85
+DET  70  69  AL  AL        85
+BOS  69  66  AL  AL        86
+CIN  68  69  NL  NL        84
+NYA  66  66  AL  AL        84
+WS1  56  80  AL  AL        72
+SLN  54  85  NL  NL        69
+SLA  48  90  AL  AL        64
+BSN  47  92  NL  NL        61
+BRO  39  96  NL  NL        56
+Starting analysis of 19050922
+logged_games:      completion_date visitor home
+29        1905-10-05     PHI  NY1
+90        1905-10-07     CHA  SLA
+379       1905-09-28     CLE  NYA
+383       1905-09-23     DET  WS1
+422       1905-09-26     SLA  NYA
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[136 rows x 3 columns]
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CHA     6
+1     BOS    CLE     3
+2     BOS    DET     4
+3     BOS    NYA     4
+4     BOS    SLA     2
+5     BRO    BSN     4
+6     BRO    CHN     4
+7     BRO    CIN     3
+8     BRO    PIT     3
+9     BRO    SLN     4
+10    BSN    CHN     2
+11    BSN    CIN     4
+12    BSN    PIT     3
+13    BSN    SLN     2
+14    CHA    NYA     2
+15    CHA    PHA     3
+16    CHA    SLA     5
+17    CHA    WS1     3
+18    CHN    NY1     2
+19    CHN    PHI     4
+20    CHN    PIT     2
+21    CHN    SLN     2
+22    CIN    NY1     3
+23    CIN    PHI     3
+24    CIN    PIT     2
+25    CIN    SLN     2
+26    CLE    DET     3
+27    CLE    NYA     5
+28    CLE    PHA     2
+29    CLE    WS1     4
+30    DET    NYA     5
+31    DET    PHA     3
+32    DET    WS1     2
+33    NY1    PHI     5
+34    NY1    PIT     3
+35    NY1    SLN     4
+36    NYA    SLA     4
+37    PHA    SLA     3
+38    PHA    WS1     5
+39    PHI    PIT     1
+40    PHI    SLN     2
+41    SLA    WS1     4
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    19
+BRO    18
+BSN    15
+CHA    19
+CHN    16
+CIN    17
+CLE    17
+DET    17
+NY1    17
+NYA    20
+PHA    16
+PHI    15
+PIT    14
+SLA    18
+SLN    16
+WS1    18
+Name: size, dtype: int64
+current_standings:       W   L div  lg  max_wins
+NY1  96  40  NL  NL       113
+PIT  92  48  NL  NL       106
+PHA  82  51  AL  AL        98
+CHN  80  58  NL  NL        96
+CHA  80  54  AL  AL        99
+PHI  75  63  NL  NL        90
+CLE  70  67  AL  AL        87
+DET  70  67  AL  AL        87
+CIN  67  69  NL  NL        84
+BOS  67  66  AL  AL        86
+NYA  66  64  AL  AL        86
+WS1  54  80  AL  AL        72
+SLN  53  85  NL  NL        69
+SLA  48  88  AL  AL        66
+BSN  47  91  NL  NL        62
+BRO  39  95  NL  NL        57
+Starting analysis of 19050921
+logged_games:      completion_date visitor home
+29        1905-10-05     PHI  NY1
+90        1905-10-07     CHA  SLA
+379       1905-09-28     CLE  NYA
+383       1905-09-23     DET  WS1
+422       1905-09-26     SLA  NYA
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[146 rows x 3 columns]
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CHA     6
+1     BOS    CLE     3
+2     BOS    DET     4
+3     BOS    NYA     4
+4     BOS    SLA     4
+5     BRO    BSN     4
+6     BRO    CHN     4
+7     BRO    CIN     4
+8     BRO    PIT     3
+9     BRO    SLN     4
+10    BSN    CHN     2
+11    BSN    CIN     4
+12    BSN    PIT     3
+13    BSN    SLN     3
+14    CHA    NYA     3
+15    CHA    PHA     3
+16    CHA    SLA     5
+17    CHA    WS1     3
+18    CHN    NY1     3
+19    CHN    PHI     4
+20    CHN    PIT     2
+21    CHN    SLN     2
+22    CIN    NY1     3
+23    CIN    PHI     3
+24    CIN    PIT     2
+25    CIN    SLN     2
+26    CLE    DET     3
+27    CLE    NYA     5
+28    CLE    PHA     4
+29    CLE    WS1     4
+30    DET    NYA     5
+31    DET    PHA     3
+32    DET    WS1     3
+33    NY1    PHI     5
+34    NY1    PIT     3
+35    NY1    SLN     4
+36    NYA    SLA     4
+37    PHA    SLA     3
+38    PHA    WS1     5
+39    PHI    PIT     2
+40    PHI    SLN     2
+41    SLA    WS1     4
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    21
+BRO    19
+BSN    16
+CHA    20
+CHN    17
+CIN    18
+CLE    19
+DET    18
+NY1    18
+NYA    21
+PHA    18
+PHI    16
+PIT    15
+SLA    20
+SLN    17
+WS1    19
+Name: size, dtype: int64
+current_standings:       W   L div  lg  max_wins
+NY1  96  39  NL  NL       114
+PIT  91  48  NL  NL       106
+PHA  81  50  AL  AL        99
+CHA  80  53  AL  AL       100
+CHN  79  58  NL  NL        96
+PHI  75  62  NL  NL        91
+CLE  69  66  AL  AL        88
+DET  69  67  AL  AL        87
+CIN  66  69  NL  NL        84
+BOS  66  65  AL  AL        87
+NYA  65  64  AL  AL        86
+WS1  54  79  AL  AL        73
+SLN  53  84  NL  NL        70
+SLA  47  87  AL  AL        67
+BSN  46  91  NL  NL        62
+BRO  39  94  NL  NL        58
+Starting analysis of 19050920
+logged_games:      completion_date visitor home
+29        1905-10-05     PHI  NY1
+90        1905-10-07     CHA  SLA
+379       1905-09-28     CLE  NYA
+383       1905-09-23     DET  WS1
+422       1905-09-26     SLA  NYA
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[153 rows x 3 columns]
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CHA     6
+1     BOS    CLE     3
+2     BOS    DET     4
+3     BOS    NYA     4
+4     BOS    SLA     5
+5     BRO    BSN     4
+6     BRO    CHN     4
+7     BRO    CIN     4
+8     BRO    PIT     3
+9     BRO    SLN     4
+10    BSN    CHN     2
+11    BSN    CIN     4
+12    BSN    PIT     3
+13    BSN    SLN     3
+14    CHA    NYA     5
+15    CHA    PHA     3
+16    CHA    SLA     5
+17    CHA    WS1     3
+18    CHN    NY1     3
+19    CHN    PHI     4
+20    CHN    PIT     2
+21    CHN    SLN     2
+22    CIN    NY1     3
+23    CIN    PHI     3
+24    CIN    PIT     2
+25    CIN    SLN     2
+26    CLE    DET     3
+27    CLE    NYA     5
+28    CLE    PHA     5
+29    CLE    WS1     4
+30    DET    NYA     5
+31    DET    PHA     3
+32    DET    WS1     4
+33    NY1    PHI     5
+34    NY1    PIT     3
+35    NY1    SLN     4
+36    NYA    SLA     4
+37    PHA    SLA     3
+38    PHA    WS1     5
+39    PHI    PIT     4
+40    PHI    SLN     2
+41    SLA    WS1     4
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    22
+BRO    19
+BSN    16
+CHA    22
+CHN    17
+CIN    18
+CLE    20
+DET    19
+NY1    18
+NYA    23
+PHA    19
+PHI    18
+PIT    17
+SLA    21
+SLN    17
+WS1    20
+Name: size, dtype: int64
+current_standings:       W   L div  lg  max_wins
+NY1  96  39  NL  NL       114
+PIT  90  47  NL  NL       107
+PHA  80  50  AL  AL        99
+CHN  79  58  NL  NL        96
+CHA  78  53  AL  AL       100
+PHI  74  61  NL  NL        92
+CLE  69  65  AL  AL        89
+DET  68  67  AL  AL        87
+CIN  66  69  NL  NL        84
+BOS  66  64  AL  AL        88
+NYA  65  62  AL  AL        88
+WS1  54  78  AL  AL        74
+SLN  53  84  NL  NL        70
+SLA  46  87  AL  AL        67
+BSN  46  91  NL  NL        62
+BRO  39  94  NL  NL        58
+Starting analysis of 19050919
+logged_games:      completion_date visitor home
+29        1905-10-05     PHI  NY1
+90        1905-10-07     CHA  SLA
+379       1905-09-28     CLE  NYA
+383       1905-09-23     DET  WS1
+422       1905-09-26     SLA  NYA
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[161 rows x 3 columns]
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CHA     6
+1     BOS    CLE     3
+2     BOS    DET     4
+3     BOS    NYA     4
+4     BOS    SLA     5
+5     BOS    WS1     1
+6     BRO    BSN     6
+7     BRO    CHN     4
+8     BRO    CIN     4
+9     BRO    PIT     3
+10    BRO    SLN     4
+11    BSN    CHN     2
+12    BSN    CIN     4
+13    BSN    PIT     3
+14    BSN    SLN     3
+15    CHA    CLE     1
+16    CHA    NYA     5
+17    CHA    PHA     3
+18    CHA    SLA     5
+19    CHA    WS1     3
+20    CHN    CIN     1
+21    CHN    NY1     3
+22    CHN    PHI     4
+23    CHN    PIT     2
+24    CHN    SLN     2
+25    CIN    NY1     3
+26    CIN    PHI     3
+27    CIN    PIT     2
+28    CIN    SLN     2
+29    CLE    DET     3
+30    CLE    NYA     5
+31    CLE    PHA     5
+32    CLE    WS1     4
+33    DET    NYA     5
+34    DET    PHA     3
+35    DET    WS1     4
+36    NY1    PHI     7
+37    NY1    PIT     3
+38    NY1    SLN     4
+39    NYA    PHA     1
+40    NYA    SLA     4
+41    PHA    SLA     3
+42    PHA    WS1     5
+43    PHI    PIT     4
+44    PHI    SLN     2
+45    SLA    WS1     4
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    23
+BRO    21
+BSN    18
+CHA    23
+CHN    18
+CIN    19
+CLE    21
+DET    19
+NY1    20
+NYA    24
+PHA    20
+PHI    20
+PIT    17
+SLA    21
+SLN    17
+WS1    21
+Name: size, dtype: int64
+current_standings:       W   L div  lg  max_wins
+NY1  95  38  NL  NL       115
+PIT  90  47  NL  NL       107
+PHA  80  49  AL  AL       100
+CHN  78  58  NL  NL        96
+CHA  77  53  AL  AL       100
+PHI  73  60  NL  NL        93
+CLE  69  64  AL  AL        90
+DET  68  67  AL  AL        87
+CIN  66  68  NL  NL        85
+BOS  65  64  AL  AL        88
+NYA  64  62  AL  AL        88
+WS1  54  77  AL  AL        75
+SLN  53  84  NL  NL        70
+SLA  46  87  AL  AL        67
+BSN  45  91  NL  NL        63
+BRO  39  93  NL  NL        60
+Starting analysis of 19050918
+logged_games:      completion_date visitor home
+28        1905-09-19     DET  CLE
+29        1905-10-05     PHI  NY1
+53        1905-09-19     NY1  PHI
+90        1905-10-07     CHA  SLA
+337       1905-09-19     BOS  WS1
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[171 rows x 3 columns]
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CHA     6
+1     BOS    CLE     3
+2     BOS    DET     4
+3     BOS    NYA     4
+4     BOS    SLA     5
+5     BOS    WS1     3
+6     BRO    BSN     6
+7     BRO    CHN     4
+8     BRO    CIN     4
+9     BRO    PIT     3
+10    BRO    SLN     4
+11    BSN    CHN     2
+12    BSN    CIN     4
+13    BSN    PIT     3
+14    BSN    SLN     3
+15    CHA    CLE     1
+16    CHA    NYA     5
+17    CHA    PHA     3
+18    CHA    SLA     6
+19    CHA    WS1     3
+20    CHN    CIN     2
+21    CHN    NY1     3
+22    CHN    PHI     4
+23    CHN    PIT     2
+24    CHN    SLN     2
+25    CIN    NY1     3
+26    CIN    PHI     3
+27    CIN    PIT     2
+28    CIN    SLN     2
+29    CLE    DET     5
+30    CLE    NYA     5
+31    CLE    PHA     5
+32    CLE    WS1     4
+33    DET    NYA     5
+34    DET    PHA     3
+35    DET    WS1     4
+36    NY1    PHI     9
+37    NY1    PIT     3
+38    NY1    SLN     4
+39    NYA    PHA     3
+40    NYA    SLA     4
+41    PHA    SLA     3
+42    PHA    WS1     5
+43    PHI    PIT     4
+44    PHI    SLN     2
+45    SLA    WS1     4
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    25
+BRO    21
+BSN    18
+CHA    24
+CHN    19
+CIN    20
+CLE    23
+DET    21
+NY1    22
+NYA    26
+PHA    22
+PHI    22
+PIT    17
+SLA    22
+SLN    17
+WS1    23
+Name: size, dtype: int64
+current_standings:       W   L div  lg  max_wins
+NY1  94  37  NL  NL       116
+PIT  90  47  NL  NL       107
+PHA  79  48  AL  AL       101
+CHN  77  58  NL  NL        96
+CHA  76  53  AL  AL       100
+PHI  72  59  NL  NL        94
+DET  68  65  AL  AL        89
+CLE  67  64  AL  AL        90
+CIN  66  67  NL  NL        86
+NYA  63  61  AL  AL        89
+BOS  63  64  AL  AL        88
+WS1  54  75  AL  AL        77
+SLN  53  84  NL  NL        70
+SLA  46  86  AL  AL        68
+BSN  45  91  NL  NL        63
+BRO  39  93  NL  NL        60
+The Philadelphia Phillies were eliminated from the NL title on 19050919 with 20 games left to play.
+Starting analysis of 19050917
+logged_games:      completion_date visitor home
+28        1905-09-19     DET  CLE
+29        1905-10-05     PHI  NY1
+53        1905-09-19     NY1  PHI
+90        1905-10-07     CHA  SLA
+337       1905-09-19     BOS  WS1
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[178 rows x 3 columns]
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CHA     6
+1     BOS    CLE     3
+2     BOS    DET     4
+3     BOS    NYA     4
+4     BOS    SLA     5
+5     BOS    WS1     5
+6     BRO    BSN     8
+7     BRO    CHN     4
+8     BRO    CIN     4
+9     BRO    PIT     3
+10    BRO    SLN     4
+11    BSN    CHN     2
+12    BSN    CIN     4
+13    BSN    PIT     3
+14    BSN    SLN     3
+15    CHA    CLE     1
+16    CHA    NYA     5
+17    CHA    PHA     3
+18    CHA    SLA     7
+19    CHA    WS1     3
+20    CHN    CIN     2
+21    CHN    NY1     3
+22    CHN    PHI     4
+23    CHN    PIT     2
+24    CHN    SLN     3
+25    CIN    NY1     3
+26    CIN    PHI     3
+27    CIN    PIT     2
+28    CIN    SLN     2
+29    CLE    DET     6
+30    CLE    NYA     5
+31    CLE    PHA     5
+32    CLE    WS1     4
+33    DET    NYA     5
+34    DET    PHA     3
+35    DET    WS1     4
+36    NY1    PHI     9
+37    NY1    PIT     3
+38    NY1    SLN     4
+39    NYA    PHA     3
+40    NYA    SLA     4
+41    PHA    SLA     3
+42    PHA    WS1     5
+43    PHI    PIT     4
+44    PHI    SLN     2
+45    SLA    WS1     4
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    27
+BRO    23
+BSN    20
+CHA    25
+CHN    20
+CIN    20
+CLE    24
+DET    22
+NY1    22
+NYA    26
+PHA    22
+PHI    22
+PIT    17
+SLA    23
+SLN    18
+WS1    25
+Name: size, dtype: int64
+current_standings:       W   L div  lg  max_wins
+NY1  94  37  NL  NL       116
+PIT  90  47  NL  NL       107
+PHA  79  48  AL  AL       101
+CHN  76  58  NL  NL        96
+CHA  76  52  AL  AL       101
+PHI  72  59  NL  NL        94
+CLE  67  63  AL  AL        91
+DET  67  65  AL  AL        89
+CIN  66  67  NL  NL        86
+NYA  63  61  AL  AL        89
+BOS  62  63  AL  AL        89
+SLN  53  83  NL  NL        71
+WS1  53  74  AL  AL        78
+SLA  45  86  AL  AL        68
+BSN  43  91  NL  NL        63
+BRO  39  91  NL  NL        62
+Starting analysis of 19050916
+logged_games:      completion_date visitor home
+28        1905-09-19     DET  CLE
+29        1905-10-05     PHI  NY1
+53        1905-09-19     NY1  PHI
+90        1905-10-07     CHA  SLA
+337       1905-09-19     BOS  WS1
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[182 rows x 3 columns]
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CHA     6
+1     BOS    CLE     3
+2     BOS    DET     4
+3     BOS    NYA     4
+4     BOS    SLA     5
+5     BOS    WS1     5
+6     BRO    BSN     8
+7     BRO    CHN     4
+8     BRO    CIN     4
+9     BRO    PIT     3
+10    BRO    SLN     4
+11    BSN    CHN     2
+12    BSN    CIN     4
+13    BSN    PIT     3
+14    BSN    SLN     3
+15    CHA    CLE     2
+16    CHA    NYA     5
+17    CHA    PHA     3
+18    CHA    SLA     7
+19    CHA    WS1     3
+20    CHN    CIN     2
+21    CHN    NY1     3
+22    CHN    PHI     4
+23    CHN    PIT     2
+24    CHN    SLN     5
+25    CIN    NY1     3
+26    CIN    PHI     3
+27    CIN    PIT     2
+28    CIN    SLN     2
+29    CLE    DET     6
+30    CLE    NYA     5
+31    CLE    PHA     5
+32    CLE    WS1     4
+33    DET    NYA     5
+34    DET    PHA     3
+35    DET    SLA     1
+36    DET    WS1     4
+37    NY1    PHI     9
+38    NY1    PIT     3
+39    NY1    SLN     4
+40    NYA    PHA     3
+41    NYA    SLA     4
+42    PHA    SLA     3
+43    PHA    WS1     5
+44    PHI    PIT     4
+45    PHI    SLN     2
+46    SLA    WS1     4
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    27
+BRO    23
+BSN    20
+CHA    26
+CHN    22
+CIN    20
+CLE    25
+DET    23
+NY1    22
+NYA    26
+PHA    22
+PHI    22
+PIT    17
+SLA    24
+SLN    20
+WS1    25
+Name: size, dtype: int64
+current_standings:       W   L div  lg  max_wins
+NY1  94  37  NL  NL       116
+PIT  90  47  NL  NL       107
+PHA  79  48  AL  AL       101
+CHN  75  57  NL  NL        97
+CHA  75  52  AL  AL       101
+PHI  72  59  NL  NL        94
+CLE  67  62  AL  AL        92
+CIN  66  67  NL  NL        86
+DET  66  65  AL  AL        89
+NYA  63  61  AL  AL        89
+BOS  62  63  AL  AL        89
+WS1  53  74  AL  AL        78
+SLN  52  82  NL  NL        72
+SLA  45  85  AL  AL        69
+BSN  43  91  NL  NL        63
+BRO  39  91  NL  NL        62
+Starting analysis of 19050915
+logged_games:      completion_date visitor home
+28        1905-09-19     DET  CLE
+29        1905-10-05     PHI  NY1
+52        1905-09-16     WS1  NYA
+53        1905-09-19     NY1  PHI
+90        1905-10-07     CHA  SLA
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[192 rows x 3 columns]
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CHA     6
+1     BOS    CLE     3
+2     BOS    DET     4
+3     BOS    NYA     4
+4     BOS    PHA     1
+5     BOS    SLA     5
+6     BOS    WS1     5
+7     BRO    BSN     8
+8     BRO    CHN     4
+9     BRO    CIN     4
+10    BRO    PHI     2
+11    BRO    PIT     3
+12    BRO    SLN     4
+13    BSN    CHN     2
+14    BSN    CIN     4
+15    BSN    NY1     2
+16    BSN    PIT     3
+17    BSN    SLN     3
+18    CHA    CLE     2
+19    CHA    NYA     5
+20    CHA    PHA     3
+21    CHA    SLA     8
+22    CHA    WS1     3
+23    CHN    CIN     2
+24    CHN    NY1     3
+25    CHN    PHI     4
+26    CHN    PIT     2
+27    CHN    SLN     5
+28    CIN    NY1     3
+29    CIN    PHI     3
+30    CIN    PIT     3
+31    CIN    SLN     2
+32    CLE    DET     7
+33    CLE    NYA     5
+34    CLE    PHA     5
+35    CLE    WS1     4
+36    DET    NYA     5
+37    DET    PHA     3
+38    DET    SLA     1
+39    DET    WS1     4
+40    NY1    PHI     9
+41    NY1    PIT     3
+42    NY1    SLN     4
+43    NYA    PHA     3
+44    NYA    SLA     4
+45    NYA    WS1     2
+46    PHA    SLA     3
+47    PHA    WS1     5
+48    PHI    PIT     4
+49    PHI    SLN     2
+50    SLA    WS1     4
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    28
+BRO    25
+BSN    22
+CHA    27
+CHN    22
+CIN    21
+CLE    26
+DET    24
+NY1    24
+NYA    28
+PHA    23
+PHI    24
+PIT    18
+SLA    25
+SLN    20
+WS1    27
+Name: size, dtype: int64
+current_standings:       W   L div  lg  max_wins
+NY1  92  37  NL  NL       116
+PIT  90  46  NL  NL       108
+PHA  78  48  AL  AL       101
+CHN  75  57  NL  NL        97
+CHA  74  52  AL  AL       101
+PHI  71  59  NL  NL        95
+CLE  67  61  AL  AL        93
+CIN  65  67  NL  NL        86
+DET  65  65  AL  AL        89
+NYA  62  60  AL  AL        90
+BOS  62  62  AL  AL        90
+SLN  52  82  NL  NL        72
+WS1  52  73  AL  AL        79
+SLA  45  84  AL  AL        70
+BSN  43  89  NL  NL        65
+BRO  39  90  NL  NL        64
+The Washington Senators were eliminated from the AL title on 19050916 with 25 games left to play.
+Starting analysis of 19050914
+logged_games:      completion_date visitor home
+24        1905-09-15     BOS  PHA
+28        1905-09-19     DET  CLE
+29        1905-10-05     PHI  NY1
+52        1905-09-16     WS1  NYA
+53        1905-09-19     NY1  PHI
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[199 rows x 3 columns]
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CHA     6
+1     BOS    CLE     3
+2     BOS    DET     4
+3     BOS    NYA     4
+4     BOS    PHA     3
+5     BOS    SLA     5
+6     BOS    WS1     5
+7     BRO    BSN     8
+8     BRO    CHN     4
+9     BRO    CIN     4
+10    BRO    PHI     2
+11    BRO    PIT     3
+12    BRO    SLN     4
+13    BSN    CHN     2
+14    BSN    CIN     4
+15    BSN    NY1     2
+16    BSN    PHI     1
+17    BSN    PIT     3
+18    BSN    SLN     3
+19    CHA    CLE     2
+20    CHA    NYA     5
+21    CHA    PHA     3
+22    CHA    SLA     9
+23    CHA    WS1     3
+24    CHN    CIN     2
+25    CHN    NY1     3
+26    CHN    PHI     4
+27    CHN    PIT     2
+28    CHN    SLN     6
+29    CIN    NY1     3
+30    CIN    PHI     3
+31    CIN    PIT     4
+32    CIN    SLN     2
+33    CLE    DET     7
+34    CLE    NYA     5
+35    CLE    PHA     5
+36    CLE    WS1     4
+37    DET    NYA     5
+38    DET    PHA     3
+39    DET    SLA     1
+40    DET    WS1     4
+41    NY1    PHI     9
+42    NY1    PIT     3
+43    NY1    SLN     4
+44    NYA    PHA     3
+45    NYA    SLA     4
+46    NYA    WS1     3
+47    PHA    SLA     3
+48    PHA    WS1     5
+49    PHI    PIT     4
+50    PHI    SLN     2
+51    SLA    WS1     4
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    30
+BRO    25
+BSN    23
+CHA    28
+CHN    23
+CIN    22
+CLE    26
+DET    24
+NY1    24
+NYA    29
+PHA    25
+PHI    25
+PIT    19
+SLA    26
+SLN    21
+WS1    28
+Name: size, dtype: int64
+current_standings:       W   L div  lg  max_wins
+NY1  92  37  NL  NL       116
+PIT  89  46  NL  NL       108
+PHA  77  47  AL  AL       102
+CHN  75  56  NL  NL        98
+CHA  74  51  AL  AL       102
+PHI  70  59  NL  NL        95
+CLE  67  61  AL  AL        93
+CIN  65  66  NL  NL        87
+DET  65  65  AL  AL        89
+NYA  62  59  AL  AL        91
+BOS  61  61  AL  AL        91
+SLN  51  82  NL  NL        72
+WS1  51  73  AL  AL        79
+SLA  44  84  AL  AL        70
+BSN  43  88  NL  NL        66
+BRO  39  90  NL  NL        64
+Starting analysis of 19050913
+logged_games:      completion_date visitor home
+24        1905-09-15     BOS  PHA
+28        1905-09-19     DET  CLE
+29        1905-10-05     PHI  NY1
+52        1905-09-16     WS1  NYA
+53        1905-09-19     NY1  PHI
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[205 rows x 3 columns]
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CHA     6
+1     BOS    CLE     3
+2     BOS    DET     4
+3     BOS    NYA     4
+4     BOS    PHA     4
+5     BOS    SLA     5
+6     BOS    WS1     5
+7     BRO    BSN     8
+8     BRO    CHN     4
+9     BRO    CIN     4
+10    BRO    NY1     1
+11    BRO    PHI     2
+12    BRO    PIT     3
+13    BRO    SLN     4
+14    BSN    CHN     2
+15    BSN    CIN     4
+16    BSN    NY1     2
+17    BSN    PHI     2
+18    BSN    PIT     3
+19    BSN    SLN     3
+20    CHA    CLE     2
+21    CHA    NYA     5
+22    CHA    PHA     3
+23    CHA    SLA    10
+24    CHA    WS1     3
+25    CHN    CIN     2
+26    CHN    NY1     3
+27    CHN    PHI     4
+28    CHN    PIT     2
+29    CHN    SLN     6
+30    CIN    NY1     3
+31    CIN    PHI     3
+32    CIN    PIT     4
+33    CIN    SLN     2
+34    CLE    DET     8
+35    CLE    NYA     5
+36    CLE    PHA     5
+37    CLE    WS1     4
+38    DET    NYA     5
+39    DET    PHA     3
+40    DET    SLA     1
+41    DET    WS1     4
+42    NY1    PHI     9
+43    NY1    PIT     3
+44    NY1    SLN     4
+45    NYA    PHA     3
+46    NYA    SLA     4
+47    NYA    WS1     4
+48    PHA    SLA     3
+49    PHA    WS1     5
+50    PHI    PIT     4
+51    PHI    SLN     2
+52    SLA    WS1     4
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    31
+BRO    26
+BSN    24
+CHA    29
+CHN    23
+CIN    22
+CLE    27
+DET    25
+NY1    25
+NYA    30
+PHA    26
+PHI    26
+PIT    19
+SLA    27
+SLN    21
+WS1    29
+Name: size, dtype: int64
+current_standings:       W   L div  lg  max_wins
+NY1  91  37  NL  NL       116
+PIT  89  46  NL  NL       108
+PHA  77  46  AL  AL       103
+CHN  75  56  NL  NL        98
+CHA  73  51  AL  AL       102
+PHI  69  59  NL  NL        95
+CLE  67  60  AL  AL        94
+CIN  65  66  NL  NL        87
+DET  64  65  AL  AL        89
+NYA  61  59  AL  AL        91
+BOS  60  61  AL  AL        91
+SLN  51  82  NL  NL        72
+WS1  51  72  AL  AL        80
+SLA  44  83  AL  AL        71
+BSN  43  87  NL  NL        67
+BRO  39  89  NL  NL        65
+Starting analysis of 19050912
+logged_games:      completion_date visitor home
+24        1905-09-15     BOS  PHA
+28        1905-09-19     DET  CLE
+29        1905-10-05     PHI  NY1
+52        1905-09-16     WS1  NYA
+53        1905-09-19     NY1  PHI
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[211 rows x 3 columns]
+remaining_matchups:    alpha1 alpha2  size
+0     BOS    CHA     6
+1     BOS    CLE     3
+2     BOS    DET     4
+3     BOS    NYA     4
+4     BOS    PHA     5
+5     BOS    SLA     5
+6     BOS    WS1     5
+7     BRO    BSN     8
+8     BRO    CHN     4
+9     BRO    CIN     4
+10    BRO    NY1     2
+11    BRO    PHI     2
+12    BRO    PIT     3
+13    BRO    SLN     4
+14    BSN    CHN     2
+15    BSN    CIN     4
+16    BSN    NY1     2
+17    BSN    PHI     3
+18    BSN    PIT     3
+19    BSN    SLN     3
+20    CHA    CLE     2
+21    CHA    NYA     5
+22    CHA    PHA     3
+23    CHA    SLA    11
+24    CHA    WS1     3
+25    CHN    CIN     2
+26    CHN    NY1     3
+27    CHN    PHI     4
+28    CHN    PIT     2
+29    CHN    SLN     6
+30    CIN    NY1     3
+31    CIN    PHI     3
+32    CIN    PIT     4
+33    CIN    SLN     2
+34    CLE    DET     9
+35    CLE    NYA     5
+36    CLE    PHA     5
+37    CLE    WS1     4
+38    DET    NYA     5
+39    DET    PHA     3
+40    DET    SLA     1
+41    DET    WS1     4
+42    NY1    PHI     9
+43    NY1    PIT     3
+44    NY1    SLN     4
+45    NYA    PHA     3
+46    NYA    SLA     4
+47    NYA    WS1     5
+48    PHA    SLA     3
+49    PHA    WS1     5
+50    PHI    PIT     4
+51    PHI    SLN     2
+52    SLA    WS1     4
+Index(['size'], dtype='object')
+<class 'pandas.core.series.Series'>
+remaining_games: team
+BOS    32
+BRO    27
+BSN    25
+CHA    30
+CHN    23
+CIN    22
+CLE    28
+DET    26
+NY1    26
+NYA    31
+PHA    27
+PHI    27
+PIT    19
+SLA    28
+SLN    21
+WS1    30
+Name: size, dtype: int64
+current_standings:       W   L div  lg  max_wins
+NY1  90  37  NL  NL       116
+PIT  89  46  NL  NL       108
+PHA  76  46  AL  AL       103
+CHN  75  56  NL  NL        98
+CHA  72  51  AL  AL       102
+PHI  69  58  NL  NL        96
+CLE  66  60  AL  AL        94
+CIN  65  66  NL  NL        87
+DET  64  64  AL  AL        90
+NYA  60  59  AL  AL        91
+BOS  60  60  AL  AL        92
+SLN  51  82  NL  NL        72
+WS1  51  71  AL  AL        81
+SLA  44  82  AL  AL        72
+BSN  42  87  NL  NL        67
+BRO  39  88  NL  NL        66
+Starting analysis of 19050911
+logged_games:      completion_date visitor home
+24        1905-09-15     BOS  PHA
+28        1905-09-19     DET  CLE
+29        1905-10-05     PHI  NY1
+52        1905-09-16     WS1  NYA
+53        1905-09-19     NY1  PHI
+...              ...     ...  ...
+1227      1905-10-07     CHA  SLA
+1228      1905-10-07     PHA  WS1
+1229      1905-10-08     SLN  CHN
+1230      1905-10-08     PIT  CIN
+1231      1905-10-08     CHA  SLA
+
+[218 rows x 3 columns]
