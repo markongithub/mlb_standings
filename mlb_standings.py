@@ -280,21 +280,35 @@ def divisions_from_statsapi_teams(statsapi_teams):
     ).set_index("name")
 
 
-def division_contenders(standings_immutable, division_winners=1):
+def division_contenders(standings_immutable, division_winners=1, use_percentage=False):
     df = standings_immutable.copy()
     #    print(f'division_contenders was called with columns {df.columns}')
     # df['div'] = divisions['div']
-    division_contenders = set()
-    division_win_threshold = {}
-    for division in df["div"].unique():
-        division_win_threshold[division] = (
-            df.loc[(df["div"] == division)]["W"].nlargest(division_winners).min()
-        )
-    # print(f'Win thresholds by division: {division_win_threshold}')
-    def i_fail_at_pandas(division):
-        return division_win_threshold[division]
+    if not use_percentage:
+        division_win_threshold = {}
+        for division in df["div"].unique():
+            division_win_threshold[division] = (
+                df.loc[(df["div"] == division)]["W"].nlargest(division_winners).min()
+            )
+        # print(f'Win thresholds by division: {division_win_threshold}')
+        def i_fail_at_pandas(division):
+            return division_win_threshold[division]
 
-    df["is_contender"] = df["max_wins"] >= df["div"].apply(i_fail_at_pandas)
+        df["is_contender"] = df["max_wins"] >= df["div"].apply(i_fail_at_pandas)
+    else:
+        division_win_threshold = {}
+        for division in df["div"].unique():
+            division_win_threshold[division] = (
+                df.loc[(df["div"] == division)]["min_pct"]
+                .nlargest(division_winners)
+                .min()
+            )
+        # print(f'Win thresholds by division: {division_win_threshold}')
+        def i_fail_at_pandas(division):
+            return division_win_threshold[division]
+
+        df["is_contender"] = df["max_pct"] >= df["div"].apply(i_fail_at_pandas)
+
     output = df.loc[df["is_contender"]]["div"]
     # print(f'Here is what I think I will return: {output}')
     return output
@@ -346,7 +360,7 @@ def all_matchups_after_date(played, unplayed, date):
     logged_games = logged_games_after_date(played, date)[
         ["completion_date", "visitor", "home"]
     ]
-    print(f"logged_games: {logged_games}")
+    # print(f"logged_games: {logged_games}")
     unplayed_games = unplayed
     all_games = pd.concat([logged_games, unplayed_games], ignore_index=True)
     alpha_pairs = pd.DataFrame(
@@ -661,10 +675,12 @@ def is_tiebreaker(
 
 def simpler_retrosheet_schedule(schedule_immutable):
     schedule = schedule_immutable.copy()
-    schedule["date"] = pd.to_datetime(schedule["date"], format="%Y%m%d", errors='coerce')
-    schedule.dropna(subset=['date'], inplace=True)
+    schedule["date"] = pd.to_datetime(
+        schedule["date"], format="%Y%m%d", errors="coerce"
+    )
+    schedule.dropna(subset=["date"], inplace=True)
     schedule["makeup_date"] = pd.to_datetime(schedule["makeup_date"], format="%Y%m%d")
-    print(schedule)
+    # print(schedule)
 
     schedule["completion_date"] = pd.Series(
         np.where(
@@ -672,7 +688,7 @@ def simpler_retrosheet_schedule(schedule_immutable):
         )
     )
     output = schedule[["completion_date", "home", "visitor"]]
-    print(output)
+    # print(output)
     return output
 
 
@@ -789,8 +805,9 @@ def run_one_year_retro(year, data_path="data"):
         game_log, schedule = fix_1891(game_log, schedule)
     if year == 1905:
         print(
-            "I am not handling ties correctly, so this output is going to imply Chicago was still in contention at the end of the season. Sorry, I hope to fix it soon!"
+            "Philadelphia only won the AL because they played fewer games than Chicago. Seems unfair to me."
         )
+    if year in [1886, 1889, 1890, 1891, 1901, 1904, 1905, 1906, 1907, 1908, 1915, 1918]:
         use_schedule_for_unplayed = True
     season_params = SeasonParameters(year, nicknames, team_ids, schedule)
     played, unplayed = retrosheet_to_played_unplayed(game_log, schedule, season_params)
@@ -1105,9 +1122,9 @@ def games_left_by_team(matchups):
         .rename(columns={"alpha2": "team"})
     )
     output_df = pd.concat([alpha1_sums, alpha2_sums]).groupby("team").sum()
-    print(output_df.columns)
+    # print(output_df.columns)
     output = pd.Series(output_df["size"], index=output_df.index)
-    print(type(output))
+    # print(type(output))
     return output
 
 
@@ -1123,7 +1140,8 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
     )
     for index, value in season_params.season_lengths.iteritems():
         print(f"The {index} has {value} games per team.")
-    if schedule is not None:
+    use_percentage = schedule is not None
+    if use_percentage:
         print(f"... but for this season we are not assuming they play them all.")
     # We don't have home_game_num in the ELO game log. We need to filter that
     # out of the Retrosheet game log somewhere else. Or else add it to the ELO
@@ -1139,7 +1157,8 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
     tomorrows_wildcard_contenders = None
     tomorrows_contenders_any = None
     tomorrows_standings = None
-    tomorrows_remaining_games = pd.Series()
+    tomorrows_remaining_games = pd.Series(dtype=object)
+    remaining_games = None
     eliminations = {}
     while current_date > min_date and (
         (len(div_contenders) < team_count)
@@ -1147,7 +1166,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
         and len(wildcard_contenders) < team_count
     ):
         date_str = datetime_to_retro(current_date)
-        print(f"Starting analysis of {date_str}")
+        # print(f"Starting analysis of {date_str}")
 
         current_standings = compute_standings(
             played.loc[played["completion_date"] <= date_str]
@@ -1157,19 +1176,23 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
         current_standings["div"] = season_params.divisions["div"]
         current_standings["lg"] = season_params.divisions["lg"]
 
-        if schedule is not None:
+        if use_percentage:
             remaining_matchups = (
                 all_matchups_after_date(schedule, pd.DataFrame(), date_str)
                 .groupby(["alpha1", "alpha2"], as_index=False)
                 .size()
             )
-            print(f"remaining_matchups: {remaining_matchups}")
+            # print(f"remaining_matchups: {remaining_matchups}")
             remaining_games = games_left_by_team(remaining_matchups)
             # print(f"current_standings W: {current_standings['W']}")
-            print(f"remaining_games: {remaining_games}")
+            # print(f"remaining_games: {remaining_games}")
             current_standings["max_wins"] = current_standings["W"].add(
                 remaining_games, fill_value=0
             )
+            total_games = current_standings["max_wins"] + current_standings["L"]
+            current_standings["max_pct"] = current_standings["max_wins"] / total_games
+            current_standings["min_pct"] = current_standings["W"] / total_games
+
             print(f"current_standings: {current_standings}")
         else:
             remaining_matchups = (
@@ -1192,6 +1215,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
         div_contenders_df = division_contenders(
             current_standings,
             division_winners=season_params.winners_per_division,
+            use_percentage=use_percentage,
         )
         div_contenders = set(div_contenders_df.index)
         # print(f"naive division contenders: {sorted(div_contenders)}")
@@ -1271,8 +1295,10 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
         # if new_contenders:
         # print(f'Teams eliminated from their division titles on {datetime_to_retro(tomorrow)}: {new_contenders}')
         for eliminated_team in sorted(new_contenders):
-            if schedule is not None:
-                games_to_go_at_elimination = tomorrows_remaining_games.get(eliminated_team, 0)
+            if use_percentage:
+                games_to_go_at_elimination = tomorrows_remaining_games.get(
+                    eliminated_team, 0
+                )
             else:
                 games_to_go_at_elimination = (
                     tomorrows_standings.loc[eliminated_team]["season_length"]

@@ -2,19 +2,18 @@ This season has 16 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AA has 140 games per team.
 The NL has 140 games per team.
-The NL has more contenders at the end of the season than I expected: ['BSN', 'CHN']. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
-The St. Louis Cardinals were eliminated from the AA title on 18911001 with 7 games left to play.
-The New York Giants were eliminated from the NL title on 18910930 with 11 games left to play.
-The Philadelphia Phillies were eliminated from the NL title on 18910924 with 12 games left to play.
-The Baltimore Orioles were eliminated from the AA title on 18910920 with 16 games left to play.
-The Philadelphia Athletics were eliminated from the AA title on 18910916 with 17 games left to play.
-The Brooklyn Dodgers were eliminated from the NL title on 18910914 with 23 games left to play.
-The Cleveland Spiders were eliminated from the NL title on 18910912 with 20 games left to play.
-The Pittsburgh Pirates were eliminated from the NL title on 18910912 with 22 games left to play.
-The Cincinnati Reds were eliminated from the NL title on 18910909 with 25 games left to play.
-The Milwaukee Brewers were eliminated from the AA title on 18910903 with 30 games left to play.
-The Columbus Colts were eliminated from the AA title on 18910902 with 25 games left to play.
-The Washington Senators were eliminated from the AA title on 18910827 with 40 games left to play.
-LS2 can only allow ['BS2', 'SL4'] to win 3 total games but they have 6 games left against each other.
-It looked like the Louisville Colonels were in contention after 18910820 but the remaining intra-division games ruled them out.
-The Louisville Colonels were eliminated from the AA title on 18910820 with 33 games left to play.
+... but for this season we are not assuming they play them all.
+The Chicago Cubs were eliminated from the NL title on 18911001 with 2 games left to play.
+The St. Louis Cardinals were eliminated from the AA title on 18910926 with 5 games left to play.
+The New York Giants were eliminated from the NL title on 18910924 with 10 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 18910922 with 12 games left to play.
+The Baltimore Orioles were eliminated from the AA title on 18910916 with 15 games left to play.
+The Philadelphia Athletics were eliminated from the AA title on 18910913 with 17 games left to play.
+The Brooklyn Dodgers were eliminated from the NL title on 18910912 with 21 games left to play.
+The Cleveland Spiders were eliminated from the NL title on 18910910 with 21 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 18910909 with 22 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 18910905 with 26 games left to play.
+The Milwaukee Brewers were eliminated from the AA title on 18910901 with 29 games left to play.
+The Columbus Colts were eliminated from the AA title on 18910831 with 26 games left to play.
+The Washington Senators were eliminated from the AA title on 18910825 with 39 games left to play.
+The Louisville Colonels were eliminated from the AA title on 18910820 with 32 games left to play.

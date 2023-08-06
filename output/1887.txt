@@ -13,12 +13,16 @@ The Pittsburgh Pirates were eliminated from the NL title on 18870916 with 21 gam
 The Washington Senators were eliminated from the NL title on 18870910 with 26 games left to play.
 The Brooklyn Dodgers were eliminated from the AA title on 18870907 with 30 games left to play.
 The Philadelphia Athletics were eliminated from the AA title on 18870906 with 31 games left to play.
-IN3 can only allow ['DTN', 'CHN', 'NY1', 'PHI', 'BSN'] to win 32 total games but they have 37 games left against each other.
+IN3 can only allow ['DTN', 'CHN', 'NY1', 'PHI'] to win 21 total games but they have 23 games left against each other.
 It looked like the Indianapolis Hoosiers were in contention after 18870831 but the remaining intra-division games ruled them out.
-IN3 can only allow ['DTN', 'CHN', 'NY1', 'PHI', 'BSN'] to win 33 total games but they have 38 games left against each other.
+IN3 can only allow ['DTN', 'CHN', 'NY1', 'PHI'] to win 22 total games but they have 23 games left against each other.
 It looked like the Indianapolis Hoosiers were in contention after 18870830 but the remaining intra-division games ruled them out.
-IN3 can only allow ['DTN', 'CHN', 'NY1', 'BSN', 'PHI', 'PIT'] to win 64 total games but they have 66 games left against each other.
+IN3 can only allow ['DTN', 'CHN', 'NY1', 'BSN', 'PHI'] to win 41 total games but they have 44 games left against each other.
 It looked like the Indianapolis Hoosiers were in contention after 18870829 but the remaining intra-division games ruled them out.
-The Indianapolis Hoosiers were eliminated from the NL title on 18870829 with 32 games left to play.
+IN3 can only allow ['DTN', 'CHN', 'BSN', 'NY1', 'PHI', 'PIT', 'WS8'] to win 100 total games but they have 105 games left against each other.
+It looked like the Indianapolis Hoosiers were in contention after 18870828 but the remaining intra-division games ruled them out.
+IN3 can only allow ['DTN', 'CHN', 'BSN', 'NY1', 'PHI', 'PIT', 'WS8'] to win 100 total games but they have 105 games left against each other.
+It looked like the Indianapolis Hoosiers were in contention after 18870827 but the remaining intra-division games ruled them out.
 The New York Metropolitans were eliminated from the AA title on 18870828 with 40 games left to play.
+The Indianapolis Hoosiers were eliminated from the NL title on 18870827 with 33 games left to play.
 The Cleveland Spiders were eliminated from the AA title on 18870822 with 43 games left to play.

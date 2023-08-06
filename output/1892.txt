@@ -10,15 +10,15 @@ It looked like the Pittsburgh Pirates were in contention after 18920925 but the 
 PIT can only allow ['BSN', 'BRO'] to win 3 total games but they have 5 games left against each other.
 It looked like the Pittsburgh Pirates were in contention after 18920924 but the remaining intra-division games ruled them out.
 The Pittsburgh Pirates were eliminated from the NL title on 18920924 with 17 games left to play.
-CHN can only allow ['BSN', 'BRO'] to win 4 total games but they have 5 games left against each other.
-It looked like the Chicago Cubs were in contention after 18920921 but the remaining intra-division games ruled them out.
-The Chicago Cubs were eliminated from the NL title on 18920921 with 27 games left to play.
-The New York Giants were eliminated from the NL title on 18920916 with 27 games left to play.
+The Chicago Cubs were eliminated from the NL title on 18920920 with 28 games left to play.
+The New York Giants were eliminated from the NL title on 18920917 with 26 games left to play.
+LS3 can only allow ['BSN', 'BRO'] to win 3 total games but they have 5 games left against each other.
+It looked like the Louisville Colonels were in contention after 18920912 but the remaining intra-division games ruled them out.
 The Louisville Colonels were eliminated from the NL title on 18920912 with 28 games left to play.
 The St. Louis Cardinals were eliminated from the NL title on 18920912 with 31 games left to play.
 WSN can only allow ['BSN', 'BRO'] to win 2 total games but they have 5 games left against each other.
 It looked like the Washington Senators were in contention after 18920909 but the remaining intra-division games ruled them out.
 The Washington Senators were eliminated from the NL title on 18920909 with 30 games left to play.
-BLN can only allow ['BSN', 'BRO'] to win 3 total games but they have 5 games left against each other.
-It looked like the Baltimore Orioles were in contention after 18920902 but the remaining intra-division games ruled them out.
-The Baltimore Orioles were eliminated from the NL title on 18920902 with 39 games left to play.
+BLN can only allow ['BSN', 'BRO'] to win 4 total games but they have 5 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18920901 but the remaining intra-division games ruled them out.
+The Baltimore Orioles were eliminated from the NL title on 18920901 with 40 games left to play.
