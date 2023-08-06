@@ -27,4 +27,6 @@ It looked like the St. Louis Cardinals were in contention after 18960815 but the
 The St. Louis Cardinals were eliminated from the NL title on 18960815 with 38 games left to play.
 LS3 can only allow ['BLN', 'CIN'] to win 2 total games but they have 3 games left against each other.
 It looked like the Louisville Colonels were in contention after 18960812 but the remaining intra-division games ruled them out.
-The Louisville Colonels were eliminated from the NL title on 18960812 with 42 games left to play.
+LS3 can only allow ['BLN', 'CIN', 'CL4', 'CHN', 'PIT', 'BSN', 'BRO', 'PHI', 'NY1', 'WSN'] to win 162 total games but they have 163 games left against each other.
+It looked like the Louisville Colonels were in contention after 18960811 but the remaining intra-division games ruled them out.
+The Louisville Colonels were eliminated from the NL title on 18960811 with 44 games left to play.

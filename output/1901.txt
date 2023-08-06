@@ -2,37 +2,22 @@ This season has 16 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AL has 140 games per team.
 The NL has 140 games per team.
-The AL has more contenders at the end of the season than I expected: ['BOS', 'CHA']. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
+... but for this season we are not assuming they play them all.
 The Philadelphia Phillies were eliminated from the NL title on 19010927 with 8 games left to play.
-The Brooklyn Dodgers were eliminated from the NL title on 19010926 with 8 games left to play.
-The Detroit Tigers were eliminated from the AL title on 19010924 with 9 games left to play.
-The St. Louis Cardinals were eliminated from the NL title on 19010920 with 14 games left to play.
-The Boston Braves were eliminated from the NL title on 19010918 with 15 games left to play.
-The Philadelphia Athletics were eliminated from the AL title on 19010918 with 13 games left to play.
-The Baltimore Orioles were eliminated from the AL title on 19010916 with 18 games left to play.
-The Washington Senators were eliminated from the AL title on 19010912 with 22 games left to play.
+The Brooklyn Dodgers were eliminated from the NL title on 19010924 with 7 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19010921 with 7 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19010920 with 13 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19010918 with 10 games left to play.
+The Boston Braves were eliminated from the NL title on 19010917 with 14 games left to play.
+The Philadelphia Athletics were eliminated from the AL title on 19010915 with 13 games left to play.
+The Baltimore Orioles were eliminated from the AL title on 19010914 with 13 games left to play.
 CIN can only allow ['PIT', 'BRO'] to win 5 total games but they have 6 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19010909 but the remaining intra-division games ruled them out.
-NY1 can only allow ['PIT', 'PHI'] to win 2 total games but they have 6 games left against each other.
-It looked like the New York Giants were in contention after 19010908 but the remaining intra-division games ruled them out.
-The Cincinnati Reds were eliminated from the NL title on 19010909 with 29 games left to play.
-CLE can only allow ['CHA', 'BOS'] to win 5 total games but they have 6 games left against each other.
-It looked like the Cleveland Indians were in contention after 19010907 but the remaining intra-division games ruled them out.
-NY1 can only allow ['PIT', 'PHI'] to win 2 total games but they have 6 games left against each other.
-It looked like the New York Giants were in contention after 19010907 but the remaining intra-division games ruled them out.
-NY1 can only allow ['PIT', 'PHI'] to win 3 total games but they have 7 games left against each other.
-It looked like the New York Giants were in contention after 19010906 but the remaining intra-division games ruled them out.
-The Cleveland Indians were eliminated from the AL title on 19010907 with 23 games left to play.
+The Washington Senators were eliminated from the AL title on 19010910 with 20 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19010909 with 28 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19010907 with 22 games left to play.
 CHN can only allow ['PIT', 'PHI'] to win 4 total games but they have 7 games left against each other.
 It looked like the Chicago Cubs were in contention after 19010905 but the remaining intra-division games ruled them out.
-The New York Giants were eliminated from the NL title on 19010906 with 28 games left to play.
+The New York Giants were eliminated from the NL title on 19010906 with 24 games left to play.
 The Chicago Cubs were eliminated from the NL title on 19010905 with 22 games left to play.
-MLA can only allow ['CHA', 'BOS'] to win 3 total games but they have 7 games left against each other.
-It looked like the Milwaukee Brewers were in contention after 19010902 but the remaining intra-division games ruled them out.
-MLA can only allow ['CHA', 'BOS'] to win 6 total games but they have 7 games left against each other.
-It looked like the Milwaukee Brewers were in contention after 19010901 but the remaining intra-division games ruled them out.
-MLA can only allow ['CHA', 'BOS', 'BLA', 'DET', 'PHA'] to win 44 total games but they have 45 games left against each other.
-It looked like the Milwaukee Brewers were in contention after 19010831 but the remaining intra-division games ruled them out.
-MLA can only allow ['CHA', 'BOS', 'BLA', 'DET', 'PHA'] to win 47 total games but they have 48 games left against each other.
-It looked like the Milwaukee Brewers were in contention after 19010830 but the remaining intra-division games ruled them out.
-The Milwaukee Brewers were eliminated from the AL title on 19010830 with 32 games left to play.
+The Milwaukee Brewers were eliminated from the AL title on 19010831 with 28 games left to play.
