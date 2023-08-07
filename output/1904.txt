@@ -3,53 +3,49 @@ The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AL has 154 games per team.
 The NL has 154 games per team.
 ... but for this season we are not assuming they play them all.
-The New York Yankees were eliminated from the AL title on 19041010 with 0 games left to play.
+The New York Yankees were eliminated from the AL title on 19041008 with 0 games left to play.
 The Chicago White Sox were eliminated from the AL title on 19041004 with 5 games left to play.
-The Cleveland Indians were eliminated from the AL title on 19041003 with 7 games left to play.
-The Philadelphia Athletics were eliminated from the AL title on 19041001 with 9 games left to play.
-The Pittsburgh Pirates were eliminated from the NL title on 19040922 with 18 games left to play.
-The Chicago Cubs were eliminated from the NL title on 19040921 with 19 games left to play.
-SLA can only allow ['NYA', 'BOS'] to win 5 total games but they have 7 games left against each other.
-It looked like the St.Louis Browns were in contention after 19040914 but the remaining intra-division games ruled them out.
-The Cincinnati Reds were eliminated from the NL title on 19040915 with 22 games left to play.
-SLA can only allow ['NYA', 'BOS'] to win 8 total games but they have 9 games left against each other.
-It looked like the St.Louis Browns were in contention after 19040913 but the remaining intra-division games ruled them out.
-SLA can only allow ['NYA', 'BOS'] to win 8 total games but they have 9 games left against each other.
-It looked like the St.Louis Browns were in contention after 19040912 but the remaining intra-division games ruled them out.
-DET can only allow ['BOS', 'NYA'] to win 8 total games but they have 9 games left against each other.
-It looked like the Detroit Tigers were in contention after 19040911 but the remaining intra-division games ruled them out.
-The St.Louis Browns were eliminated from the AL title on 19040912 with 28 games left to play.
-The Detroit Tigers were eliminated from the AL title on 19040911 with 26 games left to play.
-The St. Louis Cardinals were eliminated from the NL title on 19040907 with 27 games left to play.
-WS1 can only allow ['BOS', 'NYA'] to win 6 total games but they have 9 games left against each other.
-It looked like the Washington Senators were in contention after 19040830 but the remaining intra-division games ruled them out.
-WS1 can only allow ['BOS', 'NYA', 'PHA'] to win 20 total games but they have 26 games left against each other.
+The Cleveland Indians were eliminated from the AL title on 19041001 with 5 games left to play.
+The Philadelphia Athletics were eliminated from the AL title on 19040930 with 9 games left to play.
+The Chicago Cubs were eliminated from the NL title on 19040923 with 19 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19040920 with 18 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19040917 with 21 games left to play.
+The St.Louis Browns were eliminated from the AL title on 19040915 with 28 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19040912 with 25 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19040909 with 26 games left to play.
+The Boston Braves were eliminated from the NL title on 19040831 with 39 games left to play.
+WS1 can only allow ['BOS', 'NYA', 'PHA', 'CLE'] to win 30 total games but they have 35 games left against each other.
 It looked like the Washington Senators were in contention after 19040829 but the remaining intra-division games ruled them out.
-WS1 can only allow ['NYA', 'BOS', 'PHA'] to win 22 total games but they have 26 games left against each other.
-It looked like the Washington Senators were in contention after 19040828 but the remaining intra-division games ruled them out.
-The Brooklyn Dodgers were eliminated from the NL title on 19040829 with 42 games left to play.
-The Boston Braves were eliminated from the NL title on 19040829 with 38 games left to play.
-WS1 can only allow ['NYA', 'BOS', 'PHA'] to win 22 total games but they have 26 games left against each other.
+The Brooklyn Dodgers were eliminated from the NL title on 19040829 with 36 games left to play.
+PHI can only allow ['NY1', 'CHN'] to win 4 total games but they have 5 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19040827 but the remaining intra-division games ruled them out.
+WS1 can only allow ['NYA', 'BOS', 'PHA', 'CLE'] to win 33 total games but they have 37 games left against each other.
 It looked like the Washington Senators were in contention after 19040827 but the remaining intra-division games ruled them out.
-WS1 can only allow ['NYA', 'BOS', 'PHA', 'CHA'] to win 35 total games but they have 39 games left against each other.
+PHI can only allow ['NY1', 'CHN', 'CIN'] to win 15 total games but they have 18 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19040826 but the remaining intra-division games ruled them out.
+WS1 can only allow ['NYA', 'BOS', 'PHA', 'CHA', 'CLE'] to win 48 total games but they have 60 games left against each other.
 It looked like the Washington Senators were in contention after 19040826 but the remaining intra-division games ruled them out.
-WS1 can only allow ['NYA', 'BOS', 'PHA', 'CHA', 'CLE'] to win 57 total games but they have 67 games left against each other.
+PHI can only allow ['NY1', 'CHN', 'CIN'] to win 16 total games but they have 19 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19040825 but the remaining intra-division games ruled them out.
+WS1 can only allow ['NYA', 'BOS', 'PHA', 'CHA', 'CLE'] to win 57 total games but they have 60 games left against each other.
 It looked like the Washington Senators were in contention after 19040825 but the remaining intra-division games ruled them out.
-WS1 can only allow ['NYA', 'BOS', 'PHA', 'CHA', 'CLE'] to win 65 total games but they have 68 games left against each other.
+PHI can only allow ['NY1', 'CHN', 'PIT', 'CIN'] to win 36 total games but they have 40 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19040824 but the remaining intra-division games ruled them out.
+WS1 can only allow ['NYA', 'BOS', 'PHA', 'CHA', 'CLE', 'DET', 'SLA'] to win 127 total games but they have 133 games left against each other.
 It looked like the Washington Senators were in contention after 19040824 but the remaining intra-division games ruled them out.
-WS1 can only allow ['NYA', 'BOS', 'PHA', 'CHA', 'CLE'] to win 67 total games but they have 69 games left against each other.
+PHI can only allow ['NY1', 'CHN', 'PIT', 'CIN'] to win 37 total games but they have 43 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19040823 but the remaining intra-division games ruled them out.
+WS1 can only allow ['NYA', 'BOS', 'PHA', 'CHA', 'CLE', 'DET', 'SLA'] to win 130 total games but they have 136 games left against each other.
 It looked like the Washington Senators were in contention after 19040823 but the remaining intra-division games ruled them out.
-PHI can only allow ['NY1', 'CHN', 'PIT', 'CIN'] to win 39 total games but they have 41 games left against each other.
+PHI can only allow ['NY1', 'CHN', 'PIT', 'CIN'] to win 39 total games but they have 44 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19040822 but the remaining intra-division games ruled them out.
-WS1 can only allow ['NYA', 'PHA', 'BOS', 'CHA', 'CLE', 'DET', 'SLA'] to win 141 total games but they have 151 games left against each other.
-It looked like the Washington Senators were in contention after 19040822 but the remaining intra-division games ruled them out.
-PHI can only allow ['NY1', 'CHN', 'PIT', 'CIN'] to win 39 total games but they have 41 games left against each other.
+The Washington Senators were eliminated from the AL title on 19040823 with 48 games left to play.
+PHI can only allow ['NY1', 'CHN', 'PIT', 'CIN'] to win 39 total games but they have 44 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19040821 but the remaining intra-division games ruled them out.
-WS1 can only allow ['NYA', 'PHA', 'CHA', 'BOS', 'CLE', 'DET', 'SLA'] to win 145 total games but they have 155 games left against each other.
-It looked like the Washington Senators were in contention after 19040821 but the remaining intra-division games ruled them out.
-PHI can only allow ['NY1', 'CHN', 'PIT', 'CIN', 'SLN'] to win 65 total games but they have 69 games left against each other.
+PHI can only allow ['NY1', 'CHN', 'PIT', 'CIN', 'SLN'] to win 65 total games but they have 73 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19040820 but the remaining intra-division games ruled them out.
-WS1 can only allow ['NYA', 'PHA', 'CHA', 'BOS', 'CLE', 'DET', 'SLA'] to win 145 total games but they have 155 games left against each other.
-It looked like the Washington Senators were in contention after 19040820 but the remaining intra-division games ruled them out.
-The Philadelphia Phillies were eliminated from the NL title on 19040820 with 48 games left to play.
-The Washington Senators were eliminated from the AL title on 19040820 with 51 games left to play.
+PHI can only allow ['NY1', 'CHN', 'PIT', 'CIN', 'SLN', 'BSN'] to win 111 total games but they have 113 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19040819 but the remaining intra-division games ruled them out.
+PHI can only allow ['NY1', 'CHN', 'PIT', 'CIN', 'SLN', 'BSN'] to win 112 total games but they have 114 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19040818 but the remaining intra-division games ruled them out.
+The Philadelphia Phillies were eliminated from the NL title on 19040818 with 57 games left to play.

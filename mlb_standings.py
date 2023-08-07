@@ -675,6 +675,7 @@ def is_tiebreaker(
 
 def simpler_retrosheet_schedule(schedule_immutable):
     schedule = schedule_immutable.copy()
+    schedule = schedule.loc[~schedule["completion"].str.contains("No makeup", na=False)]
     schedule["date"] = pd.to_datetime(
         schedule["date"], format="%Y%m%d", errors="coerce"
     )
@@ -1182,7 +1183,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
             current_standings["max_pct"] = current_standings["max_wins"] / total_games
             current_standings["min_pct"] = current_standings["W"] / total_games
 
-            print(f"current_standings: {current_standings}")
+            # print(f"current_standings: {current_standings}")
         else:
             remaining_matchups = (
                 all_matchups_after_date(played, unplayed, date_str)

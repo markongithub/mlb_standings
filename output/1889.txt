@@ -3,25 +3,19 @@ The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AA has 140 games per team.
 The NL has 140 games per team.
 ... but for this season we are not assuming they play them all.
-The St. Louis Cardinals were eliminated from the AA title on 18891014 with 2 games left to play.
-The Boston Braves were eliminated from the NL title on 18891005 with 0 games left to play.
-The Philadelphia Athletics were eliminated from the AA title on 18890928 with 14 games left to play.
-The Baltimore Orioles were eliminated from the AA title on 18890927 with 15 games left to play.
-The Cincinnati Reds were eliminated from the AA title on 18890920 with 17 games left to play.
-The Philadelphia Phillies were eliminated from the NL title on 18890920 with 13 games left to play.
-The Chicago Cubs were eliminated from the NL title on 18890918 with 15 games left to play.
-The Cleveland Spiders were eliminated from the NL title on 18890913 with 18 games left to play.
-The Indianapolis Hoosiers were eliminated from the NL title on 18890911 with 21 games left to play.
-The Pittsburgh Pirates were eliminated from the NL title on 18890910 with 21 games left to play.
-KC2 can only allow ['BR3', 'SL4', 'BL2', 'PH4'] to win 30 total games but they have 33 games left against each other.
-It looked like the Kansas City Cowboys were in contention after 18890904 but the remaining intra-division games ruled them out.
-The Kansas City Cowboys were eliminated from the AA title on 18890904 with 27 games left to play.
-The Washington Senators were eliminated from the NL title on 18890903 with 30 games left to play.
-The Columbus Colts were eliminated from the AA title on 18890828 with 33 games left to play.
-LS2 can only allow ['SL4', 'BR3', 'PH4', 'BL2'] to win 40 total games but they have 44 games left against each other.
-It looked like the Louisville Colonels were in contention after 18890812 but the remaining intra-division games ruled them out.
-LS2 can only allow ['SL4', 'BR3', 'PH4', 'BL2', 'CN2', 'KC2'] to win 100 total games but they have 107 games left against each other.
-It looked like the Louisville Colonels were in contention after 18890811 but the remaining intra-division games ruled them out.
-LS2 can only allow ['SL4', 'BR3', 'PH4', 'BL2', 'CN2', 'KC2', 'CL6'] to win 144 total games but they have 150 games left against each other.
-It looked like the Louisville Colonels were in contention after 18890810 but the remaining intra-division games ruled them out.
-The Louisville Colonels were eliminated from the AA title on 18890810 with 48 games left to play.
+The St. Louis Cardinals were eliminated from the AA title on 18891013 with 0 games left to play.
+The Boston Braves were eliminated from the NL title on 18891012 with 1 games left to play.
+The St. Louis Cardinals were eliminated from the AA title on 18891004 with 3 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 18890921 with 17 games left to play.
+The Chicago Cubs were eliminated from the NL title on 18890920 with 17 games left to play.
+The Philadelphia Athletics were eliminated from the AA title on 18890920 with 11 games left to play.
+The Baltimore Orioles were eliminated from the AA title on 18890918 with 12 games left to play.
+The Cleveland Spiders were eliminated from the NL title on 18890918 with 22 games left to play.
+The Philadelphia Athletics were eliminated from the AA title on 18890918 with 12 games left to play.
+The Cincinnati Reds were eliminated from the AA title on 18890914 with 19 games left to play.
+The Indianapolis Hoosiers were eliminated from the NL title on 18890909 with 22 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 18890909 with 19 games left to play.
+The Washington Senators were eliminated from the NL title on 18890902 with 26 games left to play.
+The Kansas City Cowboys were eliminated from the AA title on 18890828 with 26 games left to play.
+The Columbus Colts were eliminated from the AA title on 18890824 with 33 games left to play.
+The Louisville Colonels were eliminated from the AA title on 18890811 with 42 games left to play.
