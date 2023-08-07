@@ -2,53 +2,25 @@ This season has 24 teams.
 The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AL has 162 games per team.
 The NL has 162 games per team.
-The ALE has more contenders at the end of the season than I expected: ['BAL', 'BOS', 'DET', 'NYA']. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
-The ALW has more contenders at the end of the season than I expected: ['CHA', 'OAK']. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on.
-The Houston Astros were eliminated from the NLW title on 19721004 with 9 games left to play.
-The Los Angeles Dodgers were eliminated from the NLW title on 19721001 with 9 games left to play.
-The Chicago Cubs were eliminated from the NLE title on 19720930 with 11 games left to play.
-The Minnesota Twins were eliminated from the ALW title on 19720928 with 14 games left to play.
-The Kansas City Royals were eliminated from the ALW title on 19720927 with 14 games left to play.
-The New York Mets were eliminated from the NLE title on 19720926 with 15 games left to play.
-CLE can only allow ['BOS', 'DET'] to win 3 total games but they have 8 games left against each other.
-It looked like the Cleveland Indians were in contention after 19720923 but the remaining intra-division games ruled them out.
-CLE can only allow ['BOS', 'DET'] to win 6 total games but they have 9 games left against each other.
-It looked like the Cleveland Indians were in contention after 19720922 but the remaining intra-division games ruled them out.
-The California Angels were eliminated from the ALW title on 19720923 with 16 games left to play.
-CLE can only allow ['BOS', 'DET'] to win 7 total games but they have 10 games left against each other.
-It looked like the Cleveland Indians were in contention after 19720921 but the remaining intra-division games ruled them out.
-CLE can only allow ['BOS', 'DET'] to win 8 total games but they have 11 games left against each other.
-It looked like the Cleveland Indians were in contention after 19720920 but the remaining intra-division games ruled them out.
-The Cleveland Indians were eliminated from the ALE title on 19720920 with 16 games left to play.
-The Atlanta Braves were eliminated from the NLW title on 19720918 with 20 games left to play.
-MIL can only allow ['BOS', 'DET'] to win 2 total games but they have 11 games left against each other.
-It looked like the Milwaukee Brewers were in contention after 19720916 but the remaining intra-division games ruled them out.
-MIL can only allow ['BOS', 'DET'] to win 6 total games but they have 11 games left against each other.
-It looked like the Milwaukee Brewers were in contention after 19720915 but the remaining intra-division games ruled them out.
-The San Francisco Giants were eliminated from the NLW title on 19720916 with 21 games left to play.
-MIL can only allow ['BOS', 'DET'] to win 10 total games but they have 11 games left against each other.
-It looked like the Milwaukee Brewers were in contention after 19720914 but the remaining intra-division games ruled them out.
-MIL can only allow ['BOS', 'DET'] to win 10 total games but they have 11 games left against each other.
-It looked like the Milwaukee Brewers were in contention after 19720913 but the remaining intra-division games ruled them out.
-The Montreal Expos were eliminated from the NLE title on 19720914 with 24 games left to play.
-The St. Louis Cardinals were eliminated from the NLE title on 19720914 with 22 games left to play.
-MIL can only allow ['BOS', 'BAL', 'DET'] to win 17 total games but they have 18 games left against each other.
-It looked like the Milwaukee Brewers were in contention after 19720912 but the remaining intra-division games ruled them out.
-MIL can only allow ['BOS', 'BAL', 'DET'] to win 18 total games but they have 19 games left against each other.
-It looked like the Milwaukee Brewers were in contention after 19720911 but the remaining intra-division games ruled them out.
-MIL can only allow ['BOS', 'BAL', 'DET', 'NYA'] to win 30 total games but they have 34 games left against each other.
-It looked like the Milwaukee Brewers were in contention after 19720910 but the remaining intra-division games ruled them out.
-TEX can only allow ['OAK', 'CHA'] to win 4 total games but they have 5 games left against each other.
-It looked like the Texas Rangers were in contention after 19720909 but the remaining intra-division games ruled them out.
-The Milwaukee Brewers were eliminated from the ALE title on 19720910 with 26 games left to play.
-TEX can only allow ['OAK', 'CHA', 'MIN'] to win 18 total games but they have 20 games left against each other.
-It looked like the Texas Rangers were in contention after 19720908 but the remaining intra-division games ruled them out.
-TEX can only allow ['OAK', 'CHA', 'MIN', 'KCA', 'CAL'] to win 59 total games but they have 64 games left against each other.
-It looked like the Texas Rangers were in contention after 19720907 but the remaining intra-division games ruled them out.
-The Texas Rangers were eliminated from the ALW title on 19720907 with 30 games left to play.
-SDN can only allow ['CIN', 'HOU', 'LAN'] to win 18 total games but they have 20 games left against each other.
-It looked like the San Diego Padres were in contention after 19720905 but the remaining intra-division games ruled them out.
-The San Diego Padres were eliminated from the NLW title on 19720905 with 33 games left to play.
-PHI can only allow ['PIT', 'CHN', 'NYN', 'SLN', 'MON'] to win 72 total games but they have 73 games left against each other.
-It looked like the Philadelphia Phillies were in contention after 19720903 but the remaining intra-division games ruled them out.
-The Philadelphia Phillies were eliminated from the NLE title on 19720903 with 34 games left to play.
+... but for this season we are not assuming they play them all.
+The Boston Red Sox were eliminated from the ALE title on 19721003 with 1 games left to play.
+The Chicago White Sox were eliminated from the ALW title on 19720930 with 4 games left to play.
+The New York Yankees were eliminated from the ALE title on 19720930 with 2 games left to play.
+The Baltimore Orioles were eliminated from the ALE title on 19720929 with 3 games left to play.
+The Houston Astros were eliminated from the NLW title on 19720924 with 7 games left to play.
+The Minnesota Twins were eliminated from the ALW title on 19720923 with 9 games left to play.
+The Los Angeles Dodgers were eliminated from the NLW title on 19720922 with 11 games left to play.
+The Chicago Cubs were eliminated from the NLE title on 19720921 with 11 games left to play.
+The Minnesota Twins were eliminated from the ALW title on 19720921 with 10 games left to play.
+The Kansas City Royals were eliminated from the ALW title on 19720920 with 12 games left to play.
+The Cleveland Indians were eliminated from the ALE title on 19720917 with 14 games left to play.
+The California Angels were eliminated from the ALW title on 19720916 with 15 games left to play.
+The New York Mets were eliminated from the NLE title on 19720916 with 17 games left to play.
+The Milwaukee Brewers were eliminated from the ALE title on 19720911 with 19 games left to play.
+The Atlanta Braves were eliminated from the NLW title on 19720910 with 15 games left to play.
+The St. Louis Cardinals were eliminated from the NLE title on 19720909 with 22 games left to play.
+The Montreal Expos were eliminated from the NLE title on 19720908 with 22 games left to play.
+The San Francisco Giants were eliminated from the NLW title on 19720906 with 22 games left to play.
+The Texas Rangers were eliminated from the ALW title on 19720904 with 25 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 19720830 with 32 games left to play.
+The San Diego Padres were eliminated from the NLW title on 19720830 with 30 games left to play.
