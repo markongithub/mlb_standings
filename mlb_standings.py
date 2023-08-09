@@ -1047,13 +1047,24 @@ def statsapi_schedule_to_played_unplayed(schedule_json_path):
     return played, unplayed
 
 
-def all_tied(current_standings, contenders_set):
+def bottom_tied(current_standings, contenders_set, num_slots):
+    df = current_standings[current_standings.index.isin(contenders_set)]
+    df = df.sort_values(by=["W"], ascending=True)
+    current_slot = 0
     unique_wins = set()
     unique_losses = set()
-    for contender in contenders_set:
-        unique_wins.add(current_standings.loc[contender]["W"])
-        unique_losses.add(current_standings.loc[contender]["L"])
-    return len(unique_wins) == 1 and len(unique_losses) == 1
+    output = []
+    for index, row in df.iterrows():
+        unique_wins.add(row["W"])
+        unique_losses.add(row["L"])
+        if len(unique_wins) == 1 and len(unique_losses) == 1:
+            output.append(index)
+        else:
+            if (len(contenders_set) - len(output)) <= (num_slots - 1):
+                return output
+            else:
+                return []
+    return output
 
 
 def format_list(string_list):
@@ -1150,9 +1161,10 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
                     contenders_set = set(
                         div_contenders_df.loc[lambda x: x == index].index
                     )
-                    if all_tied(current_standings, contenders_set):
+                    tied_contenders = bottom_tied(current_standings, contenders_set, season_params.winners_per_division)
+                    if tied_contenders:
                         print(
-                            f"The regular season ended with a tie in the {index} between {format_team_id_list(season_params.divisions, sorted(contenders_set))}."
+                            f"The regular season ended with a tie in the {index} between {format_team_id_list(season_params.divisions, sorted(tied_clubs))}."
                         )
                     else:
                         print(
@@ -1174,9 +1186,10 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
                                 & (wildcard_contenders_df["division_leader"] == False)
                             ].index
                         )
-                        if all_tied(current_standings, contenders_set):
+                        tied_contenders = bottom_tied(current_standings, contenders_set, season_params.wildcard_count)
+                        if tied_contenders:
                             print(
-                                f"The regular season ended with a tie for the {index} wild card between {format_team_id_list(season_params.divisions, sorted(contenders_set))}."
+                                f"The regular season ended with a tie for the {index} wild card between {format_team_id_list(season_params.divisions, sorted(tied_contenders))}."
                             )
                         else:
                             print(
