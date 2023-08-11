@@ -150,6 +150,10 @@ def fix_1891(game_log, schedule):
     schedule.loc[schedule["home"] == "CN3", "home"] = "ML3"
     return game_log, schedule
 
+def fix_1935(schedule):
+    schedule.loc[schedule["makeup_date"] == "19350904; 19350907", "makeup_date"] = "19350907"
+    return schedule
+
 def fix_1972(schedule):
     schedule.loc[schedule["makeup_date"] == "19720826; 19720827", "makeup_date"] = "19720827"
     schedule.loc[schedule["makeup_date"] == "19720926; 19720927", "makeup_date"] = "19720927"
@@ -812,9 +816,11 @@ def run_one_year_retro(year, data_path="data"):
         print(
             "Philadelphia only won the AL because they played fewer games than Chicago. Seems unfair to me."
         )
+    if year == 1935:
+        schedule = fix_1935(schedule)
     if year == 1972:
         schedule = fix_1972(schedule)
-    if year in [1886, 1889, 1890, 1891, 1901, 1904, 1905, 1906, 1907, 1908, 1915, 1918, 1972]:
+    if year in [1886, 1889, 1890, 1891, 1901, 1904, 1905, 1906, 1907, 1908, 1915, 1918, 1935, 1972]:
         use_schedule_for_unplayed = True
     season_params = SeasonParameters(year, nicknames, team_ids, schedule)
     played, unplayed = retrosheet_to_played_unplayed(game_log, schedule, season_params)
