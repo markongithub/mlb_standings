@@ -1164,7 +1164,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params):
                     tied_contenders = bottom_tied(current_standings, contenders_set, season_params.winners_per_division)
                     if tied_contenders:
                         print(
-                            f"The regular season ended with a tie in the {index} between {format_team_id_list(season_params.divisions, sorted(tied_clubs))}."
+                            f"The regular season ended with a tie in the {index} between {format_team_id_list(season_params.divisions, sorted(tied_contenders))}."
                         )
                     else:
                         print(
