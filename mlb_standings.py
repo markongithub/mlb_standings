@@ -153,8 +153,9 @@ def fix_1891(game_log, schedule):
 # adapted from sdvinay except now totally different
 def compute_standings(game_log):
     gms_played = game_log.copy()
-    # For the purposes of standings, ties don't count.
-    gms_played = gms_played[gms_played["outcome"] != TIE]
+    # For the purposes of standings, ties don't count, but we eliminate them
+    # before we calculate the game log so we don't need to do it again.
+    # gms_played = gms_played[gms_played["outcome"] != TIE]
     winners = pd.Series(
         np.where(
             gms_played["outcome"] == HOME_WON, gms_played["home"], gms_played["visitor"]
@@ -735,6 +736,7 @@ def retrosheet_to_played_unplayed(game_log, schedule, season_params: SeasonParam
         return NotImplementedError("I failed to handle all the cases.")
 
     played["outcome"] = played.apply(row_to_outcome, axis=1)
+    played = played[played["outcome"] != TIE]
     played["date"] = pd.to_datetime(played["date"], format="%Y%m%d")
     played = played.fillna(value={"completion": "17760704,I hate Pandas"})
     # Now I can ensure that the completion column is all strings.

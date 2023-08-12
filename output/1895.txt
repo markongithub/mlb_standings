@@ -13,42 +13,38 @@ The Chicago Cubs were eliminated from the NL title on 18950915 with 12 games lef
 The Pittsburgh Pirates were eliminated from the NL title on 18950915 with 12 games left to play.
 The Cincinnati Reds were eliminated from the NL title on 18950914 with 16 games left to play.
 The New York Giants were eliminated from the NL title on 18950914 with 13 games left to play.
-WSN can only allow ['BLN', 'CL4', 'BSN', 'PHI', 'BRO', 'PIT', 'CIN', 'CHN', 'NY1'] to win 90 total games but they have 94 games left against each other.
+WSN can only allow ['BLN', 'CL4', 'BSN', 'PHI', 'BRO', 'PIT', 'CIN', 'CHN', 'NY1'] to win 90 total games but they have 91 games left against each other.
 It looked like the Washington Senators were in contention after 18950829 but the remaining intra-division games ruled them out.
-WSN can only allow ['BLN', 'CL4', 'BSN', 'PHI', 'BRO', 'PIT', 'CIN', 'CHN', 'NY1'] to win 94 total games but they have 97 games left against each other.
-It looked like the Washington Senators were in contention after 18950828 but the remaining intra-division games ruled them out.
-WSN can only allow ['BLN', 'CL4', 'BSN', 'PIT', 'PHI', 'BRO', 'CIN', 'CHN', 'NY1'] to win 100 total games but they have 102 games left against each other.
-It looked like the Washington Senators were in contention after 18950827 but the remaining intra-division games ruled them out.
-The Washington Senators were eliminated from the NL title on 18950827 with 38 games left to play.
-SLN can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'PHI', 'CHN', 'BRO'] to win 67 total games but they have 68 games left against each other.
+The Washington Senators were eliminated from the NL title on 18950829 with 38 games left to play.
+SLN can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'BSN', 'CHN', 'BRO'] to win 68 total games but they have 71 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 18950820 but the remaining intra-division games ruled them out.
-LS3 can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'BSN'] to win 36 total games but they have 37 games left against each other.
+LS3 can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'PHI', 'CHN'] to win 43 total games but they have 46 games left against each other.
 It looked like the Louisville Colonels were in contention after 18950819 but the remaining intra-division games ruled them out.
-SLN can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'PHI', 'BSN', 'CHN', 'BRO', 'NY1'] to win 113 total games but they have 121 games left against each other.
+SLN can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'PHI', 'BSN', 'CHN', 'BRO', 'NY1'] to win 113 total games but they have 118 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 18950819 but the remaining intra-division games ruled them out.
-LS3 can only allow ['BLN', 'CL4', 'PIT', 'PHI', 'CIN', 'BSN'] to win 50 total games but they have 51 games left against each other.
+LS3 can only allow ['BLN', 'CL4', 'PIT', 'PHI', 'CIN', 'CHN'] to win 44 total games but they have 46 games left against each other.
 It looked like the Louisville Colonels were in contention after 18950818 but the remaining intra-division games ruled them out.
-SLN can only allow ['BLN', 'CL4', 'PIT', 'PHI', 'CIN', 'BSN', 'CHN', 'BRO', 'NY1'] to win 116 total games but they have 123 games left against each other.
+SLN can only allow ['BLN', 'CL4', 'PIT', 'PHI', 'CIN', 'BSN', 'CHN', 'BRO', 'NY1'] to win 116 total games but they have 120 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 18950818 but the remaining intra-division games ruled them out.
-LS3 can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'PHI', 'BSN', 'CHN'] to win 66 total games but they have 69 games left against each other.
+LS3 can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'PHI', 'BSN', 'CHN'] to win 66 total games but they have 67 games left against each other.
 It looked like the Louisville Colonels were in contention after 18950817 but the remaining intra-division games ruled them out.
-SLN can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'PHI', 'BSN', 'CHN', 'BRO', 'NY1'] to win 117 total games but they have 124 games left against each other.
+SLN can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'PHI', 'BSN', 'CHN', 'BRO', 'NY1'] to win 117 total games but they have 121 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 18950817 but the remaining intra-division games ruled them out.
-LS3 can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'PHI', 'BSN', 'CHN', 'BRO'] to win 94 total games but they have 99 games left against each other.
+LS3 can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'PHI', 'BSN', 'CHN', 'BRO'] to win 94 total games but they have 96 games left against each other.
 It looked like the Louisville Colonels were in contention after 18950816 but the remaining intra-division games ruled them out.
-SLN can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'PHI', 'BSN', 'CHN', 'BRO', 'NY1'] to win 121 total games but they have 128 games left against each other.
+SLN can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'PHI', 'BSN', 'CHN', 'BRO', 'NY1'] to win 121 total games but they have 125 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 18950816 but the remaining intra-division games ruled them out.
-LS3 can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'BSN', 'PHI', 'CHN', 'BRO', 'NY1'] to win 127 total games but they have 133 games left against each other.
+LS3 can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'BSN', 'PHI', 'CHN', 'BRO', 'NY1'] to win 127 total games but they have 130 games left against each other.
 It looked like the Louisville Colonels were in contention after 18950815 but the remaining intra-division games ruled them out.
-SLN can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'BSN', 'PHI', 'CHN', 'BRO', 'NY1'] to win 127 total games but they have 133 games left against each other.
+SLN can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'BSN', 'PHI', 'CHN', 'BRO', 'NY1'] to win 127 total games but they have 130 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 18950815 but the remaining intra-division games ruled them out.
-LS3 can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'BSN', 'PHI', 'CHN', 'NY1', 'BRO'] to win 132 total games but they have 137 games left against each other.
+LS3 can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'BSN', 'PHI', 'CHN', 'NY1', 'BRO'] to win 132 total games but they have 134 games left against each other.
 It looked like the Louisville Colonels were in contention after 18950814 but the remaining intra-division games ruled them out.
-SLN can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'BSN', 'PHI', 'CHN', 'NY1', 'BRO'] to win 132 total games but they have 137 games left against each other.
+SLN can only allow ['BLN', 'CL4', 'PIT', 'CIN', 'BSN', 'PHI', 'CHN', 'NY1', 'BRO'] to win 132 total games but they have 134 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 18950814 but the remaining intra-division games ruled them out.
-LS3 can only allow ['BLN', 'CL4', 'PIT', 'BSN', 'CIN', 'PHI', 'CHN', 'NY1', 'BRO'] to win 136 total games but they have 140 games left against each other.
+LS3 can only allow ['BLN', 'CL4', 'PIT', 'BSN', 'CIN', 'PHI', 'CHN', 'NY1', 'BRO'] to win 136 total games but they have 137 games left against each other.
 It looked like the Louisville Colonels were in contention after 18950813 but the remaining intra-division games ruled them out.
 The St. Louis Cardinals were eliminated from the NL title on 18950814 with 38 games left to play.
-LS3 can only allow ['BLN', 'CL4', 'PIT', 'BSN', 'CIN', 'PHI', 'CHN', 'NY1', 'BRO'] to win 141 total games but they have 144 games left against each other.
+LS3 can only allow ['BLN', 'CL4', 'PIT', 'BSN', 'CIN', 'PHI', 'CHN', 'NY1', 'BRO', 'WSN'] to win 179 total games but they have 182 games left against each other.
 It looked like the Louisville Colonels were in contention after 18950812 but the remaining intra-division games ruled them out.
 The Louisville Colonels were eliminated from the NL title on 18950812 with 44 games left to play.

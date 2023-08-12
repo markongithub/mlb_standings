@@ -22,21 +22,15 @@ WS1 can only allow ['PHA', 'DET'] to win 5 total games but they have 7 games lef
 It looked like the Washington Senators were in contention after 19090823 but the remaining intra-division games ruled them out.
 WS1 can only allow ['PHA', 'DET', 'BOS'] to win 14 total games but they have 17 games left against each other.
 It looked like the Washington Senators were in contention after 19090822 but the remaining intra-division games ruled them out.
-WS1 can only allow ['PHA', 'DET', 'BOS', 'CHA', 'CLE'] to win 58 total games but they have 60 games left against each other.
+WS1 can only allow ['PHA', 'DET', 'BOS', 'CLE', 'NYA'] to win 61 total games but they have 62 games left against each other.
 It looked like the Washington Senators were in contention after 19090821 but the remaining intra-division games ruled them out.
-WS1 can only allow ['PHA', 'DET', 'BOS', 'CLE', 'CHA', 'NYA'] to win 92 total games but they have 94 games left against each other.
+WS1 can only allow ['PHA', 'DET', 'BOS', 'CLE', 'CHA', 'NYA', 'SLA'] to win 123 total games but they have 127 games left against each other.
 It looked like the Washington Senators were in contention after 19090820 but the remaining intra-division games ruled them out.
-WS1 can only allow ['PHA', 'DET', 'BOS', 'CLE', 'CHA', 'NYA', 'SLA'] to win 132 total games but they have 135 games left against each other.
-It looked like the Washington Senators were in contention after 19090819 but the remaining intra-division games ruled them out.
-WS1 can only allow ['PHA', 'DET', 'BOS', 'CLE', 'CHA', 'NYA', 'SLA'] to win 136 total games but they have 139 games left against each other.
-It looked like the Washington Senators were in contention after 19090818 but the remaining intra-division games ruled them out.
+The Washington Senators were eliminated from the AL title on 19090820 with 44 games left to play.
 BSN can only allow ['PIT', 'CHN'] to win 6 total games but they have 8 games left against each other.
 It looked like the Boston Braves were in contention after 19090817 but the remaining intra-division games ruled them out.
-The Washington Senators were eliminated from the AL title on 19090818 with 45 games left to play.
-BSN can only allow ['PIT', 'CHN', 'NY1'] to win 22 total games but they have 28 games left against each other.
+BSN can only allow ['PIT', 'CHN', 'NY1'] to win 22 total games but they have 27 games left against each other.
 It looked like the Boston Braves were in contention after 19090816 but the remaining intra-division games ruled them out.
-BSN can only allow ['PIT', 'CHN', 'NY1'] to win 22 total games but they have 29 games left against each other.
+BSN can only allow ['PIT', 'CHN', 'NY1'] to win 22 total games but they have 27 games left against each other.
 It looked like the Boston Braves were in contention after 19090815 but the remaining intra-division games ruled them out.
-BSN can only allow ['PIT', 'CHN', 'NY1'] to win 29 total games but they have 30 games left against each other.
-It looked like the Boston Braves were in contention after 19090814 but the remaining intra-division games ruled them out.
-The Boston Braves were eliminated from the NL title on 19090814 with 51 games left to play.
+The Boston Braves were eliminated from the NL title on 19090815 with 49 games left to play.

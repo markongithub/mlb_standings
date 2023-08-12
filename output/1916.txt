@@ -27,28 +27,24 @@ SLN can only allow ['BRO', 'PHI'] to win 2 total games but they have 3 games lef
 It looked like the St. Louis Cardinals were in contention after 19160911 but the remaining intra-division games ruled them out.
 SLN can only allow ['BRO', 'PHI'] to win 2 total games but they have 3 games left against each other.
 It looked like the St. Louis Cardinals were in contention after 19160910 but the remaining intra-division games ruled them out.
-SLN can only allow ['BRO', 'PHI', 'BSN', 'NY1', 'PIT', 'CHN'] to win 60 total games but they have 61 games left against each other.
-It looked like the St. Louis Cardinals were in contention after 19160909 but the remaining intra-division games ruled them out.
-The St. Louis Cardinals were eliminated from the NL title on 19160909 with 20 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19160910 with 19 games left to play.
 CIN can only allow ['PHI', 'BSN'] to win 4 total games but they have 8 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19160906 but the remaining intra-division games ruled them out.
 CIN can only allow ['PHI', 'BRO'] to win 2 total games but they have 3 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19160905 but the remaining intra-division games ruled them out.
-CIN can only allow ['BSN', 'PHI'] to win 5 total games but they have 10 games left against each other.
+CIN can only allow ['BSN', 'PHI'] to win 5 total games but they have 9 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19160904 but the remaining intra-division games ruled them out.
-CIN can only allow ['BRO', 'BSN', 'PHI'] to win 13 total games but they have 19 games left against each other.
+CIN can only allow ['BRO', 'BSN', 'PHI'] to win 13 total games but they have 18 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19160903 but the remaining intra-division games ruled them out.
-CIN can only allow ['BRO', 'BSN', 'PHI'] to win 13 total games but they have 19 games left against each other.
+CIN can only allow ['BRO', 'BSN', 'PHI'] to win 13 total games but they have 18 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19160902 but the remaining intra-division games ruled them out.
-CIN can only allow ['BRO', 'BSN', 'PHI'] to win 17 total games but they have 20 games left against each other.
+CIN can only allow ['BRO', 'BSN', 'PHI'] to win 17 total games but they have 19 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19160901 but the remaining intra-division games ruled them out.
-CIN can only allow ['BRO', 'BSN', 'PHI'] to win 20 total games but they have 22 games left against each other.
+CIN can only allow ['BRO', 'BSN', 'PHI'] to win 20 total games but they have 21 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19160831 but the remaining intra-division games ruled them out.
-CIN can only allow ['BRO', 'BSN', 'PHI'] to win 20 total games but they have 22 games left against each other.
+CIN can only allow ['BRO', 'BSN', 'PHI'] to win 20 total games but they have 21 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19160830 but the remaining intra-division games ruled them out.
-CIN can only allow ['BRO', 'BSN', 'PHI', 'NY1', 'PIT', 'SLN', 'CHN'] to win 117 total games but they have 121 games left against each other.
-It looked like the Cincinnati Reds were in contention after 19160829 but the remaining intra-division games ruled them out.
-The Cincinnati Reds were eliminated from the NL title on 19160829 with 31 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19160830 with 30 games left to play.
 PHA can only allow ['BOS', 'CHA'] to win 2 total games but they have 3 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160821 but the remaining intra-division games ruled them out.
 PHA can only allow ['BOS', 'CHA', 'CLE'] to win 11 total games but they have 18 games left against each other.
@@ -77,10 +73,8 @@ PHA can only allow ['BOS', 'CLE', 'CHA', 'NYA', 'DET', 'SLA'] to win 96 total ga
 It looked like the Philadelphia Athletics were in contention after 19160809 but the remaining intra-division games ruled them out.
 PHA can only allow ['BOS', 'CHA', 'CLE', 'NYA', 'DET', 'SLA'] to win 99 total games but they have 105 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160808 but the remaining intra-division games ruled them out.
-PHA can only allow ['CHA', 'BOS', 'CLE', 'NYA', 'DET', 'WS1', 'SLA'] to win 134 total games but they have 153 games left against each other.
+PHA can only allow ['CHA', 'BOS', 'CLE', 'NYA', 'DET', 'WS1', 'SLA'] to win 134 total games but they have 150 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160807 but the remaining intra-division games ruled them out.
-PHA can only allow ['BOS', 'CHA', 'CLE', 'NYA', 'WS1', 'DET', 'SLA'] to win 145 total games but they have 156 games left against each other.
+PHA can only allow ['BOS', 'CHA', 'CLE', 'NYA', 'WS1', 'DET', 'SLA'] to win 145 total games but they have 153 games left against each other.
 It looked like the Philadelphia Athletics were in contention after 19160806 but the remaining intra-division games ruled them out.
-PHA can only allow ['CHA', 'BOS', 'CLE', 'NYA', 'DET', 'WS1', 'SLA'] to win 156 total games but they have 159 games left against each other.
-It looked like the Philadelphia Athletics were in contention after 19160805 but the remaining intra-division games ruled them out.
-The Philadelphia Athletics were eliminated from the AL title on 19160805 with 58 games left to play.
+The Philadelphia Athletics were eliminated from the AL title on 19160806 with 57 games left to play.

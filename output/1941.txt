@@ -6,8 +6,8 @@ The St. Louis Cardinals were eliminated from the NL title on 19410927 with 2 gam
 The Cincinnati Reds were eliminated from the NL title on 19410915 with 14 games left to play.
 The Pittsburgh Pirates were eliminated from the NL title on 19410914 with 12 games left to play.
 The New York Giants were eliminated from the NL title on 19410907 with 23 games left to play.
+The Boston Red Sox were eliminated from the AL title on 19410904 with 19 games left to play.
 The Chicago White Sox were eliminated from the AL title on 19410904 with 20 games left to play.
-The Boston Red Sox were eliminated from the AL title on 19410903 with 20 games left to play.
 The Cleveland Indians were eliminated from the AL title on 19410903 with 24 games left to play.
 BSN can only allow ['SLN', 'BRO'] to win 1 total games but they have 3 games left against each other.
 It looked like the Boston Braves were in contention after 19410830 but the remaining intra-division games ruled them out.
@@ -16,9 +16,9 @@ BSN can only allow ['BRO', 'SLN'] to win 2 total games but they have 3 games lef
 It looked like the Boston Braves were in contention after 19410829 but the remaining intra-division games ruled them out.
 The Detroit Tigers were eliminated from the AL title on 19410830 with 25 games left to play.
 The Boston Braves were eliminated from the NL title on 19410829 with 30 games left to play.
-The Washington Senators were eliminated from the AL title on 19410828 with 30 games left to play.
 The Philadelphia Athletics were eliminated from the AL title on 19410827 with 29 games left to play.
 The St. Louis Browns were eliminated from the AL title on 19410827 with 30 games left to play.
+The Washington Senators were eliminated from the AL title on 19410827 with 31 games left to play.
 PHI can only allow ['BRO', 'SLN'] to win 1 total games but they have 7 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19410818 but the remaining intra-division games ruled them out.
 PHI can only allow ['BRO', 'SLN'] to win 6 total games but they have 7 games left against each other.

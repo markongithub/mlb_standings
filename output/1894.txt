@@ -16,27 +16,21 @@ LS3 can only allow ['BSN', 'BLN', 'NY1', 'CL4'] to win 20 total games but they h
 It looked like the Louisville Colonels were in contention after 18940821 but the remaining intra-division games ruled them out.
 WSN can only allow ['BSN', 'BLN', 'CL4'] to win 13 total games but they have 14 games left against each other.
 It looked like the Washington Senators were in contention after 18940821 but the remaining intra-division games ruled them out.
-LS3 can only allow ['BSN', 'BLN', 'NY1', 'CL4', 'PHI', 'PIT', 'BRO', 'CHN', 'CIN'] to win 118 total games but they have 124 games left against each other.
+LS3 can only allow ['BSN', 'BLN', 'NY1', 'CL4', 'PHI', 'PIT', 'BRO', 'CHN', 'CIN'] to win 118 total games but they have 120 games left against each other.
 It looked like the Louisville Colonels were in contention after 18940820 but the remaining intra-division games ruled them out.
 WSN can only allow ['BSN', 'BLN', 'NY1', 'CL4'] to win 20 total games but they have 21 games left against each other.
 It looked like the Washington Senators were in contention after 18940820 but the remaining intra-division games ruled them out.
-WSN can only allow ['BLN', 'BSN', 'NY1', 'CL4', 'PIT'] to win 35 total games but they have 38 games left against each other.
+WSN can only allow ['BLN', 'BSN', 'NY1', 'CL4', 'PIT'] to win 35 total games but they have 37 games left against each other.
 It looked like the Washington Senators were in contention after 18940819 but the remaining intra-division games ruled them out.
 The Louisville Colonels were eliminated from the NL title on 18940820 with 34 games left to play.
-WSN can only allow ['BLN', 'BSN', 'NY1', 'CL4', 'PIT'] to win 35 total games but they have 38 games left against each other.
+WSN can only allow ['BLN', 'BSN', 'NY1', 'CL4', 'PIT'] to win 35 total games but they have 37 games left against each other.
 It looked like the Washington Senators were in contention after 18940818 but the remaining intra-division games ruled them out.
-WSN can only allow ['BSN', 'BLN', 'NY1', 'CL4', 'PIT'] to win 36 total games but they have 39 games left against each other.
+WSN can only allow ['BSN', 'BLN', 'NY1', 'CL4', 'PIT'] to win 36 total games but they have 38 games left against each other.
 It looked like the Washington Senators were in contention after 18940817 but the remaining intra-division games ruled them out.
-WSN can only allow ['BSN', 'BLN', 'NY1', 'CL4', 'PHI', 'PIT', 'CHN'] to win 80 total games but they have 81 games left against each other.
+WSN can only allow ['BSN', 'BLN', 'NY1', 'CL4', 'PHI', 'PIT', 'BRO', 'CHN', 'CIN'] to win 119 total games but they have 126 games left against each other.
 It looked like the Washington Senators were in contention after 18940816 but the remaining intra-division games ruled them out.
-WSN can only allow ['BSN', 'BLN', 'NY1', 'CL4', 'PHI', 'PIT', 'CHN', 'CIN'] to win 108 total games but they have 110 games left against each other.
+WSN can only allow ['BSN', 'BLN', 'NY1', 'CL4', 'PHI', 'PIT', 'BRO', 'CHN', 'CIN'] to win 124 total games but they have 129 games left against each other.
 It looked like the Washington Senators were in contention after 18940815 but the remaining intra-division games ruled them out.
-WSN can only allow ['BSN', 'BLN', 'NY1', 'CL4', 'PHI', 'PIT', 'CHN', 'CIN'] to win 111 total games but they have 112 games left against each other.
+WSN can only allow ['BSN', 'BLN', 'NY1', 'CL4', 'PHI', 'PIT', 'BRO', 'CHN', 'CIN'] to win 128 total games but they have 132 games left against each other.
 It looked like the Washington Senators were in contention after 18940814 but the remaining intra-division games ruled them out.
-WSN can only allow ['BSN', 'BLN', 'NY1', 'CL4', 'PHI', 'PIT', 'BRO', 'CIN', 'CHN', 'SLN'] to win 169 total games but they have 173 games left against each other.
-It looked like the Washington Senators were in contention after 18940813 but the remaining intra-division games ruled them out.
-WSN can only allow ['BSN', 'BLN', 'NY1', 'CL4', 'PHI', 'PIT', 'BRO', 'CIN', 'CHN', 'SLN'] to win 172 total games but they have 176 games left against each other.
-It looked like the Washington Senators were in contention after 18940812 but the remaining intra-division games ruled them out.
-WSN can only allow ['BSN', 'BLN', 'NY1', 'CL4', 'PHI', 'PIT', 'BRO', 'CIN', 'CHN', 'SLN'] to win 174 total games but they have 178 games left against each other.
-It looked like the Washington Senators were in contention after 18940811 but the remaining intra-division games ruled them out.
-The Washington Senators were eliminated from the NL title on 18940811 with 39 games left to play.
+The Washington Senators were eliminated from the NL title on 18940814 with 38 games left to play.
