@@ -1245,7 +1245,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
                         )
                     else:
                         print(
-                            f"The {index} has more contenders at the end of the season than I expected: {sorted(contenders_set)}. This discrepancy is either because I still handle ties incorrectly, or it was an actual tie and they held a playoff later on."
+                            f"The {index} has more contenders at the end of the season than I expected: {sorted(contenders_set)}. It's because I don't handle cases where a team could be a division winner OR a wild card."
                         )
             if season_params.wildcard_count:
                 wildcards_by_league = (
