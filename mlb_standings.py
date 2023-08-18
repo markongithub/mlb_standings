@@ -39,7 +39,7 @@ class SeasonParameters(object):
             self.divisions = divisions_from_statsapi_teams(statsapi_teams)
         else:
             self.divisions = divisions_for_year(nicknames, team_ids, year)
-        if retrosheet_schedule is not None:
+        if retrosheet_schedule is not None and year != 1981:
             self.season_lengths = get_season_lengths(retrosheet_schedule)
         elif statsapi_played is not None and statsapi_unplayed is not None:
             self.season_lengths = get_season_lengths_statsapi(
@@ -50,7 +50,7 @@ class SeasonParameters(object):
             # [['NL', 162], ['AL', 162]], columns=['lg', 'length'])
         self.tiebreakers_required = year >= 2022
         self.special_message = get_special_message(year)
-        self.abort_abort_abort = year in [1981, 1994]
+        self.abort_abort_abort = year in [1994]
 
     def use_half_seasons(self, team):
         if self.year == 1981:
@@ -149,6 +149,12 @@ def fix_1891(game_log, schedule):
     schedule.loc[schedule["visitor"] == "CN3", "visitor"] = "ML3"
     schedule.loc[schedule["home"] == "CN3", "home"] = "ML3"
     return game_log, schedule
+
+def fix_1981(game_log, schedule):
+    # I guess I'm mutating it in place even though I hate that.
+    gl_out = game_log.loc[game_log["date"] <= 19810611]
+    sched_out = schedule.loc[schedule["date"] <= "19810611"]
+    return gl_out, sched_out
 
 # adapted from sdvinay except now totally different
 def compute_standings(game_log):
@@ -353,14 +359,16 @@ def find_unplayed_games(schedule):
 
 
 def logged_games_after_date(df, date):
-    return df.loc[df["completion_date"] > date]
+    output = df.loc[df["completion_date"] > date]
+    print(output)
+    return output
 
 
 def all_matchups_after_date(played, unplayed, date):
     logged_games = logged_games_after_date(played, date)[
         ["completion_date", "visitor", "home"]
     ]
-    # print(f"logged_games: {logged_games}")
+    print(f"logged_games: {logged_games}")
     unplayed_games = unplayed
     all_games = pd.concat([logged_games, unplayed_games], ignore_index=True)
     alpha_pairs = pd.DataFrame(
@@ -690,6 +698,7 @@ def simpler_retrosheet_schedule(schedule_immutable):
             schedule["makeup_date"].isnull(), schedule["date"], schedule["makeup_date"]
         )
     )
+    print(schedule.loc[(schedule["home"] == "NYA") & (schedule["visitor"] == "DET")])
     output = schedule[["completion_date", "home", "visitor"]]
     # print(output)
     return output
@@ -811,7 +820,11 @@ def run_one_year_retro(year, data_path="data"):
         print(
             "Philadelphia only won the AL because they played fewer games than Chicago. Seems unfair to me."
         )
-    if year in [1886, 1889, 1890, 1891, 1901, 1904, 1905, 1906, 1907, 1908, 1915, 1918, 1935, 1938, 1972]:
+    if year == 1981:
+        game_log, schedule = fix_1981(game_log, schedule)
+        print(schedule.loc[(schedule["home"] == "NYA") & (schedule["visitor"] == "DET")])
+
+    if year in [1886, 1889, 1890, 1891, 1901, 1904, 1905, 1906, 1907, 1908, 1915, 1918, 1935, 1938, 1972, 1981]:
         use_schedule_for_unplayed = True
     season_params = SeasonParameters(year, nicknames, team_ids, schedule)
     played, unplayed = retrosheet_to_played_unplayed(game_log, schedule, season_params)
@@ -1170,8 +1183,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
         and len(wildcard_contenders) < team_count
     ):
         date_str = datetime_to_retro(current_date)
-        # print(f"Starting analysis of {date_str}")
-
+        print(f"Starting analysis of {date_str}")
         current_standings = compute_standings(
             played.loc[played["completion_date"] <= date_str]
         )
@@ -1186,10 +1198,10 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
                 .groupby(["alpha1", "alpha2"], as_index=False)
                 .size()
             )
-            # print(f"remaining_matchups: {remaining_matchups}")
+            print(f"remaining_matchups: {remaining_matchups}")
             remaining_games = games_left_by_team(remaining_matchups)
             # print(f"current_standings W: {current_standings['W']}")
-            # print(f"remaining_games: {remaining_games}")
+            print(f"remaining_games: {remaining_games}")
             current_standings["max_wins"] = current_standings["W"].add(
                 remaining_games, fill_value=0
             )
@@ -1197,7 +1209,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
             current_standings["max_pct"] = current_standings["max_wins"] / total_games
             current_standings["min_pct"] = current_standings["W"] / total_games
 
-            # print(f"current_standings: {current_standings}")
+            print(f"current_standings: {current_standings}")
         else:
             remaining_matchups = (
                 all_matchups_after_date(played, unplayed, date_str)
