@@ -1527,30 +1527,32 @@ def run_elo():
     show_dumb_elimination_output4(PLAYED, UNPLAYED, SP2022)
 
 
-def run_statsapi():
-    teams_dict = json.load(open("./data/teams.json"))
+def run_one_year_statsapi(year, data_path="data"):
+    teams_dict = json.load(open(f"{data_path}/teams.json"))
     PLAYED, UNPLAYED = statsapi_schedule_to_played_unplayed(
-        "./data/schedule_2022_14.json"
+        f"{data_path}/schedule_{year}_1.json"
     )
-    print(
-        PLAYED.loc[
-            (PLAYED["home"] == "Cleveland Guardians")
-            | (PLAYED["visitor"] == "Cleveland Guardians")
-        ]
-    )
-    print(
-        UNPLAYED.loc[
-            (UNPLAYED["home"] == "Cleveland Guardians")
-            | (UNPLAYED["visitor"] == "Cleveland Guardians")
-        ]
-    )
-    SP2022 = SeasonParameters(
-        2022,
+#    print(
+#        PLAYED.loc[
+#            (PLAYED["home"] == "Cleveland Guardians")
+#            | (PLAYED["visitor"] == "Cleveland Guardians")
+#        ]
+#    )
+#    print(
+#        UNPLAYED.loc[
+#            (UNPLAYED["home"] == "Cleveland Guardians")
+#            | (UNPLAYED["visitor"] == "Cleveland Guardians")
+#        ]
+#    )
+    season_params = SeasonParameters(
+        year,
         statsapi_played=PLAYED,
         statsapi_unplayed=UNPLAYED,
         statsapi_teams=teams_dict,
     )
-    show_dumb_elimination_output4(PLAYED, UNPLAYED, SP2022)
+    for thingamabob in get_division_contenders3(PLAYED, UNPLAYED, season_params):
+        print(thingamabob)
+    show_dumb_elimination_output4(PLAYED, UNPLAYED, season_params)
 
 
 def run_statsapi_just_elimination_numbers():
