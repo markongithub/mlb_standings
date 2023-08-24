@@ -150,9 +150,11 @@ def fix_1891(game_log, schedule):
     schedule.loc[schedule["home"] == "CN3", "home"] = "ML3"
     return game_log, schedule
 
+
 # adapted from sdvinay except now totally different
 def compute_standings(game_log):
     gms_played = game_log.copy()
+    # print(gms_played)
     # For the purposes of standings, ties don't count.
     gms_played = gms_played[gms_played["outcome"] != TIE]
     winners = pd.Series(
@@ -680,7 +682,7 @@ def simpler_retrosheet_schedule(schedule_immutable):
     )
     schedule.dropna(subset=["date"], inplace=True)
     schedule["makeup_date"] = schedule["makeup_date"].astype(str)
-    schedule["makeup_date"] = schedule["makeup_date"].map(lambda x : x.split('; ')[-1])
+    schedule["makeup_date"] = schedule["makeup_date"].map(lambda x: x.split("; ")[-1])
     schedule["makeup_date"] = pd.to_datetime(schedule["makeup_date"], format="%Y%m%d")
     # print(schedule)
 
@@ -809,7 +811,23 @@ def run_one_year_retro(year, data_path="data"):
         print(
             "Philadelphia only won the AL because they played fewer games than Chicago. Seems unfair to me."
         )
-    if year in [1886, 1889, 1890, 1891, 1901, 1904, 1905, 1906, 1907, 1908, 1915, 1918, 1935, 1938, 1972]:
+    if year in [
+        1886,
+        1889,
+        1890,
+        1891,
+        1901,
+        1904,
+        1905,
+        1906,
+        1907,
+        1908,
+        1915,
+        1918,
+        1935,
+        1938,
+        1972,
+    ]:
         use_schedule_for_unplayed = True
     season_params = SeasonParameters(year, nicknames, team_ids, schedule)
     played, unplayed = retrosheet_to_played_unplayed(game_log, schedule, season_params)
@@ -1008,7 +1026,6 @@ def elo_to_played_and_unplayed(elo_immutable):
 
 
 def statsapi_schedule_to_played_unplayed(schedule_json_path):
-    # TODO: Get rid of home_won.
     played_tuples = []
     unplayed_tuples = []
 
@@ -1031,12 +1048,12 @@ def statsapi_schedule_to_played_unplayed(schedule_json_path):
                 continue
             if game["status"]["codedGameState"] in ["F", "O"]:
                 if game["teams"]["home"]["isWinner"]:
-                    home_won = True
+                    outcome = HOME_WON
                 elif game["teams"]["away"]["isWinner"]:
-                    home_won = False
+                    outcome = VISITOR_WON
                 else:
                     raise (f"No winner, that\s messed up.")
-                new_tuple = (date_pd, home, visitor, home_won)
+                new_tuple = (date_pd, home, visitor, outcome)
                 played_tuples.append(new_tuple)
                 if DEBUG_TEAM in [home, visitor]:
                     DEBUG_GAMES += 1
@@ -1168,12 +1185,11 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
         and len(wildcard_contenders) < team_count
     ):
         date_str = datetime_to_retro(current_date)
-        # print(f"Starting analysis of {date_str}")
+        print(f"Starting analysis of {date_str}")
 
         current_standings = compute_standings(
             played.loc[played["completion_date"] <= date_str]
         )
-        # print(current_standings)
         # MOVE THIS SHIT INTO SOMETHING EFFICIENT
         current_standings["div"] = season_params.divisions["div"]
         current_standings["lg"] = season_params.divisions["lg"]
@@ -1212,7 +1228,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
             current_standings["max_wins"] = (
                 current_standings["season_length"] - current_standings["L"]
             )
-        # print(current_standings)
+        print(current_standings)
 
         div_contenders_df = division_contenders(
             current_standings,
@@ -1220,7 +1236,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
             use_percentage=use_percentage,
         )
         div_contenders = set(div_contenders_df.index)
-        # print(f"naive division contenders: {sorted(div_contenders)}")
+        print(f"naive division contenders: {sorted(div_contenders)}")
         # print(f'My busted view of the wildcard standings: {wildcard_standings(current_standings, divisions, wildcard_count, division_winners=winners_per_division, games_per_season=games_per_season)}')
         wildcard_contenders_df = wildcard_standings(current_standings, season_params)
         wildcard_contenders = set(wildcard_contenders_df.index)
@@ -1238,7 +1254,11 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
                     contenders_set = set(
                         div_contenders_df.loc[lambda x: x == index].index
                     )
-                    tied_contenders = bottom_tied(current_standings, contenders_set, season_params.winners_per_division)
+                    tied_contenders = bottom_tied(
+                        current_standings,
+                        contenders_set,
+                        season_params.winners_per_division,
+                    )
                     if tied_contenders:
                         print(
                             f"The regular season ended with a tie in the {index} between {format_team_id_list(season_params.divisions, sorted(tied_contenders))}."
@@ -1263,7 +1283,11 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
                                 & (wildcard_contenders_df["division_leader"] == False)
                             ].index
                         )
-                        tied_contenders = bottom_tied(current_standings, contenders_set, season_params.wildcard_count)
+                        tied_contenders = bottom_tied(
+                            current_standings,
+                            contenders_set,
+                            season_params.wildcard_count,
+                        )
                         if tied_contenders:
                             print(
                                 f"The regular season ended with a tie for the {index} wild card between {format_team_id_list(season_params.divisions, sorted(tied_contenders))}."
@@ -1410,7 +1434,7 @@ def get_wild_card_rivals(standings_immutable, season_params, team):
     standings = standings.loc[standings["lg"] == my_league]
     standings = standings.loc[~standings["division_leader"]]
     standings = standings.drop(
-        standings.nlargest(season_params.wildcard_count - 1, columns=["W"]).index
+        standings.nlargest(season_params.wildcard_count - 1, columns=["max_wins"]).index
     )
     return standings.loc[standings.index != team].index
 
@@ -1434,15 +1458,17 @@ def get_elimination_number(
     h2h_wins, h2h_losses = head_to_head_lookup(head_to_head, team1, team2)
     remaining_h2h = remaining["size"].get((min(team1, team2), max(team1, team2)), 0)
     max_h2h_margin = remaining_h2h + h2h_wins - h2h_losses
+    confident = True
     if max_h2h_margin == 0:
-        if remaining_h2h == 0:
-            print(
-                f"Um there is a guaranteed head-to-head tie between {team1} and {team2} and I am not sure how to handle that."
-            )
-        else:
-            print(
-                f"Um there might be a head-to-head tie between {team1} and {team2} and I am not sure how to handle that."
-            )
+        confident = False
+        # if remaining_h2h == 0:
+        #    print(
+        #        f"Um there is a guaranteed head-to-head tie between {team1} and {team2} and I am not sure how to handle that."
+        #    )
+        # else:
+        #    print(
+        #        f"Um the best {team1} can do is a head-to-head tie with {team2} and I am not sure how to handle that."
+        #    )
     okay_to_tie = max_h2h_margin > 0
     if "OAK" in [team1, team2] and "HOU" in [team1, team2]:
         print(
@@ -1451,10 +1477,12 @@ def get_elimination_number(
     our_losses = standings.loc[team1]["L"]
     their_wins = standings.loc[team2]["W"]
     naive_elimination = (season_length - our_losses) - their_wins
+    # print(f"naive_elimination for {team1},{team2} = ({season_length} - {our_losses}) - {their_wins} = {naive_elimination}")
     if okay_to_tie:
-        return naive_elimination
+        output = naive_elimination
     else:
-        return naive_elimination - 1
+        output = naive_elimination - 1
+    return (output, confident)
 
 
 def all_elimination_numbers(
@@ -1462,7 +1490,7 @@ def all_elimination_numbers(
 ):
     eliminations = {
         rival: get_elimination_number(
-            standings, head_to_head, remaining_indexed, 162, team, rival
+            standings, head_to_head, remaining_indexed, season_length, team, rival
         )
         for rival in rivals
     }
@@ -1470,22 +1498,36 @@ def all_elimination_numbers(
     for subset in powerset(rivals):
         if len(subset) < 1:
             continue
+        their_remaining = remaining.loc[
+            (remaining["alpha1"].isin(subset)) | (remaining["alpha2"].isin(subset))
+        ]["size"].sum()
         subset_matchup_count = remaining.loc[
             (remaining["alpha1"].isin(subset)) & (remaining["alpha2"].isin(subset))
         ]["size"].sum()
         if len(subset) > 1 and (not subset_matchup_count):
             continue
-        total_elimination = sum([eliminations[rival] for rival in subset])
+        total_elimination = sum([eliminations[rival][0] for rival in subset])
+        confident = all([eliminations[rival][1] for rival in subset])
+        final_number = total_elimination - subset_matchup_count
         new_tuple = (
-            total_elimination - subset_matchup_count,
+            final_number,
             team,
             subset,
             total_elimination,
             subset_matchup_count,
+            confident,
         )
-        if new_tuple[0] < 20:
+        if True:  # final_number < 30:
             set_eliminations.append(new_tuple)
-    return set_eliminations
+    output = []
+    for tuple in sorted(set_eliminations):
+        if tuple[0] < 0:
+            return [tuple]
+        if len(output) == 0 or tuple[0] == output[-1][0]:
+            output.append(tuple)
+        else:
+            return output
+    return output
 
 
 def get_division_contenders3(
@@ -1504,17 +1546,39 @@ def get_division_contenders3(
     )
     remaining_indexed = remaining.set_index(["alpha1", "alpha2"])
     set_eliminations = []
-    for team in standings.index:
-        rivals = get_division_rivals(standings, season_params.divisions, team)
-        set_eliminations += all_elimination_numbers(
-            standings, head_to_head, remaining, remaining_indexed, 162, team, rivals
-        )
     standings_wc = wildcard_standings(standings, season_params)
     for team in standings.index:
-        rivals = get_wild_card_rivals(standings_wc, season_params, team)
-        set_eliminations += all_elimination_numbers(
-            standings, head_to_head, remaining, remaining_indexed, 162, team, rivals
+        division_rivals = get_division_rivals(standings, season_params.divisions, team)
+        wild_card_rivals = get_wild_card_rivals(standings_wc, season_params, team)
+        # how can I be so bad at this
+        rivals = list(set(list(division_rivals) + list(wild_card_rivals)))
+        numbers = {
+            rival: get_elimination_number(
+                standings, head_to_head, remaining_indexed, 162, team, rival
+            )
+            for rival in rivals
+        }
+
+        division_elimination_numbers = all_elimination_numbers(
+            standings,
+            head_to_head,
+            remaining,
+            remaining_indexed,
+            162,
+            team,
+            division_rivals,
         )
+        set_eliminations += division_elimination_numbers
+        wild_card_elimination_numbers = all_elimination_numbers(
+            standings,
+            head_to_head,
+            remaining,
+            remaining_indexed,
+            162,
+            team,
+            wild_card_rivals,
+        )
+        set_eliminations += wild_card_elimination_numbers
     return sorted(set_eliminations)
 
 
@@ -1532,18 +1596,18 @@ def run_one_year_statsapi(year, data_path="data"):
     PLAYED, UNPLAYED = statsapi_schedule_to_played_unplayed(
         f"{data_path}/schedule_{year}_1.json"
     )
-#    print(
-#        PLAYED.loc[
-#            (PLAYED["home"] == "Cleveland Guardians")
-#            | (PLAYED["visitor"] == "Cleveland Guardians")
-#        ]
-#    )
-#    print(
-#        UNPLAYED.loc[
-#            (UNPLAYED["home"] == "Cleveland Guardians")
-#            | (UNPLAYED["visitor"] == "Cleveland Guardians")
-#        ]
-#    )
+    #    print(
+    #        PLAYED.loc[
+    #            (PLAYED["home"] == "Cleveland Guardians")
+    #            | (PLAYED["visitor"] == "Cleveland Guardians")
+    #        ]
+    #    )
+    #    print(
+    #        UNPLAYED.loc[
+    #            (UNPLAYED["home"] == "Cleveland Guardians")
+    #            | (UNPLAYED["visitor"] == "Cleveland Guardians")
+    #        ]
+    #    )
     season_params = SeasonParameters(
         year,
         statsapi_played=PLAYED,
