@@ -150,11 +150,13 @@ def fix_1891(game_log, schedule):
     schedule.loc[schedule["home"] == "CN3", "home"] = "ML3"
     return game_log, schedule
 
+
 def fix_1981(game_log, schedule):
     # I guess I'm mutating it in place even though I hate that.
     gl_out = game_log.loc[game_log["date"] <= 19810611]
     sched_out = schedule.loc[schedule["date"] <= "19810611"]
     return gl_out, sched_out
+
 
 # adapted from sdvinay except now totally different
 def compute_standings(game_log):
@@ -820,13 +822,12 @@ def run_one_year_retro(year, data_path="data"):
         print(
             "Philadelphia only won the AL because they played fewer games than Chicago. Seems unfair to me."
         )
-<<<<<<< HEAD
     if year == 1981:
         game_log, schedule = fix_1981(game_log, schedule)
-        print(schedule.loc[(schedule["home"] == "NYA") & (schedule["visitor"] == "DET")])
+        print(
+            schedule.loc[(schedule["home"] == "NYA") & (schedule["visitor"] == "DET")]
+        )
 
-    if year in [1886, 1889, 1890, 1891, 1901, 1904, 1905, 1906, 1907, 1908, 1915, 1918, 1935, 1938, 1972, 1981]:
-=======
     if year in [
         1886,
         1889,
@@ -844,7 +845,6 @@ def run_one_year_retro(year, data_path="data"):
         1938,
         1972,
     ]:
->>>>>>> main
         use_schedule_for_unplayed = True
     season_params = SeasonParameters(year, nicknames, team_ids, schedule)
     played, unplayed = retrosheet_to_played_unplayed(game_log, schedule, season_params)
@@ -1203,10 +1203,6 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
     ):
         date_str = datetime_to_retro(current_date)
         print(f"Starting analysis of {date_str}")
-<<<<<<< HEAD
-=======
-
->>>>>>> main
         current_standings = compute_standings(
             played.loc[played["completion_date"] <= date_str]
         )
