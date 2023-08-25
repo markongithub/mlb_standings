@@ -3,17 +3,17 @@ The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AL has 154 games per team.
 The NL has 154 games per team.
 ... but for this season we are not assuming they play them all.
-The Cleveland Indians were eliminated from the AL title on 19180831 with 1 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19180830 with 2 games left to play.
 The Washington Senators were eliminated from the AL title on 19180830 with 4 games left to play.
-The New York Yankees were eliminated from the AL title on 19180824 with 11 games left to play.
-The New York Giants were eliminated from the NL title on 19180823 with 7 games left to play.
-The Chicago White Sox were eliminated from the AL title on 19180821 with 10 games left to play.
-The St. Louis Browns were eliminated from the AL title on 19180821 with 11 games left to play.
-The Pittsburgh Pirates were eliminated from the NL title on 19180820 with 12 games left to play.
-The Cincinnati Reds were eliminated from the NL title on 19180819 with 16 games left to play.
-The Detroit Tigers were eliminated from the AL title on 19180817 with 14 games left to play.
-The Brooklyn Robins were eliminated from the NL title on 19180816 with 17 games left to play.
-The Philadelphia Athletics were eliminated from the AL title on 19180814 with 23 games left to play.
+The New York Giants were eliminated from the NL title on 19180824 with 9 games left to play.
+The New York Yankees were eliminated from the AL title on 19180823 with 11 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19180821 with 11 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 19180821 with 11 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 19180820 with 16 games left to play.
+The St. Louis Browns were eliminated from the AL title on 19180819 with 10 games left to play.
+The Brooklyn Robins were eliminated from the NL title on 19180817 with 18 games left to play.
+The Detroit Tigers were eliminated from the AL title on 19180817 with 15 games left to play.
 The Philadelphia Phillies were eliminated from the NL title on 19180814 with 18 games left to play.
-The Boston Braves were eliminated from the NL title on 19180813 with 18 games left to play.
-The St. Louis Cardinals were eliminated from the NL title on 19180807 with 22 games left to play.
+The Boston Braves were eliminated from the NL title on 19180813 with 19 games left to play.
+The Philadelphia Athletics were eliminated from the AL title on 19180813 with 21 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19180810 with 22 games left to play.

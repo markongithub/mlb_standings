@@ -3,43 +3,51 @@ The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AL has 154 games per team.
 The NL has 154 games per team.
 ... but for this season we are not assuming they play them all.
-The St. Louis Cardinals were eliminated from the NL title on 19350925 with 2 games left to play.
-The New York Giants were eliminated from the NL title on 19350923 with 9 games left to play.
+The St. Louis Cardinals were eliminated from the NL title on 19350927 with 2 games left to play.
+The New York Giants were eliminated from the NL title on 19350922 with 10 games left to play.
 The New York Yankees were eliminated from the AL title on 19350921 with 7 games left to play.
-The Pittsburgh Pirates were eliminated from the NL title on 19350916 with 10 games left to play.
-The Chicago White Sox were eliminated from the AL title on 19350909 with 21 games left to play.
-The Cleveland Indians were eliminated from the AL title on 19350909 with 19 games left to play.
-The Boston Red Sox were eliminated from the AL title on 19350907 with 20 games left to play.
-The Brooklyn Dodgers were eliminated from the NL title on 19350907 with 24 games left to play.
-PHI can only allow ['SLN', 'NY1', 'CHN'] to win 9 total games but they have 10 games left against each other.
+The Pittsburgh Pirates were eliminated from the NL title on 19350915 with 10 games left to play.
+The Chicago White Sox were eliminated from the AL title on 19350910 with 21 games left to play.
+The Cleveland Indians were eliminated from the AL title on 19350910 with 19 games left to play.
+BRO can only allow ['SLN', 'CHN'] to win 0 total games but they have 5 games left against each other.
+It looked like the Brooklyn Dodgers were in contention after 19350907 but the remaining intra-division games ruled them out.
+BRO can only allow ['SLN', 'CHN'] to win 4 total games but they have 5 games left against each other.
+It looked like the Brooklyn Dodgers were in contention after 19350906 but the remaining intra-division games ruled them out.
+The Boston Red Sox were eliminated from the AL title on 19350907 with 21 games left to play.
+PHI can only allow ['SLN', 'CHN'] to win 0 total games but they have 5 games left against each other.
+It looked like the Philadelphia Phillies were in contention after 19350905 but the remaining intra-division games ruled them out.
+The Brooklyn Dodgers were eliminated from the NL title on 19350906 with 26 games left to play.
+PHI can only allow ['SLN', 'CHN'] to win 4 total games but they have 5 games left against each other.
 It looked like the Philadelphia Phillies were in contention after 19350904 but the remaining intra-division games ruled them out.
-CIN can only allow ['SLN', 'CHN'] to win 2 total games but they have 3 games left against each other.
+CIN can only allow ['SLN', 'CHN'] to win 2 total games but they have 5 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19350903 but the remaining intra-division games ruled them out.
-The Philadelphia Phillies were eliminated from the NL title on 19350904 with 27 games left to play.
-CIN can only allow ['SLN', 'CHN'] to win 2 total games but they have 3 games left against each other.
+The Philadelphia Phillies were eliminated from the NL title on 19350904 with 28 games left to play.
+CIN can only allow ['SLN', 'CHN'] to win 2 total games but they have 5 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19350902 but the remaining intra-division games ruled them out.
-CIN can only allow ['SLN', 'NY1', 'CHN', 'PIT'] to win 19 total games but they have 20 games left against each other.
+CIN can only allow ['SLN', 'NY1', 'CHN'] to win 12 total games but they have 13 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19350901 but the remaining intra-division games ruled them out.
-CIN can only allow ['SLN', 'NY1', 'CHN', 'PIT'] to win 20 total games but they have 21 games left against each other.
+CIN can only allow ['SLN', 'NY1', 'CHN', 'PIT'] to win 20 total games but they have 24 games left against each other.
 It looked like the Cincinnati Reds were in contention after 19350831 but the remaining intra-division games ruled them out.
-The Cincinnati Reds were eliminated from the NL title on 19350831 with 27 games left to play.
-The Philadelphia Athletics were eliminated from the AL title on 19350831 with 26 games left to play.
-The Washington Senators were eliminated from the AL title on 19350828 with 30 games left to play.
-The St. Louis Browns were eliminated from the AL title on 19350827 with 32 games left to play.
-BSN can only allow ['NY1', 'CHN'] to win 6 total games but they have 7 games left against each other.
+The Cincinnati Reds were eliminated from the NL title on 19350831 with 26 games left to play.
+The Philadelphia Athletics were eliminated from the AL title on 19350831 with 28 games left to play.
+The Washington Senators were eliminated from the AL title on 19350831 with 30 games left to play.
+The St. Louis Browns were eliminated from the AL title on 19350828 with 31 games left to play.
+BSN can only allow ['NY1', 'CHN'] to win 4 total games but they have 8 games left against each other.
+It looked like the Boston Braves were in contention after 19350819 but the remaining intra-division games ruled them out.
+BSN can only allow ['NY1', 'CHN'] to win 6 total games but they have 8 games left against each other.
 It looked like the Boston Braves were in contention after 19350818 but the remaining intra-division games ruled them out.
-BSN can only allow ['NY1', 'SLN', 'CHN', 'PIT'] to win 29 total games but they have 31 games left against each other.
+BSN can only allow ['NY1', 'SLN', 'CHN', 'PIT'] to win 29 total games but they have 34 games left against each other.
 It looked like the Boston Braves were in contention after 19350817 but the remaining intra-division games ruled them out.
-BSN can only allow ['NY1', 'SLN', 'CHN', 'PIT', 'BRO'] to win 56 total games but they have 60 games left against each other.
+BSN can only allow ['NY1', 'SLN', 'CHN', 'PIT'] to win 33 total games but they have 35 games left against each other.
 It looked like the Boston Braves were in contention after 19350816 but the remaining intra-division games ruled them out.
-BSN can only allow ['NY1', 'SLN', 'CHN', 'PIT', 'BRO', 'PHI', 'CIN'] to win 124 total games but they have 127 games left against each other.
+BSN can only allow ['NY1', 'SLN', 'CHN', 'PIT', 'BRO', 'PHI'] to win 95 total games but they have 97 games left against each other.
 It looked like the Boston Braves were in contention after 19350815 but the remaining intra-division games ruled them out.
-BSN can only allow ['NY1', 'SLN', 'CHN', 'PIT', 'BRO', 'PHI', 'CIN'] to win 127 total games but they have 130 games left against each other.
+BSN can only allow ['NY1', 'SLN', 'CHN', 'PIT', 'BRO', 'PHI'] to win 98 total games but they have 100 games left against each other.
 It looked like the Boston Braves were in contention after 19350814 but the remaining intra-division games ruled them out.
-BSN can only allow ['NY1', 'SLN', 'CHN', 'PIT', 'BRO', 'PHI', 'CIN'] to win 133 total games but they have 136 games left against each other.
+BSN can only allow ['NY1', 'SLN', 'CHN', 'PIT', 'BRO', 'PHI'] to win 104 total games but they have 106 games left against each other.
 It looked like the Boston Braves were in contention after 19350813 but the remaining intra-division games ruled them out.
-BSN can only allow ['NY1', 'SLN', 'CHN', 'PIT', 'BRO', 'PHI', 'CIN'] to win 133 total games but they have 136 games left against each other.
+BSN can only allow ['NY1', 'SLN', 'CHN', 'PIT', 'BRO', 'PHI'] to win 104 total games but they have 106 games left against each other.
 It looked like the Boston Braves were in contention after 19350812 but the remaining intra-division games ruled them out.
-BSN can only allow ['NY1', 'SLN', 'CHN', 'PIT', 'BRO', 'PHI', 'CIN'] to win 134 total games but they have 137 games left against each other.
+BSN can only allow ['NY1', 'SLN', 'CHN', 'PIT', 'BRO', 'PHI'] to win 105 total games but they have 106 games left against each other.
 It looked like the Boston Braves were in contention after 19350811 but the remaining intra-division games ruled them out.
-The Boston Braves were eliminated from the NL title on 19350811 with 47 games left to play.
+The Boston Braves were eliminated from the NL title on 19350811 with 48 games left to play.

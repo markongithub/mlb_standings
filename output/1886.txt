@@ -3,34 +3,33 @@ The top 1 teams from each division go to the postseason, plus 0 wild cards.
 The AA has 140 games per team.
 The NL has 126 games per team.
 ... but for this season we are not assuming they play them all.
-The Detroit Wolverines were eliminated from the NL title on 18861011 with 1 games left to play.
-The New York Giants were eliminated from the NL title on 18860929 with 10 games left to play.
-The Pittsburgh Pirates were eliminated from the AA title on 18860927 with 9 games left to play.
-The Brooklyn Dodgers were eliminated from the AA title on 18860924 with 15 games left to play.
-The New York Giants were eliminated from the NL title on 18860924 with 15 games left to play.
-The Louisville Colonels were eliminated from the AA title on 18860920 with 15 games left to play.
-The Philadelphia Phillies were eliminated from the NL title on 18860920 with 17 games left to play.
-The Cincinnati Reds were eliminated from the AA title on 18860911 with 22 games left to play.
-The Philadelphia Athletics were eliminated from the AA title on 18860910 with 26 games left to play.
+The Detroit Wolverines were eliminated from the NL title on 18861009 with 0 games left to play.
+The Pittsburgh Pirates were eliminated from the AA title on 18860928 with 11 games left to play.
+The New York Giants were eliminated from the NL title on 18860922 with 13 games left to play.
+The Brooklyn Dodgers were eliminated from the AA title on 18860921 with 15 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 18860920 with 18 games left to play.
+The Louisville Colonels were eliminated from the AA title on 18860918 with 15 games left to play.
+The Cincinnati Reds were eliminated from the AA title on 18860910 with 24 games left to play.
+The Philadelphia Athletics were eliminated from the AA title on 18860910 with 27 games left to play.
 The Boston Braves were eliminated from the NL title on 18860907 with 23 games left to play.
-SL5 can only allow ['CHN', 'DTN'] to win 2 total games but they have 7 games left against each other.
-It looked like the St. Louis Maroons were in contention after 18860831 but the remaining intra-division games ruled them out.
-SL5 can only allow ['CHN', 'DTN'] to win 2 total games but they have 7 games left against each other.
-It looked like the St. Louis Maroons were in contention after 18860830 but the remaining intra-division games ruled them out.
-SL5 can only allow ['CHN', 'DTN'] to win 3 total games but they have 7 games left against each other.
-It looked like the St. Louis Maroons were in contention after 18860829 but the remaining intra-division games ruled them out.
-The Baltimore Orioles were eliminated from the AA title on 18860830 with 34 games left to play.
-The New York Metropolitans were eliminated from the AA title on 18860830 with 32 games left to play.
-SL5 can only allow ['CHN', 'DTN'] to win 3 total games but they have 7 games left against each other.
-It looked like the St. Louis Maroons were in contention after 18860828 but the remaining intra-division games ruled them out.
-SL5 can only allow ['CHN', 'DTN'] to win 5 total games but they have 7 games left against each other.
+The New York Metropolitans were eliminated from the AA title on 18860904 with 33 games left to play.
+The Baltimore Orioles were eliminated from the AA title on 18860829 with 34 games left to play.
+SL5 can only allow ['CHN', 'DTN'] to win 5 total games but they have 6 games left against each other.
 It looked like the St. Louis Maroons were in contention after 18860827 but the remaining intra-division games ruled them out.
-SL5 can only allow ['CHN', 'DTN', 'NY1'] to win 16 total games but they have 20 games left against each other.
+SL5 can only allow ['CHN', 'DTN', 'NY1'] to win 16 total games but they have 19 games left against each other.
 It looked like the St. Louis Maroons were in contention after 18860826 but the remaining intra-division games ruled them out.
-SL5 can only allow ['DTN', 'CHN', 'NY1'] to win 18 total games but they have 21 games left against each other.
+SL5 can only allow ['DTN', 'CHN', 'NY1'] to win 18 total games but they have 19 games left against each other.
 It looked like the St. Louis Maroons were in contention after 18860825 but the remaining intra-division games ruled them out.
-The St. Louis Maroons were eliminated from the NL title on 18860825 with 38 games left to play.
-KCN can only allow ['DTN', 'CHN', 'NY1'] to win 21 total games but they have 23 games left against each other.
-It looked like the Kansas City Cowboys were in contention after 18860820 but the remaining intra-division games ruled them out.
-The Kansas City Cowboys were eliminated from the NL title on 18860820 with 41 games left to play.
-The Washington Senators were eliminated from the NL title on 18860814 with 44 games left to play.
+The St. Louis Maroons were eliminated from the NL title on 18860825 with 35 games left to play.
+KCN can only allow ['DTN', 'CHN', 'NY1'] to win 17 total games but they have 20 games left against each other.
+It looked like the Kansas City Cowboys were in contention after 18860822 but the remaining intra-division games ruled them out.
+KCN can only allow ['DTN', 'CHN', 'NY1'] to win 17 total games but they have 20 games left against each other.
+It looked like the Kansas City Cowboys were in contention after 18860821 but the remaining intra-division games ruled them out.
+The Kansas City Cowboys were eliminated from the NL title on 18860821 with 44 games left to play.
+WS8 can only allow ['DTN', 'CHN', 'NY1'] to win 17 total games but they have 22 games left against each other.
+It looked like the Washington Senators were in contention after 18860816 but the remaining intra-division games ruled them out.
+WS8 can only allow ['DTN', 'CHN', 'NY1'] to win 18 total games but they have 22 games left against each other.
+It looked like the Washington Senators were in contention after 18860815 but the remaining intra-division games ruled them out.
+WS8 can only allow ['DTN', 'CHN', 'NY1'] to win 18 total games but they have 22 games left against each other.
+It looked like the Washington Senators were in contention after 18860814 but the remaining intra-division games ruled them out.
+The Washington Senators were eliminated from the NL title on 18860814 with 47 games left to play.

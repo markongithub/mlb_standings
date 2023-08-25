@@ -4,27 +4,28 @@ The AA has 140 games per team.
 The NL has 140 games per team.
 The PL has 140 games per team.
 ... but for this season we are not assuming they play them all.
-The Brooklyn Wonders were eliminated from the PL title on 18900930 with 5 games left to play.
-The St. Louis Cardinals were eliminated from the AA title on 18900929 with 7 games left to play.
-The Chicago Cubs were eliminated from the NL title on 18900927 with 9 games left to play.
-The New York Giants were eliminated from the PL title on 18900926 with 8 games left to play.
-The New York Giants were eliminated from the PL title on 18900924 with 8 games left to play.
+The St. Louis Cardinals were eliminated from the AA title on 18901005 with 7 games left to play.
+The Columbus Colts were eliminated from the AA title on 18901001 with 11 games left to play.
+The Brooklyn Wonders were eliminated from the PL title on 18900925 with 5 games left to play.
+The Chicago Cubs were eliminated from the NL title on 18900924 with 6 games left to play.
+The New York Giants were eliminated from the PL title on 18900924 with 9 games left to play.
+The Philadelphia Phillies were eliminated from the NL title on 18900924 with 7 games left to play.
+The Rochester Hop Bitters were eliminated from the AA title on 18900924 with 14 games left to play.
+The Toledo Maumees were eliminated from the AA title on 18900924 with 16 games left to play.
 The Boston Braves were eliminated from the NL title on 18900923 with 8 games left to play.
-The Columbus Colts were eliminated from the AA title on 18900923 with 10 games left to play.
-The Philadelphia Phillies were eliminated from the NL title on 18900923 with 6 games left to play.
-The Cincinnati Reds were eliminated from the NL title on 18900920 with 10 games left to play.
-The Philadelphia Phillies were eliminated from the NL title on 18900920 with 6 games left to play.
-The Rochester Hop Bitters were eliminated from the AA title on 18900920 with 13 games left to play.
-The Toledo Maumees were eliminated from the AA title on 18900920 with 14 games left to play.
-The Chicago Pirates were eliminated from the PL title on 18900919 with 13 games left to play.
-The Cincinnati Reds were eliminated from the NL title on 18900918 with 12 games left to play.
-The Philadelphia Athletics were eliminated from the AA title on 18900917 with 16 games left to play.
-The Philadelphia Quakers were eliminated from the PL title on 18900916 with 9 games left to play.
-The Pittsburgh Burghers were eliminated from the PL title on 18900904 with 21 games left to play.
-The Syracuse Stars were eliminated from the AA title on 18900904 with 21 games left to play.
-The Cleveland Infants were eliminated from the PL title on 18900901 with 24 games left to play.
+The Cincinnati Reds were eliminated from the NL title on 18900920 with 9 games left to play.
+The Philadelphia Athletics were eliminated from the AA title on 18900920 with 18 games left to play.
+The Chicago Pirates were eliminated from the PL title on 18900919 with 10 games left to play.
+The Philadelphia Quakers were eliminated from the PL title on 18900919 with 11 games left to play.
+The Syracuse Stars were eliminated from the AA title on 18900916 with 20 games left to play.
+The Pittsburgh Burghers were eliminated from the PL title on 18900904 with 22 games left to play.
+The Cleveland Infants were eliminated from the PL title on 18900901 with 26 games left to play.
 The New York Giants were eliminated from the NL title on 18900830 with 23 games left to play.
-The Buffalo Bisons were eliminated from the PL title on 18900826 with 33 games left to play.
-The Baltimore Orioles were eliminated from the AA title on 18900821 with 37 games left to play.
-The Cleveland Spiders were eliminated from the NL title on 18900818 with 33 games left to play.
-The Pittsburgh Pirates were eliminated from the NL title on 18900809 with 42 games left to play.
+BL3 can only allow ['LS2', 'SL4', 'TL2', 'CL6', 'PH4', 'RC2'] to win 82 total games but they have 83 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18900826 but the remaining intra-division games ruled them out.
+BL3 can only allow ['LS2', 'SL4', 'PH4', 'TL2', 'CL6', 'RC2'] to win 83 total games but they have 84 games left against each other.
+It looked like the Baltimore Orioles were in contention after 18900825 but the remaining intra-division games ruled them out.
+The Buffalo Bisons were eliminated from the PL title on 18900826 with 34 games left to play.
+The Baltimore Orioles were eliminated from the AA title on 18900825 with 36 games left to play.
+The Cleveland Spiders were eliminated from the NL title on 18900820 with 37 games left to play.
+The Pittsburgh Pirates were eliminated from the NL title on 18900813 with 45 games left to play.
