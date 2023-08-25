@@ -154,7 +154,10 @@ def fix_1891(game_log, schedule):
 def fix_1981(game_log, schedule):
     # I guess I'm mutating it in place even though I hate that.
     gl_out = game_log.loc[game_log["date"] <= 19810611]
-    sched_out = schedule.loc[schedule["date"] <= "19810611"]
+    sched_out = schedule.loc[
+        (schedule["date"] <= "19810611")
+        & ((schedule["makeup_date"].isna()) | (schedule["makeup_date"] <= 19810611))
+    ]
     return gl_out, sched_out
 
 
@@ -693,14 +696,26 @@ def simpler_retrosheet_schedule(schedule_immutable):
     schedule["makeup_date"] = schedule["makeup_date"].astype(str)
     schedule["makeup_date"] = schedule["makeup_date"].map(lambda x: x.split("; ")[-1])
     schedule["makeup_date"] = pd.to_datetime(schedule["makeup_date"], format="%Y%m%d")
-    # print(schedule)
-
-    schedule["completion_date"] = pd.Series(
-        np.where(
-            schedule["makeup_date"].isnull(), schedule["date"], schedule["makeup_date"]
-        )
+    print("SFN @ CIN games right before setting completion_date:")
+    print(
+        schedule.loc[(schedule["home"] == "CIN") & (schedule["visitor"] == "SFN")][
+            ["date", "makeup_date"]
+        ]
     )
-    print(schedule.loc[(schedule["home"] == "NYA") & (schedule["visitor"] == "DET")])
+
+    def figure_completion_date(row):
+        if pd.isnull(row["makeup_date"]):
+            return row["date"]
+        else:
+            return row["makeup_date"]
+
+    schedule["completion_date"] = schedule.apply(figure_completion_date, axis=1)
+    print("SFN @ CIN games after setting completion_date:")
+    print(
+        schedule.loc[(schedule["home"] == "CIN") & (schedule["visitor"] == "SFN")][
+            ["date", "makeup_date", "completion_date"]
+        ]
+    )
     output = schedule[["completion_date", "home", "visitor"]]
     # print(output)
     return output
@@ -824,9 +839,6 @@ def run_one_year_retro(year, data_path="data"):
         )
     if year == 1981:
         game_log, schedule = fix_1981(game_log, schedule)
-        print(
-            schedule.loc[(schedule["home"] == "NYA") & (schedule["visitor"] == "DET")]
-        )
 
     if year in [
         1886,
@@ -844,6 +856,7 @@ def run_one_year_retro(year, data_path="data"):
         1935,
         1938,
         1972,
+        1981,
     ]:
         use_schedule_for_unplayed = True
     season_params = SeasonParameters(year, nicknames, team_ids, schedule)
@@ -1211,6 +1224,9 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
         current_standings["lg"] = season_params.divisions["lg"]
 
         if use_percentage:
+            print(
+                "Latest games: {schedule.sort_values(by=['completion_date'], ascending=False)}"
+            )
             remaining_matchups = (
                 all_matchups_after_date(schedule, pd.DataFrame(), date_str)
                 .groupby(["alpha1", "alpha2"], as_index=False)
