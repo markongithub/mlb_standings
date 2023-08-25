@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import json
+import os
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
@@ -66,6 +67,11 @@ class SeasonParameters(object):
             "California League",
             "Florida State League",
         ]
+
+
+def debug(message):
+    if os.environ.get('DEBUG'):
+        print(message)
 
 
 def load_game_log(game_log_path):
@@ -365,7 +371,7 @@ def find_unplayed_games(schedule):
 
 def logged_games_after_date(df, date):
     output = df.loc[df["completion_date"] > date]
-    print(output)
+    debug(output)
     return output
 
 
@@ -373,7 +379,7 @@ def all_matchups_after_date(played, unplayed, date):
     logged_games = logged_games_after_date(played, date)[
         ["completion_date", "visitor", "home"]
     ]
-    print(f"logged_games: {logged_games}")
+    debug(f"logged_games: {logged_games}")
     unplayed_games = unplayed
     all_games = pd.concat([logged_games, unplayed_games], ignore_index=True)
     alpha_pairs = pd.DataFrame(
@@ -696,8 +702,8 @@ def simpler_retrosheet_schedule(schedule_immutable):
     schedule["makeup_date"] = schedule["makeup_date"].astype(str)
     schedule["makeup_date"] = schedule["makeup_date"].map(lambda x: x.split("; ")[-1])
     schedule["makeup_date"] = pd.to_datetime(schedule["makeup_date"], format="%Y%m%d")
-    print("SFN @ CIN games right before setting completion_date:")
-    print(
+    debug("SFN @ CIN games right before setting completion_date:")
+    debug(
         schedule.loc[(schedule["home"] == "CIN") & (schedule["visitor"] == "SFN")][
             ["date", "makeup_date"]
         ]
@@ -710,8 +716,8 @@ def simpler_retrosheet_schedule(schedule_immutable):
             return row["makeup_date"]
 
     schedule["completion_date"] = schedule.apply(figure_completion_date, axis=1)
-    print("SFN @ CIN games after setting completion_date:")
-    print(
+    debug("SFN @ CIN games after setting completion_date:")
+    debug(
         schedule.loc[(schedule["home"] == "CIN") & (schedule["visitor"] == "SFN")][
             ["date", "makeup_date", "completion_date"]
         ]
@@ -805,7 +811,7 @@ def get_winners_per_division(year):
 
 def get_special_message(year):
     if year == 1981:
-        return "1981 had two division races and I haven't implemented that. Sorry!"
+        return "1981 had two division races and I am only showing you the first half. Sorry!"
     elif year == 1994:
         return "1994 ended early and nobody was eliminated. What a happy ending!"
     elif year == 2020:
@@ -1215,7 +1221,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
         and len(wildcard_contenders) < team_count
     ):
         date_str = datetime_to_retro(current_date)
-        print(f"Starting analysis of {date_str}")
+        debug(f"Starting analysis of {date_str}")
         current_standings = compute_standings(
             played.loc[played["completion_date"] <= date_str]
         )
@@ -1224,7 +1230,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
         current_standings["lg"] = season_params.divisions["lg"]
 
         if use_percentage:
-            print(
+            debug(
                 "Latest games: {schedule.sort_values(by=['completion_date'], ascending=False)}"
             )
             remaining_matchups = (
@@ -1232,10 +1238,10 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
                 .groupby(["alpha1", "alpha2"], as_index=False)
                 .size()
             )
-            print(f"remaining_matchups: {remaining_matchups}")
+            debug(f"remaining_matchups: {remaining_matchups}")
             remaining_games = games_left_by_team(remaining_matchups)
             # print(f"current_standings W: {current_standings['W']}")
-            print(f"remaining_games: {remaining_games}")
+            debug(f"remaining_games: {remaining_games}")
             current_standings["max_wins"] = current_standings["W"].add(
                 remaining_games, fill_value=0
             )
@@ -1243,7 +1249,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
             current_standings["max_pct"] = current_standings["max_wins"] / total_games
             current_standings["min_pct"] = current_standings["W"] / total_games
 
-            print(f"current_standings: {current_standings}")
+            debug(f"current_standings: {current_standings}")
         else:
             remaining_matchups = (
                 all_matchups_after_date(played, unplayed, date_str)
@@ -1260,7 +1266,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
             current_standings["max_wins"] = (
                 current_standings["season_length"] - current_standings["L"]
             )
-        print(current_standings)
+        debug(current_standings)
 
         div_contenders_df = division_contenders(
             current_standings,
@@ -1268,7 +1274,7 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
             use_percentage=use_percentage,
         )
         div_contenders = set(div_contenders_df.index)
-        print(f"naive division contenders: {sorted(div_contenders)}")
+        debug(f"naive division contenders: {sorted(div_contenders)}")
         # print(f'My busted view of the wildcard standings: {wildcard_standings(current_standings, divisions, wildcard_count, division_winners=winners_per_division, games_per_season=games_per_season)}')
         wildcard_contenders_df = wildcard_standings(current_standings, season_params)
         wildcard_contenders = set(wildcard_contenders_df.index)

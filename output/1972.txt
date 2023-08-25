@@ -4,23 +4,22 @@ The AL has 162 games per team.
 The NL has 162 games per team.
 ... but for this season we are not assuming they play them all.
 The Boston Red Sox were eliminated from the ALE title on 19721003 with 1 games left to play.
-The Chicago White Sox were eliminated from the ALW title on 19720930 with 4 games left to play.
-The New York Yankees were eliminated from the ALE title on 19720930 with 2 games left to play.
-The Baltimore Orioles were eliminated from the ALE title on 19720929 with 3 games left to play.
-The Houston Astros were eliminated from the NLW title on 19720924 with 7 games left to play.
-The Minnesota Twins were eliminated from the ALW title on 19720923 with 9 games left to play.
-The Los Angeles Dodgers were eliminated from the NLW title on 19720922 with 11 games left to play.
+The New York Yankees were eliminated from the ALE title on 19721001 with 3 games left to play.
+The Baltimore Orioles were eliminated from the ALE title on 19720929 with 4 games left to play.
+The Chicago White Sox were eliminated from the ALW title on 19720928 with 6 games left to play.
+The Minnesota Twins were eliminated from the ALW title on 19720923 with 10 games left to play.
+The Houston Astros were eliminated from the NLW title on 19720922 with 9 games left to play.
 The Chicago Cubs were eliminated from the NLE title on 19720921 with 11 games left to play.
-The Minnesota Twins were eliminated from the ALW title on 19720921 with 10 games left to play.
-The Kansas City Royals were eliminated from the ALW title on 19720920 with 12 games left to play.
-The Cleveland Indians were eliminated from the ALE title on 19720917 with 14 games left to play.
+The Los Angeles Dodgers were eliminated from the NLW title on 19720919 with 12 games left to play.
+The Cleveland Indians were eliminated from the ALE title on 19720918 with 13 games left to play.
+The Kansas City Royals were eliminated from the ALW title on 19720917 with 15 games left to play.
+The New York Mets were eliminated from the NLE title on 19720917 with 17 games left to play.
 The California Angels were eliminated from the ALW title on 19720916 with 15 games left to play.
-The New York Mets were eliminated from the NLE title on 19720916 with 17 games left to play.
 The Milwaukee Brewers were eliminated from the ALE title on 19720911 with 19 games left to play.
-The Atlanta Braves were eliminated from the NLW title on 19720910 with 15 games left to play.
-The St. Louis Cardinals were eliminated from the NLE title on 19720909 with 22 games left to play.
-The Montreal Expos were eliminated from the NLE title on 19720908 with 22 games left to play.
-The San Francisco Giants were eliminated from the NLW title on 19720906 with 22 games left to play.
+The Atlanta Braves were eliminated from the NLW title on 19720910 with 17 games left to play.
+The St. Louis Cardinals were eliminated from the NLE title on 19720909 with 21 games left to play.
+The Montreal Expos were eliminated from the NLE title on 19720908 with 24 games left to play.
+The San Francisco Giants were eliminated from the NLW title on 19720904 with 25 games left to play.
 The Texas Rangers were eliminated from the ALW title on 19720904 with 25 games left to play.
-The Philadelphia Phillies were eliminated from the NLE title on 19720830 with 32 games left to play.
-The San Diego Padres were eliminated from the NLW title on 19720830 with 30 games left to play.
+The Philadelphia Phillies were eliminated from the NLE title on 19720831 with 33 games left to play.
+The San Diego Padres were eliminated from the NLW title on 19720829 with 30 games left to play.
