@@ -70,7 +70,7 @@ class SeasonParameters(object):
 
 
 def debug(message):
-    if os.environ.get('DEBUG'):
+    if os.environ.get("DEBUG"):
         print(message)
 
 
@@ -558,7 +558,7 @@ def is_division_contender_with_rivalries(
     return all_subset_sums(sorted_rivals, threats, team)
 
 
-def wildcard_standings(standings_immutable, season_params):
+def wild_card_standings(standings_immutable, season_params):
     contenders = set()
     if not season_params.wildcard_count:
         return pd.DataFrame()
@@ -580,16 +580,16 @@ def wildcard_standings(standings_immutable, season_params):
         df.groupby("div").head(season_params.winners_per_division).index,
         "division_leader",
     ] = True
-    # print(f"df after loc.groupby business: {df}")
+    debug(f"df after loc.groupby business: {df}")
     wildcard_wins_by_league = (
         df.loc[df["division_leader"] == False]
         .sort_values(by=["W"], ascending=False)
         .groupby("lg")
         .nth(season_params.wildcard_count - 1)["W"]
     )
-    # print(f"wildcard_wins_by_league: {wildcard_wins_by_league}")
+    debug(f"wildcard_wins_by_league: {wildcard_wins_by_league}")
     merge1 = df.merge(wildcard_wins_by_league, left_on=["lg"], right_index=True)
-    # print(f"merge1: {merge1}")
+    debug(f"merge1: {merge1}")
     # print(f'merge1 OAK: {merge1.loc["OAK"]}')
     return merge1.loc[merge1["max_wins"] >= merge1["W_y"]][
         ["W_x", "L", "div", "lg", "max_wins", "division_leader"]
@@ -620,7 +620,7 @@ def games_between_wildcard_rivals_after_date(
         .groupby(["alpha1", "alpha2"], as_index=False)
         .size()
     )
-    standings = wildcard_standings(
+    standings = wild_card_standings(
         compute_standings(played.loc[(played["completion_date"] <= date)]),
         season_params,
     )
@@ -637,7 +637,7 @@ def is_wild_card_contender_with_rivalries(played, unplayed, season_params, date,
         played, unplayed, season_params, date, team
     )
     # print(f'matchups: {matchups}')
-    standings = wildcard_standings(
+    standings = wild_card_standings(
         compute_standings(played.loc[(played["completion_date"] <= date)]),
         season_params,
     )
@@ -1275,8 +1275,8 @@ def show_dumb_elimination_output4(played, unplayed, season_params, schedule=None
         )
         div_contenders = set(div_contenders_df.index)
         debug(f"naive division contenders: {sorted(div_contenders)}")
-        # print(f'My busted view of the wildcard standings: {wildcard_standings(current_standings, divisions, wildcard_count, division_winners=winners_per_division, games_per_season=games_per_season)}')
-        wildcard_contenders_df = wildcard_standings(current_standings, season_params)
+        # print(f'My busted view of the wildcard standings: {wild_card_standings(current_standings, divisions, wildcard_count, division_winners=winners_per_division, games_per_season=games_per_season)}')
+        wildcard_contenders_df = wild_card_standings(current_standings, season_params)
         wildcard_contenders = set(wildcard_contenders_df.index)
 
         # print(
@@ -1467,7 +1467,7 @@ def get_division_rivals(standings, divisions, team):
 
 def get_wild_card_rivals(standings_immutable, season_params, team):
     standings = standings_immutable.copy()
-    # print(f'The standings I got: {standings}')
+    debug(f"standings in get_wild_card_rivals: {standings}")
     my_league = standings.loc[team]["lg"]
     standings = standings.loc[standings["lg"] == my_league]
     standings = standings.loc[~standings["division_leader"]]
@@ -1499,14 +1499,14 @@ def get_elimination_number(
     confident = True
     if max_h2h_margin == 0:
         confident = False
-        # if remaining_h2h == 0:
-        #    print(
-        #        f"Um there is a guaranteed head-to-head tie between {team1} and {team2} and I am not sure how to handle that."
-        #    )
-        # else:
-        #    print(
-        #        f"Um the best {team1} can do is a head-to-head tie with {team2} and I am not sure how to handle that."
-        #    )
+        if remaining_h2h == 0:
+            print(
+                f"Um there is a guaranteed head-to-head tie between {team1} and {team2} and I am not sure how to handle that."
+            )
+        else:
+            print(
+                f"Um the best {team1} can do is a head-to-head tie with {team2} and I am not sure how to handle that."
+            )
     okay_to_tie = max_h2h_margin > 0
     if "OAK" in [team1, team2] and "HOU" in [team1, team2]:
         print(
@@ -1536,9 +1536,6 @@ def all_elimination_numbers(
     for subset in powerset(rivals):
         if len(subset) < 1:
             continue
-        their_remaining = remaining.loc[
-            (remaining["alpha1"].isin(subset)) | (remaining["alpha2"].isin(subset))
-        ]["size"].sum()
         subset_matchup_count = remaining.loc[
             (remaining["alpha1"].isin(subset)) & (remaining["alpha2"].isin(subset))
         ]["size"].sum()
@@ -1576,6 +1573,7 @@ def get_division_contenders3(
     played = played_orig.loc[played_orig["completion_date"] <= date]
 
     standings = compute_standings(played)
+    debug(f"standings: {standings}")
     head_to_head = head_to_head_records(played)
     remaining = (
         all_matchups_after_date(played_orig, unplayed, date)
@@ -1584,10 +1582,14 @@ def get_division_contenders3(
     )
     remaining_indexed = remaining.set_index(["alpha1", "alpha2"])
     set_eliminations = []
-    standings_wc = wildcard_standings(standings, season_params)
+    standings_wc = wild_card_standings(standings, season_params)
+    debug(f"standings_wc: {standings_wc}")
     for team in standings.index:
         division_rivals = get_division_rivals(standings, season_params.divisions, team)
-        wild_card_rivals = get_wild_card_rivals(standings_wc, season_params, team)
+        if team in standings_wc.index:
+            wild_card_rivals = get_wild_card_rivals(standings_wc, season_params, team)
+        else:
+            wild_card_rivals = []
         # how can I be so bad at this
         rivals = list(set(list(division_rivals) + list(wild_card_rivals)))
         numbers = {
