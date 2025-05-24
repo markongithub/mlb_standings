@@ -2,10 +2,6 @@
 
 import mlb_standings
 
-HOME_WON = 0
-VISITOR_WON = 1
-TIE = 2
-
 SPECIAL_TEAM_NAMES = {"Oakland Athletics": "Athletics"}
 
 
@@ -21,10 +17,10 @@ def find_500_streaks(year, data_path="data"):
         home = SPECIAL_TEAM_NAMES.get(row["home"], row["home"])
         visitor = SPECIAL_TEAM_NAMES.get(row["visitor"], row["visitor"])
         # print(f"Considering the {row['completion_date']} {visitor}@{home} game...")
-        if row["outcome"] == TIE:
+        if row["outcome"] == mlb_standings.TIE:
             print("A tie? That's stupid.")
             continue
-        if row["outcome"] == HOME_WON:
+        if row["outcome"] == mlb_standings.HOME_WON:
             winner = home
             loser = visitor
         else:
