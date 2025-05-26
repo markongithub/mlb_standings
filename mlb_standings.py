@@ -1078,17 +1078,21 @@ def statsapi_schedule_to_played_unplayed(schedule_json_path):
             visitor = game["teams"]["away"]["team"]["name"]
             # print(f'Trying to figure out what to do with {date_str} {visitor}@{home} {game["status"]}')
             if game.get("resumeDate"):
-                print(
-                    f"Skipping the {date_str} {visitor}@{home} game because it has resumeDate."
-                )
+                #print(
+                #    f"Skipping the {date_str} {visitor}@{home} game because it has resumeDate."
+                #)
                 continue
             if game["status"]["codedGameState"] in ["F", "O"]:
-                if game["teams"]["home"]["isWinner"]:
+                if game["teams"]["home"].get("isWinner"):
                     outcome = HOME_WON
-                elif game["teams"]["away"]["isWinner"]:
+                elif game["teams"]["away"].get("isWinner"):
                     outcome = VISITOR_WON
+                # I'm hard-coding this for now because it's very infrequent and I am afraid of introducing other bugs.
+                elif date_str in ["2002-08-15","2003-09-18", "2005-06-30", "2016-09-29"]:
+                    outcome = TIE
                 else:
-                    raise (f"No winner, that\s messed up.")
+                    exception = f"No winner in the {date_str} {visitor}@{home} game, that\s messed up."
+                    raise (ValueError(exception))
                 new_tuple = (date_pd, home, visitor, outcome)
                 played_tuples.append(new_tuple)
                 if DEBUG_TEAM in [home, visitor]:
