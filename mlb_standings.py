@@ -725,7 +725,7 @@ def simpler_retrosheet_schedule(schedule_immutable):
     return output
 
 
-def retrosheet_to_played_unplayed(game_log, schedule, season_params: SeasonParameters):
+def retrosheet_to_played_unplayed(game_log, schedule, year):
     unplayed = schedule.copy()
     unplayed["completion"] = unplayed["completion"].astype(str)
     unplayed["makeup_date"] = unplayed["makeup_date"].astype(str)
@@ -740,7 +740,7 @@ def retrosheet_to_played_unplayed(game_log, schedule, season_params: SeasonParam
     played = played[
         played.apply(
             lambda row: not is_tiebreaker(
-                season_params.year,
+                year,
                 row["home"],
                 row["home_game_num"],
                 row["visitor"],
@@ -864,7 +864,7 @@ def run_one_year_retro(year, data_path="data"):
     ]:
         use_schedule_for_unplayed = True
     season_params = SeasonParameters(year, nicknames, team_ids, schedule)
-    played, unplayed = retrosheet_to_played_unplayed(game_log, schedule, season_params)
+    played, unplayed = retrosheet_to_played_unplayed(game_log, schedule, year)
     if use_schedule_for_unplayed:
         better_schedule = simpler_retrosheet_schedule(schedule)
     else:
