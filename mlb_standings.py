@@ -817,12 +817,8 @@ def get_special_message(year):
     return None
 
 
-def run_one_year_retro(year, data_path="data"):
-    # print(f"starting analysis of {year}")
-    nicknames = load_nicknames(f"{data_path}/CurrentNames.csv")
-    team_ids = load_team_ids(f"{data_path}/TEAMABR.TXT")
+def retrosheet_game_log_and_schedule(year, data_path="data"):
     game_log = load_game_log(f"{data_path}/GL{year}.TXT")
-    use_schedule_for_unplayed = False
     if year == 2020:
         schedule = load_schedule(f"{data_path}/2020REV.TXT")
     else:
@@ -837,12 +833,21 @@ def run_one_year_retro(year, data_path="data"):
         game_log, schedule = fix_1890(game_log, schedule)
     if year == 1891:
         game_log, schedule = fix_1891(game_log, schedule)
+    if year == 1981:
+        game_log, schedule = fix_1981(game_log, schedule)
+    return game_log, schedule
+
+
+def run_one_year_retro(year, data_path="data"):
+    # print(f"starting analysis of {year}")
+    nicknames = load_nicknames(f"{data_path}/CurrentNames.csv")
+    team_ids = load_team_ids(f"{data_path}/TEAMABR.TXT")
+    game_log, schedule = retrosheet_game_log_and_schedule(year, data_path)
+    use_schedule_for_unplayed = False
     if year == 1905:
         print(
             "Philadelphia only won the AL because they played fewer games than Chicago. Seems unfair to me."
         )
-    if year == 1981:
-        game_log, schedule = fix_1981(game_log, schedule)
 
     if year in [
         1886,

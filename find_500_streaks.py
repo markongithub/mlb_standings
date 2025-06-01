@@ -2,6 +2,7 @@
 
 import mlb_standings
 
+# This is stupid. I should be using the retrosheet organizations file.
 SPECIAL_TEAM_NAMES = {
     "Oakland Athletics": "Athletics",
     "Cleveland Indians": "Cleveland Guardians",
