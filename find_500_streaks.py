@@ -8,8 +8,11 @@ SPECIAL_TEAM_NAMES = {
     "Florida Marlins": "Miami Marlins",
     "Tampa Bay Devil Rays": "Tampa Bay Rays",
     "Anaheim Angels": "Los Angeles Angels",
+    "California Angels": "Los Angeles Angels",
     "Montreal Expos": "Washington Nationals",
 }
+
+FRANCHISE_STARTS = {"Colorado Rockies": 1993}
 
 
 def find_500_streaks(years, data_path="data"):
@@ -27,8 +30,12 @@ def find_500_streaks(years, data_path="data"):
             visitor = SPECIAL_TEAM_NAMES.get(row["visitor"], row["visitor"])
             # print(f"Considering the {row['completion_date']} {visitor}@{home} game...")
             if row["outcome"] == mlb_standings.TIE:
-                if not finished.get(home) or not finished.get(visitor):
-                    raise (ValueError("I don't know how to handle a tie."))
+                for team in [home, visitor]:
+                    if not finished.get(team):
+                        print(
+                            f"The {team} had a tie on {row['completion_date']} so their streak might be an odd number."
+                        )
+                        streak_length[team] = streak_length[team] + 1
                 continue
             if row["outcome"] == mlb_standings.HOME_WON:
                 winner = home
@@ -52,11 +59,18 @@ def find_500_streaks(years, data_path="data"):
                         return
         for team in streak_length:
             if not finished.get(team):
-                print(f"After processing {year} the {team} are still {over_500[team]} games over .500.")
+                print(
+                    f"After processing {year} the {team} are still {over_500[team]} games over .500."
+                )
+                if FRANCHISE_STARTS.get(team) == year:
+                    print(
+                        f"The {team} have no .500 streak going back to the beginning of their franchise."
+                    )
+                    finished[team] = True
     for team in streak_length:
         if not finished.get(team):
             print(f"The {team}' shortest .500 streak began before {years[-1]}.")
 
 
 if __name__ == "__main__":
-    find_500_streaks(range(2025, 2001, -1), data_path="./non_git_data")
+    find_500_streaks(range(2025, 1981, -1), data_path="./non_git_data")
