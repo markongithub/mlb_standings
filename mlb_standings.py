@@ -682,11 +682,9 @@ LAST_GAME_HARDCODED = {
 }
 
 
-def is_tiebreaker(
-    season_params, home_team, home_game_num, visiting_team, visitor_game_num
-):
-    home_max = LAST_GAME_HARDCODED.get((season_params.year, home_team))
-    visitor_max = LAST_GAME_HARDCODED.get((season_params.year, visiting_team))
+def is_tiebreaker(year, home_team, home_game_num, visiting_team, visitor_game_num):
+    home_max = LAST_GAME_HARDCODED.get((year, home_team))
+    visitor_max = LAST_GAME_HARDCODED.get((year, visiting_team))
     return (home_max and home_game_num > home_max) or (
         visitor_max and visitor_game_num > visitor_max
     )
@@ -742,7 +740,7 @@ def retrosheet_to_played_unplayed(game_log, schedule, season_params: SeasonParam
     played = played[
         played.apply(
             lambda row: not is_tiebreaker(
-                season_params,
+                season_params.year,
                 row["home"],
                 row["home_game_num"],
                 row["visitor"],
